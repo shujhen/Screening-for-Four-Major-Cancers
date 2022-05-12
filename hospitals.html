@@ -5,30 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>篩檢醫療機構</title>
-    <link
-      rel="stylesheet"
-      href="./css/fontawesome-free-6.1.1-web/css/all.min.css"
-    />
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/hospitals.css" />
+    <link rel="stylesheet" href="./css/all.css" />
   </head>
   <body>
-    <div class="container">
-      <h1 class="text-center">台中市篩檢機構地圖</h1>
-      <p class="text-center">
-        <select class="selectDist text-center">
-          <option value="">- 請選擇地區 -</option>
+    <!-- LOGO + 導覽列 -->
+    <div class="header">
+      <nav class="max-width-1200 flex justify-content-between align-items-center">
+        <a href="/" class="logo"
+          ><img src="./images/logo.svg" alt="四癌篩檢補助Logo"
+        /></a>
+        <ul class="flex align-items-center">
+          <li><a href="#" class="nav-link">四癌介紹</a></li>
+          <li><a href="#" class="nav-link">補助資訊</a></li>
+          <li><a href="#" class="nav-link active">篩檢地圖</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- 主要內容 -->
+    <main>
+      <h1>四癌篩檢醫療機構列表</h1>
+      <section class="search-form flex align-items-center">
+        <label for="selectDist" class="search-label">查詢區域</label>
+        <select id="selectDist">
+          <option value="all">全部</option>
         </select>
-      </p>
-      <div class="row">
-        <div class="dist col-md-3 col-sm-12 text-center">
+      </section>
+      <div class="container">
+        <div class="dist">
           <h2 class="font-seto"></h2>
         </div>
-        <div class="hospital-cards row col-md-9 col-sm-12"></div>
+        <div class="hospital-cards"></div>
       </div>
-    </div>
-    <script src="./js/bootstrap.bundle.min.js"></script>
-    <script src="./js/district.js"></script>
-    <script src="./js/hospitals.js"></script>
+    </main>
+    <!-- 表尾資訊 -->
+    <footer class="flex justify-content-between">
+      <p class="flex-1">
+        Copyright © 2022 Screening for Four Major Cancers | Taichung Version
+      </p>
+      <p class="flex-1">資料來源 : <a href="#" class="inline">衛生福利部</a>、<a href="#" class="inline">臺中市衛生局</a></p>
+    </footer>
+
+    <!-- <script src="./js/district.js"></script>
+    <script src="./js/hospitals.js"></script> -->
   </body>
 </html>

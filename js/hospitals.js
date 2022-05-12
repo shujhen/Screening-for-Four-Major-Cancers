@@ -111,7 +111,7 @@ function insertIntoHtml() {
         <div class="card col-md-6 col-sm-12 m-2 d-none" data-dist="${district}">
           <div class="card-body">
             <h3 class="card-title">${hospital.name}</h3>
-            <p class="card-text">地址：${hospital.address} <a href="https://www.google.com/maps/place/${hospital.address}" target="_blank" title="前往 Google Map"><i class="fa-solid fa-location-dot red"></i></a><br>
+            <p class="card-text">地址：${hospital.address} <a href="https://www.google.com/search?tbm=map&authuser=0&hl=zh-TW&gl=tw&q=${hospital.name}+${hospital.address}" target="_blank" title="前往 Google Map"><i class="fa-solid fa-location-dot red"></i></a><br>
               電話：${hospital.tel}<br>
               提供篩檢項目：${items}<br>
             </p>
