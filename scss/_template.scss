@@ -1,0 +1,77 @@
+body {
+  background-color: $mainBgColor;
+}
+a,
+a:hover {
+  text-decoration: none;
+  color: $whiteColor;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+// LOGO + 導覽列
+.header {
+  background-color: $navColor;
+  .logo {
+    @media (max-width: 960px) {
+      height: 37px;
+    }
+  }
+  .navbar {
+    padding: 0px;
+    margin: 0px 100px 0px 44px;
+    flex-wrap: nowrap;
+    @media (max-width: 960px) {
+      margin: 0px;
+    }
+    ul {
+      text-align: center;
+      .nav-link {
+        font-weight: 700;
+        font-size: 26px;
+        margin: 0px 20px;
+        position: relative;
+        &:hover::after {
+          content: '';
+          position: absolute;
+          bottom: -5px;
+          left: 9px;
+          height: 5px;
+          width: 104px;
+          background-color: $whiteColor;
+          border-radius: 2px;
+          opacity: 0.8;
+        }
+      }
+      .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 36px 22px;
+      }
+    }
+  }
+}
+// 主要內容
+main {
+  margin-top: 138px;
+  h1 {
+    color: $titleColor;
+    font-weight: 800;
+    font-size: 48px;
+  }
+}
+// 表尾資訊
+footer {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+
+  padding: 24px 55px 24px 45px;
+  background-color: $footerBgColor;
+  color: $whiteColor;
+  font-size: 20px;
+  font-weight: 300;
+  a:hover {
+    text-decoration: underline;
+  }
+}
