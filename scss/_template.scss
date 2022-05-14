@@ -1,22 +1,78 @@
-img {
-  width: auto;
-  height: 100%;
+// 手機/平板 body 背景設定
+body {
+  @media (max-width: $grid-md) {
+    background-color: $yellow-200;
+  }
 }
+
+// checkbox 樣式設定
+input[type='checkbox'] {
+  display: none;
+}
+input[type='checkbox'] + span {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  margin-right: 18px;
+  background: url('../images/checkbox.svg') no-repeat;
+  background-size: contain;
+  user-select: none;
+  @media (max-width: $grid-md) {
+    width: 20px;
+    height: 20px;
+  }
+}
+input[type='checkbox']:checked + span {
+  background: url('../images/checkbox-checked.svg') no-repeat;
+  background-size: contain;
+  @media (max-width: $grid-md) {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+// radio 樣式設定
+input[type='radio'] {
+  display: none;
+}
+input[type='radio'] + span {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  margin-right: 18px;
+  background: url('../images/radio.svg') no-repeat;
+  background-size: contain;
+  user-select: none;
+  @media (max-width: $grid-md) {
+    width: 20px;
+    height: 20px;
+  }
+}
+input[type='radio']:checked + span {
+  background: url('../images/radio-checked.svg') no-repeat;
+  background-size: contain;
+  @media (max-width: $grid-md) {
+    width: 20px;
+    height: 20px;
+  }
+}
+
 // LOGO + 導覽列
 .header {
   position: sticky;
   top: 0px;
+  z-index: 1;
   background-color: $green-100;
   .navbar {
     padding: 0px;
     .navbar-brand {
       padding: 3px 0px 3px 60px;
-      @media (max-width: 799px) {
+      @media (max-width: $grid-md) {
         padding: 7px 0px 4px 10px;
       }
       .logo {
         height: 64px;
-        @media (max-width: 799px) {
+        @media (max-width: $grid-md) {
           height: 37px;
         }
       }
@@ -30,12 +86,12 @@ img {
         font-weight: 700;
         font-size: 22px;
         line-height: 30px;
-        @media (max-width: 799px) {
+        @media (max-width: $grid-md) {
           font-weight: 400;
           font-size: 15px;
           line-height: 20px;
           border-top: 1px solid $white;
-          &:last-child{
+          &:last-child {
             border-bottom: 1px solid $white;
           }
         }
@@ -47,7 +103,7 @@ img {
     padding-bottom: 20px;
     margin: 0px 20px;
     position: relative;
-    @media (max-width: 799px) {
+    @media (max-width: $grid-md) {
       margin: 0px;
       padding-top: 14px;
       padding-bottom: 14px;
@@ -60,7 +116,7 @@ img {
       height: 4px;
       width: 100%;
       background-color: $white;
-      @media (max-width: 799px) {
+      @media (max-width: $grid-md) {
         display: none;
       }
     }
@@ -71,7 +127,7 @@ img {
 footer {
   padding: 24px 55px 24px 45px;
   background-color: $green-300;
-  @media (max-width: 799px) {
+  @media (max-width: $grid-md) {
     padding: 14px 0px;
   }
   p {
@@ -81,7 +137,7 @@ footer {
     font-size: 20px;
     font-weight: 300;
     line-height: 24px;
-    @media (max-width: 799px) {
+    @media (max-width: $grid-md) {
       padding: 14px 0px;
       font-size: 8px;
       line-height: 10px;
