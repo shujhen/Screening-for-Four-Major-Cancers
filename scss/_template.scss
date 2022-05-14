@@ -1,77 +1,108 @@
-body {
-  background-color: $mainBgColor;
-}
-a,
-a:hover {
-  text-decoration: none;
-  color: $whiteColor;
-}
 img {
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
 }
 // LOGO + 導覽列
 .header {
-  background-color: $navColor;
-  .logo {
-    @media (max-width: 960px) {
-      height: 37px;
-    }
-  }
+  position: sticky;
+  top: 0px;
+  background-color: $green-100;
   .navbar {
     padding: 0px;
-    margin: 0px 100px 0px 44px;
-    flex-wrap: nowrap;
-    @media (max-width: 960px) {
-      margin: 0px;
+    .navbar-brand {
+      padding: 3px 0px 3px 60px;
+      @media (max-width: 799px) {
+        padding: 7px 0px 4px 10px;
+      }
+      .logo {
+        height: 64px;
+        @media (max-width: 799px) {
+          height: 37px;
+        }
+      }
+    }
+    .navbar-toggler {
+      padding: 12px 15px;
     }
     ul {
       text-align: center;
-      .nav-link {
+      li {
         font-weight: 700;
-        font-size: 26px;
-        margin: 0px 20px;
-        position: relative;
-        &:hover::after {
-          content: '';
-          position: absolute;
-          bottom: -5px;
-          left: 9px;
-          height: 5px;
-          width: 104px;
-          background-color: $whiteColor;
-          border-radius: 2px;
-          opacity: 0.8;
+        font-size: 22px;
+        line-height: 30px;
+        @media (max-width: 799px) {
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 20px;
+          border-top: 1px solid $white;
+          &:last-child{
+            border-bottom: 1px solid $white;
+          }
         }
       }
-      .navbar-expand-lg .navbar-nav .nav-link {
-        padding: 36px 22px;
+    }
+  }
+  .nav-link {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px 20px;
+    position: relative;
+    @media (max-width: 799px) {
+      margin: 0px;
+      padding-top: 14px;
+      padding-bottom: 14px;
+    }
+    &:hover::after {
+      content: '';
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+      height: 4px;
+      width: 100%;
+      background-color: $white;
+      @media (max-width: 799px) {
+        display: none;
       }
     }
   }
 }
-// 主要內容
-main {
-  margin-top: 138px;
-  h1 {
-    color: $titleColor;
-    font-weight: 800;
-    font-size: 48px;
-  }
-}
+
 // 表尾資訊
 footer {
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  width: 100%;
-
   padding: 24px 55px 24px 45px;
-  background-color: $footerBgColor;
-  color: $whiteColor;
-  font-size: 20px;
-  font-weight: 300;
+  background-color: $green-300;
+  @media (max-width: 799px) {
+    padding: 14px 0px;
+  }
+  p {
+    margin: 0px;
+    padding: 0px;
+    color: $white;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    @media (max-width: 799px) {
+      padding: 14px 0px;
+      font-size: 8px;
+      line-height: 10px;
+      &:last-child {
+        margin-top: 5px;
+        font-size: 9px;
+        line-height: 11px;
+      }
+    }
+  }
   a:hover {
     text-decoration: underline;
+  }
+}
+
+// 主要內容
+main {
+  min-height: calc(100vh - 48px - 54px);
+  h1 {
+    color: $green-400;
+    font-weight: 800;
+    font-size: 48px;
   }
 }
