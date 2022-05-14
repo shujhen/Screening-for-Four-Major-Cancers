@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="網站介紹台中市轄區內癌症篩檢的補助資訊，總共有四項癌症補助：口腔癌(口腔黏膜檢查)、乳癌(乳房X光攝影檢查)、大腸癌(糞便潛血檢查)、子宮頸癌 (子宮頸抹片檢查)。">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>四癌篩檢補助 | 醫療機構列表</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/all.css" />
+  </head>
+  <body>
+    <!-- LOGO + 導覽列 -->
+    <div class="header">
+      <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="index.html"
+          ><img src="./images/logo.svg" class="logo" alt="四癌篩檢補助 Logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#dropdownMenu"
+          aria-controls="dropdownMenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <img src="./images/burger.svg" alt="Toggle Menu Button" />
+        </button>
+        <div class="collapse navbar-collapse" id="dropdownMenu">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="#" class="nav-link">四癌介紹</a>
+            </li>
+            <li class="nav-item">
+              <a href="qualify-check.html" class="nav-link">補助資訊</a>
+            </li>
+            <li class="nav-item">
+              <a href="hospital-list.html" class="nav-link">篩檢機構</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- 主要內容 -->
+    <main class="container text-center">
+      <h1>四癌篩檢醫療機構列表</h1>
+      <!-- 查詢表單 -->
+      <section
+        class="search-section row justify-content-center align-items-start flex-nowrap no-gutters"
+      >
+        <div class="medical-staff-image-1 d-none d-lg-block"></div>
+        <div
+          class="search-form col row justify-content-center align-items-center no-gutters"
+        >
+          <label
+            for="selectDist"
+            class="search-label row justify-content-start justify-content-xl-center align-items-center flex-nowrap text-nowrap w-100"
+          >
+          <span class="d-none d-md-block">請選擇欲查詢之區域</span>
+          <span class="d-block d-md-none">機構地區</span>
+            <select id="selectDist" class="mx-3">
+              <option value="all">全部</option>
+            </select>
+          </label>
+          <div class="row justify-content-between no-gutters">
+            <label
+              for="oralCancer"
+              class="search-choice row align-items-center flex-nowrap"
+            >
+              <input type="checkbox" id="oralCancer" value="5" />
+              <span></span>口腔癌 (口腔黏膜檢查)
+            </label>
+            <label
+              for="breastCancer"
+              class="search-choice row align-items-center flex-nowrap"
+            >
+              <input type="checkbox" id="breastCancer" value="2" />
+              <span></span>乳癌 (乳房X光攝影檢查)
+            </label>
+            <label
+              for="colorectalCancer"
+              class="search-choice row align-items-center flex-nowrap"
+            >
+              <input type="checkbox" id="colorectalCancer" value="7" />
+              <span></span>大腸癌 (糞便潛血檢查)
+            </label>
+            <label
+              for="uterineCancer"
+              class="search-choice row align-items-center flex-nowrap"
+            >
+              <input type="checkbox" id="uterineCancer" value="3" />
+              <span></span>子宮頸癌 (子宮頸抹片檢查)
+            </label>
+          </div>
+
+          <button class="btn btn-search-layout btn-search w-100">
+            開始查詢
+          </button>
+        </div>
+        <div class="medical-staff-image-2 d-block d-lg-none d-xxl-block"></div>
+      </section>
+      <!-- 查詢結果顯示 -->
+      <section class="search-result">
+        <h2></h2>
+        <div
+          class="hospital-cards row justify-content-center align-items-center"
+        ></div>
+      </section>
+    </main>
+    <!-- 表尾資訊 -->
+    <footer>
+      <div class="row justify-content-between align-items-center no-gutters">
+        <p class="col-lg-6 col-md-12 p-0 text-center text-lg-left">
+          <span class="text-nowrap"
+            >Copyright © 2022 Screening for Four Major Cancers
+          </span>
+          <span class="text-nowrap">| Taichung Version</span>
+        </p>
+        <p class="col-lg-6 col-md-12 p-0 text-center text-lg-right">
+          資料來源 :
+          <a href="https://www.mohw.gov.tw/" target="_blank">衛生福利部</a>、<a
+            href="https://www.health.taichung.gov.tw/"
+            target="_blank"
+            >臺中市衛生局</a
+          >&nbsp;<span class="d-inline d-lg-none">(截至2022.05.31)</span>
+        </p>
+      </div>
+    </footer>
+    <!-- Javascript -->
+    <script src="./js/jquery.slim.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="./js/district.js"></script>
+    <script src="./js/hospital-list.js"></script> -->
+  </body>
+</html>

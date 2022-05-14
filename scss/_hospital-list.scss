@@ -1,0 +1,131 @@
+main {
+  margin-top: 166px;
+  .search-section {
+    @media (max-width: $grid-md) {
+      background: rgba(255, 255, 255, 0.6);
+      box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.3);
+      border-radius: 10px;
+      position: relative;
+    }
+  }
+  .medical-staff-image-1 {
+    width: 332px;
+    height: 476px;
+    background-image: url('../images/medical-staff-1.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    @media (max-width: $grid-md) {
+      background-image: url('../images/medical-staff-1-small.svg');
+    }
+  }
+  .medical-staff-image-2 {
+    width: 332px;
+    height: 476px;
+    background-image: url('../images/medical-staff-2.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    @media (max-width: $grid-md) {
+      width: 176px;
+      height: 208px;
+      background-image: url('../images/medical-staff-2-small.svg');
+      position: absolute;
+      right: -30px;
+      bottom: 0;
+    }
+    @media (max-width: $grid-sm) {
+      width: 88px;
+      height: 104px;
+      background-image: url('../images/medical-staff-2-small.svg');
+      position: absolute;
+      right: -30px;
+      bottom: 0;
+    }
+  }
+  .search-form {
+    max-width: 820px;
+    margin-top: 28px;
+    padding-top: 24px;
+    padding-bottom: 67px;
+    text-align: center;
+    @media (max-width: $grid-md) {
+      margin-top: 18px;
+    }
+  }
+  .search-label {
+    margin: 0px;
+    margin-bottom: 44px;
+    color: $green-400;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 34px;
+    @media (max-width: $grid-md) {
+      margin-bottom: 30px;
+      color: $brown-600;
+      font-size: 20px;
+      line-height: 26px;
+    }
+    @media (max-width: $grid-sm) {
+      margin-bottom: 13px;
+      font-size: 13px;
+      line-height: 16px;
+    }
+  }
+  select {
+    min-width: 147px;
+    padding: 8px 0px 7px 20px;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 31px;
+    outline: none;
+    color: $brown-700;
+
+    background-color: $white;
+    background-image: url('../images/select-arrow.svg');
+    background-repeat: no-repeat;
+    background-position: right 14px center;
+    background-size: 24px 17px;
+
+    border: 1px solid #9c9c9c;
+    border-radius: 10px;
+
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    appearance: none;
+    word-wrap: none;
+  }
+  .search-choice {
+    width: calc(50% - 7px);
+    padding: 17px 0px 14px 21px;
+    margin: 0px;
+    margin-bottom: 13px;
+    background: $white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 29px;
+    @media (max-width: 1640px) {
+      width: 100%;
+    }
+  }
+  .btn-search-layout {
+    margin-top: 51px;
+    padding: 22px 0px 21px;
+    background-color: $yellow-500;
+    border: 8px solid $white;
+    border-radius: 25px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 39px;
+    color: $brown-600;
+    @media (max-width: 1640px) {
+      margin-top: 30px;
+    }
+    &:hover {
+      color: $brown-600;
+    }
+  }
+}
