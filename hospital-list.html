@@ -2,7 +2,10 @@
 <html lang="zh-TW">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="網站介紹台中市轄區內癌症篩檢的補助資訊，總共有四項癌症補助：口腔癌(口腔黏膜檢查)、乳癌(乳房X光攝影檢查)、大腸癌(糞便潛血檢查)、子宮頸癌 (子宮頸抹片檢查)。">
+    <meta
+      name="description"
+      content="網站介紹台中市轄區內癌症篩檢的補助資訊，總共有四項癌症補助：口腔癌(口腔黏膜檢查)、乳癌(乳房X光攝影檢查)、大腸癌(糞便潛血檢查)、子宮頸癌 (子宮頸抹片檢查)。"
+    />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>四癌篩檢補助 | 醫療機構列表</title>
@@ -47,7 +50,7 @@
       <h1>四癌篩檢醫療機構列表</h1>
       <!-- 查詢表單 -->
       <section
-        class="search-section row justify-content-center align-items-start flex-nowrap no-gutters"
+        class="search-section row justify-content-center align-items-end flex-nowrap no-gutters"
       >
         <div class="medical-staff-image-1 d-none d-lg-block"></div>
         <div
@@ -55,14 +58,17 @@
         >
           <label
             for="selectDist"
-            class="search-label row justify-content-start justify-content-xl-center align-items-center flex-nowrap text-nowrap w-100"
+            class="search-label row justify-content-center justify-content-md-start justify-content-xl-center align-items-center flex-nowrap text-nowrap w-100"
           >
-          <span class="d-none d-md-block">請選擇欲查詢之區域</span>
-          <span class="d-block d-md-none">機構地區</span>
+            <span class="d-none d-md-block">請選擇欲查詢之區域</span>
+            <span class="d-block d-md-none">機構地區</span>
             <select id="selectDist" class="mx-3">
               <option value="all">全部</option>
             </select>
           </label>
+          <span class="search-choice-ask d-block d-md-none"
+            >請勾選您要搜尋的項目! (可複選)</span
+          >
           <div class="row justify-content-between no-gutters">
             <label
               for="oralCancer"
@@ -94,27 +100,111 @@
             </label>
           </div>
 
-          <button class="btn btn-search-layout btn-search w-100">
-            開始查詢
-          </button>
+          <button class="btn btn-search-layout btn-search">開始查詢</button>
+          <div class="limit-border"></div>
         </div>
         <div class="medical-staff-image-2 d-block d-lg-none d-xxl-block"></div>
       </section>
+      <div class="hr-border d-block d-sm-none"></div>
       <!-- 查詢結果顯示 -->
       <section class="search-result">
-        <h2></h2>
+        <h2>全區 / 乳癌 + 子宮頸癌</h2>
         <div
-          class="hospital-cards row justify-content-center align-items-center"
-        ></div>
+          class="hospital-cards row justify-content-between align-items-start no-gutters"
+        >
+        <div class="card" data-dist="霧峰區">
+          <div class="card-body">
+            <h3 class="card-title">醫院名稱不可能這麼長這麼長這麼長超過二十四個字吧</h3>
+            <p class="card-text row flex-nowrap align-items-center no-gutters">
+              <span>地址 : 醫院名稱不可能這麼長這麼長這麼長超過二十個字吧</span>
+              <a href="#" class="icon-location" target="_blank" title="前往 Google Map"
+                ></a>
+            </p>
+            <p class="card-text">電話 : 04-26626161</p>
+            <div class="search-result-icons row no-gutters">
+              <div class="icon-cancer icon-5"></div>
+              <div class="icon-cancer icon-2"></div>
+              <div class="icon-cancer icon-7"></div>
+              <div class="icon-cancer icon-3"></div>
+            </div>
+          </div>
+        </div>
+        <div class="card" data-dist="霧峰區">
+          <div class="card-body">
+            <h3 class="card-title">醫院名稱不可能這麼長這麼長這麼長超過二十四個字吧</h3>
+            <p class="card-text row flex-nowrap align-items-center no-gutters">
+              <span>地址 : 醫院名稱不可能這麼長這麼長這麼長超過二十個字吧</span>
+              <a href="#" class="icon-location" target="_blank" title="前往 Google Map"
+                ></a>
+            </p>
+            <p class="card-text">電話 : 04-26626161</p>
+            <div class="search-result-icons row no-gutters">
+              <div class="icon-cancer icon-5"></div>
+              <div class="icon-cancer icon-2"></div>
+              <div class="icon-cancer icon-7"></div>
+              <div class="icon-cancer icon-3"></div>
+            </div>
+          </div>
+        </div>
+        <div class="card" data-dist="霧峰區">
+          <div class="card-body">
+            <h3 class="card-title">醫院名稱不可能這麼長這</h3>
+            <p class="card-text row flex-nowrap align-items-center no-gutters">
+              <span>地址 : 醫院名稱不可能這麼</span>
+              <a href="#" class="icon-location" target="_blank" title="前往 Google Map"
+                ></a>
+            </p>
+            <p class="card-text">電話 : 04-26626161</p>
+            <div class="search-result-icons row no-gutters">
+              <div class="icon-cancer icon-5"></div>
+              <div class="icon-cancer icon-2"></div>
+              <div class="icon-cancer icon-7"></div>
+              <div class="icon-cancer icon-3"></div>
+            </div>
+          </div>
+        </div>
+        <div class="card" data-dist="霧峰區">
+          <div class="card-body">
+            <h3 class="card-title">醫院名稱不可能這麼長這麼長這麼長超過二十四個字吧</h3>
+            <p class="card-text row flex-nowrap align-items-center no-gutters">
+              <span>地址 : 醫院名稱不可能這麼長這麼長這麼長超過二十個字吧</span>
+              <a href="#" class="icon-location" target="_blank" title="前往 Google Map"
+                ></a>
+            </p>
+            <p class="card-text">電話 : 04-26626161</p>
+            <div class="search-result-icons row no-gutters">
+              <div class="icon-cancer icon-5"></div>
+              <div class="icon-cancer icon-2"></div>
+              <div class="icon-cancer icon-7"></div>
+              <div class="icon-cancer icon-3"></div>
+            </div>
+          </div>
+        </div>
+        <div class="card" data-dist="霧峰區">
+          <div class="card-body">
+            <h3 class="card-title">醫院名稱不可能這麼長這麼長這麼長超過二十四個字吧</h3>
+            <p class="card-text row flex-nowrap align-items-center no-gutters">
+              <span>地址 : 醫院名稱不可能這麼長這麼長這麼長超過二十個字吧</span>
+              <a href="#" class="icon-location" target="_blank" title="前往 Google Map"
+                ></a>
+            </p>
+            <p class="card-text">電話 : 04-26626161</p>
+            <div class="search-result-icons row no-gutters">
+              <div class="icon-cancer icon-5"></div>
+              <div class="icon-cancer icon-2"></div>
+              <div class="icon-cancer icon-7"></div>
+              <div class="icon-cancer icon-3"></div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
     <!-- 表尾資訊 -->
     <footer>
       <div class="row justify-content-between align-items-center no-gutters">
         <p class="col-lg-6 col-md-12 p-0 text-center text-lg-left">
-          <span class="text-nowrap"
-            >Copyright © 2022 Screening for Four Major Cancers
-          </span>
+          <span class="text-nowrap">Copyright © 2022 </span>
+          <span class="text-nowrap">Screening for Four Major Cancers </span>
           <span class="text-nowrap">| Taichung Version</span>
         </p>
         <p class="col-lg-6 col-md-12 p-0 text-center text-lg-right">
@@ -130,7 +220,7 @@
     <!-- Javascript -->
     <script src="./js/jquery.slim.min.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
-    <!-- <script src="./js/district.js"></script>
-    <script src="./js/hospital-list.js"></script> -->
+    <script src="./js/district.js"></script>
+    <!-- <script src="./js/hospital-list.js"></script> -->
   </body>
 </html>

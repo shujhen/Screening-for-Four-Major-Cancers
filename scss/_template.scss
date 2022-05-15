@@ -17,9 +17,11 @@ input[type='checkbox'] + span {
   background: url('../images/checkbox.svg') no-repeat;
   background-size: contain;
   user-select: none;
+  cursor: pointer;
   @media (max-width: $grid-md) {
     width: 20px;
     height: 20px;
+    margin-right: 8px;
   }
 }
 input[type='checkbox']:checked + span {
@@ -43,9 +45,11 @@ input[type='radio'] + span {
   background: url('../images/radio.svg') no-repeat;
   background-size: contain;
   user-select: none;
+  cursor: pointer;
   @media (max-width: $grid-md) {
     width: 20px;
     height: 20px;
+    margin-right: 8px;
   }
 }
 input[type='radio']:checked + span {

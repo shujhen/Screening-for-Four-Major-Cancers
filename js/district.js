@@ -29,3 +29,8 @@ let districtArray = [
   '豐原區',
   '霧峰區',
 ];
+
+const selectDist = document.querySelector('#selectDist');
+districtArray.forEach((district) => {
+  selectDist.innerHTML += `<option value="${district}">${district}</option>`;
+});

@@ -2,17 +2,12 @@
 let taichungHospitalData = [];
 let taichungDistrictData = [];
 const h2 = document.querySelector('h2');
-const selectDist = document.querySelector('#selectDist');
 const hospitalCards = document.querySelector('.hospital-cards');
 
-districtArray.forEach((district) => {
-  selectDist.innerHTML += `<option value="${district}">${district}</option>`;
-});
-
 // call API
-fetch_data(
-  'https://datacenter.taichung.gov.tw/swagger/OpenData/d07c49df-8069-4fec-9aaf-09960a67bb76'
-);
+// fetch_data(
+//   'https://datacenter.taichung.gov.tw/swagger/OpenData/d07c49df-8069-4fec-9aaf-09960a67bb76'
+// );
 // 取得 API 資料
 function fetch_data(url) {
   // 非同步處理
