@@ -11,9 +11,11 @@
 // 主要內容
 main {
   margin-top: 86px;
+  margin-bottom: 51px;
 
   @media (max-width: $grid-md) {
     margin-top: 39px;
+    margin-bottom: 39px;
     padding-right: 26px;
     padding-left: 26px;
   }
