@@ -9,6 +9,8 @@ let zipCode = 'all';
 // 篩檢項目的檢查值陣列
 let checkItems = [];
 
+let cardsData = '';
+
 // call API
 fetch_data('json/hospital-list.json');
 // 取得 API 資料
@@ -22,7 +24,6 @@ function fetch_data(url) {
     })
     .then(function (data) {
       hospitalList = data;
-      console.log(hospitalList);
     });
 }
 
@@ -94,11 +95,13 @@ function doFilter(items) {
     //   }
     // });
   });
+
+  hospitalCards.innerHTML = cardsData;
 }
 
 // 生成卡片 & 顯示
 function showCard(item) {
-  hospitalCards.innerHTML += `
+  cardsData += `
     <div class="card">
       <div class="card-body">
         <h3 class="card-title">${item.name}</h3>
