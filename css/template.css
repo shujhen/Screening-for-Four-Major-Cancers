@@ -13806,7 +13806,8 @@ main {
   min-height: calc(100vh - 48px - 54px);
 }
 
-main h1 {
+main h1,
+main h2 {
   color: #306b56;
   font-weight: 800;
   font-size: 48px;

@@ -160,7 +160,8 @@ footer {
 // 主要內容
 main {
   min-height: calc(100vh - 48px - 54px);
-  h1 {
+  h1,
+  h2 {
     color: $green-400;
     font-weight: 800;
     font-size: 48px;

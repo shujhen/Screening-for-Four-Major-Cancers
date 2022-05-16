@@ -13806,7 +13806,8 @@ main {
   min-height: calc(100vh - 48px - 54px);
 }
 
-main h1 {
+main h1,
+main h2 {
   color: #306b56;
   font-weight: 800;
   font-size: 48px;
@@ -13946,7 +13947,7 @@ main .search-label {
   margin: 0px;
   margin-bottom: 44px;
   color: #306b56;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 28px;
   line-height: 34px;
 }
@@ -13970,7 +13971,7 @@ main .search-label {
 main select {
   width: 147px;
   padding: 8px 0px 7px 20px;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   outline: none;
@@ -14016,7 +14017,7 @@ main select {
 }
 
 main .search-choice-ask {
-  font-weight: 800;
+  font-weight: 700;
   color: #692300;
   margin-top: 13px;
   margin-bottom: 13px;
@@ -14045,7 +14046,7 @@ main .search-choice {
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-size: 24px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 29px;
   cursor: pointer;
 }
@@ -14090,7 +14091,7 @@ main .btn-search-layout {
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-size: 32px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 39px;
   color: #692300;
 }
@@ -14140,8 +14141,6 @@ main .search-result {
 }
 
 main .search-result h2 {
-  font-weight: 800;
-  font-size: 48px;
   line-height: 58px;
   margin-top: 126px;
   margin-bottom: 80px;
@@ -14205,7 +14204,7 @@ main .card-body {
 }
 
 main .card-body .card-title {
-  font-weight: 800;
+  font-weight: 700;
   font-size: 25px;
   line-height: 30px;
   padding-bottom: 26px;
@@ -14234,7 +14233,7 @@ main .card-body .card-title {
 
 main .card-body .card-text {
   margin-bottom: 12px;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   color: #275544;

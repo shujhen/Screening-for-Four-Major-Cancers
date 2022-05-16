@@ -1,5 +1,5 @@
+// 保留這一行 @import，下面寫各自頁面的 CSS
 @import 'all';
-
 // 手機板尺吋 padding
 .container {
   @media (max-width: $grid-sm) {
@@ -109,7 +109,7 @@ main {
     margin: 0px;
     margin-bottom: 44px;
     color: $green-400;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 28px;
     line-height: 34px;
 
@@ -127,7 +127,7 @@ main {
   select {
     width: 147px;
     padding: 8px 0px 7px 20px;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     outline: none;
@@ -168,7 +168,7 @@ main {
   }
   // 詢問篩檢(手機板才顯示)
   .search-choice-ask {
-    font-weight: 800;
+    font-weight: 700;
     color: $brown-600;
     margin-top: 13px;
     margin-bottom: 13px;
@@ -192,7 +192,7 @@ main {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
     font-size: 24px;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 29px;
     cursor: pointer;
 
@@ -227,7 +227,7 @@ main {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
     font-size: 32px;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 39px;
     color: $brown-600;
 
@@ -271,10 +271,7 @@ main {
     }
 
     h2 {
-      font-weight: 800;
-      font-size: 48px;
       line-height: 58px;
-
       margin-top: 126px;
       margin-bottom: 80px;
 
@@ -327,7 +324,7 @@ main {
     padding: 0px;
     text-align: left;
     .card-title {
-      font-weight: 800;
+      font-weight: 700;
       font-size: 25px;
       line-height: 30px;
 
@@ -353,7 +350,7 @@ main {
     }
     .card-text {
       margin-bottom: 12px;
-      font-weight: 800;
+      font-weight: 700;
       font-size: 20px;
       line-height: 24px;
       color: $green-600;
