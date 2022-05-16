@@ -14325,10 +14325,17 @@ main .card-body .icon-cancer {
   }
 }
 
+main .card-body .icon-cancer.active {
+  opacity: 1;
+}
+
+main .card-body .icon-cancer.none {
+  opacity: 0.2;
+}
+
 main .card-body .icon-5 {
   background: url("../images/icon-5.svg") no-repeat;
   background-size: contain;
-  opacity: 0.2;
 }
 
 main .card-body .icon-2 {
@@ -14355,4 +14362,4 @@ main .card-body .icon-3 {
     height: 30px;
   }
 }
-/*# sourceMappingURL=all.css.map */
+/*# sourceMappingURL=hospital-list.css.map */

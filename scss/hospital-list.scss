@@ -1,3 +1,5 @@
+@import 'all';
+
 // 手機板尺吋 padding
 .container {
   @media (max-width: $grid-sm) {
@@ -416,10 +418,15 @@ main {
         margin-right: 3px;
       }
     }
+    .icon-cancer.active {
+      opacity: 1;
+    }
+    .icon-cancer.none {
+      opacity: 0.2;
+    }
     .icon-5 {
       background: url('../images/icon-5.svg') no-repeat;
       background-size: contain;
-      opacity: 0.2;
     }
     .icon-2 {
       background: url('../images/icon-2.svg') no-repeat;
