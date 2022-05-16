@@ -1,0 +1,7052 @@
+{
+  "400": [
+    {
+      "id": "127",
+      "name": "宇田婦產科診所",
+      "address": "中區中山里中山路5號",
+      "tel": "(04)22211377",
+      "mapUrl": "https://goo.gl/maps/j2MxMGEAJ3xx5hVt8",
+      "checkCode": "15"
+    },
+    {
+      "id": "128",
+      "name": "陳盛全婦產科診所",
+      "address": "中區中榮里中華路1段132號",
+      "tel": "(04)22276486",
+      "mapUrl": "https://goo.gl/maps/bZ8FrvHSBCCHfNV27",
+      "checkCode": "3"
+    },
+    {
+      "id": "129",
+      "name": "鴻根耳鼻喉科診所",
+      "address": "中區平等街108號",
+      "tel": "(04)22253761",
+      "mapUrl": "https://goo.gl/maps/sQWfJbHTUbNzs1mQ7",
+      "checkCode": "35"
+    },
+    {
+      "id": "130",
+      "name": "澄清綜合醫院",
+      "address": "中區平等街139號",
+      "tel": "(04)24632000",
+      "mapUrl": "https://goo.gl/maps/M7yW168WXyrHFJ9c8",
+      "checkCode": "210"
+    },
+    {
+      "id": "131",
+      "name": "芳英婦幼診所",
+      "address": "中區平等街7號",
+      "tel": "(04)22229788",
+      "mapUrl": "https://goo.gl/maps/UaEPT2NAAUuCRezf9",
+      "checkCode": "15"
+    },
+    {
+      "id": "132",
+      "name": "王守仁診所",
+      "address": "中區正音里柳川西路三段20號",
+      "tel": "(04)22263988",
+      "mapUrl": "https://goo.gl/maps/emPq2KnQSqc6dbcSA",
+      "checkCode": "5"
+    },
+    {
+      "id": "133",
+      "name": "第一醫院",
+      "address": "中區民族路一八四號",
+      "tel": "(04)22221122",
+      "mapUrl": "https://goo.gl/maps/b5EZ4k95b5SzvLmc8",
+      "checkCode": "5"
+    },
+    {
+      "id": "134",
+      "name": "明祐耳鼻喉科診所",
+      "address": "中區民權路160號",
+      "tel": "(04)22220007",
+      "mapUrl": "https://goo.gl/maps/RbHiVM7j7fLGA7ot8",
+      "checkCode": "35"
+    },
+    {
+      "id": "135",
+      "name": "黃迎凱婦產科診所",
+      "address": "中區光復路56號",
+      "tel": "(04)22238388",
+      "mapUrl": "https://goo.gl/maps/Sd4BpUprq87vyej88",
+      "checkCode": "3"
+    },
+    {
+      "id": "136",
+      "name": "安正牙醫診所",
+      "address": "中區自由里民權路 80巷1號",
+      "tel": "(04)22247541",
+      "mapUrl": "https://goo.gl/maps/eAWUZbAbMNLBpGMB9",
+      "checkCode": "7"
+    },
+    {
+      "id": "137",
+      "name": "仁愛醫療財團法人台中仁愛醫院",
+      "address": "中區柳岸里柳川東路三段36號",
+      "tel": "(04)22255450",
+      "mapUrl": "https://goo.gl/maps/wWpx7unJTNFMBk5B7",
+      "checkCode": "35"
+    },
+    {
+      "id": "138",
+      "name": "東平診所",
+      "address": "中區臺灣大道1段 555號",
+      "tel": "(04)22224171",
+      "mapUrl": "https://goo.gl/maps/tc3SXypiwNHLCpLD7",
+      "checkCode": "5"
+    }
+  ],
+  "401": [
+    {
+      "id": "523",
+      "name": "翔新診所",
+      "address": "東區十甲東路768〜 768-3號",
+      "tel": "(04)22110707",
+      "mapUrl": "https://goo.gl/maps/xTJnW5c6wDpoZw6u8",
+      "checkCode": "35"
+    },
+    {
+      "id": "524",
+      "name": "劉可毅婦產科診所",
+      "address": "東區十甲里十甲路 414號",
+      "tel": "(04)22130058",
+      "mapUrl": "https://goo.gl/maps/cYXQP7PreYuUKJcv8",
+      "checkCode": "3"
+    },
+    {
+      "id": "525",
+      "name": "冠德牙醫診所",
+      "address": "東區十甲路285號",
+      "tel": "(04)22117088",
+      "mapUrl": "https://g.page/GuanDeDentalClinicTaichung?share",
+      "checkCode": "7"
+    },
+    {
+      "id": "526",
+      "name": "佑佑診所",
+      "address": "東區十甲路501號",
+      "tel": "(04)22125628",
+      "mapUrl": "https://goo.gl/maps/sBNBMgQoy6po9Pd36",
+      "checkCode": "5"
+    },
+    {
+      "id": "527",
+      "name": "維欣牙醫診所",
+      "address": "東區大智路271號.273號",
+      "tel": "(04)22830088",
+      "mapUrl": "https://g.page/WeiCinDental?share",
+      "checkCode": "7"
+    },
+    {
+      "id": "528",
+      "name": "全威診所",
+      "address": "東區合作里力行路 45號",
+      "tel": "(04)23606146",
+      "mapUrl": "https://goo.gl/maps/cxSPxvNQ8KGtokAJ7",
+      "checkCode": "5"
+    },
+    {
+      "id": "529",
+      "name": "林士新婦產科診所",
+      "address": "東區朱文里復興路四段207號",
+      "tel": "(04)22238148",
+      "mapUrl": "https://goo.gl/maps/SKzuVVMAuX98Y99H8",
+      "checkCode": "15"
+    },
+    {
+      "id": "530",
+      "name": "中國醫藥大學附設醫院台中東區分院",
+      "address": "東區自由路3段296號",
+      "tel": "(04)22121058",
+      "mapUrl": "https://goo.gl/maps/XYtDZzqrEf5N3LNs7",
+      "checkCode": "105"
+    },
+    {
+      "id": "531",
+      "name": "豊府診所",
+      "address": "東區旱溪東路一段 293號",
+      "tel": "(04)22126228",
+      "mapUrl": "https://goo.gl/maps/dUvQmfZW7ooveJNL8",
+      "checkCode": "5"
+    },
+    {
+      "id": "532",
+      "name": "朝煌診所",
+      "address": "東區東明里精武路 117號",
+      "tel": "(04)22113446",
+      "mapUrl": "https://goo.gl/maps/AU9v5SfT2YqyVzE49",
+      "checkCode": "35"
+    },
+    {
+      "id": "533",
+      "name": "台新醫院",
+      "address": "東區東信里振興路 439之3號及441號",
+      "tel": "(04)22139966",
+      "mapUrl": "https://goo.gl/maps/GLA8PuiYahdCUjn36",
+      "checkCode": "35"
+    },
+    {
+      "id": "534",
+      "name": "來來診所",
+      "address": "東區東勢里精武路 104號",
+      "tel": "(04)23607799",
+      "mapUrl": "https://goo.gl/maps/FuWEhr3ZMmotQG5CA",
+      "checkCode": "3"
+    },
+    {
+      "id": "535",
+      "name": "臺中市東區衛生所",
+      "address": "東區信義街142號",
+      "tel": "(04)22834121",
+      "mapUrl": "https://goo.gl/maps/ka5J1z4VynXk49hx6",
+      "checkCode": "35"
+    },
+    {
+      "id": "536",
+      "name": "益家診所",
+      "address": "東區建成路3號",
+      "tel": "(04)22121089",
+      "mapUrl": "https://goo.gl/maps/qwxMgXhqQXGnjH21A",
+      "checkCode": "5"
+    },
+    {
+      "id": "537",
+      "name": "惟康耳鼻喉科診所",
+      "address": "東區建成路662號",
+      "tel": "(04)22808716",
+      "mapUrl": "https://goo.gl/maps/WsPJp8Lo5AxEsRS66",
+      "checkCode": "35"
+    },
+    {
+      "id": "538",
+      "name": "富台診所",
+      "address": "東區富台街62號",
+      "tel": "(04)22111611",
+      "mapUrl": "https://goo.gl/maps/fCAih8VMmWAzfaTK6",
+      "checkCode": "105"
+    },
+    {
+      "id": "539",
+      "name": "禾安牙醫診所",
+      "address": "東區富榮街57號",
+      "tel": "(04)22151882",
+      "mapUrl": "https://goo.gl/maps/s2ZhrDaQ9kriFV8QA",
+      "checkCode": "7"
+    },
+    {
+      "id": "540",
+      "name": "臺安醫院",
+      "address": "東區進化路203號",
+      "tel": "(04)23602000",
+      "mapUrl": "https://goo.gl/maps/LXJhi15X8p1sshEj6",
+      "checkCode": "30"
+    },
+    {
+      "id": "541",
+      "name": "華幼診所",
+      "address": "東區進化路211號",
+      "tel": "(04)23600099",
+      "mapUrl": "https://goo.gl/maps/fyeQPGk6rEtLSmE4A",
+      "checkCode": "7"
+    },
+    {
+      "id": "542",
+      "name": "陳國華小兒科診所",
+      "address": "東區進化路218之1號",
+      "tel": "(04)23601245",
+      "mapUrl": "https://goo.gl/maps/Q6k2BS2eTNQHqaaS7",
+      "checkCode": "5"
+    },
+    {
+      "id": "543",
+      "name": "心安診所",
+      "address": "東區進化路251號",
+      "tel": "(04)23603568",
+      "mapUrl": "https://goo.gl/maps/zLmxTaZqUHmXNnHg9",
+      "checkCode": "5"
+    },
+    {
+      "id": "544",
+      "name": "黃純義內小兒科診所",
+      "address": "東區新庄里復興路4段49號",
+      "tel": "(04)22270855",
+      "mapUrl": "https://goo.gl/maps/uFZtQdKsrvPJFKyt9",
+      "checkCode": "5"
+    },
+    {
+      "id": "545",
+      "name": "福仁診所",
+      "address": "東區福仁街146號",
+      "tel": "(04)22110315",
+      "mapUrl": "https://goo.gl/maps/AZCAvejeigouQTBN8",
+      "checkCode": "5"
+    },
+    {
+      "id": "546",
+      "name": "育民診所",
+      "address": "東區臺中路73號",
+      "tel": "(04)22290505",
+      "mapUrl": "https://goo.gl/maps/1ixvN2Y6CtB32oiw9",
+      "checkCode": "35"
+    },
+    {
+      "id": "547",
+      "name": "微風牙醫診所",
+      "address": "東區樂業路280號",
+      "tel": "(04)22111999",
+      "mapUrl": "https://goo.gl/maps/iGYCJnB8te1L5TiL9",
+      "checkCode": "7"
+    }
+  ],
+  "402": [
+    {
+      "id": "644",
+      "name": "群恩牙醫診所",
+      "address": "臺市南區仁和路232號",
+      "tel": "(04)22859669",
+      "mapUrl": "https://goo.gl/maps/Nzwk3BrPvV4Gazmh9",
+      "checkCode": "7"
+    },
+    {
+      "id": "645",
+      "name": "祐強診所",
+      "address": "南區工學路128號",
+      "tel": "(04)22617128",
+      "mapUrl": "https://goo.gl/maps/2MZWmkWcXc1ezCNd7",
+      "checkCode": "35"
+    },
+    {
+      "id": "646",
+      "name": "德翔診所",
+      "address": "南區工學路46號",
+      "tel": "(04)22639708",
+      "mapUrl": "https://goo.gl/maps/7FHZjwXgSbADUSB29",
+      "checkCode": "35"
+    },
+    {
+      "id": "647",
+      "name": "臺中市南區衛生所",
+      "address": "南區工學路72號2樓",
+      "tel": "(04)22629735",
+      "mapUrl": "https://goo.gl/maps/UAnAVcu8PiLdKe2c9",
+      "checkCode": "5"
+    },
+    {
+      "id": "648",
+      "name": "康麗美學牙醫診所",
+      "address": "南區五權南路481號",
+      "tel": "(04)22607777",
+      "mapUrl": "https://goo.gl/maps/PeiB851dYSzakFMP9",
+      "checkCode": "7"
+    },
+    {
+      "id": "649",
+      "name": "永和耳鼻喉科診所",
+      "address": "南區永興里工學路 13–22號1Ｆ",
+      "tel": "(04)22617938",
+      "mapUrl": "https://goo.gl/maps/4JaQ9wKyQAUnhqDs6",
+      "checkCode": "35"
+    },
+    {
+      "id": "650",
+      "name": "芳群牙醫診所",
+      "address": "南區永興里工學路 25號",
+      "tel": "(04)22655775",
+      "mapUrl": "https://goo.gl/maps/nqRuCdFFyRbVMZgq6",
+      "checkCode": "7"
+    },
+    {
+      "id": "651",
+      "name": "李啟澤診所",
+      "address": "南區永興里高工路 258號",
+      "tel": "(04)22621960",
+      "mapUrl": "https://goo.gl/maps/mdb8TMaFjJpRdsgQA",
+      "checkCode": "5"
+    },
+    {
+      "id": "652",
+      "name": "聖林牙醫診所",
+      "address": "南區西川里忠明南路703號",
+      "tel": "(04)23720066",
+      "mapUrl": "https://goo.gl/maps/sgwrMSxaMdUgBfyGA",
+      "checkCode": "7"
+    },
+    {
+      "id": "653",
+      "name": "欣欣耳鼻喉科診所",
+      "address": "南區和平里美村南路34號",
+      "tel": "(04)22653777",
+      "mapUrl": "https://goo.gl/maps/aMe9Xh3fSrn1XcHf9",
+      "checkCode": "35"
+    },
+    {
+      "id": "654",
+      "name": "林忠立診所",
+      "address": "南區和平里美村南路58．60號",
+      "tel": "(04)22619948",
+      "mapUrl": "https://g.page/TakeCareHealth?share",
+      "checkCode": "5"
+    },
+    {
+      "id": "655",
+      "name": "宏恩醫院",
+      "address": "南區和平里復興路二段38之13號",
+      "tel": "(04)22623123",
+      "mapUrl": "https://goo.gl/maps/P2J14wdidNFwcYuKA",
+      "checkCode": "5"
+    },
+    {
+      "id": "656",
+      "name": "家珊診所",
+      "address": "南區忠孝路5號",
+      "tel": "(04)22851533",
+      "mapUrl": "https://goo.gl/maps/Ls7tyrVhVWFKTiX68",
+      "checkCode": "15"
+    },
+    {
+      "id": "657",
+      "name": "東傑牙醫診所",
+      "address": "南區忠明南路1114號",
+      "tel": "(04)23768733",
+      "mapUrl": "https://g.page/DongJieDentalClinic?share",
+      "checkCode": "7"
+    },
+    {
+      "id": "658",
+      "name": "穎眾兒科診所",
+      "address": "南區東興路1段7號",
+      "tel": "(04)22603549",
+      "mapUrl": "https://goo.gl/maps/dfLSiSehZA6UQZQPA",
+      "checkCode": "5"
+    },
+    {
+      "id": "659",
+      "name": "南平診所",
+      "address": "南區南平路167號",
+      "tel": "(04)22630192",
+      "mapUrl": "https://goo.gl/maps/5apNA814pzki19fa6",
+      "checkCode": "5"
+    },
+    {
+      "id": "660",
+      "name": "光良牙醫診所",
+      "address": "南區南興里臺中路 46．48號",
+      "tel": "(04)22293733",
+      "mapUrl": "https://goo.gl/maps/NcaYGjiN4EodChVq9",
+      "checkCode": "7"
+    },
+    {
+      "id": "661",
+      "name": "中山醫學大學附設醫院",
+      "address": "南區建國北路一段 110號",
+      "tel": "(04)24739595",
+      "mapUrl": "https://goo.gl/maps/ZPtd9BqnXvMMMcFL6",
+      "checkCode": "210"
+    },
+    {
+      "id": "662",
+      "name": "李昭德診所",
+      "address": "南區柳川東路1段99號及100號",
+      "tel": "(04)23718383",
+      "mapUrl": "https://goo.gl/maps/zQf2YVKYPGx6a3UF6",
+      "checkCode": "5"
+    },
+    {
+      "id": "663",
+      "name": "宏美德生診所",
+      "address": "南區柳川東路一段 99號、100號2樓",
+      "tel": "(04)23718383",
+      "mapUrl": "https://goo.gl/maps/zQf2YVKYPGx6a3UF6",
+      "checkCode": "5"
+    },
+    {
+      "id": "664",
+      "name": "安興牙醫診所",
+      "address": "南區美村南路181號",
+      "tel": "(04)22615112",
+      "mapUrl": "https://goo.gl/maps/kNNLbtM8WrpxrhEBA",
+      "checkCode": "7"
+    },
+    {
+      "id": "665",
+      "name": "順生診所",
+      "address": "南區美村南路203號",
+      "tel": "(04)22613275",
+      "mapUrl": "https://goo.gl/maps/LgL6A4ZE7HSJcJJv6",
+      "checkCode": "15"
+    },
+    {
+      "id": "666",
+      "name": "永佳診所",
+      "address": "南區美村路二段156號",
+      "tel": "(04)22655226",
+      "mapUrl": "https://goo.gl/maps/h8ww4wHX3ssF2mym9",
+      "checkCode": "35"
+    },
+    {
+      "id": "667",
+      "name": "張肇烜診所",
+      "address": "南區高工路395號",
+      "tel": "(04)22659556",
+      "mapUrl": "https://g.page/CHANGCLINIC?share",
+      "checkCode": "5"
+    },
+    {
+      "id": "668",
+      "name": "羅倫檭診所",
+      "address": "南區國光里仁和路 185號",
+      "tel": "(04)22871048",
+      "mapUrl": "https://goo.gl/maps/dsxYtq5TzXgt3cXt5",
+      "checkCode": "5"
+    },
+    {
+      "id": "669",
+      "name": "慶燿診所",
+      "address": "南區國光路241號",
+      "tel": "(04)22872877",
+      "mapUrl": "https://goo.gl/maps/2vfz2tT8TCcMpWFu5",
+      "checkCode": "5"
+    },
+    {
+      "id": "670",
+      "name": "恆宇診所",
+      "address": "南區國光路241號",
+      "tel": "(04)22872877",
+      "mapUrl": "https://goo.gl/maps/mmFjVRjAvdNHUrB26",
+      "checkCode": "5"
+    },
+    {
+      "id": "671",
+      "name": "復興家庭醫學科診所",
+      "address": "南區復興里復興路三段235號",
+      "tel": "(04)22200482",
+      "mapUrl": "https://goo.gl/maps/FqXdiEASxMZGH3B78",
+      "checkCode": "35"
+    },
+    {
+      "id": "672",
+      "name": "陳豪江診所",
+      "address": "南區復興路2段98號、100號",
+      "tel": "(04)22622132",
+      "mapUrl": "https://goo.gl/maps/EdDepDg9oxo6w11m8",
+      "checkCode": "5"
+    },
+    {
+      "id": "673",
+      "name": "文聖診所",
+      "address": "南區復興路一段368號、370號",
+      "tel": "(04)22635958",
+      "mapUrl": "https://goo.gl/maps/p1p24NEHw5bGhqdG8",
+      "checkCode": "5"
+    },
+    {
+      "id": "674",
+      "name": "汎宇牙醫診所",
+      "address": "南區復興路一段519號",
+      "tel": "(04)22616622",
+      "mapUrl": "https://goo.gl/maps/PeGkJm8zpsrySdzH7",
+      "checkCode": "7"
+    },
+    {
+      "id": "675",
+      "name": "嘉仁牙醫診所",
+      "address": "南區復興路三段272號",
+      "tel": "(04)22205114",
+      "mapUrl": "https://goo.gl/maps/gNKh4KrQrsAk6oDK7",
+      "checkCode": "7"
+    },
+    {
+      "id": "676",
+      "name": "世禾牙醫診所",
+      "address": "南區新榮里學府路 158號",
+      "tel": "(04)22203605",
+      "mapUrl": "https://goo.gl/maps/9xTRk65DHxG2CR4r8",
+      "checkCode": "7"
+    },
+    {
+      "id": "677",
+      "name": "劉平昌診所",
+      "address": "南區福興里福新街 63號",
+      "tel": "(04)22611184",
+      "mapUrl": "https://goo.gl/maps/83Vbhj91FAhV2EwJ6",
+      "checkCode": "35"
+    },
+    {
+      "id": "678",
+      "name": "陳鉉煒小兒科診所",
+      "address": "南區臺中路156號.156之1號",
+      "tel": "(04)22861566",
+      "mapUrl": "https://goo.gl/maps/rVJPDAbNPVxUFZvc7",
+      "checkCode": "5"
+    },
+    {
+      "id": "679",
+      "name": "佳宏牙醫診所",
+      "address": "南區德義里學府路 88號",
+      "tel": "(04)22851688",
+      "mapUrl": "https://goo.gl/maps/E4nAuZ7eA4twXYcF7",
+      "checkCode": "7"
+    },
+    {
+      "id": "680",
+      "name": "白耳鼻喉科診所",
+      "address": "南區學府路152號",
+      "tel": "(04)22220600",
+      "mapUrl": "https://goo.gl/maps/LHwTvvtNXPuETcAe8",
+      "checkCode": "35"
+    },
+    {
+      "id": "681",
+      "name": "千田婦產科診所",
+      "address": "南區樹義里復興路一段261號",
+      "tel": "(04)22618032",
+      "mapUrl": "https://goo.gl/maps/hTcEBqycveCmsrxM9",
+      "checkCode": "3"
+    },
+    {
+      "id": "682",
+      "name": "伸安診所",
+      "address": "南區樹義里復興路一段333號",
+      "tel": "(04)22628384",
+      "mapUrl": "https://goo.gl/maps/mFjzfTgV9iW8ZLkV7",
+      "checkCode": "5"
+    },
+    {
+      "id": "683",
+      "name": "陳長庚診所",
+      "address": "南區復興路二段133之1號",
+      "tel": "(04)22632566",
+      "mapUrl": "https://goo.gl/maps/rsGwCDAQg2TLKz7F8",
+      "checkCode": "5"
+    }
+  ],
+  "403": [
+    {
+      "id": "445",
+      "name": "林森醫院",
+      "address": "西區三民里三民路一段152之1號",
+      "tel": "(04)22227800",
+      "mapUrl": "https://goo.gl/maps/UpT2EFWoCzt9vJwZ7",
+      "checkCode": "5"
+    },
+    {
+      "id": "446",
+      "name": "衛生福利部臺中醫院",
+      "address": "西區三民路一段199號",
+      "tel": "(04)22294411",
+      "mapUrl": "https://goo.gl/maps/MWjB6vGHa4YUVjbG9",
+      "checkCode": "210"
+    },
+    {
+      "id": "447",
+      "name": "陳世杰診所",
+      "address": "西區中美街155號",
+      "tel": "(04)23058331",
+      "mapUrl": "https://goo.gl/maps/9U5DpPybb952GaVQ7",
+      "checkCode": "15"
+    },
+    {
+      "id": "448",
+      "name": "寶醫師診所",
+      "address": "西區中興里向上北路105巷2之1號",
+      "tel": "(04)23021736",
+      "mapUrl": "https://goo.gl/maps/7N5qoxu7j4r2jn1q7",
+      "checkCode": "15"
+    },
+    {
+      "id": "449",
+      "name": "健民婦產科診所",
+      "address": "西區中興里美村路一段279號",
+      "tel": "(04)23016079",
+      "mapUrl": "https://goo.gl/maps/6ms4v6wnRhB1mPSS6",
+      "checkCode": "3"
+    },
+    {
+      "id": "450",
+      "name": "曙光小兒科診所",
+      "address": "西區五權西三街81號",
+      "tel": "(04)23758822",
+      "mapUrl": "https://goo.gl/maps/We7SoXNJ742WpzYm9",
+      "checkCode": "5"
+    },
+    {
+      "id": "451",
+      "name": "曾憲彰耳鼻喉科診所",
+      "address": "西區五權西路1段 275號",
+      "tel": "(04)23786066",
+      "mapUrl": "https://goo.gl/maps/DfMSuQ4AKyQiRdr1A",
+      "checkCode": "7"
+    },
+    {
+      "id": "452",
+      "name": "樂恩診所",
+      "address": "西區五權路29之8號",
+      "tel": "(04)22221256",
+      "mapUrl": "https://goo.gl/maps/ptXjvQTU8mX7fTVa9",
+      "checkCode": "5"
+    },
+    {
+      "id": "453",
+      "name": "惠生小兒科診所",
+      "address": "西區五權路201號",
+      "tel": "(04)22028696",
+      "mapUrl": "https://goo.gl/maps/8JDbUHroskDeJ8Li8",
+      "checkCode": "5"
+    },
+    {
+      "id": "454",
+      "name": "施英富婦產科診所",
+      "address": "西區公正里東興路3段226．228．230號",
+      "tel": "(04)23293176",
+      "mapUrl": "https://goo.gl/maps/Q24dxDfg3HNVXuhw9",
+      "checkCode": "15"
+    },
+    {
+      "id": "455",
+      "name": "洪聰年牙醫診所",
+      "address": "西區公正里東興路三段92號",
+      "tel": "(04)23259533",
+      "mapUrl": "https://goo.gl/maps/gA7s3vEhX5watMsj7",
+      "checkCode": "7"
+    },
+    {
+      "id": "456",
+      "name": "林孟賢婦產科診所",
+      "address": "西區公民里民生路 145之4號",
+      "tel": "(04)22227755",
+      "mapUrl": "https://goo.gl/maps/xND725zJYcMMQABi8",
+      "checkCode": "3"
+    },
+    {
+      "id": "457",
+      "name": "鄭煒達診所",
+      "address": "西區公益路214號",
+      "tel": "(04)23235136",
+      "mapUrl": "https://goo.gl/maps/QYL3AT55tRJEQAdZ9",
+      "checkCode": "5"
+    },
+    {
+      "id": "458",
+      "name": "長榮牙醫診所",
+      "address": "西區公益路389號",
+      "tel": "(04)23205566",
+      "mapUrl": "https://g.page/EverGreenDentalClinic?share",
+      "checkCode": "7"
+    },
+    {
+      "id": "459",
+      "name": "蔡長穎牙醫診所",
+      "address": "西區公館里三民西路165號",
+      "tel": "(04)23762995",
+      "mapUrl": "https://goo.gl/maps/KFS3YAwddUAWJLp19",
+      "checkCode": "7"
+    },
+    {
+      "id": "460",
+      "name": "蔡芬苓小兒科診所",
+      "address": "西區太原路一段212之1號",
+      "tel": "(04)23131531",
+      "mapUrl": "https://goo.gl/maps/EvHv7J1BmjE45eig8",
+      "checkCode": "5"
+    },
+    {
+      "id": "461",
+      "name": "國源診所",
+      "address": "西區台灣大道2段 130號",
+      "tel": "(04)22037945",
+      "mapUrl": "https://goo.gl/maps/hkowqcgDfaBwXkJD7",
+      "checkCode": "35"
+    },
+    {
+      "id": "462",
+      "name": "佳誼牙醫診所",
+      "address": "西區四維街7號",
+      "tel": "(04)22296800",
+      "mapUrl": "https://goo.gl/maps/qNoxuH9CJB9mruJ27",
+      "checkCode": "7"
+    },
+    {
+      "id": "463",
+      "name": "臺中市中西區衛生所",
+      "address": "西區民權路105號",
+      "tel": "(04)22223811",
+      "mapUrl": "https://goo.gl/maps/zGrhW6ivgJq9gd2e7",
+      "checkCode": "35"
+    },
+    {
+      "id": "464",
+      "name": "普祥牙醫診所",
+      "address": "西區吉龍里忠明南路416號",
+      "tel": "(04)23752182",
+      "mapUrl": "https://goo.gl/maps/VTcmfvfDnSkxLX347",
+      "checkCode": "7"
+    },
+    {
+      "id": "465",
+      "name": "財團法人台灣省私立台中仁愛之家附設靜和醫院",
+      "address": "西區吉龍里南屯路一段158號",
+      "tel": "(04)23711129",
+      "mapUrl": "https://goo.gl/maps/FxMNoc74dU23SGfTA",
+      "checkCode": "5"
+    },
+    {
+      "id": "466",
+      "name": "康澄診所",
+      "address": "西區向上南路一段 215號及217號",
+      "tel": "(04)24720510",
+      "mapUrl": "https://goo.gl/maps/huWZ972GW99TLBPB6",
+      "checkCode": "5"
+    },
+    {
+      "id": "467",
+      "name": "美麗兒小兒科診所",
+      "address": "西區向上路1段246號",
+      "tel": "(04)23010333",
+      "mapUrl": "https://goo.gl/maps/K2KdrKWzUz7HsviQ9",
+      "checkCode": "5"
+    },
+    {
+      "id": "468",
+      "name": "雙喜婦產科診所",
+      "address": "西區向上路1段270之1號",
+      "tel": "(04)23019667",
+      "mapUrl": "https://goo.gl/maps/UHekQeCcRqC3i2SZ9",
+      "checkCode": "105"
+    },
+    {
+      "id": "469",
+      "name": "雙安耳鼻喉科診所",
+      "address": "西區向上路1段270號",
+      "tel": "(04)23020805",
+      "mapUrl": "https://goo.gl/maps/EwBSqBm3ySZcVUxS8",
+      "checkCode": "5"
+    },
+    {
+      "id": "470",
+      "name": "康貝兒小兒科診所",
+      "address": "西區向上路1段553號",
+      "tel": "(04)24720515",
+      "mapUrl": "https://goo.gl/maps/YwNzEWCVRAmR7w2v9",
+      "checkCode": "5"
+    },
+    {
+      "id": "471",
+      "name": "李潤宇診所",
+      "address": "西區向上路一段 251、253號",
+      "tel": "(04)23016659",
+      "mapUrl": "https://goo.gl/maps/LzKDfdeSknxBxyr7A",
+      "checkCode": "35"
+    },
+    {
+      "id": "472",
+      "name": "三泰診所",
+      "address": "西區向上路一段268號",
+      "tel": "(04)23015377",
+      "mapUrl": "https://goo.gl/maps/8GQcEFjHLEg8ivbd8",
+      "checkCode": "15"
+    },
+    {
+      "id": "473",
+      "name": "廖瓊玲婦產科診所",
+      "address": "西區向上路一段291號",
+      "tel": "(04)23011617",
+      "mapUrl": "https://goo.gl/maps/BPjXiY2aG7kDeJXk6",
+      "checkCode": "3"
+    },
+    {
+      "id": "474",
+      "name": "豐采協同牙醫診所",
+      "address": "西區向上路一段293號",
+      "tel": "(04)23020111",
+      "mapUrl": "https://g.page/fongchai2014?share",
+      "checkCode": "7"
+    },
+    {
+      "id": "475",
+      "name": "劉彥山診所",
+      "address": "西區向上路一段361號",
+      "tel": "(04)24726518",
+      "mapUrl": "https://goo.gl/maps/sQkpvknjrXUkJkoF7",
+      "checkCode": "5"
+    },
+    {
+      "id": "476",
+      "name": "晉強診所",
+      "address": "西區向上路一段456號",
+      "tel": "(04)23207570",
+      "mapUrl": "https://g.page/FAMILYDOCTOR23207570?share",
+      "checkCode": "5"
+    },
+    {
+      "id": "477",
+      "name": "蔡文仁診所",
+      "address": "西區安龍里五權路2之1號",
+      "tel": "(04)22201623",
+      "mapUrl": "https://goo.gl/maps/wZnEZuHy1AUU4c568",
+      "checkCode": "5"
+    },
+    {
+      "id": "478",
+      "name": "家妍診所",
+      "address": "西區忠明里美村路一段65號",
+      "tel": "(04)23282888",
+      "mapUrl": "https://goo.gl/maps/hfLKnUyGvWmVn5iR7",
+      "checkCode": "15"
+    },
+    {
+      "id": "479",
+      "name": "新奇美診所",
+      "address": "西區忠明路1號",
+      "tel": "(04)23119885",
+      "mapUrl": "https://goo.gl/maps/n2Nhg8c5MdjRmyQ68",
+      "checkCode": "15"
+    },
+    {
+      "id": "480",
+      "name": "忠誠診所",
+      "address": "西區忠誠街70之2號",
+      "tel": "(04)23208383",
+      "mapUrl": "https://goo.gl/maps/zPV9qNUQQqpgUKWc9",
+      "checkCode": "5"
+    },
+    {
+      "id": "481",
+      "name": "中美偕診所",
+      "address": "西區昇平里中美街 145號",
+      "tel": "(04)23014008",
+      "mapUrl": "https://goo.gl/maps/3QEdvSZGtkcCc1vx5",
+      "checkCode": "5"
+    },
+    {
+      "id": "482",
+      "name": "王煌輝內科診所",
+      "address": "西區林森路226號",
+      "tel": "(04)23726466",
+      "mapUrl": "https://goo.gl/maps/aYYNfi2rNTa5gfLS8",
+      "checkCode": "5"
+    },
+    {
+      "id": "483",
+      "name": "人人診所",
+      "address": "西區林森路239號",
+      "tel": "(04)23731208",
+      "mapUrl": "https://goo.gl/maps/ZwnhfHnTTFUPhhxE9",
+      "checkCode": "5"
+    },
+    {
+      "id": "484",
+      "name": "阮春閔小兒科診所",
+      "address": "西區南屯路1段148號1樓",
+      "tel": "(04)23757456",
+      "mapUrl": "https://goo.gl/maps/NLVAsXrX2NPDan488",
+      "checkCode": "35"
+    },
+    {
+      "id": "485",
+      "name": "賴愈凱婦產科診所",
+      "address": "西區柳川東路二段 149號",
+      "tel": "(04)23754637",
+      "mapUrl": "https://goo.gl/maps/Wh1GbtJcRjUzZjKi8",
+      "checkCode": "3"
+    },
+    {
+      "id": "486",
+      "name": "美村婦產科診所",
+      "address": "西區美村路1段588號",
+      "tel": "(04)23787212",
+      "mapUrl": "https://goo.gl/maps/s8nqydEjUZMgrwYG7",
+      "checkCode": "3"
+    },
+    {
+      "id": "487",
+      "name": "大雄診所",
+      "address": "西區美村路1段591號",
+      "tel": "(04)23751212",
+      "mapUrl": "https://goo.gl/maps/osQUcMbnnMS9si819",
+      "checkCode": "5"
+    },
+    {
+      "id": "488",
+      "name": "承群牙醫診所",
+      "address": "西區美村路1段793號",
+      "tel": "(04)23781683",
+      "mapUrl": "https://goo.gl/maps/iCLMttKGw6miLxbTA",
+      "checkCode": "7"
+    },
+    {
+      "id": "489",
+      "name": "晶帷牙醫診所",
+      "address": "西區美村路一段272之1號",
+      "tel": "(04)23020158",
+      "mapUrl": "https://goo.gl/maps/ymN8CgbGQEAvta9k7",
+      "checkCode": "7"
+    },
+    {
+      "id": "490",
+      "name": "優點診所",
+      "address": "西區美村路一段342號",
+      "tel": "(04)23016006",
+      "mapUrl": "https://goo.gl/maps/DYCdrBbmSN9EQyxB6",
+      "checkCode": "5"
+    },
+    {
+      "id": "491",
+      "name": "吳東洀小兒科診所",
+      "address": "西區美村路一段362號",
+      "tel": "(04)23029672",
+      "mapUrl": "https://goo.gl/maps/iPD9rjYCorFyzWLd8",
+      "checkCode": "35"
+    },
+    {
+      "id": "492",
+      "name": "醫世紀診所",
+      "address": "西區美村路一段795號",
+      "tel": "(04)23720286",
+      "mapUrl": "https://g.page/ecenturyclinic?share",
+      "checkCode": "15"
+    },
+    {
+      "id": "493",
+      "name": "劉忠俊婦產科診所",
+      "address": "西區臺灣大道2段 375號6樓之1、2、3",
+      "tel": "(04)23288558",
+      "mapUrl": "https://goo.gl/maps/yRp4W2eKRbcZfPxQA",
+      "checkCode": "3"
+    },
+    {
+      "id": "494",
+      "name": "丁鴻志婦產科診所",
+      "address": "西區臺灣大道2段 181號3樓",
+      "tel": "(04)23207082",
+      "mapUrl": "https://g.page/TingsClinic?share",
+      "checkCode": "15"
+    },
+    {
+      "id": "495",
+      "name": "日健診所",
+      "address": "西區臺灣大道2段 218號17樓",
+      "tel": "(04)23296899",
+      "mapUrl": "https://goo.gl/maps/KZgrShbX9FPKRpBR6",
+      "checkCode": "15"
+    },
+    {
+      "id": "496",
+      "name": "長春診所",
+      "address": "西區臺灣大道二段 501號3樓之1",
+      "tel": "(04)23286916",
+      "mapUrl": "https://goo.gl/maps/XSu9NjHuPF4RUxGC9",
+      "checkCode": "210"
+    },
+    {
+      "id": "497",
+      "name": "柏羽診所",
+      "address": "西區館前路18號",
+      "tel": "(04)23255018",
+      "mapUrl": "https://g.page/DMCFC?share",
+      "checkCode": "5"
+    }
+  ],
+  "404": [
+    {
+      "id": "288",
+      "name": "葉慧娜婦產科診所",
+      "address": "北區三民路三段330號",
+      "tel": "(04)22384500",
+      "mapUrl": "https://goo.gl/maps/qLvcvQG4X7kX1BWw5",
+      "checkCode": "3"
+    },
+    {
+      "id": "289",
+      "name": "祥祐診所",
+      "address": "北區三民路三段348號",
+      "tel": "(04)22315688",
+      "mapUrl": "https://goo.gl/maps/JCy9LVp9592QpsPN7",
+      "checkCode": "35"
+    },
+    {
+      "id": "290",
+      "name": "洪清一外婦產科診所",
+      "address": "北區中清路1段179號",
+      "tel": "(04)22059339",
+      "mapUrl": "https://g.page/urfamilydrhung?share",
+      "checkCode": "5"
+    },
+    {
+      "id": "291",
+      "name": "新亞東婦產科醫院",
+      "address": "北區中清路1段403號、407號",
+      "tel": "(04)22075779",
+      "mapUrl": "https://goo.gl/maps/zwGFRUuq6ijE4gV99",
+      "checkCode": "3"
+    },
+    {
+      "id": "292",
+      "name": "吳英偉診所",
+      "address": "北區中清路1段57號",
+      "tel": "(04)22052567",
+      "mapUrl": "https://goo.gl/maps/YeuGk3BWSSvqtxx48",
+      "checkCode": "5"
+    },
+    {
+      "id": "293",
+      "name": "康暉耳鼻喉科診所",
+      "address": "北區中清路1段798號",
+      "tel": "(04)22966161",
+      "mapUrl": "https://goo.gl/maps/zFbqvQ9qgUE8yqZW6",
+      "checkCode": "35"
+    },
+    {
+      "id": "294",
+      "name": "正馨婦產科診所",
+      "address": "北區中清路1段820號",
+      "tel": "(04)22933899",
+      "mapUrl": "https://goo.gl/maps/6tH84XHBHrd9aGN47",
+      "checkCode": "3"
+    },
+    {
+      "id": "295",
+      "name": "承鴻耳鼻喉科診所",
+      "address": "北區中清路1段830號",
+      "tel": "(04)22920000",
+      "mapUrl": "https://goo.gl/maps/JPReEiD6s3hruhU37",
+      "checkCode": "35"
+    },
+    {
+      "id": "296",
+      "name": "仕進診所",
+      "address": "北區中清路一段462號",
+      "tel": "(04)22080105",
+      "mapUrl": "https://goo.gl/maps/wQhz6h5WoDNHWwfC9",
+      "checkCode": "5"
+    },
+    {
+      "id": "297",
+      "name": "名人牙醫診所",
+      "address": "北區中清路一段570號",
+      "tel": "(04)22938899",
+      "mapUrl": "https://goo.gl/maps/W9N6tsrp7WBmNtPy9",
+      "checkCode": "7"
+    },
+    {
+      "id": "298",
+      "name": "新陽明診所",
+      "address": "北區五權路232號",
+      "tel": "(04)22027000",
+      "mapUrl": "https://goo.gl/maps/xQuPACkd2cCVd7pP6",
+      "checkCode": "10"
+    },
+    {
+      "id": "299",
+      "name": "光恒診所",
+      "address": "北區五權路261號",
+      "tel": "(04)22068638",
+      "mapUrl": "https://goo.gl/maps/dh2XT3bdPhLuMfBL7",
+      "checkCode": "5"
+    },
+    {
+      "id": "300",
+      "name": "傅婦產科診所",
+      "address": "北區五權路327號",
+      "tel": "(04)22062033",
+      "mapUrl": "https://goo.gl/maps/qRZRCN1FsV8TJxKp7",
+      "checkCode": "3"
+    },
+    {
+      "id": "301",
+      "name": "金正牙醫診所",
+      "address": "北區天祥街36號",
+      "tel": "(04)22352008",
+      "mapUrl": "https://goo.gl/maps/6NJG8A2j3pbMbfi97",
+      "checkCode": "7"
+    },
+    {
+      "id": "302",
+      "name": "新世代牙醫診所",
+      "address": "北區太平路62、62之1號",
+      "tel": "(04)22235488",
+      "mapUrl": "https://g.page/NewEraDentalClinic?share",
+      "checkCode": "7"
+    },
+    {
+      "id": "303",
+      "name": "維一診所",
+      "address": "北區太原路一段220號",
+      "tel": "(04)23139987",
+      "mapUrl": "https://goo.gl/maps/PVkUZPCuzMnSXaVu8",
+      "checkCode": "35"
+    },
+    {
+      "id": "304",
+      "name": "如熊耳鼻喉科診所",
+      "address": "北區北屯路28號",
+      "tel": "(04)22345578",
+      "mapUrl": "https://goo.gl/maps/Gd59shsVYhqcpuqv7",
+      "checkCode": "7"
+    },
+    {
+      "id": "305",
+      "name": "祐華親子診所",
+      "address": "北區北平路2段194號",
+      "tel": "(04)22925668",
+      "mapUrl": "https://goo.gl/maps/6ahUReQUhLyY4VoM8",
+      "checkCode": "5"
+    },
+    {
+      "id": "306",
+      "name": "陳正豊內科診所",
+      "address": "北區北平路2段80號",
+      "tel": "(04)22955085",
+      "mapUrl": "https://goo.gl/maps/c8f43uk2EYpZJDzX8",
+      "checkCode": "5"
+    },
+    {
+      "id": "307",
+      "name": "忠明婦產科診所",
+      "address": "北區平等里中華路二段205號",
+      "tel": "(04)22019615",
+      "mapUrl": "https://goo.gl/maps/DRACcRoFDbBw7B7b9",
+      "checkCode": "3"
+    },
+    {
+      "id": "308",
+      "name": "永旭診所",
+      "address": "北區民權路353號",
+      "tel": "(04)22066767",
+      "mapUrl": "https://goo.gl/maps/KhQiWYMRooVLRd3y8",
+      "checkCode": "5"
+    },
+    {
+      "id": "309",
+      "name": "衍豪牙醫診所",
+      "address": "北區民權路417號",
+      "tel": "(04)22052888",
+      "mapUrl": "https://goo.gl/maps/vBT4wAC6fqZGgpG67",
+      "checkCode": "7"
+    },
+    {
+      "id": "310",
+      "name": "臺中市北區衛生所",
+      "address": "北區永興街301號4樓",
+      "tel": "(04)22359182",
+      "mapUrl": "https://goo.gl/maps/PfBcAYAtXLpLPVaNA",
+      "checkCode": "5"
+    },
+    {
+      "id": "311",
+      "name": "博睿診所",
+      "address": "北區西屯路一段351之11號",
+      "tel": "(04)23238636",
+      "mapUrl": "https://goo.gl/maps/rdcdBV8sQ5zDTycg8",
+      "checkCode": "5"
+    },
+    {
+      "id": "312",
+      "name": "博智診所",
+      "address": "北區西屯路一段351之8號、351之9號",
+      "tel": "(04)23232066",
+      "mapUrl": "https://goo.gl/maps/zrZVRrrTwv6YooYQA",
+      "checkCode": "5"
+    },
+    {
+      "id": "313",
+      "name": "林燄小兒科診所",
+      "address": "北區育德里健行路 659號",
+      "tel": "(04)22050512",
+      "mapUrl": "https://goo.gl/maps/F9WhkAZdcRyceHa97",
+      "checkCode": "5"
+    },
+    {
+      "id": "314",
+      "name": "中國醫藥大學附設醫院",
+      "address": "北區育德路2號",
+      "tel": "(04)22253181",
+      "mapUrl": "https://goo.gl/maps/mymtjcg73uKMkWJ99",
+      "checkCode": "210"
+    },
+    {
+      "id": "315",
+      "name": "周學儉家庭醫學科診所",
+      "address": "北區育樂街12號",
+      "tel": "(04)22317294",
+      "mapUrl": "https://goo.gl/maps/c3Q69XbPBHdVgxNA8",
+      "checkCode": "5"
+    },
+    {
+      "id": "316",
+      "name": "秀慧診所",
+      "address": "北區忠太東路58之 12號",
+      "tel": "(04)22031830",
+      "mapUrl": "https://goo.gl/maps/EqvPxBBAt7cEeRJJ8",
+      "checkCode": "5"
+    },
+    {
+      "id": "317",
+      "name": "俊霖診所",
+      "address": "北區忠明八街32號",
+      "tel": "(04)22085948",
+      "mapUrl": "https://goo.gl/maps/Sb5dTnktGuE5oLrTA",
+      "checkCode": "5"
+    },
+    {
+      "id": "318",
+      "name": "國軍臺中總醫院中清分院附設民眾診療服務處",
+      "address": "北區忠明路500號",
+      "tel": "(04)22037320",
+      "mapUrl": "https://goo.gl/maps/oXmvBH67BvgJmKAW9",
+      "checkCode": "105"
+    },
+    {
+      "id": "319",
+      "name": "施俊哲診所",
+      "address": "北區忠明路510號",
+      "tel": "(04)22067148",
+      "mapUrl": "https://goo.gl/maps/fj6NxHNf3iJv3gC96",
+      "checkCode": "5"
+    },
+    {
+      "id": "320",
+      "name": "筌琳牙醫診所",
+      "address": "北區東光東街13號",
+      "tel": "(04)22311266",
+      "mapUrl": "https://goo.gl/maps/tydiLXWmiQPBBg587",
+      "checkCode": "7"
+    },
+    {
+      "id": "321",
+      "name": "呂錦泉小兒科診所",
+      "address": "北區建興里崇德路一段119號",
+      "tel": "(04)22334393",
+      "mapUrl": "https://goo.gl/maps/eBx9ndjBhqEDwyPz6",
+      "checkCode": "5"
+    },
+    {
+      "id": "322",
+      "name": "能盛牙醫診所",
+      "address": "北區建興里崇德路一段139號",
+      "tel": "(04)22368988",
+      "mapUrl": "https://goo.gl/maps/qsMCdz1yvAdje9G5A",
+      "checkCode": "7"
+    },
+    {
+      "id": "323",
+      "name": "德美內科診所",
+      "address": "北區建興里崇德路一段147號",
+      "tel": "(04)22359337",
+      "mapUrl": "https://goo.gl/maps/wfg3f7ddaqY1vLH88",
+      "checkCode": "5"
+    },
+    {
+      "id": "324",
+      "name": "得醫診所",
+      "address": "北區英才路286號",
+      "tel": "(04)22058699",
+      "mapUrl": "https://goo.gl/maps/cwJ9eMnWrxD5g1NL7",
+      "checkCode": "5"
+    },
+    {
+      "id": "325",
+      "name": "陳世爵診所",
+      "address": "北區英才路386之8號",
+      "tel": "(04)23296088",
+      "mapUrl": "https://goo.gl/maps/Ffh92sxQoaiH9KLy6",
+      "checkCode": "5"
+    },
+    {
+      "id": "326",
+      "name": "謙和牙醫診所",
+      "address": "北區英才路394號",
+      "tel": "(04)23190269",
+      "mapUrl": "https://g.page/harmonydentalclinic168?share",
+      "checkCode": "7"
+    },
+    {
+      "id": "327",
+      "name": "白家庭醫學科診所",
+      "address": "北區益華街62號",
+      "tel": "(04)22354146",
+      "mapUrl": "https://goo.gl/maps/dUaHeozyuinMUZ396",
+      "checkCode": "5"
+    },
+    {
+      "id": "328",
+      "name": "家昌耳鼻喉科診所",
+      "address": "北區陜西路62號",
+      "tel": "(04)22993888",
+      "mapUrl": "https://goo.gl/maps/TC3c6PJkQTG7oA3h9",
+      "checkCode": "7"
+    },
+    {
+      "id": "329",
+      "name": "耀隆診所",
+      "address": "北區陝西路27之1號",
+      "tel": "(04)22935200",
+      "mapUrl": "https://g.page/Dr-yaolung-kidney?share",
+      "checkCode": "5"
+    },
+    {
+      "id": "330",
+      "name": "趙婦產科診所",
+      "address": "北區高風里民族路 326號",
+      "tel": "(04)22020866",
+      "mapUrl": "https://goo.gl/maps/3aCaAaZj3NmJ66T89",
+      "checkCode": "3"
+    },
+    {
+      "id": "331",
+      "name": "和興診所",
+      "address": "北區健行路870-1號",
+      "tel": "(04)22035185",
+      "mapUrl": "https://goo.gl/maps/b8ypsKd1uBrDDoPR8",
+      "checkCode": "5"
+    },
+    {
+      "id": "332",
+      "name": "國泰牙醫診所",
+      "address": "北區國泰街115號",
+      "tel": "(04)22375617",
+      "mapUrl": "https://goo.gl/maps/wF2HTRqQZahfFxhM7",
+      "checkCode": "7"
+    },
+    {
+      "id": "333",
+      "name": "仟順診所",
+      "address": "北區崇德里崇德路1段502號",
+      "tel": "(04)22316600",
+      "mapUrl": "https://goo.gl/maps/JdUGJ39LJUMWQFss6",
+      "checkCode": "5"
+    },
+    {
+      "id": "334",
+      "name": "全方位牙醫診所",
+      "address": "北區崇德路一段513號",
+      "tel": "(04)22310880",
+      "mapUrl": "https://g.page/TotalOralCareDent?share",
+      "checkCode": "7"
+    },
+    {
+      "id": "335",
+      "name": "林倉祺診所",
+      "address": "北區崇德路一段526號",
+      "tel": "(04)22367288",
+      "mapUrl": "https://g.page/hemorrhoid001?share",
+      "checkCode": "5"
+    },
+    {
+      "id": "336",
+      "name": "幼祥中西醫聯合診所幼祥小兒科診所",
+      "address": "北區崇德路一段531號",
+      "tel": "(04)22328500",
+      "mapUrl": "https://goo.gl/maps/LZJdRSUAXEujmLeB8",
+      "checkCode": "5"
+    },
+    {
+      "id": "337",
+      "name": "紀外科泌尿科診所",
+      "address": "北區梅亭街479號",
+      "tel": "(04)22050357",
+      "mapUrl": "https://goo.gl/maps/jt14Xcy644ZKcU567",
+      "checkCode": "5"
+    },
+    {
+      "id": "338",
+      "name": "新馬偕婦產科診所",
+      "address": "北區頂厝里漢口路四段320號",
+      "tel": "(04)22373822",
+      "mapUrl": "https://goo.gl/maps/22F1ka91KfsLg5cJA",
+      "checkCode": "15"
+    },
+    {
+      "id": "339",
+      "name": "紀令儀牙醫診所",
+      "address": "北區進化北路299號",
+      "tel": "(04)22350357",
+      "mapUrl": "https://goo.gl/maps/5PNFmTcjcT5Z6QYb8",
+      "checkCode": "7"
+    },
+    {
+      "id": "340",
+      "name": "台中家幼診所",
+      "address": "北區進化北路96號",
+      "tel": "(04)22315588",
+      "mapUrl": "https://goo.gl/maps/95c3RwoSjLTRykfs7",
+      "checkCode": "5"
+    },
+    {
+      "id": "341",
+      "name": "蔡順宗診所",
+      "address": "北區漢口路3段59號",
+      "tel": "(04)22968593",
+      "mapUrl": "https://goo.gl/maps/fs185S5VS8mpSRjH6",
+      "checkCode": "5"
+    },
+    {
+      "id": "342",
+      "name": "欣揚診所",
+      "address": "北區漢口路4段306號、308號",
+      "tel": "(04)22373880",
+      "mapUrl": "https://goo.gl/maps/WoMUXjLNrQCU9sQ17",
+      "checkCode": "35"
+    },
+    {
+      "id": "343",
+      "name": "鄭俊智診所",
+      "address": "北區漢口路4段50號",
+      "tel": "(04)22957083",
+      "mapUrl": "https://goo.gl/maps/i7uSWSU3fwzPyHiv7",
+      "checkCode": "5"
+    },
+    {
+      "id": "344",
+      "name": "小太陽聯合診所",
+      "address": "北區漢口路三段179號",
+      "tel": "(04)22955656",
+      "mapUrl": "https://goo.gl/maps/5f1AdaKYcQRL7Ypx9",
+      "checkCode": "5"
+    },
+    {
+      "id": "345",
+      "name": "展弘耳鼻喉科診所",
+      "address": "北區漢口路四段322號",
+      "tel": "(04)22307388",
+      "mapUrl": "https://goo.gl/maps/7VMcuLLnGBahh2bw8",
+      "checkCode": "35"
+    },
+    {
+      "id": "346",
+      "name": "黃婦產科診所",
+      "address": "北區遠志里民族路 248號",
+      "tel": "(04)22210801",
+      "mapUrl": "https://goo.gl/maps/LvAVyZGR4oE3siUaA",
+      "checkCode": "3"
+    },
+    {
+      "id": "347",
+      "name": "文冠內科診所",
+      "address": "北區學士路255.257號5樓",
+      "tel": "(04)22080199",
+      "mapUrl": "https://goo.gl/maps/oKB2H9XJgSEet8sR9",
+      "checkCode": "5"
+    },
+    {
+      "id": "348",
+      "name": "期待牙醫診所",
+      "address": "北區學士路283號",
+      "tel": "(04)22023500",
+      "mapUrl": "https://goo.gl/maps/R7nnfJQTRFBR4tTY8",
+      "checkCode": "7"
+    },
+    {
+      "id": "349",
+      "name": "張右川診所",
+      "address": "北區興進路211之2號、211之3號",
+      "tel": "(04)22329988",
+      "mapUrl": "https://goo.gl/maps/ZeDzmr9wmFTfg1nK6",
+      "checkCode": "5"
+    },
+    {
+      "id": "350",
+      "name": "吳志中診所",
+      "address": "北區賴村里健行路 510號",
+      "tel": "(04)22059412",
+      "mapUrl": "https://goo.gl/maps/sKTvX1TPk4SZ8Tah8",
+      "checkCode": "5"
+    },
+    {
+      "id": "351",
+      "name": "蔡崇仁家庭醫學科診所",
+      "address": "北區賴村里健行路 528號",
+      "tel": "(04)22051368",
+      "mapUrl": "https://goo.gl/maps/LSdgRHJiTxGbhC7r8",
+      "checkCode": "5"
+    },
+    {
+      "id": "352",
+      "name": "弘安家庭醫學科診所",
+      "address": "北區賴明里天津路2段166號",
+      "tel": "(04)22978068",
+      "mapUrl": "https://goo.gl/maps/9spZsPrv6zKGdmwRA",
+      "checkCode": "5"
+    },
+    {
+      "id": "353",
+      "name": "廖叔平牙醫診所",
+      "address": "北區賴厝里進化北路378之38號",
+      "tel": "(04)22302771",
+      "mapUrl": "https://goo.gl/maps/KHEVft7pGDCHrzgq7",
+      "checkCode": "7"
+    },
+    {
+      "id": "354",
+      "name": "巧比小兒科診所",
+      "address": "北區賴興里北平路二段43號",
+      "tel": "(04)22957373",
+      "mapUrl": "https://goo.gl/maps/FD3rQsBD2HZ5tKQJ8",
+      "checkCode": "35"
+    },
+    {
+      "id": "355",
+      "name": "林健家庭醫學科診所",
+      "address": "北區錦祥里進化路 643號",
+      "tel": "(04)22323010",
+      "mapUrl": "https://goo.gl/maps/m9SkXcu6D7NgVrSX8",
+      "checkCode": "35"
+    },
+    {
+      "id": "356",
+      "name": "臺安醫院雙十分院",
+      "address": "北區雙十路二段29號",
+      "tel": "(04)22268990",
+      "mapUrl": "https://goo.gl/maps/hFXrAo2JiTqRwrv6A",
+      "checkCode": "35"
+    },
+    {
+      "id": "357",
+      "name": "慈仁診所",
+      "address": "北區平等里五權路 488之8號6樓",
+      "tel": "(04)22057398",
+      "mapUrl": "https://goo.gl/maps/W9rrf1t4U1MEe1ZW7",
+      "checkCode": "5"
+    }
+  ],
+  "406": [
+    {
+      "id": "192",
+      "name": "鍾錦彬診所",
+      "address": "北屯區三光里北屯路212巷6號",
+      "tel": "(04)22329758",
+      "mapUrl": "https://goo.gl/maps/wLmrLFwRe5RMAVH99",
+      "checkCode": "5"
+    },
+    {
+      "id": "193",
+      "name": "徐長庚診所",
+      "address": "北屯區三光里北屯路212巷8號",
+      "tel": "(04)22313168",
+      "mapUrl": "https://goo.gl/maps/BEe86D4ymntQjPQ46",
+      "checkCode": "5"
+    },
+    {
+      "id": "194",
+      "name": "德康美學牙醫診所",
+      "address": "北屯區大連路2段 235號",
+      "tel": "(04)22412307",
+      "mapUrl": "https://goo.gl/maps/R21xPCQZp8M7z8su5",
+      "checkCode": "7"
+    },
+    {
+      "id": "195",
+      "name": "蘇益寬小兒科診所",
+      "address": "北屯區大連路一段4號",
+      "tel": "(04)22956686",
+      "mapUrl": "https://goo.gl/maps/T6HwmNWDagoZGvfEA",
+      "checkCode": "5"
+    },
+    {
+      "id": "196",
+      "name": "小森林診所",
+      "address": "北屯區大連路二段 223號",
+      "tel": "(04)22476567",
+      "mapUrl": "https://goo.gl/maps/6evZooutKd8AtmXDA",
+      "checkCode": "5"
+    },
+    {
+      "id": "197",
+      "name": "張素瑜婦產科診所",
+      "address": "北屯區大連路二段 226號",
+      "tel": "(04)22420201",
+      "mapUrl": "https://goo.gl/maps/XcMPVb1RKRfdPsMv6",
+      "checkCode": "3"
+    },
+    {
+      "id": "198",
+      "name": "小蘋果小兒科診所",
+      "address": "北屯區山西路2段 264號",
+      "tel": "(04)22951800",
+      "mapUrl": "https://goo.gl/maps/EA7tuhkDiT27vy9VA",
+      "checkCode": "5"
+    },
+    {
+      "id": "199",
+      "name": "昆海診所",
+      "address": "北屯區中清路2段 268號",
+      "tel": "(04)22925045",
+      "mapUrl": "https://goo.gl/maps/34M4rPZBpCfG3eqf7",
+      "checkCode": "35"
+    },
+    {
+      "id": "200",
+      "name": "水湳婦產科診所",
+      "address": "北屯區中清路2段 121號、123號",
+      "tel": "(04)22992726",
+      "mapUrl": "https://goo.gl/maps/vCdazq9BVezpq4ATA",
+      "checkCode": "15"
+    },
+    {
+      "id": "201",
+      "name": "曾耳鼻喉科診所",
+      "address": "北屯區中清路2段 326號",
+      "tel": "(04)22956969",
+      "mapUrl": "https://goo.gl/maps/iS1HF3tJrvbughv27",
+      "checkCode": "35"
+    },
+    {
+      "id": "202",
+      "name": "惠幼診所",
+      "address": "北屯區中清路2段 490號",
+      "tel": "(04)22919222",
+      "mapUrl": "https://goo.gl/maps/9ZMiEhSaPWUndaoGA",
+      "checkCode": "5"
+    },
+    {
+      "id": "203",
+      "name": "曾慶華外科泌尿科診所",
+      "address": "北屯區中清路二段 318號",
+      "tel": "(04)22933398",
+      "mapUrl": "https://goo.gl/maps/dBMSC5KzqfvHJfce9",
+      "checkCode": "5"
+    },
+    {
+      "id": "204",
+      "name": "全民醫院",
+      "address": "北屯區中清路二段 516號",
+      "tel": "(04)22916666",
+      "mapUrl": "https://goo.gl/maps/tb7Y96v5EhsK3vUp7",
+      "checkCode": "5"
+    },
+    {
+      "id": "205",
+      "name": "張廣智耳鼻喉科診所",
+      "address": "北屯區中清路二段 531號、533號",
+      "tel": "(04)22924703",
+      "mapUrl": "https://goo.gl/maps/GSm5xtYKFk7o2RFEA",
+      "checkCode": "35"
+    },
+    {
+      "id": "206",
+      "name": "佑康診所",
+      "address": "北屯區中清路二段 586號",
+      "tel": "(04)22923922",
+      "mapUrl": "https://goo.gl/maps/wKM6Z1jFgkJvoPkS7",
+      "checkCode": "5"
+    },
+    {
+      "id": "207",
+      "name": "駿朋診所",
+      "address": "北屯區中清路二段 616號",
+      "tel": "(04)22951778",
+      "mapUrl": "https://goo.gl/maps/dPHYQ4VtiQSJSBga9",
+      "checkCode": "35"
+    },
+    {
+      "id": "208",
+      "name": "韓勝通耳鼻喉科診所",
+      "address": "北屯區中清路二段 716號",
+      "tel": "(04)22936889",
+      "mapUrl": "https://goo.gl/maps/FqEXtYhPPbZa7gss5",
+      "checkCode": "35"
+    },
+    {
+      "id": "209",
+      "name": "見安診所",
+      "address": "北屯區仁和里四平路451號",
+      "tel": "(04)24228183",
+      "mapUrl": "https://goo.gl/maps/tqJM1YNnvhFiJsc27",
+      "checkCode": "5"
+    },
+    {
+      "id": "210",
+      "name": "明陽診所",
+      "address": "北屯區仁和里昌平路二段46號",
+      "tel": "(04)24227333",
+      "mapUrl": "https://goo.gl/maps/CUdDAqxjLuXBfVNN6",
+      "checkCode": "105"
+    },
+    {
+      "id": "211",
+      "name": "方德涵診所",
+      "address": "北屯區太順路82號",
+      "tel": "(04)24369555",
+      "mapUrl": "https://goo.gl/maps/J4GPuZEJqKRwgdRD9",
+      "checkCode": "5"
+    },
+    {
+      "id": "212",
+      "name": "樂芙婦產科診所",
+      "address": "北屯區文心路四段 257號",
+      "tel": "(04)22922299",
+      "mapUrl": "https://goo.gl/maps/EKdxtHDdSVv86n2W8",
+      "checkCode": "3"
+    },
+    {
+      "id": "213",
+      "name": "雲品診所",
+      "address": "北屯區文心路四段 522之2號",
+      "tel": "(04)22340535",
+      "mapUrl": "https://goo.gl/maps/dFsdzj7ieZAnqKQYA",
+      "checkCode": "10"
+    },
+    {
+      "id": "214",
+      "name": "許明正婦產科診所",
+      "address": "北屯區文心路四段 750號",
+      "tel": "(04)22379191",
+      "mapUrl": "https://goo.gl/maps/HhMxXq1iNtd91bJm7",
+      "checkCode": "15"
+    },
+    {
+      "id": "215",
+      "name": "安心婦產科診所",
+      "address": "北屯區文心路四段 937號",
+      "tel": "(04)22437541",
+      "mapUrl": "https://goo.gl/maps/BNxqs1P5n4TRBUbg6",
+      "checkCode": "3"
+    },
+    {
+      "id": "216",
+      "name": "德林牙醫診所",
+      "address": "北屯區文心路四段八八二號",
+      "tel": "(04)22315122",
+      "mapUrl": "https://goo.gl/maps/ZWeDsyjQDtYFh5JMA",
+      "checkCode": "7"
+    },
+    {
+      "id": "217",
+      "name": "德義牙醫診所",
+      "address": "北屯區北屯里北屯路32之2號",
+      "tel": "(04)22324027",
+      "mapUrl": "https://goo.gl/maps/vM5KNanNMDYw164j8",
+      "checkCode": "7"
+    },
+    {
+      "id": "218",
+      "name": "安品牙醫診所",
+      "address": "北屯區北屯里青島路4段217–1號",
+      "tel": "(04)22313268",
+      "mapUrl": "https://goo.gl/maps/i6LvrvZfFvyoudgn6",
+      "checkCode": "7"
+    },
+    {
+      "id": "219",
+      "name": "博民診所",
+      "address": "北屯區北屯里進化北路6號",
+      "tel": "(04)22311919",
+      "mapUrl": "https://goo.gl/maps/EggF6PmAXWYcJsT27",
+      "checkCode": "5"
+    },
+    {
+      "id": "220",
+      "name": "品悅牙醫診所",
+      "address": "北屯區北屯路198之 3號",
+      "tel": "(04)22335100",
+      "mapUrl": "https://goo.gl/maps/eCosPesrErPjZUQY7",
+      "checkCode": "7"
+    },
+    {
+      "id": "221",
+      "name": "英吉診所",
+      "address": "北屯區北屯路213號",
+      "tel": "(04)22336897",
+      "mapUrl": "https://goo.gl/maps/vovFb96c3eahTUQm9",
+      "checkCode": "5"
+    },
+    {
+      "id": "222",
+      "name": "安安診所",
+      "address": "北屯區北屯路299之 4號",
+      "tel": "(04)22304309",
+      "mapUrl": "https://goo.gl/maps/yQnrJ6S4rQRLqSZQ6",
+      "checkCode": "5"
+    },
+    {
+      "id": "223",
+      "name": "光馨家庭醫學科診所",
+      "address": "北屯區北屯路385之 5號及385之6號",
+      "tel": "(04)22341479",
+      "mapUrl": "https://goo.gl/maps/4hobSJZprmJK9f1p8",
+      "checkCode": "5"
+    },
+    {
+      "id": "224",
+      "name": "優幼診所",
+      "address": "北屯區北屯路435- 16號",
+      "tel": "(04)22493636",
+      "mapUrl": "https://goo.gl/maps/jWzQSa54VPzotPKAA",
+      "checkCode": "5"
+    },
+    {
+      "id": "225",
+      "name": "景泰牙醫診所",
+      "address": "北屯區北屯路439之 5號",
+      "tel": "(04)22472833",
+      "mapUrl": "https://goo.gl/maps/Xrc8QT2oACcJuRXH8",
+      "checkCode": "7"
+    },
+    {
+      "id": "226",
+      "name": "承安耳鼻喉科診所",
+      "address": "北屯區北屯路441號",
+      "tel": "(04)22425252",
+      "mapUrl": "https://goo.gl/maps/uJ5qNkeSxRNPyutV6",
+      "checkCode": "7"
+    },
+    {
+      "id": "227",
+      "name": "智佳診所",
+      "address": "北屯區北平路四段 59號",
+      "tel": "(04)22345680",
+      "mapUrl": "https://g.page/Zeruelclinic?share",
+      "checkCode": "5"
+    },
+    {
+      "id": "228",
+      "name": "劉昌興小兒科診所",
+      "address": "北屯區四民里四平路352號",
+      "tel": "(04)24221656",
+      "mapUrl": "https://goo.gl/maps/e6hB8HmEnJHXg4gR8",
+      "checkCode": "5"
+    },
+    {
+      "id": "229",
+      "name": "瑞健診所",
+      "address": "北屯區平田里興安路一段341號",
+      "tel": "(04)22416859",
+      "mapUrl": "https://goo.gl/maps/ie84pv1aQ8BQunGw8",
+      "checkCode": "105"
+    },
+    {
+      "id": "230",
+      "name": "寶存家庭醫學科診所",
+      "address": "北屯區平安里青島路四段130號",
+      "tel": "(04)22375851",
+      "mapUrl": "https://goo.gl/maps/Gh7vC6B2t1yFeuDD7",
+      "checkCode": "35"
+    },
+    {
+      "id": "231",
+      "name": "椰林牙醫診所",
+      "address": "北屯區平安里崇德路1段586–2號",
+      "tel": "(04)22363228",
+      "mapUrl": "https://goo.gl/maps/NL1WSX4NpJnAn8sJ6",
+      "checkCode": "7"
+    },
+    {
+      "id": "232",
+      "name": "林育民診所",
+      "address": "北屯區平安里熱河路二段57號",
+      "tel": "(04)22317459",
+      "mapUrl": "https://goo.gl/maps/qVkwQ9NSqzZjQwwN8",
+      "checkCode": "5"
+    },
+    {
+      "id": "233",
+      "name": "郭婦產科診所",
+      "address": "北屯區平順里文心路四段753號",
+      "tel": "(04)22436037",
+      "mapUrl": "https://goo.gl/maps/N26SKrXCGsw5r5uV8",
+      "checkCode": "3"
+    },
+    {
+      "id": "234",
+      "name": "陳建州診所",
+      "address": "北屯區田平里昌平路1段176號",
+      "tel": "(04)22307111",
+      "mapUrl": "https://goo.gl/maps/QJ7oen9AFg6VfxK86",
+      "checkCode": "5"
+    },
+    {
+      "id": "235",
+      "name": "台中市北屯區四民衛生所",
+      "address": "北屯區后庄路1062號",
+      "tel": "(04)24211945",
+      "mapUrl": "https://goo.gl/maps/mhPmDfquuhRE9UQU9",
+      "checkCode": "5"
+    },
+    {
+      "id": "236",
+      "name": "新美佳牙醫診所",
+      "address": "北屯區昌平東六路 237號",
+      "tel": "(04)24223608",
+      "mapUrl": "https://g.page/SinmayjiaDental?share",
+      "checkCode": "7"
+    },
+    {
+      "id": "237",
+      "name": "博鴻牙醫診所",
+      "address": "北屯區昌平路1段 107號",
+      "tel": "(04)22492000",
+      "mapUrl": "https://goo.gl/maps/sjLZgaavzW8KUb8T9",
+      "checkCode": "7"
+    },
+    {
+      "id": "238",
+      "name": "楊進順診所",
+      "address": "北屯區昌平路1段 338號",
+      "tel": "(04)22492266",
+      "mapUrl": "https://goo.gl/maps/qYFtDegesvTHvUSK7",
+      "checkCode": "5"
+    },
+    {
+      "id": "239",
+      "name": "陳憲立小兒科診所",
+      "address": "北屯區昌平路1段42號",
+      "tel": "(04)22335878",
+      "mapUrl": "https://goo.gl/maps/p1W58WPyVKpFrJ9j8",
+      "checkCode": "5"
+    },
+    {
+      "id": "240",
+      "name": "愛兒診所",
+      "address": "北屯區昌平路2段1之2號",
+      "tel": "(04)22472837",
+      "mapUrl": "https://goo.gl/maps/kQbeYjNFnwmeYJFs9",
+      "checkCode": "5"
+    },
+    {
+      "id": "241",
+      "name": "茂盛醫院",
+      "address": "北屯區昌平路一段 30之6號",
+      "tel": "(04)22347057",
+      "mapUrl": "https://g.page/ivftaiwan?share",
+      "checkCode": "210"
+    },
+    {
+      "id": "242",
+      "name": "陳茂庭外婦科診所",
+      "address": "北屯區昌平路一段 86號",
+      "tel": "(04)22352233",
+      "mapUrl": "https://goo.gl/maps/NLsCUuLaXDLP7N3u7",
+      "checkCode": "5"
+    },
+    {
+      "id": "243",
+      "name": "蘇游耳鼻喉科診所",
+      "address": "北屯區昌平路一段 99–3號",
+      "tel": "(04)22462420",
+      "mapUrl": "https://goo.gl/maps/nubHKko274SQgB2n7",
+      "checkCode": "35"
+    },
+    {
+      "id": "244",
+      "name": "曾文星耳鼻喉科診所",
+      "address": "北屯區昌平路二段 11之37號",
+      "tel": "(04)22417898",
+      "mapUrl": "https://goo.gl/maps/YhVWCjG2qeneUFZJA",
+      "checkCode": "35"
+    },
+    {
+      "id": "245",
+      "name": "陳玄宗診所",
+      "address": "北屯區昌平路二段9之8號",
+      "tel": "(04)22477588",
+      "mapUrl": "https://goo.gl/maps/x3MY6UqaHdJXu1T47",
+      "checkCode": "5"
+    },
+    {
+      "id": "246",
+      "name": "寶健聯合門診寶健耳鼻喉科診所",
+      "address": "北屯區東山路1段 216–23號",
+      "tel": "(04)24369053",
+      "mapUrl": "https://g.page/paochienclinic?share",
+      "checkCode": "35"
+    },
+    {
+      "id": "247",
+      "name": "弘光診所",
+      "address": "北屯區東山路1段 308號",
+      "tel": "(04)24378500",
+      "mapUrl": "https://goo.gl/maps/R2HzoAgXr1BZeugTA",
+      "checkCode": "15"
+    },
+    {
+      "id": "248",
+      "name": "東山家庭醫學科診所",
+      "address": "北屯區東山路1段 308號",
+      "tel": "(04)24378500",
+      "mapUrl": "https://goo.gl/maps/H48wZwGQtjbmYAM37",
+      "checkCode": "15"
+    },
+    {
+      "id": "249",
+      "name": "芳鄰診所",
+      "address": "北屯區東山路一段 240號",
+      "tel": "(04)24371433",
+      "mapUrl": "https://goo.gl/maps/a6ywB8W2ZV25hoMT7",
+      "checkCode": "5"
+    },
+    {
+      "id": "250",
+      "name": "幼恩小兒科診所",
+      "address": "北屯區東山路一段 298之2號",
+      "tel": "(04)24376238",
+      "mapUrl": "https://goo.gl/maps/hzd5fwnxeG7YroFw8",
+      "checkCode": "5"
+    },
+    {
+      "id": "251",
+      "name": "承康診所",
+      "address": "北屯區東山路一段 300之1號",
+      "tel": "(04)24377838",
+      "mapUrl": "https://goo.gl/maps/vcozVucjMd1TP8sNA",
+      "checkCode": "5"
+    },
+    {
+      "id": "252",
+      "name": "恩生婦產科診所",
+      "address": "北屯區東光里北屯路258–1之1號．",
+      "tel": "(04)22439903",
+      "mapUrl": "https://goo.gl/maps/1uCctmamHfj9roRg9",
+      "checkCode": "3"
+    },
+    {
+      "id": "253",
+      "name": "聯安醫院",
+      "address": "北屯區東光里東山路一段37號",
+      "tel": "(04)22441995",
+      "mapUrl": "https://goo.gl/maps/5EYQJ2dkQsRxtsbm7",
+      "checkCode": "35"
+    },
+    {
+      "id": "254",
+      "name": "王榮森小兒科診所",
+      "address": "北屯區松竹里昌平路二段11之9號",
+      "tel": "(04)22451674",
+      "mapUrl": "https://goo.gl/maps/ERY15JZxqMCCNqLh9",
+      "checkCode": "5"
+    },
+    {
+      "id": "255",
+      "name": "莊雅旭小兒科診所",
+      "address": "北屯區松竹路2段 155號",
+      "tel": "(04)22411723",
+      "mapUrl": "https://goo.gl/maps/MdjXnfe6nvrstYGFA",
+      "checkCode": "35"
+    },
+    {
+      "id": "256",
+      "name": "永新診所",
+      "address": "北屯區松竹路2段 159號",
+      "tel": "(04)22467799",
+      "mapUrl": "https://goo.gl/maps/MQ4STUfPb38mDEXc6",
+      "checkCode": "35"
+    },
+    {
+      "id": "257",
+      "name": "杏鴻耳鼻喉科診所",
+      "address": "北屯區松竹路2段 206號",
+      "tel": "(04)22466662",
+      "mapUrl": "https://goo.gl/maps/rAaxXPComHTsZHdh9",
+      "checkCode": "7"
+    },
+    {
+      "id": "258",
+      "name": "元亨診所",
+      "address": "北屯區松竹路2段 303號",
+      "tel": "(04)22413959",
+      "mapUrl": "https://goo.gl/maps/561zvunw7gneRgjq8",
+      "checkCode": "5"
+    },
+    {
+      "id": "259",
+      "name": "林子巡診所",
+      "address": "北屯區松竹路2段 667號",
+      "tel": "(04)22413636",
+      "mapUrl": "https://goo.gl/maps/bWRmMJa721MUGoQw7",
+      "checkCode": "35"
+    },
+    {
+      "id": "260",
+      "name": "陳伍瑚診所",
+      "address": "北屯區松明街92號",
+      "tel": "(04)22449107",
+      "mapUrl": "https://goo.gl/maps/o2UTd8zNwWC8QuaS9",
+      "checkCode": "5"
+    },
+    {
+      "id": "261",
+      "name": "松竹牙醫診所",
+      "address": "北屯區松茂里松竹路二段142號",
+      "tel": "(04)22441138",
+      "mapUrl": "https://goo.gl/maps/8WfCz6qZG4YbXABp6",
+      "checkCode": "7"
+    },
+    {
+      "id": "262",
+      "name": "吳明峰診所",
+      "address": "北屯區青島路四段 19號",
+      "tel": "(04)22368389",
+      "mapUrl": "https://goo.gl/maps/GodchnmPCzoReRKz5",
+      "checkCode": "35"
+    },
+    {
+      "id": "263",
+      "name": "安信牙醫診所",
+      "address": "北屯區軍功里東山路一段225號",
+      "tel": "(04)24373548",
+      "mapUrl": "https://goo.gl/maps/g52fU2mFKyH27C1c7",
+      "checkCode": "7"
+    },
+    {
+      "id": "264",
+      "name": "江英杰診所",
+      "address": "北屯區軍功里東山路一段239之6號",
+      "tel": "(04)24368789",
+      "mapUrl": "https://goo.gl/maps/zn57V2ikf3jqedAFA",
+      "checkCode": "35"
+    },
+    {
+      "id": "265",
+      "name": "福音牙醫診所",
+      "address": "北屯區軍功里軍功路一段633號",
+      "tel": "(04)24370743",
+      "mapUrl": "https://goo.gl/maps/nfzpYift8JfBCrCk8",
+      "checkCode": "7"
+    },
+    {
+      "id": "266",
+      "name": "李彥德耳鼻喉科診所",
+      "address": "北屯區軍功路1段 732號",
+      "tel": "(04)24373125",
+      "mapUrl": "https://goo.gl/maps/PE2bNMoeZWynd8de9",
+      "checkCode": "35"
+    },
+    {
+      "id": "267",
+      "name": "謝東運耳鼻喉科診所",
+      "address": "北屯區軍功路一段 487之1號",
+      "tel": "(04)24376608",
+      "mapUrl": "https://goo.gl/maps/GW8wqjwarrSHJJbX9",
+      "checkCode": "35"
+    },
+    {
+      "id": "268",
+      "name": "軍功診所",
+      "address": "北屯區軍功路一段 535號",
+      "tel": "(04)24364056",
+      "mapUrl": "https://goo.gl/maps/TvprgN96PtCQH9FJA",
+      "checkCode": "5"
+    },
+    {
+      "id": "269",
+      "name": "臺中市北屯區軍功衛生所",
+      "address": "北屯區軍功路二段 16號",
+      "tel": "(04)22393932",
+      "mapUrl": "https://goo.gl/maps/TxqB99DvFvjkDVbAA",
+      "checkCode": "5"
+    },
+    {
+      "id": "270",
+      "name": "宥勛牙醫診所",
+      "address": "北屯區旅順路1段93之6號、93之11號",
+      "tel": "(04)22961686",
+      "mapUrl": "https://goo.gl/maps/erjgP6KpakTWqBiRA",
+      "checkCode": "7"
+    },
+    {
+      "id": "271",
+      "name": "萊恩耳鼻喉科診所",
+      "address": "北屯區崇德路2段 205號、夾層",
+      "tel": "(04)22466000",
+      "mapUrl": "https://goo.gl/maps/m7WYwCwYeBL8tk2E7",
+      "checkCode": "7"
+    },
+    {
+      "id": "272",
+      "name": "守真牙醫診所",
+      "address": "北屯區崇德路二段 269號",
+      "tel": "(04)22450010",
+      "mapUrl": "https://goo.gl/maps/ngk5WofWcybGAtGH9",
+      "checkCode": "7"
+    },
+    {
+      "id": "273",
+      "name": "臻嬡婦產科診所",
+      "address": "北屯區崇德路二段 340號",
+      "tel": "(04)22478996",
+      "mapUrl": "https://goo.gl/maps/LKHUAnHxvFXKRYNg8",
+      "checkCode": "3"
+    },
+    {
+      "id": "274",
+      "name": "翔霖診所",
+      "address": "北屯區崇德路二段 452號",
+      "tel": "(04)22410725",
+      "mapUrl": "https://goo.gl/maps/2WbWpuFz4bo4itGS6",
+      "checkCode": "35"
+    },
+    {
+      "id": "275",
+      "name": "吉祥耳鼻喉科診所",
+      "address": "北屯區崇德路二段 461．463號",
+      "tel": "(04)22467388",
+      "mapUrl": "https://goo.gl/maps/P4aLtf6WRsD77ymSA",
+      "checkCode": "35"
+    },
+    {
+      "id": "276",
+      "name": "盛誠牙醫診所",
+      "address": "北屯區崇德路二段三○三號",
+      "tel": "(04)22412659",
+      "mapUrl": "https://goo.gl/maps/81j6bxoFRnTkbuaJA",
+      "checkCode": "7"
+    },
+    {
+      "id": "277",
+      "name": "張世聰診所",
+      "address": "北屯區陳平一街139號",
+      "tel": "(04)22983543",
+      "mapUrl": "https://goo.gl/maps/UcjKgx2PoCVsASQi6",
+      "checkCode": "5"
+    },
+    {
+      "id": "278",
+      "name": "快樂牙醫診所",
+      "address": "北屯區敦化路一段 585號",
+      "tel": "(04)22979073",
+      "mapUrl": "https://goo.gl/maps/AVKMta8auakZdLoo8",
+      "checkCode": "7"
+    },
+    {
+      "id": "279",
+      "name": "鎧緯耳鼻喉科診所",
+      "address": "北屯區景賢路276號",
+      "tel": "(04)24369187",
+      "mapUrl": "https://goo.gl/maps/aZeKXc6qvff99a7b9",
+      "checkCode": "35"
+    },
+    {
+      "id": "280",
+      "name": "張內科診所",
+      "address": "北屯區景賢路282號",
+      "tel": "(04)24372551",
+      "mapUrl": "https://goo.gl/maps/MzL3TJs38FW1q9zn9",
+      "checkCode": "5"
+    },
+    {
+      "id": "281",
+      "name": "仁心牙醫診所",
+      "address": "北屯區熱河路三段 61號",
+      "tel": "(04)22438180",
+      "mapUrl": "https://goo.gl/maps/8UAKjskvRM9SX6cp6",
+      "checkCode": "7"
+    },
+    {
+      "id": "282",
+      "name": "仁信牙醫診所",
+      "address": "北屯區興安路1段 280號",
+      "tel": "(04)22451968",
+      "mapUrl": "https://goo.gl/maps/8U16BqroW5LN7Hqt6",
+      "checkCode": "7"
+    },
+    {
+      "id": "283",
+      "name": "和生診所",
+      "address": "北屯區興安路1段 320號",
+      "tel": "(04)22474788",
+      "mapUrl": "https://goo.gl/maps/KuWmCiDX4M8FLEw8A",
+      "checkCode": "5"
+    },
+    {
+      "id": "284",
+      "name": "王佑賢小兒科診所",
+      "address": "北屯區興安路2段 419號",
+      "tel": "(04)22474792",
+      "mapUrl": "https://goo.gl/maps/fSZqd7tKSELha3B26",
+      "checkCode": "5"
+    },
+    {
+      "id": "285",
+      "name": "大源診所",
+      "address": "北屯區興安路一段 335號",
+      "tel": "(04)22415463",
+      "mapUrl": "https://goo.gl/maps/qcyNvybwmHXBx3rs5",
+      "checkCode": "35"
+    },
+    {
+      "id": "286",
+      "name": "康康診所",
+      "address": "北屯區舊社里北屯路428–3號",
+      "tel": "(04)22461925",
+      "mapUrl": "https://goo.gl/maps/szkg1WVL1Z67rDXv8",
+      "checkCode": "5"
+    },
+    {
+      "id": "287",
+      "name": "王秉菴小兒科診所",
+      "address": "北屯區舊社里崇德路二段297號",
+      "tel": "(04)22427966",
+      "mapUrl": "https://goo.gl/maps/jkfqyxBsXuBwWGVT6",
+      "checkCode": "5"
+    }
+  ],
+  "407": [
+    {
+      "id": "375",
+      "name": "佳威牙醫診所",
+      "address": "西屯區上石里河南路2段452號",
+      "tel": "(04)24526658",
+      "mapUrl": "https://goo.gl/maps/Zir1gNkRLAbk8V6a7",
+      "checkCode": "7"
+    },
+    {
+      "id": "376",
+      "name": "翁耳鼻喉科診所",
+      "address": "西屯區上石里青海路2段209–3號",
+      "tel": "(04)24526346",
+      "mapUrl": "https://goo.gl/maps/yCehXvFcAmLMJDVJ8",
+      "checkCode": "5"
+    },
+    {
+      "id": "377",
+      "name": "愛加倍診所",
+      "address": "西屯區上安路117號",
+      "tel": "(04)24521416",
+      "mapUrl": "https://goo.gl/maps/2eXk92YX9mV86eEL9",
+      "checkCode": "5"
+    },
+    {
+      "id": "378",
+      "name": "楊朝弘診所",
+      "address": "西屯區大信街50號及52號2樓之1",
+      "tel": "(04)23169555",
+      "mapUrl": "https://goo.gl/maps/W8E9vWpwg3MwNiPY6",
+      "checkCode": "5"
+    },
+    {
+      "id": "379",
+      "name": "妙林診所",
+      "address": "西屯區大隆路153號",
+      "tel": "(04)23296138",
+      "mapUrl": "https://goo.gl/maps/rfqnQQiUhu3DfFSj9",
+      "checkCode": "5"
+    },
+    {
+      "id": "380",
+      "name": "安家小兒科診所",
+      "address": "西屯區大福里大鵬路9號",
+      "tel": "(04)22952020",
+      "mapUrl": "https://goo.gl/maps/wdjbbUemoMASCGv68",
+      "checkCode": "5"
+    },
+    {
+      "id": "381",
+      "name": "裕仁診所",
+      "address": "西屯區大墩19街208–1，–2號",
+      "tel": "(04)23199791",
+      "mapUrl": "https://goo.gl/maps/Ua5nxwoYnDQ9RGqT7",
+      "checkCode": "5"
+    },
+    {
+      "id": "382",
+      "name": "平安診所",
+      "address": "西屯區大墩路917– 1號",
+      "tel": "(04)23277206",
+      "mapUrl": "https://goo.gl/maps/6WoKHyi58MQzpnMRA",
+      "checkCode": "35"
+    },
+    {
+      "id": "383",
+      "name": "陳亮宇耳鼻喉科診所",
+      "address": "西屯區大墩路995號",
+      "tel": "(04)23203888",
+      "mapUrl": "https://g.page/ent995?share",
+      "checkCode": "7"
+    },
+    {
+      "id": "384",
+      "name": "佳銳牙醫診所",
+      "address": "西屯區大鵬路99號",
+      "tel": "(04)22950855",
+      "mapUrl": "https://goo.gl/maps/7PmKT12ncswno6Bn6",
+      "checkCode": "7"
+    },
+    {
+      "id": "385",
+      "name": "美兆診所",
+      "address": "西屯區工業區一路2巷3號12樓之1",
+      "tel": "(04)23598686",
+      "mapUrl": "https://goo.gl/maps/Ke8sSnyJHqJE1Tp7A",
+      "checkCode": "3"
+    },
+    {
+      "id": "386",
+      "name": "芮弗士醫事檢驗所",
+      "address": "西屯區工業區七路 15號3樓",
+      "tel": "(04)23509091",
+      "mapUrl": "https://goo.gl/maps/zPebaoSuHGeE6Amm7",
+      "checkCode": "5"
+    },
+    {
+      "id": "387",
+      "name": "大道診所",
+      "address": "北屯區昌平路二段9之8號",
+      "tel": "(04)23122060",
+      "mapUrl": "https://g.page/DaDaoClinic?share",
+      "checkCode": "5"
+    },
+    {
+      "id": "388",
+      "name": "張帆婦產科診所",
+      "address": "西屯區台灣大道3段 566號568號",
+      "tel": "(04)24513833",
+      "mapUrl": "https://g.page/wantbabyclinic?share",
+      "checkCode": "3"
+    },
+    {
+      "id": "389",
+      "name": "晨悅診所",
+      "address": "西屯區市政北二路 282號25樓",
+      "tel": "(04)22552555",
+      "mapUrl": "https://g.page/MORNJOY?share",
+      "checkCode": "3"
+    },
+    {
+      "id": "390",
+      "name": "全家家庭醫學科診所",
+      "address": "西屯區成都路219號",
+      "tel": "(04)23172989",
+      "mapUrl": "https://goo.gl/maps/oKuGrEb4467KYV8X7",
+      "checkCode": "35"
+    },
+    {
+      "id": "391",
+      "name": "奇譽耳鼻喉科診所",
+      "address": "西屯區西屯路2段 255號",
+      "tel": "(04)24523939",
+      "mapUrl": "https://goo.gl/maps/RoghKK8H7uFijK5a8",
+      "checkCode": "7"
+    },
+    {
+      "id": "392",
+      "name": "福茂聯合門診福茂牙醫診所",
+      "address": "西屯區西屯路2段 273之1號",
+      "tel": "(04)24518758",
+      "mapUrl": "https://goo.gl/maps/wEwyKVGKEAoNB72X7",
+      "checkCode": "7"
+    },
+    {
+      "id": "393",
+      "name": "福茂聯合門診福茂小兒科診所",
+      "address": "西屯區西屯路2段 273之1號",
+      "tel": "(04)24518758",
+      "mapUrl": "https://goo.gl/maps/wEwyKVGKEAoNB72X7",
+      "checkCode": "35"
+    },
+    {
+      "id": "394",
+      "name": "安笙婦產科診所",
+      "address": "西屯區西屯路2段82號",
+      "tel": "(04)23146240",
+      "mapUrl": "https://goo.gl/maps/FKyGPZCg7XreuP3H8",
+      "checkCode": "15"
+    },
+    {
+      "id": "395",
+      "name": "現代牙醫診所",
+      "address": "西屯區西屯路3段 148之33號",
+      "tel": "(04)24622336",
+      "mapUrl": "https://goo.gl/maps/7WsAoKaAXTqg16FZ9",
+      "checkCode": "7"
+    },
+    {
+      "id": "396",
+      "name": "福安耳鼻喉科診所",
+      "address": "西屯區西屯路3段 153之2號",
+      "tel": "(04)24650233",
+      "mapUrl": "https://goo.gl/maps/4AJyt8aym1GC1hNo8",
+      "checkCode": "7"
+    },
+    {
+      "id": "397",
+      "name": "卓越牙醫診所",
+      "address": "西屯區西屯路3段 159之53號",
+      "tel": "(04)24611374",
+      "mapUrl": "https://goo.gl/maps/YUPzhN6Kiqi92SD87",
+      "checkCode": "7"
+    },
+    {
+      "id": "398",
+      "name": "溢恩診所",
+      "address": "西屯區西屯路3段 166之12號",
+      "tel": "(04)24616186",
+      "mapUrl": "https://goo.gl/maps/Z1wk9nLLDzBxLdHd7",
+      "checkCode": "5"
+    },
+    {
+      "id": "399",
+      "name": "福科診所",
+      "address": "西屯區西屯路3段 166-31號",
+      "tel": "(04)24615768",
+      "mapUrl": "https://goo.gl/maps/QhMPkFtvxP559ua37",
+      "checkCode": "15"
+    },
+    {
+      "id": "400",
+      "name": "全威牙醫診所",
+      "address": "西屯區西屯路3段 169之1號",
+      "tel": "(04)24616100",
+      "mapUrl": "https://goo.gl/maps/fJ5sAwsUMtJjBxwL7",
+      "checkCode": "7"
+    },
+    {
+      "id": "401",
+      "name": "和德耳鼻喉科診所",
+      "address": "西屯區西屯路二段 100之18號",
+      "tel": "(04)23151156",
+      "mapUrl": "https://goo.gl/maps/kRYKLKVbgMbPMfMHA",
+      "checkCode": "35"
+    },
+    {
+      "id": "402",
+      "name": "朱永成耳鼻喉科診所",
+      "address": "西屯區西屯路三段 159之55號",
+      "tel": "(04)24618421",
+      "mapUrl": "https://goo.gl/maps/Bdy2Rdmv49NkMyLZ6",
+      "checkCode": "7"
+    },
+    {
+      "id": "403",
+      "name": "永群診所",
+      "address": "西屯區西屯路三段 166之27號",
+      "tel": "(04)24651235",
+      "mapUrl": "https://goo.gl/maps/PmR3tKvMVjzSfjcPA",
+      "checkCode": "5"
+    },
+    {
+      "id": "404",
+      "name": "新文心診所",
+      "address": "西屯區西平里逢甲路112號1Ｆ",
+      "tel": "(04)27062660",
+      "mapUrl": "https://goo.gl/maps/9myRNCjGcWbHfxb46",
+      "checkCode": "5"
+    },
+    {
+      "id": "405",
+      "name": "鴻仁診所",
+      "address": "西屯區西安里西屯路二段298–8號",
+      "tel": "(04)27021345",
+      "mapUrl": "https://goo.gl/maps/svxufhwkEzySLPn69",
+      "checkCode": "5"
+    },
+    {
+      "id": "406",
+      "name": "臺中市西屯區衛生所",
+      "address": "西屯區西安里西屯路二段299號",
+      "tel": "(04)27027068",
+      "mapUrl": "https://goo.gl/maps/HAa5vF2RSQtEpi5n7",
+      "checkCode": "5"
+    },
+    {
+      "id": "407",
+      "name": "三合牙醫診所",
+      "address": "西屯區何仁里重慶路241號",
+      "tel": "(04)23142647",
+      "mapUrl": "https://goo.gl/maps/o2ftmStzN5fxjoby6",
+      "checkCode": "7"
+    },
+    {
+      "id": "408",
+      "name": "婦欣診所",
+      "address": "西屯區何安里西屯路二段101之5號",
+      "tel": "(04)23130558",
+      "mapUrl": "https://goo.gl/maps/GJTZmevpZK36aUk37",
+      "checkCode": "3"
+    },
+    {
+      "id": "409",
+      "name": "漢諾威家庭醫學科診所",
+      "address": "西屯區何安里青海路一段112號",
+      "tel": "(04)23173069",
+      "mapUrl": "https://goo.gl/maps/RogXdWmoxXCHZhj2A",
+      "checkCode": "35"
+    },
+    {
+      "id": "410",
+      "name": "楊銘牙醫診所",
+      "address": "西屯區何南里大洲街93號",
+      "tel": "(04)23278837",
+      "mapUrl": "https://goo.gl/maps/yb1eg21nqbBAonEJ7",
+      "checkCode": "7"
+    },
+    {
+      "id": "411",
+      "name": "祐德牙醫診所",
+      "address": "西屯區何德里西屯路二段10之5號",
+      "tel": "(04)23122233",
+      "mapUrl": "https://goo.gl/maps/WjgeQUapHMkQcSU8A",
+      "checkCode": "7"
+    },
+    {
+      "id": "412",
+      "name": "辛隆士家庭醫學科診所",
+      "address": "西屯區東興路3段 369號",
+      "tel": "(04)23284798",
+      "mapUrl": "https://goo.gl/maps/4dhqnTtmK9xSZ1nj9",
+      "checkCode": "5"
+    },
+    {
+      "id": "413",
+      "name": "幸福婦產科診所",
+      "address": "西屯區河南路2段 309號",
+      "tel": "(04)27035408",
+      "mapUrl": "https://goo.gl/maps/3ZBpukxwbyRZt6X4A",
+      "checkCode": "3"
+    },
+    {
+      "id": "414",
+      "name": "林婦產科診所",
+      "address": "西屯區河南路二段 420號",
+      "tel": "(04)24514236",
+      "mapUrl": "https://goo.gl/maps/e1qwNnaKMwjVqLsUA",
+      "checkCode": "15"
+    },
+    {
+      "id": "415",
+      "name": "大業診所",
+      "address": "西屯區河南路四段 195號",
+      "tel": "(04)22583300",
+      "mapUrl": "https://goo.gl/maps/VRPXF1v6cXAFP5f57",
+      "checkCode": "5"
+    },
+    {
+      "id": "416",
+      "name": "陳俊宏小兒科診所",
+      "address": "西屯區青海路1段3之3號",
+      "tel": "(04)23146466",
+      "mapUrl": "https://goo.gl/maps/5i41Na8rvd8pr3c79",
+      "checkCode": "5"
+    },
+    {
+      "id": "417",
+      "name": "吉安診所",
+      "address": "西屯區青海路一段 65之2號",
+      "tel": "(04)23135698",
+      "mapUrl": "https://goo.gl/maps/ySzXY4VPYduLwgWq7",
+      "checkCode": "5"
+    },
+    {
+      "id": "418",
+      "name": "陳冠宇皮膚科診所",
+      "address": "西屯區青海路二段 240之10號",
+      "tel": "(04)27070383",
+      "mapUrl": "https://goo.gl/maps/1RTfSEeM1arBQKbc9",
+      "checkCode": "3"
+    },
+    {
+      "id": "419",
+      "name": "弘康牙醫診所",
+      "address": "西屯區逢甲里西屯路二段282之7號",
+      "tel": "(04)24513843",
+      "mapUrl": "https://goo.gl/maps/VL9ovTMbhhxigteK6",
+      "checkCode": "7"
+    },
+    {
+      "id": "420",
+      "name": "方內科診所",
+      "address": "西屯區逢甲里河南路二段364號",
+      "tel": "(04)24510685",
+      "mapUrl": "https://goo.gl/maps/vjPNUSurCffabxgUA",
+      "checkCode": "5"
+    },
+    {
+      "id": "421",
+      "name": "新逢甲婦產科診所",
+      "address": "西屯區逢甲里河南路二段390號",
+      "tel": "(04)24517466",
+      "mapUrl": "https://goo.gl/maps/MjJHRMsUtvoVpc3N8",
+      "checkCode": "3"
+    },
+    {
+      "id": "422",
+      "name": "新彗婦產科診所",
+      "address": "西屯區華美西街2段 195號",
+      "tel": "(04)23169451",
+      "mapUrl": "https://goo.gl/maps/7nxCxj1B6ae1GB7X7",
+      "checkCode": "3"
+    },
+    {
+      "id": "423",
+      "name": "雅健牙醫診所",
+      "address": "西屯區華美西街二段313號",
+      "tel": "(04)23151717",
+      "mapUrl": "https://goo.gl/maps/RhX3TwpEshVdNJeS6",
+      "checkCode": "7"
+    },
+    {
+      "id": "424",
+      "name": "丞右診所",
+      "address": "西屯區華美西街二段351號",
+      "tel": "(04)23160001",
+      "mapUrl": "https://goo.gl/maps/ZBQDCEMDrZHFWdx18",
+      "checkCode": "5"
+    },
+    {
+      "id": "425",
+      "name": "黃儒聲診所",
+      "address": "西屯區福上巷214號",
+      "tel": "(04)24518742",
+      "mapUrl": "https://goo.gl/maps/wPbBRvJZ8NwFnhnm8",
+      "checkCode": "5"
+    },
+    {
+      "id": "426",
+      "name": "廖重佳內科診所",
+      "address": "西屯區福中二街8號",
+      "tel": "(04)23552178",
+      "mapUrl": "https://g.page/liaoclinic?share",
+      "checkCode": "5"
+    },
+    {
+      "id": "427",
+      "name": "長泓診所",
+      "address": "西屯區福安里中工三路65號",
+      "tel": "(04)23582866",
+      "mapUrl": "https://goo.gl/maps/bcGvKxUURtnrV3qT7",
+      "checkCode": "5"
+    },
+    {
+      "id": "428",
+      "name": "佳禾診所",
+      "address": "西屯區福安路5號",
+      "tel": "(04)24630596",
+      "mapUrl": "https://goo.gl/maps/gKwXuMF8ea3TDSEL7",
+      "checkCode": "35"
+    },
+    {
+      "id": "429",
+      "name": "京典美學牙醫診所",
+      "address": "西屯區福星路569號",
+      "tel": "(04)24528993",
+      "mapUrl": "https://g.page/mega042?share",
+      "checkCode": "7"
+    },
+    {
+      "id": "430",
+      "name": "舒民診所",
+      "address": "西屯區福科二路8號",
+      "tel": "(04)24529690",
+      "mapUrl": "https://goo.gl/maps/GswSzjbXjAUXNKwT9",
+      "checkCode": "5"
+    },
+    {
+      "id": "431",
+      "name": "崇芳小兒科家庭醫學科聯合診所",
+      "address": "西屯區福科路419號",
+      "tel": "(04)24652525",
+      "mapUrl": "https://goo.gl/maps/k4MB5ceSieAyoF2Q8",
+      "checkCode": "5"
+    },
+    {
+      "id": "432",
+      "name": "林聖凱婦幼診所",
+      "address": "西屯區福科路702號",
+      "tel": "(04)24623700",
+      "mapUrl": "https://goo.gl/maps/DLDzf3xVtVCBcRWG8",
+      "checkCode": "3"
+    },
+    {
+      "id": "433",
+      "name": "瑞安診所",
+      "address": "西屯區福科路946號",
+      "tel": "(04)24633530",
+      "mapUrl": "https://g.page/ruiancclinic?share",
+      "checkCode": "5"
+    },
+    {
+      "id": "434",
+      "name": "福瑞診所",
+      "address": "西屯區福泰東路51號",
+      "tel": "(04)24637728",
+      "mapUrl": "https://goo.gl/maps/kJqxW91tApRwG2MX9",
+      "checkCode": "5"
+    },
+    {
+      "id": "435",
+      "name": "晴美牙醫診所",
+      "address": "西屯區福雅路130號",
+      "tel": "(04)24656888",
+      "mapUrl": "https://goo.gl/maps/3ppUXGXMrcfWKYAx7",
+      "checkCode": "7"
+    },
+    {
+      "id": "436",
+      "name": "理想家小兒科診所",
+      "address": "西屯區福雅路73號",
+      "tel": "(04)24618096",
+      "mapUrl": "https://goo.gl/maps/CSC3qMBqpk5knXJH6",
+      "checkCode": "5"
+    },
+    {
+      "id": "437",
+      "name": "臺中榮民總醫院",
+      "address": "西屯區臺灣大道4段 1650號",
+      "tel": "(04)23592525",
+      "mapUrl": "https://goo.gl/maps/3huw48uQ3EgtrHvGA",
+      "checkCode": "210"
+    },
+    {
+      "id": "438",
+      "name": "澄清綜合醫院中港分院",
+      "address": "西屯區臺灣大道4段 966號",
+      "tel": "(04)24632000",
+      "mapUrl": "https://goo.gl/maps/aVbZcDLvsW1Pu3Fs7",
+      "checkCode": "210"
+    },
+    {
+      "id": "439",
+      "name": "陳建富內科診所",
+      "address": "西屯區黎明路2段 751號",
+      "tel": "(04)22552098",
+      "mapUrl": "https://goo.gl/maps/J8aDBZmgDXu21T229",
+      "checkCode": "5"
+    },
+    {
+      "id": "440",
+      "name": "晶緻美學牙醫診所",
+      "address": "西屯區黎明路3段 379號",
+      "tel": "(04)24513222",
+      "mapUrl": "https://g.page/CCDentalTC?share",
+      "checkCode": "7"
+    },
+    {
+      "id": "441",
+      "name": "蔡旭坤婦產科診所",
+      "address": "西屯區黎明路三段 281號",
+      "tel": "(04)24528616",
+      "mapUrl": "https://goo.gl/maps/tvNKxFKXmEHiJeLL6",
+      "checkCode": "3"
+    },
+    {
+      "id": "442",
+      "name": "典威診所",
+      "address": "西屯區黎明路三段 283號",
+      "tel": "(04)27066066",
+      "mapUrl": "https://g.page/TWclinic?share",
+      "checkCode": "5"
+    },
+    {
+      "id": "443",
+      "name": "敏生婦產科診所",
+      "address": "西屯區櫻花路116號",
+      "tel": "(04)23112829",
+      "mapUrl": "https://goo.gl/maps/SgK7jCxvNAYvcPLSA",
+      "checkCode": "3"
+    },
+    {
+      "id": "444",
+      "name": "揚昇診所",
+      "address": "西屯區惠中路二段 78號",
+      "tel": "(04)22518228",
+      "mapUrl": "https://goo.gl/maps/xySWHRTNyaW2egaq9",
+      "checkCode": "3"
+    }
+  ],
+  "408": [
+    {
+      "id": "566",
+      "name": "愛貽診所",
+      "address": "南屯區三厝里黎明路2段156號152號1F",
+      "tel": "(04)23896122",
+      "mapUrl": "https://goo.gl/maps/ZCPx5hFF36G88z6L8",
+      "checkCode": "5"
+    },
+    {
+      "id": "567",
+      "name": "張宏興診所",
+      "address": "南屯區三厝里黎明路2段460號",
+      "tel": "(04)22530378",
+      "mapUrl": "https://goo.gl/maps/DYGquBC1kH2JrMzr5",
+      "checkCode": "5"
+    },
+    {
+      "id": "568",
+      "name": "高得牙醫診所",
+      "address": "南屯區三厝里黎明路二段303號",
+      "tel": "(04)22584391",
+      "mapUrl": "https://goo.gl/maps/WohqHoyq7j7LBsNL8",
+      "checkCode": "7"
+    },
+    {
+      "id": "569",
+      "name": "張家強診所",
+      "address": "南屯區三厝里黎明路二段490號",
+      "tel": "(04)22591683",
+      "mapUrl": "https://goo.gl/maps/aeKgEpDgjSB1Ffdd9",
+      "checkCode": "5"
+    },
+    {
+      "id": "570",
+      "name": "大容診所",
+      "address": "南屯區大容東街14號",
+      "tel": "(04)23288521",
+      "mapUrl": "https://goo.gl/maps/bkQidWVpkNVAWBFq9",
+      "checkCode": "35"
+    },
+    {
+      "id": "571",
+      "name": "大新婦產科診所",
+      "address": "南屯區大進街449號",
+      "tel": "(04)23206969",
+      "mapUrl": "https://g.page/dashinivf?share",
+      "checkCode": "3"
+    },
+    {
+      "id": "572",
+      "name": "昱宏診所",
+      "address": "南屯區大隆路119號",
+      "tel": "(04)23205346",
+      "mapUrl": "https://goo.gl/maps/uAQnN16ybzNyeCMdA",
+      "checkCode": "5"
+    },
+    {
+      "id": "573",
+      "name": "敬康耳鼻喉科診所",
+      "address": "南屯區大業路229號",
+      "tel": "(04)23282070",
+      "mapUrl": "https://goo.gl/maps/u1TGtKiPmdub6x569",
+      "checkCode": "35"
+    },
+    {
+      "id": "574",
+      "name": "賴東昇小兒科診所",
+      "address": "南屯區大業路93號",
+      "tel": "(04)23280188",
+      "mapUrl": "https://goo.gl/maps/xSvca7ZcAePeUZjQ7",
+      "checkCode": "5"
+    },
+    {
+      "id": "575",
+      "name": "平心診所",
+      "address": "南屯區大墩七街327號",
+      "tel": "(04)23828995",
+      "mapUrl": "https://goo.gl/maps/2icfs89kyWPVE9d99",
+      "checkCode": "5"
+    },
+    {
+      "id": "576",
+      "name": "林駿內科診所",
+      "address": "南屯區大墩十一街 325號",
+      "tel": "(04)22516618",
+      "mapUrl": "https://goo.gl/maps/1jp47qQjrpFNYXK96",
+      "checkCode": "5"
+    },
+    {
+      "id": "577",
+      "name": "佳杏診所",
+      "address": "南屯區大墩五街292號",
+      "tel": "(04)24716016",
+      "mapUrl": "https://goo.gl/maps/RHea8ZbEwVTYfkAm9",
+      "checkCode": "5"
+    },
+    {
+      "id": "578",
+      "name": "崔玉珠診所",
+      "address": "南屯區大墩南路410號",
+      "tel": "(04)24736466",
+      "mapUrl": "https://goo.gl/maps/8BmMZjy2mw86zi8J7",
+      "checkCode": "2"
+    },
+    {
+      "id": "579",
+      "name": "緻齡婦產科診所",
+      "address": "南屯區大墩路783號",
+      "tel": "(04)23282358",
+      "mapUrl": "https://goo.gl/maps/ZdtdS9MNdDm1rv5y5",
+      "checkCode": "3"
+    },
+    {
+      "id": "580",
+      "name": "時蔚內科診所",
+      "address": "南屯區大墩路801號",
+      "tel": "(04)23107686",
+      "mapUrl": "https://goo.gl/maps/E7PsoM4VS4wDHrG27",
+      "checkCode": "5"
+    },
+    {
+      "id": "581",
+      "name": "林文豹小兒科診所",
+      "address": "南屯區大墩路815號",
+      "tel": "(04)23266518",
+      "mapUrl": "https://goo.gl/maps/yrfCpn7DrYEW7xa47",
+      "checkCode": "5"
+    },
+    {
+      "id": "582",
+      "name": "大墩診所",
+      "address": "南屯區大墩路96號",
+      "tel": "(04)24717122",
+      "mapUrl": "https://goo.gl/maps/SxB2L4oe3by98i2T8",
+      "checkCode": "5"
+    },
+    {
+      "id": "583",
+      "name": "祥恩診所",
+      "address": "南屯區大墩路三二一號",
+      "tel": "(04)24717699",
+      "mapUrl": "https://goo.gl/maps/f33mtagh42VE9P1CA",
+      "checkCode": "5"
+    },
+    {
+      "id": "584",
+      "name": "主悅診所",
+      "address": "南屯區干城街269號",
+      "tel": "(04)22540711",
+      "mapUrl": "https://goo.gl/maps/mPwJqbnCm44ULxbp8",
+      "checkCode": "35"
+    },
+    {
+      "id": "585",
+      "name": "中和牙醫診所",
+      "address": "南屯區中和里黎明路一段165號",
+      "tel": "(04)24792209",
+      "mapUrl": "https://goo.gl/maps/6nZ4XDoEVKphWang7",
+      "checkCode": "7"
+    },
+    {
+      "id": "586",
+      "name": "友仁醫院",
+      "address": "南屯區五權西路2段 197號",
+      "tel": "(04)24739995",
+      "mapUrl": "https://goo.gl/maps/56v8KDxz8xpss6pJ7",
+      "checkCode": "5"
+    },
+    {
+      "id": "587",
+      "name": "魏宏杰診所",
+      "address": "南屯區五權西路2段 56號",
+      "tel": "(04)24755212",
+      "mapUrl": "https://goo.gl/maps/xDHzfPdjGWzkdeTd7",
+      "checkCode": "5"
+    },
+    {
+      "id": "588",
+      "name": "林子凱耳鼻喉科診所",
+      "address": "南屯區公益路2段19號",
+      "tel": "(04)23105758",
+      "mapUrl": "https://goo.gl/maps/RhJaUjcZSPEJxD7r8",
+      "checkCode": "7"
+    },
+    {
+      "id": "589",
+      "name": "尖端牙醫診所",
+      "address": "南屯區公益路2段 605號",
+      "tel": "(04)22518558",
+      "mapUrl": "https://goo.gl/maps/HFb7ZxEPSCUSkQtSA",
+      "checkCode": "7"
+    },
+    {
+      "id": "590",
+      "name": "媽媽咪亞診所",
+      "address": "南屯區公益路二段 60號",
+      "tel": "(04)23190707",
+      "mapUrl": "https://goo.gl/maps/Qo5g7KGX1NWw63PH8",
+      "checkCode": "3"
+    },
+    {
+      "id": "591",
+      "name": "博幼耳鼻喉科小兒科診所",
+      "address": "南屯區公益路二段一八一號",
+      "tel": "(04)23270610",
+      "mapUrl": "https://goo.gl/maps/2zWPD8CeefbBPEtZ7",
+      "checkCode": "5"
+    },
+    {
+      "id": "592",
+      "name": "瑞東診所",
+      "address": "南屯區文山三街133巷11號",
+      "tel": "(04)23892301",
+      "mapUrl": "https://goo.gl/maps/Q7qE3g6hzCgp9xhT8",
+      "checkCode": "5"
+    },
+    {
+      "id": "593",
+      "name": "葉晉榮診所",
+      "address": "南屯區文山里忠勇路70–9號",
+      "tel": "(04)23869209",
+      "mapUrl": "https://goo.gl/maps/X4cqDGyxhBScNYRa6",
+      "checkCode": "5"
+    },
+    {
+      "id": "594",
+      "name": "佳鴻診所",
+      "address": "南屯區文心南2路 229號",
+      "tel": "(04)24739868",
+      "mapUrl": "https://goo.gl/maps/F3gwBadeWE17Q8Dg6",
+      "checkCode": "5"
+    },
+    {
+      "id": "595",
+      "name": "沛泳診所",
+      "address": "南屯區文心南三路 667號",
+      "tel": "(04)23807861",
+      "mapUrl": "https://goo.gl/maps/MinRNXVM8zoBVGez9",
+      "checkCode": "5"
+    },
+    {
+      "id": "596",
+      "name": "許美照中醫診所",
+      "address": "南屯區文心南五路1段642號",
+      "tel": "(04)23821100",
+      "mapUrl": "https://g.page/XuMeiZhaoZhongYiZhenSuo?share",
+      "checkCode": "5"
+    },
+    {
+      "id": "597",
+      "name": "醫療財團法人正德癌症醫療基金會佛教正德醫院",
+      "address": "南屯區文心南五路三段100號",
+      "tel": "(04)37026588",
+      "mapUrl": "https://goo.gl/maps/s2M31KmFGgfVwpHd6",
+      "checkCode": "2"
+    },
+    {
+      "id": "598",
+      "name": "汝安診所",
+      "address": "南屯區水安街3號",
+      "tel": "(04)22513310",
+      "mapUrl": "https://goo.gl/maps/iNJdLqUXpchgVEnZ9",
+      "checkCode": "30"
+    },
+    {
+      "id": "599",
+      "name": "薇安婦產科診所",
+      "address": "南屯區永春東路242號",
+      "tel": "(04)24733966",
+      "mapUrl": "https://goo.gl/maps/XC6MYi9XeUS2Y7Ed6",
+      "checkCode": "15"
+    },
+    {
+      "id": "600",
+      "name": "黃忠勇診所",
+      "address": "南屯區永春東路337號",
+      "tel": "(04)24730117",
+      "mapUrl": "https://goo.gl/maps/f4hTyypGZJzkTMgr5",
+      "checkCode": "5"
+    },
+    {
+      "id": "601",
+      "name": "冠傑牙醫診所",
+      "address": "南屯區永春南路31號",
+      "tel": "(04)23821599",
+      "mapUrl": "https://g.page/GJDentalOffice?share",
+      "checkCode": "7"
+    },
+    {
+      "id": "602",
+      "name": "林國慶診所",
+      "address": "南屯區田心里向心南路980號",
+      "tel": "(04)24751418",
+      "mapUrl": "https://goo.gl/maps/oqdURdFjau6UxqUy6",
+      "checkCode": "35"
+    },
+    {
+      "id": "603",
+      "name": "蔡忠廷診所",
+      "address": "南屯區田心里南屯路二段183號",
+      "tel": "(04)24723616",
+      "mapUrl": "https://goo.gl/maps/QCh1UUkJCuhiG5b59",
+      "checkCode": "5"
+    },
+    {
+      "id": "604",
+      "name": "蘇德慶診所",
+      "address": "南屯區同心里東興路2段57號",
+      "tel": "(04)24717572",
+      "mapUrl": "https://goo.gl/maps/RkTHpf7W6bAHcphZ8",
+      "checkCode": "5"
+    },
+    {
+      "id": "605",
+      "name": "張文吉小兒科診所",
+      "address": "南屯區向上南路1段 273號",
+      "tel": "(04)24724988",
+      "mapUrl": "https://goo.gl/maps/eDvRxi4DfpiigeW5A",
+      "checkCode": "5"
+    },
+    {
+      "id": "606",
+      "name": "臺中市南屯區衛生所",
+      "address": "南屯區向心南路811號",
+      "tel": "(04)23827640",
+      "mapUrl": "https://goo.gl/maps/MUQMJ51A5HqzV3St6",
+      "checkCode": "5"
+    },
+    {
+      "id": "607",
+      "name": "佳新牙醫診所",
+      "address": "南屯區向心南路908號",
+      "tel": "(04)24733222",
+      "mapUrl": "https://goo.gl/maps/1Zeu298VoG5Usdsv7",
+      "checkCode": "7"
+    },
+    {
+      "id": "608",
+      "name": "蘇晉暉診所",
+      "address": "南屯區向心路35號",
+      "tel": "(04)23832676",
+      "mapUrl": "https://goo.gl/maps/1sB7qQ6wUwT5ZtwDA",
+      "checkCode": "5"
+    },
+    {
+      "id": "609",
+      "name": "姚耳鼻喉科診所",
+      "address": "南屯區忠勇路25之6號",
+      "tel": "(04)23850089",
+      "mapUrl": "https://goo.gl/maps/5CeoGtWUYhz7NdQW8",
+      "checkCode": "5"
+    },
+    {
+      "id": "610",
+      "name": "唯嘉牙醫診所",
+      "address": "南屯區忠勇路25之8號",
+      "tel": "(04)23806675",
+      "mapUrl": "https://goo.gl/maps/2nL2Ut6Ep8PdYemd8",
+      "checkCode": "7"
+    },
+    {
+      "id": "611",
+      "name": "忠勇診所",
+      "address": "南屯區忠勇路67之3號",
+      "tel": "(04)23826625",
+      "mapUrl": "https://goo.gl/maps/KFoXxTcSaBdx3NG2A",
+      "checkCode": "5"
+    },
+    {
+      "id": "612",
+      "name": "宏凱診所",
+      "address": "南屯區忠勇路79之3號",
+      "tel": "(04)23802778",
+      "mapUrl": "https://goo.gl/maps/EyBGLS6YHXEGds3s5",
+      "checkCode": "5"
+    },
+    {
+      "id": "613",
+      "name": "魏牙醫診所",
+      "address": "南屯區東興路2段60號",
+      "tel": "(04)24731896",
+      "mapUrl": "https://goo.gl/maps/vum8Yqtys4kRdvxN6",
+      "checkCode": "7"
+    },
+    {
+      "id": "614",
+      "name": "施以中診所",
+      "address": "南屯區東興路二段 177號",
+      "tel": "(04)24727575",
+      "mapUrl": "https://goo.gl/maps/s6X3BaSB3WLicE1z5",
+      "checkCode": "3"
+    },
+    {
+      "id": "615",
+      "name": "益群牙醫診所",
+      "address": "南屯區東興路二段 183號",
+      "tel": "(04)24737598",
+      "mapUrl": "https://goo.gl/maps/E9ns8D2BguWpjDtm7",
+      "checkCode": "7"
+    },
+    {
+      "id": "616",
+      "name": "東寧耳鼻喉科診所",
+      "address": "南屯區東興路二段 289號",
+      "tel": "(04)24711200",
+      "mapUrl": "https://goo.gl/maps/wZQCkCqxeHWt2Sqd6",
+      "checkCode": "7"
+    },
+    {
+      "id": "617",
+      "name": "誠心親子耳鼻喉科診所",
+      "address": "南屯區東興路二段 33號",
+      "tel": "(04)24719001",
+      "mapUrl": "https://goo.gl/maps/BvwWyU3v7qi2tSmX9",
+      "checkCode": "35"
+    },
+    {
+      "id": "618",
+      "name": "周省村診所",
+      "address": "南屯區東興路二段 42號",
+      "tel": "(04)24723316",
+      "mapUrl": "https://goo.gl/maps/sgUUVjbmkJTR3qzT7",
+      "checkCode": "5"
+    },
+    {
+      "id": "619",
+      "name": "維倩婦產科診所",
+      "address": "南屯區東興路二段 90號",
+      "tel": "(04)24723520",
+      "mapUrl": "https://goo.gl/maps/SWevywPeMRwbatUc6",
+      "checkCode": "3"
+    },
+    {
+      "id": "620",
+      "name": "加寧診所",
+      "address": "南屯區河南路四段 393號",
+      "tel": "(04)22587087",
+      "mapUrl": "https://goo.gl/maps/KShjAbeqHhssTFT1A",
+      "checkCode": "15"
+    },
+    {
+      "id": "621",
+      "name": "雅致牙醫診所",
+      "address": "南屯區河南路四段 700號",
+      "tel": "(04)23892390",
+      "mapUrl": "https://goo.gl/maps/2CGNH8G3XfYAMd826",
+      "checkCode": "7"
+    },
+    {
+      "id": "622",
+      "name": "劉世成骨科外科診所",
+      "address": "南屯區南屯里黎明路一段1051號",
+      "tel": "(04)23834068",
+      "mapUrl": "https://goo.gl/maps/KhxaG8qih2XGZ77Y8",
+      "checkCode": "5"
+    },
+    {
+      "id": "623",
+      "name": "郭品君診所",
+      "address": "南屯區南屯里黎明路一段1059，1061號",
+      "tel": "(04)23817333",
+      "mapUrl": "https://goo.gl/maps/XMyhbjJprhX4UznN7",
+      "checkCode": "5"
+    },
+    {
+      "id": "624",
+      "name": "親子診所",
+      "address": "南屯區南屯里黎明路一段1091號",
+      "tel": "(04)23862626",
+      "mapUrl": "https://goo.gl/maps/z3L9WRaoYbWqKiQu7",
+      "checkCode": "5"
+    },
+    {
+      "id": "625",
+      "name": "黎明婦產科診所",
+      "address": "南屯區南屯里黎明路一段1122號",
+      "tel": "(04)23813101",
+      "mapUrl": "https://goo.gl/maps/va2QuXP5aGC5BLoT7",
+      "checkCode": "3"
+    },
+    {
+      "id": "626",
+      "name": "文良診所",
+      "address": "南屯區南屯里黎明路一段1139號",
+      "tel": "(04)23891633",
+      "mapUrl": "https://goo.gl/maps/wV9MnVrUeYJdeCVT8",
+      "checkCode": "5"
+    },
+    {
+      "id": "627",
+      "name": "朗雲診所",
+      "address": "南屯區南屯路2段 203號、地下室",
+      "tel": "(04)24729599",
+      "mapUrl": "https://goo.gl/maps/cyGbHBRjnZ7cNJKx5",
+      "checkCode": "35"
+    },
+    {
+      "id": "628",
+      "name": "邢志宇耳鼻喉科診所",
+      "address": "南屯區南屯路二段 252號",
+      "tel": "(04)24735806",
+      "mapUrl": "https://goo.gl/maps/CJu9zsHH7kmpThYf9",
+      "checkCode": "7"
+    },
+    {
+      "id": "629",
+      "name": "王欽耀診所",
+      "address": "南屯區春社里忠勇路43之2號",
+      "tel": "(04)23832245",
+      "mapUrl": "https://goo.gl/maps/STwKUwk1uEs6So447",
+      "checkCode": "5"
+    },
+    {
+      "id": "630",
+      "name": "廖國陽牙醫診所",
+      "address": "南屯區惠中路3段 335號",
+      "tel": "(04)23819598",
+      "mapUrl": "https://goo.gl/maps/wEEKjHPJMsMRD4D97",
+      "checkCode": "7"
+    },
+    {
+      "id": "631",
+      "name": "林新醫療社團法人林新醫院",
+      "address": "南屯區惠中路3段36號",
+      "tel": "(04)22586688",
+      "mapUrl": "https://g.page/LinShinHosp?share",
+      "checkCode": "210"
+    },
+    {
+      "id": "632",
+      "name": "閤安診所",
+      "address": "南屯區楓和路691號",
+      "tel": "(04)24792800",
+      "mapUrl": "https://goo.gl/maps/ocrb96PtDD6VVKZ27",
+      "checkCode": "5"
+    },
+    {
+      "id": "633",
+      "name": "董建宗小兒科診所",
+      "address": "南屯區溝墘里大墩路508號",
+      "tel": "(04)23203873",
+      "mapUrl": "https://goo.gl/maps/CrdF9ajGSupGrnww8",
+      "checkCode": "35"
+    },
+    {
+      "id": "634",
+      "name": "東群牙醫診所",
+      "address": "南屯區溝墘里東興路3段175號",
+      "tel": "(04)23285766",
+      "mapUrl": "https://goo.gl/maps/hzaTBe5iBmwNtxUe8",
+      "checkCode": "7"
+    },
+    {
+      "id": "635",
+      "name": "仁欣診所",
+      "address": "南屯區黎明東街229號",
+      "tel": "(04)23803265",
+      "mapUrl": "https://goo.gl/maps/UaUqT5eBBzARfeef9",
+      "checkCode": "5"
+    },
+    {
+      "id": "636",
+      "name": "欣民診所",
+      "address": "南屯區黎明路1段 106號",
+      "tel": "(04)24792068",
+      "mapUrl": "https://goo.gl/maps/SdhjNxVTuC33M18QA",
+      "checkCode": "5"
+    },
+    {
+      "id": "637",
+      "name": "中友牙醫診所",
+      "address": "南屯區黎明路2段 181號",
+      "tel": "(04)23866161",
+      "mapUrl": "https://goo.gl/maps/tCfaGmK9aSKVFGkc6",
+      "checkCode": "7"
+    },
+    {
+      "id": "638",
+      "name": "陳國嶸診所",
+      "address": "南屯區黎明路2段 220號",
+      "tel": "(04)23808855",
+      "mapUrl": "https://goo.gl/maps/Jh4CdsaRR9wfRUEL6",
+      "checkCode": "15"
+    },
+    {
+      "id": "639",
+      "name": "永安診所",
+      "address": "南屯區黎明路2段 362號",
+      "tel": "(04)22588881",
+      "mapUrl": "https://goo.gl/maps/oXV5yNqXAahofhfc8",
+      "checkCode": "35"
+    },
+    {
+      "id": "640",
+      "name": "彭光偉牙醫診所",
+      "address": "南屯區黎明路2段 365號",
+      "tel": "(04)22547388",
+      "mapUrl": "https://goo.gl/maps/LsDKLZCt4XfbNLiz7",
+      "checkCode": "7"
+    },
+    {
+      "id": "641",
+      "name": "芳馨婦產科診所",
+      "address": "南屯區黎明路二段 295號",
+      "tel": "(04)22520103",
+      "mapUrl": "https://goo.gl/maps/ygksi21s4NsVPS888",
+      "checkCode": "3"
+    },
+    {
+      "id": "642",
+      "name": "華生診所",
+      "address": "南屯區黎明路二段 496號",
+      "tel": "(04)22556622",
+      "mapUrl": "https://goo.gl/maps/PmKtqpDD8SC5zSuz9",
+      "checkCode": "15"
+    },
+    {
+      "id": "643",
+      "name": "張智誠診所",
+      "address": "南屯區寶山東一街5號",
+      "tel": "(04)23821622",
+      "mapUrl": "https://goo.gl/maps/RESC6LYfnLoNVC9G9",
+      "checkCode": "5"
+    }
+  ],
+  "411": [
+    {
+      "id": "139",
+      "name": "可安診所",
+      "address": "太平區大源路21號",
+      "tel": "(04)23932219",
+      "mapUrl": "https://goo.gl/maps/vs5G8LqvMw7nVmAz5",
+      "checkCode": "5"
+    },
+    {
+      "id": "140",
+      "name": "臺中市太平區衛生所",
+      "address": "太平區中山路1段 213之1號",
+      "tel": "(04)23938083",
+      "mapUrl": "https://goo.gl/maps/yrZ1YNokGkRPsaxH9",
+      "checkCode": "35"
+    },
+    {
+      "id": "141",
+      "name": "康祐診所",
+      "address": "太平區中山路1段 220號",
+      "tel": "(04)23931234",
+      "mapUrl": "https://goo.gl/maps/Sefrndia2UjnkLME8",
+      "checkCode": "35"
+    },
+    {
+      "id": "142",
+      "name": "國軍台中總醫院附設民眾診療服務處",
+      "address": "太平區中山路2段 348號",
+      "tel": "(04)23934191",
+      "mapUrl": "https://goo.gl/maps/rH5yDw6xW2quW7QJ6",
+      "checkCode": "210"
+    },
+    {
+      "id": "143",
+      "name": "詹林牙醫診所",
+      "address": "太平區中山路3段90號，92號",
+      "tel": "(04)23914483",
+      "mapUrl": "https://goo.gl/maps/xQzw3y2R4UL7af6r6",
+      "checkCode": "7"
+    },
+    {
+      "id": "144",
+      "name": "厚生診所",
+      "address": "太平區中山路一段 319號",
+      "tel": "(04)23933999",
+      "mapUrl": "https://goo.gl/maps/fe99iNeyLQNjjzjU9",
+      "checkCode": "35"
+    },
+    {
+      "id": "145",
+      "name": "勤益診所",
+      "address": "太平區中山路一段 319號",
+      "tel": "(04)23933999",
+      "mapUrl": "https://goo.gl/maps/DsoYsAcKAjmKKr6h9",
+      "checkCode": "5"
+    },
+    {
+      "id": "146",
+      "name": "佳恩聯合診所",
+      "address": "太平區中山路二段 372號之1",
+      "tel": "(04)23926762",
+      "mapUrl": "https://goo.gl/maps/h2uCQRnMCdaFYF8X7",
+      "checkCode": "105"
+    },
+    {
+      "id": "147",
+      "name": "馬益民牙醫診所",
+      "address": "太平區中山路三段 141號",
+      "tel": "(04)22739495",
+      "mapUrl": "https://goo.gl/maps/zLoYhu9iY2DL1Uar6",
+      "checkCode": "7"
+    },
+    {
+      "id": "148",
+      "name": "羅耳鼻喉科診所",
+      "address": "太平區中山路三段2之7號",
+      "tel": "(04)23936033",
+      "mapUrl": "https://goo.gl/maps/n8JpeKNCYCzX4EhZ6",
+      "checkCode": "35"
+    },
+    {
+      "id": "149",
+      "name": "新勝診所",
+      "address": "太平區中平九街38號",
+      "tel": "(04)22785988",
+      "mapUrl": "https://goo.gl/maps/T9DWafK35Vroh4ki9",
+      "checkCode": "35"
+    },
+    {
+      "id": "150",
+      "name": "呂其嘉婦產科診所",
+      "address": "太平區中平里中平路151之5號",
+      "tel": "(04)22750158",
+      "mapUrl": "https://goo.gl/maps/jCzpK8FeQbzAkqAS9",
+      "checkCode": "105"
+    },
+    {
+      "id": "151",
+      "name": "李正智診所",
+      "address": "太平區中平里太平路232號",
+      "tel": "(04)22784900",
+      "mapUrl": "https://goo.gl/maps/QVyudA5pv89Gy7Uc9",
+      "checkCode": "5"
+    },
+    {
+      "id": "152",
+      "name": "順輝內科診所",
+      "address": "太平區中興里6鄰成功東路2號",
+      "tel": "(04)22786845",
+      "mapUrl": "https://goo.gl/maps/NczrWTNvLpLyWTyJ9",
+      "checkCode": "35"
+    },
+    {
+      "id": "153",
+      "name": "太平王耳鼻喉科診所",
+      "address": "太平區中興里中興路58號",
+      "tel": "(04)22709170",
+      "mapUrl": "https://goo.gl/maps/dwtJJ78jxcqhowAK7",
+      "checkCode": "5"
+    },
+    {
+      "id": "154",
+      "name": "林燕青婦產科診所",
+      "address": "太平區中興東路216號",
+      "tel": "(04)22730101",
+      "mapUrl": "https://goo.gl/maps/LeWBYEqUghV2LiXg6",
+      "checkCode": "3"
+    },
+    {
+      "id": "155",
+      "name": "新太平澄清醫院",
+      "address": "太平區中興路100號",
+      "tel": "(04)22789900",
+      "mapUrl": "https://goo.gl/maps/pvBwC5odDGNtEFv36",
+      "checkCode": "5"
+    },
+    {
+      "id": "156",
+      "name": "建志耳鼻喉科診所",
+      "address": "太平區中興路110號",
+      "tel": "(04)22766899",
+      "mapUrl": "https://goo.gl/maps/SNSv859ykr4GpimB9",
+      "checkCode": "35"
+    },
+    {
+      "id": "157",
+      "name": "大安牙醫診所",
+      "address": "太平區中興路15–1號",
+      "tel": "(04)22793862",
+      "mapUrl": "https://goo.gl/maps/jsbJbxwxaxVrvp9r7",
+      "checkCode": "7"
+    },
+    {
+      "id": "158",
+      "name": "佑甡婦產科診所",
+      "address": "太平區中興路20之1號",
+      "tel": "(04)22706768",
+      "mapUrl": "https://goo.gl/maps/Fou6YijxsUBTMfoX8",
+      "checkCode": "15"
+    },
+    {
+      "id": "159",
+      "name": "欣鴻牙醫診所",
+      "address": "太平區中興路32–2號",
+      "tel": "(04)22775240",
+      "mapUrl": "https://g.page/sinhondentist?share",
+      "checkCode": "7"
+    },
+    {
+      "id": "160",
+      "name": "仁宏診所",
+      "address": "太平區太平里太平路587號",
+      "tel": "(04)22759241",
+      "mapUrl": "https://goo.gl/maps/mArkXAEFtn3TGAuBA",
+      "checkCode": "35"
+    },
+    {
+      "id": "161",
+      "name": "立安診所",
+      "address": "太平區太平里新仁路一段192號",
+      "tel": "(04)22752409",
+      "mapUrl": "https://goo.gl/maps/2PxViTxhyoeyRnjV9",
+      "checkCode": "5"
+    },
+    {
+      "id": "162",
+      "name": "文貴旺診所",
+      "address": "太平區太平路326號",
+      "tel": "(04)22794321",
+      "mapUrl": "https://goo.gl/maps/8BjRWksFUgwmQKYK9",
+      "checkCode": "5"
+    },
+    {
+      "id": "163",
+      "name": "順智診所",
+      "address": "太平區太平路95號",
+      "tel": "(04)22772766",
+      "mapUrl": "https://goo.gl/maps/QckUaBhQumiS4N3g6",
+      "checkCode": "5"
+    },
+    {
+      "id": "164",
+      "name": "星星牙醫診所",
+      "address": "太平區太順路401號",
+      "tel": "(04)23930200",
+      "mapUrl": "https://g.page/TaipingDentalCorrection?share",
+      "checkCode": "7"
+    },
+    {
+      "id": "165",
+      "name": "長安醫院",
+      "address": "太平區永平路1段9號",
+      "tel": "(04)36113611",
+      "mapUrl": "https://goo.gl/maps/Mp2aYYS1vUTATkq26",
+      "checkCode": "210"
+    },
+    {
+      "id": "166",
+      "name": "鴻安診所",
+      "address": "太平區立功路310號",
+      "tel": "(04)23917581",
+      "mapUrl": "https://goo.gl/maps/nAfPmxPkpqhf6b4q7",
+      "checkCode": "5"
+    },
+    {
+      "id": "167",
+      "name": "慶華診所",
+      "address": "太平區光華里中山路2段412號之1",
+      "tel": "(04)23925519",
+      "mapUrl": "https://goo.gl/maps/Z5qgQ9hM28eS4udWA",
+      "checkCode": "5"
+    },
+    {
+      "id": "168",
+      "name": "水岸診所",
+      "address": "太平區旱溪東路二段322號",
+      "tel": "(04)23928833",
+      "mapUrl": "https://goo.gl/maps/YzpyzgehftFVCeEz5",
+      "checkCode": "5"
+    },
+    {
+      "id": "169",
+      "name": "忠信牙醫診所",
+      "address": "太平區坪林里中山路1段382號",
+      "tel": "(04)23925668",
+      "mapUrl": "https://goo.gl/maps/riVcS24uas44ixqR7",
+      "checkCode": "7"
+    },
+    {
+      "id": "170",
+      "name": "宜欣診所",
+      "address": "太平區宜佳街10號1 Ｆ",
+      "tel": "(04)22765683",
+      "mapUrl": "https://goo.gl/maps/gTUvwRpxiBZyjEyu5",
+      "checkCode": "5"
+    },
+    {
+      "id": "171",
+      "name": "賢德醫院",
+      "address": "太平區宜昌路420號",
+      "tel": "(04)22732551",
+      "mapUrl": "https://goo.gl/maps/i4Atr1kZ7uczyknCA",
+      "checkCode": "35"
+    },
+    {
+      "id": "172",
+      "name": "新平牙醫診所",
+      "address": "太平區宜欣里新平路二段165號",
+      "tel": "(04)22769949",
+      "mapUrl": "https://goo.gl/maps/VrDmyuJuQHUPqk6s5",
+      "checkCode": "7"
+    },
+    {
+      "id": "173",
+      "name": "天乙診所",
+      "address": "太平區新仁路一段154號及永豐路428號",
+      "tel": "(04)22760110",
+      "mapUrl": "https://goo.gl/maps/GY8E13bW3ueZgDn36",
+      "checkCode": "5"
+    },
+    {
+      "id": "174",
+      "name": "惠欣婦產科診所",
+      "address": "太平區新平路一段 108號",
+      "tel": "(04)22737419",
+      "mapUrl": "https://goo.gl/maps/ytDfFmbhoXVoDsxd9",
+      "checkCode": "6"
+    },
+    {
+      "id": "175",
+      "name": "正安診所",
+      "address": "太平區新光里樹德路69巷4號",
+      "tel": "(04)23959822",
+      "mapUrl": "https://goo.gl/maps/sXhs6vjHA3rnYj6V9",
+      "checkCode": "5"
+    },
+    {
+      "id": "176",
+      "name": "保安診所",
+      "address": "太平區新福里中山路四段136號",
+      "tel": "(04)23959075",
+      "mapUrl": "https://goo.gl/maps/YKS6AZFsPR36wK8f9",
+      "checkCode": "5"
+    },
+    {
+      "id": "177",
+      "name": "禎宏診所",
+      "address": "太平區新興路22號",
+      "tel": "(04)23959209",
+      "mapUrl": "https://goo.gl/maps/2S8kWLfHeD3W84r88",
+      "checkCode": "5"
+    },
+    {
+      "id": "178",
+      "name": "弘鑫耳鼻喉科診所",
+      "address": "太平區樹孝路202號",
+      "tel": "(04)23933595",
+      "mapUrl": "https://goo.gl/maps/HRVWeb9v7qympaef9",
+      "checkCode": "7"
+    },
+    {
+      "id": "179",
+      "name": "美馥兒婦產科診所",
+      "address": "太平區樹孝路259號 2樓、3樓",
+      "tel": "(04)23929266",
+      "mapUrl": "https://goo.gl/maps/HURdajTzmaBWUvAi9",
+      "checkCode": "3"
+    },
+    {
+      "id": "180",
+      "name": "劉玉麒婦產科診所",
+      "address": "太平區樹孝路35號",
+      "tel": "(04)23916689",
+      "mapUrl": "https://goo.gl/maps/7KjW8VPoGbfHsTVd8",
+      "checkCode": "3"
+    },
+    {
+      "id": "181",
+      "name": "林彥華家庭醫學科診所",
+      "address": "太平區樹孝路416號",
+      "tel": "(04)23936601",
+      "mapUrl": "https://goo.gl/maps/TBnoZkVBwkeF5ieB6",
+      "checkCode": "5"
+    },
+    {
+      "id": "182",
+      "name": "臣宏診所",
+      "address": "太平區樹孝路472號",
+      "tel": "(04)23932568",
+      "mapUrl": "https://goo.gl/maps/76Y9a29xXMTZ8t2CA",
+      "checkCode": "5"
+    },
+    {
+      "id": "183",
+      "name": "博合耳鼻喉科診所",
+      "address": "太平區樹孝路478號",
+      "tel": "(04)23929577",
+      "mapUrl": "https://goo.gl/maps/1LhynUJTrZS5TKn97",
+      "checkCode": "7"
+    },
+    {
+      "id": "184",
+      "name": "家宜診所",
+      "address": "太平區樹孝路506號",
+      "tel": "(04)23937373",
+      "mapUrl": "https://goo.gl/maps/qZNkzm3KeJd4gEcR7",
+      "checkCode": "35"
+    },
+    {
+      "id": "185",
+      "name": "安欣婦產科診所",
+      "address": "太平區樹孝路6之2號及6之3號",
+      "tel": "(04)23925666",
+      "mapUrl": "https://goo.gl/maps/LxoV5VHcuAzV1oWK8",
+      "checkCode": "3"
+    },
+    {
+      "id": "186",
+      "name": "佑昇牙醫診所",
+      "address": "太平區樹孝路87號",
+      "tel": "(04)23925550",
+      "mapUrl": "https://goo.gl/maps/ArGYA47eQ1e3RAbC9",
+      "checkCode": "7"
+    },
+    {
+      "id": "187",
+      "name": "太平新象牙醫診所",
+      "address": "太平區樹德路97之2號",
+      "tel": "(04)23951100",
+      "mapUrl": "https://goo.gl/maps/s9r3pdqB2PZmezmy6",
+      "checkCode": "7"
+    },
+    {
+      "id": "188",
+      "name": "洪錫欽診所",
+      "address": "太平區樹德路97之5號",
+      "tel": "(04)23928366",
+      "mapUrl": "https://goo.gl/maps/KLcfxe6XLBvmiRPH9",
+      "checkCode": "5"
+    },
+    {
+      "id": "189",
+      "name": "陳守善診所",
+      "address": "太平區樹德路98號",
+      "tel": "(04)23960698",
+      "mapUrl": "https://goo.gl/maps/ydhtUzU4yw353SHL6",
+      "checkCode": "5"
+    },
+    {
+      "id": "190",
+      "name": "德祐診所",
+      "address": "太平區興隆里光興路1076號",
+      "tel": "(04)22730849",
+      "mapUrl": "https://goo.gl/maps/CVhbmwUFicEfSxL28",
+      "checkCode": "5"
+    },
+    {
+      "id": "191",
+      "name": "安興診所",
+      "address": "太平區興隆路一段 248號",
+      "tel": "(04)22705412",
+      "mapUrl": "https://goo.gl/maps/SszrQB1j2Q8bwvNd6",
+      "checkCode": "5"
+    }
+  ],
+  "412": [
+    {
+      "id": "44",
+      "name": "悅安診所",
+      "address": "大里區大里路40號",
+      "tel": "(04)24838287",
+      "mapUrl": "https://goo.gl/maps/a3HJEqfiRkrNKBpe7",
+      "checkCode": "5"
+    },
+    {
+      "id": "45",
+      "name": "簡邑軒診所",
+      "address": "大里區大里路78號",
+      "tel": "(04)24826128",
+      "mapUrl": "https://goo.gl/maps/BfPnJDsUZQGsght67",
+      "checkCode": "5"
+    },
+    {
+      "id": "46",
+      "name": "安聲耳鼻喉科診所",
+      "address": "大里區大里路98之5號",
+      "tel": "(04)24852301",
+      "mapUrl": "https://goo.gl/maps/DkvWUGeiAFjc9hhF8",
+      "checkCode": "7"
+    },
+    {
+      "id": "47",
+      "name": "信華牙醫診所",
+      "address": "大里區大明路410號",
+      "tel": "(04)24075007",
+      "mapUrl": "https://goo.gl/maps/JgrVqp8ubM9hCsBx7",
+      "checkCode": "7"
+    },
+    {
+      "id": "48",
+      "name": "幸福牙醫診所",
+      "address": "大里區大明路427號",
+      "tel": "(04)24073175",
+      "mapUrl": "https://goo.gl/maps/5JXtQ1RunyrN94oo9",
+      "checkCode": "7"
+    },
+    {
+      "id": "49",
+      "name": "臺中市大里區衛生所",
+      "address": "大里區大衛路82號",
+      "tel": "(04)24061500",
+      "mapUrl": "https://goo.gl/maps/5ewTFLmjH3xvsLPn6",
+      "checkCode": "5"
+    },
+    {
+      "id": "50",
+      "name": "黃耳鼻喉科診所",
+      "address": "大里區中興路2段 169之1號",
+      "tel": "(04)24830888",
+      "mapUrl": "https://goo.gl/maps/GDsthcUC99YB5mBo9",
+      "checkCode": "7"
+    },
+    {
+      "id": "51",
+      "name": "大直診所",
+      "address": "大里區中興路2段 349號",
+      "tel": "(04)24852200",
+      "mapUrl": "https://g.page/drdazhi?share",
+      "checkCode": "5"
+    },
+    {
+      "id": "52",
+      "name": "新菩提醫院",
+      "address": "大里區中興路2段 621號",
+      "tel": "(04)24829966",
+      "mapUrl": "https://goo.gl/maps/pCzDYeswiqyumLeZ7",
+      "checkCode": "15"
+    },
+    {
+      "id": "53",
+      "name": "華欣牙醫診所",
+      "address": "大里區中興路2段 675號",
+      "tel": "(04)24826851",
+      "mapUrl": "https://goo.gl/maps/nprphXfK9wPrB84z5",
+      "checkCode": "7"
+    },
+    {
+      "id": "54",
+      "name": "永蘊豐禾診所",
+      "address": "大里區中興路二段 111之2號",
+      "tel": "(04)24830510",
+      "mapUrl": "https://g.page/yyclinic?share",
+      "checkCode": "35"
+    },
+    {
+      "id": "55",
+      "name": "羅邦倚診所",
+      "address": "大里區中興路二段 202之3號",
+      "tel": "(04)24852000",
+      "mapUrl": "https://goo.gl/maps/fKikXTbhAARU3g3r6",
+      "checkCode": "5"
+    },
+    {
+      "id": "56",
+      "name": "柯麗麗婦產科診所",
+      "address": "大里區中興路二段 389號",
+      "tel": "(04)24827769",
+      "mapUrl": "https://goo.gl/maps/46ftHHwinEhT5Kqt8",
+      "checkCode": "3"
+    },
+    {
+      "id": "57",
+      "name": "達明眼科醫院",
+      "address": "大里區中興路二段 490號",
+      "tel": "(04)24851437",
+      "mapUrl": "https://goo.gl/maps/bkuwEiMeJ2vHcgKm8",
+      "checkCode": "5"
+    },
+    {
+      "id": "58",
+      "name": "惠和診所",
+      "address": "大里區中興路二段 582號",
+      "tel": "(04)24876903",
+      "mapUrl": "https://goo.gl/maps/qifMaSU8RBjvaqPY8",
+      "checkCode": "5"
+    },
+    {
+      "id": "59",
+      "name": "仁化診所",
+      "address": "大里區仁化路534號",
+      "tel": "(04)24917887",
+      "mapUrl": "https://goo.gl/maps/EJ8o3QLbRcFPmVC28",
+      "checkCode": "5"
+    },
+    {
+      "id": "60",
+      "name": "長青診所",
+      "address": "大里區仁化路582號",
+      "tel": "(04)24914476",
+      "mapUrl": "https://goo.gl/maps/sR9uY2ZbyDMZJpaNA",
+      "checkCode": "5"
+    },
+    {
+      "id": "61",
+      "name": "香光小兒科診所",
+      "address": "大里區內新里中興路二段392之1號",
+      "tel": "(04)24825105",
+      "mapUrl": "https://goo.gl/maps/3AkkGJV5RPGNqnRp9",
+      "checkCode": "5"
+    },
+    {
+      "id": "62",
+      "name": "沈宗憲診所",
+      "address": "大里區日新里中興路2段712號",
+      "tel": "(04)24837655",
+      "mapUrl": "https://goo.gl/maps/3vRgNDUTAMJanBZV8",
+      "checkCode": "5"
+    },
+    {
+      "id": "63",
+      "name": "皓美牙醫診所",
+      "address": "大里區永興路20號",
+      "tel": "(04)24817793",
+      "mapUrl": "https://goo.gl/maps/VFAACYqY1LUitTFV9",
+      "checkCode": "7"
+    },
+    {
+      "id": "64",
+      "name": "日盛牙醫診所",
+      "address": "大里區永興路318號",
+      "tel": "(04)24812888",
+      "mapUrl": "https://goo.gl/maps/CYdWoUdMiogyecq17",
+      "checkCode": "7"
+    },
+    {
+      "id": "65",
+      "name": "馨田牙醫診所",
+      "address": "大里區甲堤南路21號",
+      "tel": "(04)22755361",
+      "mapUrl": "https://goo.gl/maps/2r6PRt26jmGpeYJs7",
+      "checkCode": "7"
+    },
+    {
+      "id": "66",
+      "name": "台安診所",
+      "address": "大里區立仁路97號",
+      "tel": "(04)22754666",
+      "mapUrl": "https://goo.gl/maps/K5fkvTu2tZhD3ZfP9",
+      "checkCode": "35"
+    },
+    {
+      "id": "67",
+      "name": "佳陽診所",
+      "address": "大里區立新街329號",
+      "tel": "(04)22752008",
+      "mapUrl": "https://goo.gl/maps/nZDodVEGW32nJyLXA",
+      "checkCode": "5"
+    },
+    {
+      "id": "68",
+      "name": "李宗哲診所",
+      "address": "大里區成功二路100號",
+      "tel": "(04)24950208",
+      "mapUrl": "https://goo.gl/maps/xVhh3NHD2xgtek6eA",
+      "checkCode": "5"
+    },
+    {
+      "id": "69",
+      "name": "陳建利診所",
+      "address": "大里區成功路385號及387號",
+      "tel": "(04)24935145",
+      "mapUrl": "https://goo.gl/maps/5PPzahDpF4oMGSQn9",
+      "checkCode": "5"
+    },
+    {
+      "id": "70",
+      "name": "霧峰澄清醫院",
+      "address": "大里區成功路55號",
+      "tel": "(04)24922000",
+      "mapUrl": "https://goo.gl/maps/vF7R5f1PiLC2v7Rg7",
+      "checkCode": "5"
+    },
+    {
+      "id": "71",
+      "name": "向日牙醫診所",
+      "address": "大里區自強街33號",
+      "tel": "(04)22738686",
+      "mapUrl": "https://goo.gl/maps/Nm559sW75xNkQN4n9",
+      "checkCode": "7"
+    },
+    {
+      "id": "72",
+      "name": "大里陳內小兒科診所",
+      "address": "大里區西榮里大里路19號",
+      "tel": "(04)24835484",
+      "mapUrl": "https://goo.gl/maps/f9kb2augBdHCQdP39",
+      "checkCode": "5"
+    },
+    {
+      "id": "73",
+      "name": "蔡景晴婦產科診所",
+      "address": "大里區西榮里中興路二段145號",
+      "tel": "(04)24838002",
+      "mapUrl": "https://goo.gl/maps/Ax5PJoLdSr6nPTHm7",
+      "checkCode": "3"
+    },
+    {
+      "id": "74",
+      "name": "立人耳鼻喉科診所",
+      "address": "大里區西榮里益民路二段55號",
+      "tel": "(04)24832555",
+      "mapUrl": "https://goo.gl/maps/g4tajC8q4KjUWGjo8",
+      "checkCode": "5"
+    },
+    {
+      "id": "75",
+      "name": "祥安婦產科診所",
+      "address": "大里區東湖里中興路1段275號",
+      "tel": "(04)24922626",
+      "mapUrl": "https://goo.gl/maps/esuWxvMU3g3KpVJ38",
+      "checkCode": "3"
+    },
+    {
+      "id": "76",
+      "name": "楊鴻興診所",
+      "address": "大里區東湖里中興路一段109之7號",
+      "tel": "(04)24929969",
+      "mapUrl": "https://goo.gl/maps/UDrnSp4zQP74a9aE8",
+      "checkCode": "5"
+    },
+    {
+      "id": "77",
+      "name": "江志明內小兒科診所",
+      "address": "大里區東湖里中興路一段53號",
+      "tel": "(04)24930233",
+      "mapUrl": "https://goo.gl/maps/xrJETGkx2azAZDFH7",
+      "checkCode": "5"
+    },
+    {
+      "id": "78",
+      "name": "何延慶婦產科診所",
+      "address": "大里區東榮路155， 157號",
+      "tel": "(04)24813233",
+      "mapUrl": "https://goo.gl/maps/VYiFFpahiS5AGhVi7",
+      "checkCode": "3"
+    },
+    {
+      "id": "79",
+      "name": "群欣診所",
+      "address": "大里區東榮路165號",
+      "tel": "(04)24825651",
+      "mapUrl": "https://goo.gl/maps/KfFQTbYXx7Qca6FTA",
+      "checkCode": "5"
+    },
+    {
+      "id": "80",
+      "name": "聖心診所",
+      "address": "大里區東榮路350號",
+      "tel": "(04)24872100",
+      "mapUrl": "https://goo.gl/maps/WcyxYx2GPnBKj2ge8",
+      "checkCode": "5"
+    },
+    {
+      "id": "81",
+      "name": "康聖耳鼻喉科診所",
+      "address": "大里區東榮路404號",
+      "tel": "(04)24874239",
+      "mapUrl": "https://goo.gl/maps/8rVRKWmcdrj4LThFA",
+      "checkCode": "7"
+    },
+    {
+      "id": "82",
+      "name": "仁愛醫療財團法人大里仁愛醫院",
+      "address": "大里區東榮路483號",
+      "tel": "(04)24819900",
+      "mapUrl": "https://g.page/JAHCancerMedicineCenter?share",
+      "checkCode": "210"
+    },
+    {
+      "id": "83",
+      "name": "顏安耳鼻喉科診所",
+      "address": "大里區東興里益民路二段317號",
+      "tel": "(04)24872999",
+      "mapUrl": "https://goo.gl/maps/6uPSmRscJ42JamKL7",
+      "checkCode": "35"
+    },
+    {
+      "id": "84",
+      "name": "全育牙醫診所",
+      "address": "大里區東興里益民路二段333–1，333–2號",
+      "tel": "(04)24810136",
+      "mapUrl": "https://goo.gl/maps/DKmHdQsZRzvTBsVW6",
+      "checkCode": "7"
+    },
+    {
+      "id": "85",
+      "name": "林輝雲診所",
+      "address": "大里區金城里塗城路713巷16號",
+      "tel": "(04)24936567",
+      "mapUrl": "https://goo.gl/maps/91XpzfKyhzZAJEUm6",
+      "checkCode": "5"
+    },
+    {
+      "id": "86",
+      "name": "戴啟訓診所",
+      "address": "大里區益民路2段 113號",
+      "tel": "(04)24873300",
+      "mapUrl": "https://goo.gl/maps/QzyvjCBTcqN3Tyo56",
+      "checkCode": "5"
+    },
+    {
+      "id": "87",
+      "name": "遠傳牙醫診所",
+      "address": "大里區益民路2段 183及185號",
+      "tel": "(04)24853333",
+      "mapUrl": "https://g.page/FarEastoneDental?share",
+      "checkCode": "7"
+    },
+    {
+      "id": "88",
+      "name": "全家牙醫診所",
+      "address": "大里區益民路二段 258號",
+      "tel": "(04)24823777",
+      "mapUrl": "https://goo.gl/maps/jPANxcUePY7xFWVT9",
+      "checkCode": "7"
+    },
+    {
+      "id": "89",
+      "name": "李文軒耳鼻喉科診所",
+      "address": "大里區益民路二段 271號",
+      "tel": "(04)24872898",
+      "mapUrl": "https://goo.gl/maps/17UPC3cp9V6pugkx8",
+      "checkCode": "35"
+    },
+    {
+      "id": "90",
+      "name": "健民診所",
+      "address": "大里區健民路83之7號",
+      "tel": "(04)24912812",
+      "mapUrl": "https://goo.gl/maps/wTCVGrCTjtHQWam3A",
+      "checkCode": "5"
+    },
+    {
+      "id": "91",
+      "name": "劉彥昇診所",
+      "address": "大里區健民路83之7號",
+      "tel": "(04)24912812",
+      "mapUrl": "https://goo.gl/maps/5B5NS2gHX4VWpgRu5",
+      "checkCode": "5"
+    },
+    {
+      "id": "92",
+      "name": "顧耳鼻喉科診所",
+      "address": "大里區塗城路532號",
+      "tel": "(04)24966988",
+      "mapUrl": "https://goo.gl/maps/PQqTTgVCqa2QTTwQ6",
+      "checkCode": "7"
+    },
+    {
+      "id": "93",
+      "name": "新欣牙醫診所",
+      "address": "大里區塗城路820、 822及824號",
+      "tel": "(04)24939922",
+      "mapUrl": "https://g.page/CincinDental?share",
+      "checkCode": "7"
+    },
+    {
+      "id": "94",
+      "name": "范振杰耳鼻喉科診所",
+      "address": "大里區塗城路966號",
+      "tel": "(04)24950295",
+      "mapUrl": "https://goo.gl/maps/DDi3MRvfpPYMsPbu6",
+      "checkCode": "7"
+    },
+    {
+      "id": "95",
+      "name": "惠群診所",
+      "address": "大里區新仁路一段 123之10號",
+      "tel": "(04)22761141",
+      "mapUrl": "https://goo.gl/maps/bps1ZR47XiaSwH528",
+      "checkCode": "5"
+    },
+    {
+      "id": "96",
+      "name": "蔡政益小兒科診所",
+      "address": "大里區新里里益民路2段169號",
+      "tel": "(04)24870721",
+      "mapUrl": "https://goo.gl/maps/ACSGXTkycChLzraJ9",
+      "checkCode": "5"
+    },
+    {
+      "id": "97",
+      "name": "大欣診所",
+      "address": "大里區新興路15號",
+      "tel": "(04)24069660",
+      "mapUrl": "https://goo.gl/maps/epDwuEcCkCMPoP5h6",
+      "checkCode": "5"
+    },
+    {
+      "id": "98",
+      "name": "三上耳鼻喉科診所",
+      "address": "大里區瑞城里成功路419．421號",
+      "tel": "(04)24953856",
+      "mapUrl": "https://goo.gl/maps/xnsEy52e3zj51Wqk9",
+      "checkCode": "7"
+    },
+    {
+      "id": "99",
+      "name": "博生婦產科診所",
+      "address": "大里區德芳南路352號、350號",
+      "tel": "(04)24839277",
+      "mapUrl": "https://goo.gl/maps/btxmCm9kMQdm11rB8",
+      "checkCode": "3"
+    },
+    {
+      "id": "100",
+      "name": "和信診所",
+      "address": "大里區德芳路一段 63號3樓",
+      "tel": "(04)24830848",
+      "mapUrl": "https://goo.gl/maps/eZmrWn7bFCFPBD2S6",
+      "checkCode": "5"
+    }
+  ],
+  "413": [
+    {
+      "id": "857",
+      "name": "楊繼雄內科診所",
+      "address": "霧峰區大同路1號",
+      "tel": "(04)23393135",
+      "mapUrl": "https://goo.gl/maps/bttAfw82VZ44jPQP6",
+      "checkCode": "5"
+    },
+    {
+      "id": "858",
+      "name": "陳炎山家庭醫學科診所",
+      "address": "霧峰區中正路1110號",
+      "tel": "(04)23391100",
+      "mapUrl": "https://goo.gl/maps/gQqYvSjMV6gv1ssh6",
+      "checkCode": "5"
+    },
+    {
+      "id": "859",
+      "name": "悅心診所",
+      "address": "霧峰區中正路1121號",
+      "tel": "(04)23308512",
+      "mapUrl": "https://goo.gl/maps/zXWj6akZYTmRckBQ8",
+      "checkCode": "5"
+    },
+    {
+      "id": "860",
+      "name": "本堂澄清醫院",
+      "address": "霧峰區中正路718號",
+      "tel": "(04)23390000",
+      "mapUrl": "https://goo.gl/maps/yah5Exu1qUMfMdDd7",
+      "checkCode": "5"
+    },
+    {
+      "id": "861",
+      "name": "品誠牙醫診所",
+      "address": "霧峰區中正路832號",
+      "tel": "(04)23303166",
+      "mapUrl": "https://goo.gl/maps/iNNxRNvfHdXDyT1R8",
+      "checkCode": "7"
+    },
+    {
+      "id": "862",
+      "name": "溫鴻耳鼻喉科診所",
+      "address": "霧峰區中正路872號",
+      "tel": "(04)23303839",
+      "mapUrl": "https://goo.gl/maps/gLaAd3ummN9tHrgW9",
+      "checkCode": "35"
+    },
+    {
+      "id": "863",
+      "name": "鴻安牙醫診所",
+      "address": "霧峰區中正路876號",
+      "tel": "(04)23323403",
+      "mapUrl": "https://goo.gl/maps/GPWR1RTnKbP4Rdau8",
+      "checkCode": "7"
+    },
+    {
+      "id": "864",
+      "name": "金寶貝診所",
+      "address": "霧峰區中正路882號",
+      "tel": "(04)23303008",
+      "mapUrl": "https://goo.gl/maps/KyL9GL2khmDPYyn4A",
+      "checkCode": "35"
+    },
+    {
+      "id": "865",
+      "name": "天仁小兒科診所",
+      "address": "霧峰區中正路967號、969號",
+      "tel": "(04)23336678",
+      "mapUrl": "https://goo.gl/maps/EMwyWCkxPAs5tNhn7",
+      "checkCode": "35"
+    },
+    {
+      "id": "866",
+      "name": "平奚診所",
+      "address": "霧峰區四德路408號",
+      "tel": "(04)23332684",
+      "mapUrl": "https://goo.gl/maps/L98dmWDBM4oDbRcN8",
+      "checkCode": "35"
+    },
+    {
+      "id": "867",
+      "name": "台中市霧峰區衛生所",
+      "address": "霧峰區本堂里民生路1之9號",
+      "tel": "(04)23393022",
+      "mapUrl": "https://goo.gl/maps/d815ZBsRNFFuid9Y6",
+      "checkCode": "5"
+    },
+    {
+      "id": "868",
+      "name": "德美牙醫診所",
+      "address": "霧峰區本堂里育仁街16號",
+      "tel": "(04)23326472",
+      "mapUrl": "https://goo.gl/maps/9c6yt1mFeea1uMrD6",
+      "checkCode": "7"
+    },
+    {
+      "id": "869",
+      "name": "仁美婦產科診所",
+      "address": "霧峰區甲寅里中正路1062號",
+      "tel": "(04)23335105",
+      "mapUrl": "https://goo.gl/maps/nu8xYW5cysrtqgox8",
+      "checkCode": "15"
+    },
+    {
+      "id": "870",
+      "name": "陳水亮婦產科診所",
+      "address": "霧峰區甲寅里中正路1102之1號",
+      "tel": "(04)23328732",
+      "mapUrl": "https://goo.gl/maps/ZR9AXQczPsXNqkxz9",
+      "checkCode": "3"
+    },
+    {
+      "id": "871",
+      "name": "劉暄峰小兒科診所",
+      "address": "霧峰區甲寅里中正路1141號",
+      "tel": "(04)23332418",
+      "mapUrl": "https://goo.gl/maps/NUN7Mkap7vrNT3QY7",
+      "checkCode": "5"
+    },
+    {
+      "id": "872",
+      "name": "莊永安診所",
+      "address": "霧峰區萊園路15–6號",
+      "tel": "(04)23390347",
+      "mapUrl": "https://goo.gl/maps/8SMmMU69ANv7cAFC7",
+      "checkCode": "5"
+    },
+    {
+      "id": "873",
+      "name": "陳儀崇診所",
+      "address": "霧峰區萊園路6之1號",
+      "tel": "(04)23391349",
+      "mapUrl": "https://goo.gl/maps/zfBznkKfjzRRY2PJ7",
+      "checkCode": "5"
+    },
+    {
+      "id": "874",
+      "name": "亞洲大學附屬醫院",
+      "address": "霧峰區福新路222號",
+      "tel": "(04)37061668",
+      "mapUrl": "https://g.page/AUHcares?share",
+      "checkCode": "210"
+    }
+  ],
+  "414": [
+    {
+      "id": "684",
+      "name": "晶新牙醫診所",
+      "address": "烏日區三榮路二段 13號",
+      "tel": "(04)23385599",
+      "mapUrl": "https://goo.gl/maps/qSfvPFkKVcjWJ5JQA",
+      "checkCode": "7"
+    },
+    {
+      "id": "685",
+      "name": "英和診所",
+      "address": "烏日區中山路1段 367號",
+      "tel": "(04)23376998",
+      "mapUrl": "https://goo.gl/maps/dYQ7PMuDXRKgGqnc8",
+      "checkCode": "35"
+    },
+    {
+      "id": "686",
+      "name": "烏日今日牙醫診所",
+      "address": "烏日區中山路2段 256號",
+      "tel": "(04)23373476",
+      "mapUrl": "https://goo.gl/maps/As7sU4FdaCob1pHa9",
+      "checkCode": "7"
+    },
+    {
+      "id": "687",
+      "name": "福田耳鼻喉科診所",
+      "address": "烏日區中山路一段 324號",
+      "tel": "(04)23377473",
+      "mapUrl": "https://goo.gl/maps/XUvinswqZejCWYL4A",
+      "checkCode": "7"
+    },
+    {
+      "id": "688",
+      "name": "德昌小兒科診所",
+      "address": "烏日區中山路一段 335號",
+      "tel": "(04)23372686",
+      "mapUrl": "https://goo.gl/maps/U4VATZiVEeM2CKBi6",
+      "checkCode": "5"
+    },
+    {
+      "id": "689",
+      "name": "泓安牙醫診所",
+      "address": "烏日區中山路二段 265號",
+      "tel": "(04)23388321",
+      "mapUrl": "https://goo.gl/maps/gsxShf8qMhmFNA2y9",
+      "checkCode": "7"
+    },
+    {
+      "id": "690",
+      "name": "順馨診所",
+      "address": "烏日區中山路二段 297號",
+      "tel": "(04)23360115",
+      "mapUrl": "https://g.page/ShunxinClinic?share",
+      "checkCode": "5"
+    },
+    {
+      "id": "691",
+      "name": "施建成診所",
+      "address": "烏日區仁德里中山路一段455號",
+      "tel": "(04)23363590",
+      "mapUrl": "https://goo.gl/maps/Q712p5EWyveVYKvm8",
+      "checkCode": "5"
+    },
+    {
+      "id": "692",
+      "name": "劉耳鼻喉科診所",
+      "address": "烏日區仁德里信義街164巷32號",
+      "tel": "(04)23384438",
+      "mapUrl": "https://goo.gl/maps/euZqAu3k1vs1TH4G8",
+      "checkCode": "7"
+    },
+    {
+      "id": "693",
+      "name": "劉耀宜診所",
+      "address": "烏日區仁德里信義街167號",
+      "tel": "(04)23385193",
+      "mapUrl": "https://goo.gl/maps/MFVVg5Khq8LpZot59",
+      "checkCode": "5"
+    },
+    {
+      "id": "694",
+      "name": "松群診所",
+      "address": "烏日區公園路88號",
+      "tel": "(04)23386690",
+      "mapUrl": "https://goo.gl/maps/RRsbdTUMn9XynxHH6",
+      "checkCode": "5"
+    },
+    {
+      "id": "695",
+      "name": "陳孟正診所",
+      "address": "烏日區長春街170號",
+      "tel": "(04)23371686",
+      "mapUrl": "https://goo.gl/maps/NM8DiEsq82buw8R27",
+      "checkCode": "5"
+    },
+    {
+      "id": "696",
+      "name": "烏日澄清醫院",
+      "address": "烏日區前竹里光明路419號",
+      "tel": "(04)23376232",
+      "mapUrl": "https://goo.gl/maps/2ShPmWNj86yvSU6r6",
+      "checkCode": "105"
+    },
+    {
+      "id": "697",
+      "name": "惠心聯合診所",
+      "address": "烏日區烏日里中山路二段97號",
+      "tel": "(04)23381162",
+      "mapUrl": "https://goo.gl/maps/EvAtxdw3tDTc6Zit9",
+      "checkCode": "15"
+    },
+    {
+      "id": "698",
+      "name": "臺中市烏日區衛生所",
+      "address": "烏日區烏日里長樂街136號",
+      "tel": "(04)23381027",
+      "mapUrl": "https://goo.gl/maps/pB6EjKZBQtrPPpfRA",
+      "checkCode": "5"
+    },
+    {
+      "id": "699",
+      "name": "鄭昭弘診所",
+      "address": "烏日區溪南路1段 409號",
+      "tel": "(04)23352721",
+      "mapUrl": "https://goo.gl/maps/EynJXUYSY1oKSn6j6",
+      "checkCode": "5"
+    },
+    {
+      "id": "700",
+      "name": "佳康診所",
+      "address": "烏日區溪南路一段 562號",
+      "tel": "(04)23353332",
+      "mapUrl": "https://goo.gl/maps/zhrsiofjdwCKYkkW9",
+      "checkCode": "5"
+    },
+    {
+      "id": "701",
+      "name": "明仁診所",
+      "address": "烏日區溪現里溪南路一段702號",
+      "tel": "(04)23354232",
+      "mapUrl": "https://goo.gl/maps/aETkHuHXc6qBx1Ar5",
+      "checkCode": "5"
+    },
+    {
+      "id": "702",
+      "name": "林新醫療社團法人烏日林新醫院",
+      "address": "烏日區榮和路168號",
+      "tel": "(04)23388766",
+      "mapUrl": "https://goo.gl/maps/fvLgoi7eB2oVQYzM8",
+      "checkCode": "210"
+    },
+    {
+      "id": "703",
+      "name": "學田診所",
+      "address": "烏日區學田路便行巷43號",
+      "tel": "(04)23366809",
+      "mapUrl": "https://goo.gl/maps/sicVG2AgEPbmveBD6",
+      "checkCode": "35"
+    },
+    {
+      "id": "704",
+      "name": "欣祥診所",
+      "address": "烏日區興祥街71號",
+      "tel": "(04)23367337",
+      "mapUrl": "https://goo.gl/maps/sb3sMH67F9GoUVdz5",
+      "checkCode": "5"
+    }
+  ],
+  "420": [
+    {
+      "id": "799",
+      "name": "杏豐醫院",
+      "address": "豐原區三民路106號",
+      "tel": "(04)25234112",
+      "mapUrl": "https://goo.gl/maps/A8bC328AzkLk2qas8",
+      "checkCode": "5"
+    },
+    {
+      "id": "800",
+      "name": "顏國書牙醫診所",
+      "address": "豐原區三民路132及 134號",
+      "tel": "(04)25204562",
+      "mapUrl": "https://goo.gl/maps/wJhdtyEVfTKhFmDn9",
+      "checkCode": "7"
+    },
+    {
+      "id": "801",
+      "name": "莊婦產科診所",
+      "address": "豐原區三民路87號",
+      "tel": "(04)25271889",
+      "mapUrl": "https://goo.gl/maps/ysW3nsPynLoC6UFc6",
+      "checkCode": "21"
+    },
+    {
+      "id": "802",
+      "name": "許躍騰診所",
+      "address": "豐原區下街里中正路222號",
+      "tel": "(04)25222010",
+      "mapUrl": "https://goo.gl/maps/Y9XCMChdAtYomJph8",
+      "checkCode": "35"
+    },
+    {
+      "id": "803",
+      "name": "仁德診所",
+      "address": "豐原區中山路295號",
+      "tel": "(04)25278561",
+      "mapUrl": "https://goo.gl/maps/87fPDpySTn8REcYG8",
+      "checkCode": "5"
+    },
+    {
+      "id": "804",
+      "name": "楊聰鎰診所",
+      "address": "豐原區中山路295號",
+      "tel": "(04)25278561",
+      "mapUrl": "https://goo.gl/maps/87fPDpySTn8REcYG8",
+      "checkCode": "5"
+    },
+    {
+      "id": "805",
+      "name": "吳志修耳鼻喉科診所",
+      "address": "豐原區中山路345、 347號",
+      "tel": "(04)25120295",
+      "mapUrl": "https://goo.gl/maps/W38cXDHWXRQGPjjH6",
+      "checkCode": "7"
+    },
+    {
+      "id": "806",
+      "name": "林宜民診所",
+      "address": "豐原區中山路393號",
+      "tel": "(04)25209199",
+      "mapUrl": "https://goo.gl/maps/kP8moT2g4xjwfrfa8",
+      "checkCode": "5"
+    },
+    {
+      "id": "807",
+      "name": "陸建民診所",
+      "address": "豐原區中山路405號",
+      "tel": "(04)25271688",
+      "mapUrl": "https://goo.gl/maps/3fPv7aPrRiKdgkxp8",
+      "checkCode": "5"
+    },
+    {
+      "id": "808",
+      "name": "元佑牙醫診所",
+      "address": "豐原區中山路415號",
+      "tel": "(04)25157733",
+      "mapUrl": "https://goo.gl/maps/hXCTisd8ep6ndupSA",
+      "checkCode": "7"
+    },
+    {
+      "id": "809",
+      "name": "豐安醫院",
+      "address": "豐原區中正路115號",
+      "tel": "(04)25231180",
+      "mapUrl": "https://goo.gl/maps/pJkT5DRg6gkfeTrT6",
+      "checkCode": "5"
+    },
+    {
+      "id": "810",
+      "name": "文華婦產科診所",
+      "address": "豐原區中正路170號",
+      "tel": "(04)25273385",
+      "mapUrl": "https://goo.gl/maps/yd17jGk8dwxxPewh8",
+      "checkCode": "3"
+    },
+    {
+      "id": "811",
+      "name": "中國醫藥大學附設醫院豐原分院",
+      "address": "豐原區中正路199號",
+      "tel": "(04)25222538",
+      "mapUrl": "https://goo.gl/maps/VUnPreJM1rMHuvPX9",
+      "checkCode": "35"
+    },
+    {
+      "id": "812",
+      "name": "漢中婦產科診所",
+      "address": "豐原區中正路214號",
+      "tel": "(04)25245868",
+      "mapUrl": "https://goo.gl/maps/C8BKGqpasLtzvxGU9",
+      "checkCode": "3"
+    },
+    {
+      "id": "813",
+      "name": "漢忠醫院",
+      "address": "豐原區中正路218號、212巷1之1號",
+      "tel": "(04)25222209",
+      "mapUrl": "https://goo.gl/maps/QdcUo1tL2FAMdDAj9",
+      "checkCode": "5"
+    },
+    {
+      "id": "814",
+      "name": "陳聰波診所",
+      "address": "豐原區中正路234號",
+      "tel": "(04)25251598",
+      "mapUrl": "https://goo.gl/maps/WqAJLu9e4mcYzMAZ7",
+      "checkCode": "5"
+    },
+    {
+      "id": "815",
+      "name": "佳幼診所",
+      "address": "豐原區中正路264號",
+      "tel": "(04)25296336",
+      "mapUrl": "https://goo.gl/maps/LQZyQ4HN4DGnRjig8",
+      "checkCode": "5"
+    },
+    {
+      "id": "816",
+      "name": "惠盛醫院",
+      "address": "豐原區中正路268號",
+      "tel": "(04)25229100",
+      "mapUrl": "https://goo.gl/maps/1Sp4XbxhoKzujT638",
+      "checkCode": "105"
+    },
+    {
+      "id": "817",
+      "name": "優生聯合婦產科診所",
+      "address": "豐原區中正路282號",
+      "tel": "(04)25273395",
+      "mapUrl": "https://goo.gl/maps/9NDgqk1bQ3zJwLUG8",
+      "checkCode": "3"
+    },
+    {
+      "id": "818",
+      "name": "保生診所",
+      "address": "豐原區中正路317號",
+      "tel": "(04)25222367",
+      "mapUrl": "https://goo.gl/maps/Tvabh1YVdKihYrEq6",
+      "checkCode": "35"
+    },
+    {
+      "id": "819",
+      "name": "呂維國婦產科診所",
+      "address": "豐原區中正路346號及348號",
+      "tel": "(04)25262889",
+      "mapUrl": "https://g.page/drluobs?share",
+      "checkCode": "30"
+    },
+    {
+      "id": "820",
+      "name": "胡必雄診所",
+      "address": "豐原區中正路425號",
+      "tel": "(04)25229911",
+      "mapUrl": "https://goo.gl/maps/K42PH3bHvAusUziD6",
+      "checkCode": "5"
+    },
+    {
+      "id": "821",
+      "name": "劉銘郎內科診所",
+      "address": "豐原區中正路83號",
+      "tel": "(04)25159418",
+      "mapUrl": "https://goo.gl/maps/H9nvvpE9Vi7W3Rbk8",
+      "checkCode": "5"
+    },
+    {
+      "id": "822",
+      "name": "傅憲舫婦產科診所",
+      "address": "豐原區中陽里圓環東路605號",
+      "tel": "(04)25204180",
+      "mapUrl": "https://goo.gl/maps/c8cX6qA27KfAauVh8",
+      "checkCode": "3"
+    },
+    {
+      "id": "823",
+      "name": "清祥牙醫診所",
+      "address": "豐原區中興里成功路47號",
+      "tel": "(04)25264530",
+      "mapUrl": "https://goo.gl/maps/xuQMJrNQLTx82NPt8",
+      "checkCode": "7"
+    },
+    {
+      "id": "824",
+      "name": "胡慧玲牙醫診所",
+      "address": "豐原區北陽里南陽路314號",
+      "tel": "(04)25290181",
+      "mapUrl": "https://goo.gl/maps/fntgWYHnPpgpsikMA",
+      "checkCode": "7"
+    },
+    {
+      "id": "825",
+      "name": "大順診所",
+      "address": "豐原區北陽路138號及豐東路239號2樓",
+      "tel": "(04)25250667",
+      "mapUrl": "https://goo.gl/maps/vW6GTjwQv6sgMYHJA",
+      "checkCode": "5"
+    },
+    {
+      "id": "826",
+      "name": "禾安診所",
+      "address": "豐原區永康路312號",
+      "tel": "(04)25231588",
+      "mapUrl": "https://goo.gl/maps/kLvgFV1M83eW9aXh6",
+      "checkCode": "5"
+    },
+    {
+      "id": "827",
+      "name": "親親診所",
+      "address": "豐原區田心里中山路162號",
+      "tel": "(04)25312345",
+      "mapUrl": "https://goo.gl/maps/f6jYtw9mCAi7NkGe9",
+      "checkCode": "5"
+    },
+    {
+      "id": "828",
+      "name": "祐康牙醫診所",
+      "address": "豐原區田心里田心路2段212號",
+      "tel": "(04)25156226",
+      "mapUrl": "https://goo.gl/maps/THhXWMKWmC6e8F3YA",
+      "checkCode": "7"
+    },
+    {
+      "id": "829",
+      "name": "林金生耳鼻喉科診所",
+      "address": "豐原區田心里田心路一段141號",
+      "tel": "(04)25265951",
+      "mapUrl": "https://goo.gl/maps/nJJuE7quc35fkaxz6",
+      "checkCode": "35"
+    },
+    {
+      "id": "830",
+      "name": "正豐牙醫診所",
+      "address": "豐原區向陽路186號",
+      "tel": "(04)25263367",
+      "mapUrl": "https://g.page/Chengfongdental?share",
+      "checkCode": "7"
+    },
+    {
+      "id": "831",
+      "name": "衛生福利部豐原醫院",
+      "address": "豐原區安康路100號",
+      "tel": "(04)25271180",
+      "mapUrl": "https://goo.gl/maps/sLB5TSMDvkk2sc6z5",
+      "checkCode": "210"
+    },
+    {
+      "id": "832",
+      "name": "基成內兒科診所",
+      "address": "豐原區西勢里中山路369號",
+      "tel": "(04)25232730",
+      "mapUrl": "https://goo.gl/maps/QXpPGH1f2rCFLekz9",
+      "checkCode": "5"
+    },
+    {
+      "id": "833",
+      "name": "臺中市豐原區衛生所",
+      "address": "豐原區西勢里中興路136號",
+      "tel": "(04)25261170",
+      "mapUrl": "https://goo.gl/maps/3sZJJuhPxUsickdL9",
+      "checkCode": "105"
+    },
+    {
+      "id": "834",
+      "name": "潔美牙醫診所",
+      "address": "豐原區育仁路110號",
+      "tel": "(04)25257963",
+      "mapUrl": "https://goo.gl/maps/2u2USjmKPtBZPwQM7",
+      "checkCode": "7"
+    },
+    {
+      "id": "835",
+      "name": "長青牙醫診所",
+      "address": "豐原區東勢里中山路450號",
+      "tel": "(04)25268808",
+      "mapUrl": "https://goo.gl/maps/p41FrXVtmkf7Pzpb7",
+      "checkCode": "7"
+    },
+    {
+      "id": "836",
+      "name": "永福診所",
+      "address": "豐原區社皮里中正路701號",
+      "tel": "(04)25280042",
+      "mapUrl": "https://goo.gl/maps/Vq1MQhJFEUDDfqzR6",
+      "checkCode": "35"
+    },
+    {
+      "id": "837",
+      "name": "洪榮信診所",
+      "address": "豐原區社皮里中正路888號",
+      "tel": "(04)25287157",
+      "mapUrl": "https://goo.gl/maps/Mb6yr63GHLXfSFVPA",
+      "checkCode": "3"
+    },
+    {
+      "id": "838",
+      "name": "謝榮吉診所",
+      "address": "豐原區南陽里南陽路299–6號",
+      "tel": "(04)25283295",
+      "mapUrl": "https://goo.gl/maps/LcogVyQEkhukdh4J8",
+      "checkCode": "35"
+    },
+    {
+      "id": "839",
+      "name": "豐原吳外婦科診所",
+      "address": "豐原區南陽里圓環東路391號",
+      "tel": "(04)25263760",
+      "mapUrl": "https://goo.gl/maps/LJK3GPxNHfbuBknA8",
+      "checkCode": "7"
+    },
+    {
+      "id": "840",
+      "name": "許慶芳耳鼻喉科診所",
+      "address": "豐原區胡蘆里中山路506號",
+      "tel": "(04)25292857",
+      "mapUrl": "https://goo.gl/maps/XCYNSbv85KadKQrw6",
+      "checkCode": "35"
+    },
+    {
+      "id": "841",
+      "name": "呂揚德內科診所",
+      "address": "豐原區頂街里中正路104之1號",
+      "tel": "(04)25276200",
+      "mapUrl": "https://goo.gl/maps/oPwReeyBhsVzjuyS9",
+      "checkCode": "5"
+    },
+    {
+      "id": "842",
+      "name": "中新診所",
+      "address": "豐原區頂街里中正路136號",
+      "tel": "(04)25227308",
+      "mapUrl": "https://goo.gl/maps/Nr5xwCxmeNpEgA1j6",
+      "checkCode": "5"
+    },
+    {
+      "id": "843",
+      "name": "同仁診所",
+      "address": "豐原區頂街里博愛街27號",
+      "tel": "(04)25222239",
+      "mapUrl": "https://goo.gl/maps/atTkvuSNEp88hvpv8",
+      "checkCode": "5"
+    },
+    {
+      "id": "844",
+      "name": "蔣小兒科診所",
+      "address": "豐原區富春里中正路253號",
+      "tel": "(04)25222022",
+      "mapUrl": "https://goo.gl/maps/ZcKhufahrCVZDWzz8",
+      "checkCode": "5"
+    },
+    {
+      "id": "845",
+      "name": "中庚聯合診所",
+      "address": "豐原區陽明里信義街26巷7號",
+      "tel": "(04)25295766",
+      "mapUrl": "https://goo.gl/maps/SvAmU22a8g2nm5UD7",
+      "checkCode": "5"
+    },
+    {
+      "id": "846",
+      "name": "新惠生醫院",
+      "address": "豐原區圓環北路一段319號",
+      "tel": "(04)25228792",
+      "mapUrl": "https://goo.gl/maps/AtxG73Yxcf2CaWpW8",
+      "checkCode": "6"
+    },
+    {
+      "id": "847",
+      "name": "豐原趙內科診所",
+      "address": "豐原區圓環東路615號",
+      "tel": "(04)25200226",
+      "mapUrl": "https://goo.gl/maps/eofGDsJd1sq6JDwo7",
+      "checkCode": "5"
+    },
+    {
+      "id": "848",
+      "name": "呂振升內科診所",
+      "address": "豐原區圓環東路656號",
+      "tel": "(04)25220739",
+      "mapUrl": "https://goo.gl/maps/3GUKY49xLikxCJ5YA",
+      "checkCode": "5"
+    },
+    {
+      "id": "849",
+      "name": "心琳診所",
+      "address": "豐原區新生北路206號",
+      "tel": "(04)25226977",
+      "mapUrl": "https://goo.gl/maps/tmJXQMshqHUYgZCp8",
+      "checkCode": "35"
+    },
+    {
+      "id": "850",
+      "name": "博仁牙醫診所",
+      "address": "豐原區豐田里田心路二段230號",
+      "tel": "(04)25252489",
+      "mapUrl": "https://goo.gl/maps/YwcqX2ujjvgvtRgC6",
+      "checkCode": "7"
+    },
+    {
+      "id": "851",
+      "name": "謝錦松內小兒科診所",
+      "address": "豐原區豐西里中正路394號",
+      "tel": "(04)25241310",
+      "mapUrl": "https://goo.gl/maps/ekKBxfNtZrv4wWu4A",
+      "checkCode": "5"
+    },
+    {
+      "id": "852",
+      "name": "安泰牙醫診所",
+      "address": "豐原區豐西街20號",
+      "tel": "(04)25205788",
+      "mapUrl": "https://goo.gl/maps/vqb5kAHw7zGSkhhd8",
+      "checkCode": "7"
+    },
+    {
+      "id": "853",
+      "name": "楊啟坤耳鼻喉科診所",
+      "address": "豐原區豐東路16號",
+      "tel": "(04)25279800",
+      "mapUrl": "https://goo.gl/maps/nB1yaSJaWQc7PpM1A",
+      "checkCode": "5"
+    },
+    {
+      "id": "854",
+      "name": "晨欣親子診所",
+      "address": "豐原區豐東路83號",
+      "tel": "(04)25256525",
+      "mapUrl": "https://goo.gl/maps/9swSHY9vAEdxGJE28",
+      "checkCode": "5"
+    },
+    {
+      "id": "855",
+      "name": "呂岡原聯合診所",
+      "address": "豐原區豐榮里三民路174號",
+      "tel": "(04)25228302",
+      "mapUrl": "https://goo.gl/maps/8Y39tFF2eP6Zk3wXA",
+      "checkCode": "3"
+    },
+    {
+      "id": "856",
+      "name": "陳成福診所",
+      "address": "豐原區豐榮里和平街47號",
+      "tel": "(04)25120612",
+      "mapUrl": "https://goo.gl/maps/o7httkHEY3rijLLv5",
+      "checkCode": "35"
+    }
+  ],
+  "421": [
+    {
+      "id": "363",
+      "name": "張偉煌診所",
+      "address": "后里區三豐路三段 1070號",
+      "tel": "(04)25580008",
+      "mapUrl": "https://goo.gl/maps/UaYxZ3VWXjdWPzLcA",
+      "checkCode": "5"
+    },
+    {
+      "id": "364",
+      "name": "李煥照婦產專科診所",
+      "address": "后里區文明路33號",
+      "tel": "(04)25581886",
+      "mapUrl": "https://goo.gl/maps/8hJ3CZwBBJkZaMdE7",
+      "checkCode": "105"
+    },
+    {
+      "id": "365",
+      "name": "嘉家診所",
+      "address": "后里區民生路82號",
+      "tel": "(04)25572687",
+      "mapUrl": "https://goo.gl/maps/9qpJpf5XkcGn29ZC8",
+      "checkCode": "7"
+    },
+    {
+      "id": "366",
+      "name": "后里維恩耳鼻喉科診所",
+      "address": "后里區甲后路1段 480號",
+      "tel": "(04)25586608",
+      "mapUrl": "https://goo.gl/maps/y4b8u4JdThEQvSoT7",
+      "checkCode": "35"
+    },
+    {
+      "id": "367",
+      "name": "吉泰診所",
+      "address": "后里區甲后路一段 165號、167號",
+      "tel": "(04)25585980",
+      "mapUrl": "https://goo.gl/maps/ejmAeFbS78awNhY3A",
+      "checkCode": "5"
+    },
+    {
+      "id": "368",
+      "name": "國泰診所",
+      "address": "后里區甲后路一段 255號",
+      "tel": "(04)25577378",
+      "mapUrl": "https://goo.gl/maps/Rk9K3DwSqy7x188s7",
+      "checkCode": "35"
+    },
+    {
+      "id": "369",
+      "name": "后安診所",
+      "address": "后里區甲后路一段 315號",
+      "tel": "(04)25587800",
+      "mapUrl": "https://goo.gl/maps/euV1rmykXwCWNGX98",
+      "checkCode": "35"
+    },
+    {
+      "id": "370",
+      "name": "生和診所",
+      "address": "后里區甲后路一段 489號",
+      "tel": "(04)25562163",
+      "mapUrl": "https://goo.gl/maps/6sHyGy18zwER5Tn19",
+      "checkCode": "5"
+    },
+    {
+      "id": "371",
+      "name": "后里張婦產外科診所",
+      "address": "后里區甲后路一段 531號",
+      "tel": "(04)25560555",
+      "mapUrl": "https://goo.gl/maps/JPsYW1ESYpurUKdt7",
+      "checkCode": "21"
+    },
+    {
+      "id": "372",
+      "name": "星宇牙醫診所",
+      "address": "后里區甲后路一段 712號",
+      "tel": "(04)25566788",
+      "mapUrl": "https://g.page/stardentalclinic25566788?share",
+      "checkCode": "7"
+    },
+    {
+      "id": "373",
+      "name": "臺中市后里區衛生所",
+      "address": "后里區墩西里公安路86號",
+      "tel": "(04)25562048",
+      "mapUrl": "https://goo.gl/maps/m71aK6MAhYmQFvxV7",
+      "checkCode": "35"
+    },
+    {
+      "id": "374",
+      "name": "鄭文瑞婦產科診所",
+      "address": "后里區墩東里文明路190號",
+      "tel": "(04)25587722",
+      "mapUrl": "https://goo.gl/maps/DdvHEEdeXRKArYJx6",
+      "checkCode": "3"
+    }
+  ],
+  "422": [
+    {
+      "id": "361",
+      "name": "臺中市石岡區衛生所",
+      "address": "石岡區石岡街6號",
+      "tel": "(04)25721887",
+      "mapUrl": "https://goo.gl/maps/YW9He3mHQYh3ENEb6",
+      "checkCode": "35"
+    },
+    {
+      "id": "362",
+      "name": "清海醫院",
+      "address": "石岡區金星里石岡街下坑巷41–2號",
+      "tel": "(04)25721694",
+      "mapUrl": "https://goo.gl/maps/n2kGqFJXws5w5m8Y6",
+      "checkCode": "5"
+    }
+  ],
+  "423": [
+    {
+      "id": "548",
+      "name": "快樂牙醫診所",
+      "address": "東勢區三民街260號",
+      "tel": "(04)25879800",
+      "mapUrl": "https://goo.gl/maps/fxoeAAwfoDFBJna68",
+      "checkCode": "7"
+    },
+    {
+      "id": "549",
+      "name": "一民診所",
+      "address": "東勢區三民街48號",
+      "tel": "(04)25875170",
+      "mapUrl": "https://goo.gl/maps/amu23BYP3VCtnfMz9",
+      "checkCode": "5"
+    },
+    {
+      "id": "550",
+      "name": "仁合婦產科診所",
+      "address": "東勢區中山路56號",
+      "tel": "(04)25887589",
+      "mapUrl": "https://goo.gl/maps/MUgVg6ZjygpGSdLa7",
+      "checkCode": "3"
+    },
+    {
+      "id": "551",
+      "name": "臺中市東勢區衛生所",
+      "address": "東勢區中寧里豐勢路490號",
+      "tel": "(04)25873872",
+      "mapUrl": "https://goo.gl/maps/eTbyfQmzVFqUXMsB7",
+      "checkCode": "35"
+    },
+    {
+      "id": "552",
+      "name": "東勢潘耳鼻喉科診所",
+      "address": "東勢區中寧里豐勢路496號",
+      "tel": "(04)25880587",
+      "mapUrl": "https://goo.gl/maps/AC8oczRW6b4Y8mbPA",
+      "checkCode": "35"
+    },
+    {
+      "id": "553",
+      "name": "東勢蔡外科診所",
+      "address": "東勢區中寧里豐勢路510號",
+      "tel": "(04)25886596",
+      "mapUrl": "https://goo.gl/maps/GTDN2RMBDVW4Ac4S7",
+      "checkCode": "5"
+    },
+    {
+      "id": "554",
+      "name": "梁外科診所",
+      "address": "東勢區北興里豐勢路611–1號",
+      "tel": "(04)25872053",
+      "mapUrl": "https://goo.gl/maps/1skFYQGZuA1KAhaK9",
+      "checkCode": "35"
+    },
+    {
+      "id": "555",
+      "name": "東勢朱永泰診所",
+      "address": "東勢區延平里豐勢路172號",
+      "tel": "(04)25871700",
+      "mapUrl": "https://goo.gl/maps/Nd6DCTRTLKBJ68Xe6",
+      "checkCode": "35"
+    },
+    {
+      "id": "556",
+      "name": "東農牙醫診所",
+      "address": "東勢區東坑路21號",
+      "tel": "(04)25887446",
+      "mapUrl": "https://goo.gl/maps/C4Q7ky9VEdcAHdvx9",
+      "checkCode": "7"
+    },
+    {
+      "id": "557",
+      "name": "東勢醫達人診所",
+      "address": "東勢區東坑路285號",
+      "tel": "(04)25888585",
+      "mapUrl": "https://goo.gl/maps/p9Ub54G6aNgdbPhq7",
+      "checkCode": "5"
+    },
+    {
+      "id": "558",
+      "name": "東勢區農會附設農民醫院",
+      "address": "東勢區南平里豐勢路297號",
+      "tel": "(04)25771919",
+      "mapUrl": "https://goo.gl/maps/Wx5dGazzNXMcR92U6",
+      "checkCode": "105"
+    },
+    {
+      "id": "559",
+      "name": "林錦芳診所",
+      "address": "東勢區豐勢路283號",
+      "tel": "(04)25771838",
+      "mapUrl": "https://goo.gl/maps/fGxVQCAxCMuHeQoN6",
+      "checkCode": "5"
+    },
+    {
+      "id": "560",
+      "name": "元和診所",
+      "address": "東勢區豐勢路318號",
+      "tel": "(04)25872113",
+      "mapUrl": "https://goo.gl/maps/ahFqfVSuBvfpeiiU9",
+      "checkCode": "5"
+    },
+    {
+      "id": "561",
+      "name": "仁慈診所",
+      "address": "東勢區豐勢路318號",
+      "tel": "(04)25872113",
+      "mapUrl": "https://goo.gl/maps/vS8Jq8cRaHVRSG5C7",
+      "checkCode": "5"
+    },
+    {
+      "id": "562",
+      "name": "維恩耳鼻喉科診所",
+      "address": "東勢區豐勢路372號",
+      "tel": "(04)25885413",
+      "mapUrl": "https://goo.gl/maps/7azek7i1tA8fHvhx8",
+      "checkCode": "7"
+    },
+    {
+      "id": "563",
+      "name": "長頸鹿小兒科診所",
+      "address": "東勢區豐勢路418號及420號",
+      "tel": "(04)25771809",
+      "mapUrl": "https://goo.gl/maps/E3ubBvMJjqAYTVwj6",
+      "checkCode": "35"
+    },
+    {
+      "id": "564",
+      "name": "合麗牙醫診所",
+      "address": "東勢區豐勢路455號",
+      "tel": "(04)25880685",
+      "mapUrl": "https://goo.gl/maps/aA5xXYkBCSX8kYGQA",
+      "checkCode": "7"
+    },
+    {
+      "id": "565",
+      "name": "陳瑞明診所",
+      "address": "東勢區豐勢路548號",
+      "tel": "(04)25888355",
+      "mapUrl": "https://goo.gl/maps/jgMj8ncX367TWLaX8",
+      "checkCode": "5"
+    }
+  ],
+  "424": [
+    {
+      "id": "521",
+      "name": "臺中市和平區梨山衛生所",
+      "address": "和平區中正路12號、68號",
+      "tel": "(04)25989540",
+      "mapUrl": "https://goo.gl/maps/DJpT2k81BAcC6vnP9",
+      "checkCode": "105"
+    },
+    {
+      "id": "522",
+      "name": "臺中市和平區衛生所",
+      "address": "和平區南勢里東關路3段132號",
+      "tel": "(04)25942781",
+      "mapUrl": "https://goo.gl/maps/BoicEZFCGLUFRpB69",
+      "checkCode": "5"
+    }
+  ],
+  "426": [
+    {
+      "id": "749",
+      "name": "安宏診所",
+      "address": "新社區中興里中興嶺85號",
+      "tel": "(04)25816299",
+      "mapUrl": "https://goo.gl/maps/3bn1gnekgPe5pmmk6",
+      "checkCode": "5"
+    },
+    {
+      "id": "750",
+      "name": "安家診所",
+      "address": "新社區中興嶺85號",
+      "tel": "(04)25816299",
+      "mapUrl": "https://goo.gl/maps/aZrtMrFo8Tk2mp1H9",
+      "checkCode": "5"
+    },
+    {
+      "id": "751",
+      "name": "廖力毅診所",
+      "address": "新社區新社里興安路102號",
+      "tel": "(04)25820290",
+      "mapUrl": "https://goo.gl/maps/kxzBMfGFQscsVS3V6",
+      "checkCode": "5"
+    },
+    {
+      "id": "752",
+      "name": "隆安聯合診所",
+      "address": "新社區新社里興安路32號",
+      "tel": "(04)25821541",
+      "mapUrl": "https://goo.gl/maps/v21Wf7h8iix39Uei9",
+      "checkCode": "5"
+    },
+    {
+      "id": "753",
+      "name": "興安診所",
+      "address": "新社區新社里興安路49之2、49之3號",
+      "tel": "(04)25816740",
+      "mapUrl": "https://goo.gl/maps/CC7ksDzBEw8a9tcLA",
+      "checkCode": "5"
+    },
+    {
+      "id": "754",
+      "name": "臺中市新社區衛生所",
+      "address": "新社區新社里興社街4段1號",
+      "tel": "(04)25811704",
+      "mapUrl": "https://goo.gl/maps/4obZignFKmWowYu36",
+      "checkCode": "5"
+    }
+  ],
+  "427": [
+    {
+      "id": "755",
+      "name": "友銘診所",
+      "address": "潭子區中山路1段 159號",
+      "tel": "(04)25320620",
+      "mapUrl": "https://goo.gl/maps/Wb9NvvWeyE9GJgfb8",
+      "checkCode": "3"
+    },
+    {
+      "id": "756",
+      "name": "家興診所",
+      "address": "潭子區中山路1段37號",
+      "tel": "(04)25319968",
+      "mapUrl": "https://goo.gl/maps/YYDDd3d4waeTEAKT8",
+      "checkCode": "35"
+    },
+    {
+      "id": "757",
+      "name": "博文耳鼻喉科診所",
+      "address": "潭子區中山路1段99號",
+      "tel": "(04)25320707",
+      "mapUrl": "https://goo.gl/maps/jZ19PPc79oF1C2v76",
+      "checkCode": "35"
+    },
+    {
+      "id": "758",
+      "name": "臺中市潭子區衛生所",
+      "address": "潭子區中山路2段 241巷5號",
+      "tel": "(04)25324643",
+      "mapUrl": "https://goo.gl/maps/XJuChRevRybb1MSr5",
+      "checkCode": "35"
+    },
+    {
+      "id": "759",
+      "name": "郭耳鼻喉科診所",
+      "address": "潭子區中山路2段 362之1，362之2號",
+      "tel": "(04)25348390",
+      "mapUrl": "https://goo.gl/maps/zQQUEo7BRExpgUt67",
+      "checkCode": "35"
+    },
+    {
+      "id": "760",
+      "name": "安安診所",
+      "address": "潭子區中山路2段 383號",
+      "tel": "(04)25355526",
+      "mapUrl": "https://goo.gl/maps/QcRDXH7mLxM9CcHw7",
+      "checkCode": "3"
+    },
+    {
+      "id": "761",
+      "name": "世界牙醫診所",
+      "address": "潭子區中山路一段 17之2及17之3號",
+      "tel": "(04)25352980",
+      "mapUrl": "https://goo.gl/maps/Sh8Nv4b19hqSnykV7",
+      "checkCode": "7"
+    },
+    {
+      "id": "762",
+      "name": "新思維牙醫診所",
+      "address": "潭子區中山路一段 29，31，33號",
+      "tel": "(04)25312033",
+      "mapUrl": "https://goo.gl/maps/q7qKhswdptdrkGvj9",
+      "checkCode": "7"
+    },
+    {
+      "id": "763",
+      "name": "陳志慶診所",
+      "address": "潭子區中山路二段 372號",
+      "tel": "(04)25325550",
+      "mapUrl": "https://goo.gl/maps/ZsHg2ENKatis8Su47",
+      "checkCode": "15"
+    },
+    {
+      "id": "764",
+      "name": "淨新診所",
+      "address": "潭子區中山路二段 391巷5號1樓",
+      "tel": "(04)25333399",
+      "mapUrl": "https://goo.gl/maps/nSwuQvRBL1SBGJLN6",
+      "checkCode": "5"
+    },
+    {
+      "id": "765",
+      "name": "周肇銘診所",
+      "address": "潭子區中山路二段 392號及394號",
+      "tel": "(04)25335451",
+      "mapUrl": "https://goo.gl/maps/TirTPWz6RPMNNSFX6",
+      "checkCode": "3"
+    },
+    {
+      "id": "766",
+      "name": "林田診所",
+      "address": "潭子區合作街53號",
+      "tel": "(04)25380218",
+      "mapUrl": "https://goo.gl/maps/ncrzUJ2LE5Ssbjr28",
+      "checkCode": "5"
+    },
+    {
+      "id": "767",
+      "name": "品安診所",
+      "address": "潭子區勝利路166號",
+      "tel": "(04)25350580",
+      "mapUrl": "https://goo.gl/maps/NdFQ5HAQUm5ZXaVBA",
+      "checkCode": "5"
+    },
+    {
+      "id": "768",
+      "name": "崇翔牙醫診所",
+      "address": "潭子區勝利路265號",
+      "tel": "(04)25317882",
+      "mapUrl": "https://goo.gl/maps/wmALd7cfCCAtcr4y6",
+      "checkCode": "7"
+    },
+    {
+      "id": "769",
+      "name": "佳佑診所",
+      "address": "潭子區勝利路319號",
+      "tel": "(04)25336888",
+      "mapUrl": "https://g.page/jia-yu-good?share",
+      "checkCode": "35"
+    },
+    {
+      "id": "770",
+      "name": "普霖小兒科診所",
+      "address": "潭子區福仁里復興路1段55號",
+      "tel": "(04)25391159",
+      "mapUrl": "https://goo.gl/maps/EoASg3qEP4UVzsan7",
+      "checkCode": "5"
+    },
+    {
+      "id": "771",
+      "name": "林啟忠診所",
+      "address": "潭子區福潭路503號",
+      "tel": "(04)25377563",
+      "mapUrl": "https://goo.gl/maps/xXM6zWqg6kTs2NRcA",
+      "checkCode": "5"
+    },
+    {
+      "id": "772",
+      "name": "林大詠診所",
+      "address": "潭子區潭子街二段 110號",
+      "tel": "(04)25361915",
+      "mapUrl": "https://goo.gl/maps/srVX8bu47yJXmBwh8",
+      "checkCode": "5"
+    },
+    {
+      "id": "773",
+      "name": "藍牙醫診所",
+      "address": "潭子區潭子街二段 73號",
+      "tel": "(04)25362206",
+      "mapUrl": "https://goo.gl/maps/p5BMcjcQWSmadPfh7",
+      "checkCode": "7"
+    },
+    {
+      "id": "774",
+      "name": "高麗燕診所",
+      "address": "潭子區潭富路一段二十八、三十號",
+      "tel": "(04)25342822",
+      "mapUrl": "https://goo.gl/maps/kDeMvshEDGqU9Ho96",
+      "checkCode": "5"
+    },
+    {
+      "id": "775",
+      "name": "人愛診所",
+      "address": "潭子區潭陽里潭興路二段394號",
+      "tel": "(04)25368299",
+      "mapUrl": "https://goo.gl/maps/tTrGNaiH2EyJ36Ay9",
+      "checkCode": "35"
+    },
+    {
+      "id": "776",
+      "name": "潭興診所",
+      "address": "潭子區潭興路二段 460號",
+      "tel": "(04)25362225",
+      "mapUrl": "https://goo.gl/maps/ZysF6uREmsvM44DL8",
+      "checkCode": "15"
+    },
+    {
+      "id": "777",
+      "name": "丰辰診所",
+      "address": "潭子區潭興路三段 110號",
+      "tel": "(04)25350967",
+      "mapUrl": "https://g.page/fengchen110?share",
+      "checkCode": "5"
+    },
+    {
+      "id": "778",
+      "name": "安泰診所",
+      "address": "潭子區潭興路三段 85號",
+      "tel": "(04)25352796",
+      "mapUrl": "https://goo.gl/maps/BJa3fjC1uPpesmLq9",
+      "checkCode": "5"
+    },
+    {
+      "id": "779",
+      "name": "泰昌診所",
+      "address": "潭子區頭家里頭張路一段88號",
+      "tel": "(04)25329061",
+      "mapUrl": "https://goo.gl/maps/UeaDY2Q9WGvA1AhZ6",
+      "checkCode": "5"
+    },
+    {
+      "id": "780",
+      "name": "林明亮診所",
+      "address": "潭子區頭張路一段3號",
+      "tel": "(04)25322246",
+      "mapUrl": "https://goo.gl/maps/6SY69x5jEZXXaT1N6",
+      "checkCode": "5"
+    },
+    {
+      "id": "781",
+      "name": "佛教慈濟醫療財團法人台中慈濟醫院",
+      "address": "潭子區豐興路1段 66、88號",
+      "tel": "(04)36060666",
+      "mapUrl": "https://g.page/tchtc?share",
+      "checkCode": "210"
+    }
+  ],
+  "428": [
+    {
+      "id": "101",
+      "name": "清泉醫院",
+      "address": "大雅區三和里雅潭路四段80號",
+      "tel": "(04)25605600",
+      "mapUrl": "https://goo.gl/maps/dbyu2BwuTqzPoxNk9",
+      "checkCode": "210"
+    },
+    {
+      "id": "102",
+      "name": "愛生家庭醫學科診所",
+      "address": "大雅區三和里學府路417號",
+      "tel": "(04)25601402",
+      "mapUrl": "https://goo.gl/maps/EuKgitRz81qdFJqz9",
+      "checkCode": "5"
+    },
+    {
+      "id": "103",
+      "name": "崇德外科診所",
+      "address": "大雅區大雅里民興街41號",
+      "tel": "(04)25662071",
+      "mapUrl": "https://goo.gl/maps/mDjNE7jxiSMs24HEA",
+      "checkCode": "5"
+    },
+    {
+      "id": "104",
+      "name": "李思靜診所",
+      "address": "大雅區大雅里民興街56號",
+      "tel": "(04)25685518",
+      "mapUrl": "https://goo.gl/maps/xV2R4nVMbtmrjPXq6",
+      "checkCode": "3"
+    },
+    {
+      "id": "105",
+      "name": "長安診所",
+      "address": "大雅區大雅里民興街57號",
+      "tel": "(04)25609988",
+      "mapUrl": "https://goo.gl/maps/5W7dJJco4G4QyfCXA",
+      "checkCode": "5"
+    },
+    {
+      "id": "106",
+      "name": "康泰牙醫診所",
+      "address": "大雅區大雅里學府路213號",
+      "tel": "(04)25663040",
+      "mapUrl": "https://goo.gl/maps/ke6nbkhNDB74WAvQ8",
+      "checkCode": "7"
+    },
+    {
+      "id": "107",
+      "name": "吳耳鼻喉科診所",
+      "address": "大雅區大雅里學府路333號",
+      "tel": "(04)25683001",
+      "mapUrl": "https://goo.gl/maps/GyYqWaLdciHZxywG9",
+      "checkCode": "35"
+    },
+    {
+      "id": "108",
+      "name": "民興牙醫診所",
+      "address": "大雅區大雅路126號",
+      "tel": "(04)25603168",
+      "mapUrl": "https://goo.gl/maps/V2oRUtrY8DJ7zYnY8",
+      "checkCode": "7"
+    },
+    {
+      "id": "109",
+      "name": "林釗尚小兒科診所",
+      "address": "大雅區大雅路149號及151號",
+      "tel": "(04)25600313",
+      "mapUrl": "https://goo.gl/maps/3TbtgZYDyuzi5QRS7",
+      "checkCode": "35"
+    },
+    {
+      "id": "110",
+      "name": "中部科學工業園區員工診所",
+      "address": "大雅區中科路6之6號",
+      "tel": "(04)25606712",
+      "mapUrl": "https://goo.gl/maps/R5iPuhEWEstSFtqF9",
+      "checkCode": "15"
+    },
+    {
+      "id": "111",
+      "name": "臺中市大雅區衛生所",
+      "address": "大雅區中清東路232號",
+      "tel": "(04)25661091",
+      "mapUrl": "https://goo.gl/maps/DtTJ5pBnb45vCs599",
+      "checkCode": "5"
+    },
+    {
+      "id": "112",
+      "name": "君悅美學牙醫診所",
+      "address": "大雅區中清東路273號",
+      "tel": "(04)25671588",
+      "mapUrl": "https://g.page/DaYaHyattDental?share",
+      "checkCode": "7"
+    },
+    {
+      "id": "113",
+      "name": "國光內科診所",
+      "address": "大雅區中清東路75號",
+      "tel": "(04)25685099",
+      "mapUrl": "https://goo.gl/maps/VA19TfQqBZnNVmka7",
+      "checkCode": "5"
+    },
+    {
+      "id": "114",
+      "name": "李明慧婦產科診所",
+      "address": "大雅區中清路三段 1189號",
+      "tel": "(04)25677957",
+      "mapUrl": "https://goo.gl/maps/MiPAeviVeaSXmxDFA",
+      "checkCode": "15"
+    },
+    {
+      "id": "115",
+      "name": "佳恩牙醫診所",
+      "address": "大雅區中清路四段 12號",
+      "tel": "(04)25678606",
+      "mapUrl": "https://goo.gl/maps/yy4zwZMQs2h2vHKV7",
+      "checkCode": "7"
+    },
+    {
+      "id": "116",
+      "name": "宗澤診所",
+      "address": "大雅區文雅里中山北路492號",
+      "tel": "(04)25683943",
+      "mapUrl": "https://goo.gl/maps/HwFJakQnnCdtLBit8",
+      "checkCode": "5"
+    },
+    {
+      "id": "117",
+      "name": "雅林診所",
+      "address": "大雅區四德里神林南路633號",
+      "tel": "(04)25687742",
+      "mapUrl": "https://goo.gl/maps/pGf51EBxhjuSpkwm7",
+      "checkCode": "5"
+    },
+    {
+      "id": "118",
+      "name": "康博牙醫診所",
+      "address": "大雅區民生路1段57號",
+      "tel": "(04)25680582",
+      "mapUrl": "https://goo.gl/maps/JPxeYvExphiNb6fu6",
+      "checkCode": "7"
+    },
+    {
+      "id": "119",
+      "name": "台光診所",
+      "address": "大雅區民生路一段 71號",
+      "tel": "(04)25674548",
+      "mapUrl": "https://goo.gl/maps/d5XQXmqCdbFuNuPaA",
+      "checkCode": "35"
+    },
+    {
+      "id": "120",
+      "name": "朝美牙醫診所",
+      "address": "大雅區民生路二段六號",
+      "tel": "(04)25686497",
+      "mapUrl": "https://goo.gl/maps/wtELWyZmGu3dsspm7",
+      "checkCode": "7"
+    },
+    {
+      "id": "121",
+      "name": "黃國隆內科診所",
+      "address": "大雅區民興街61號",
+      "tel": "(04)25687536",
+      "mapUrl": "https://goo.gl/maps/Rde1WMEJLgkHD5kdA",
+      "checkCode": "5"
+    },
+    {
+      "id": "122",
+      "name": "黃骨科外科診所",
+      "address": "大雅區神林南路175號",
+      "tel": "(04)25603133",
+      "mapUrl": "https://goo.gl/maps/dXKbgspm72tajivh8",
+      "checkCode": "5"
+    },
+    {
+      "id": "123",
+      "name": "大中小兒科診所",
+      "address": "大雅區雅潭路四段 711號",
+      "tel": "(04)25607116",
+      "mapUrl": "https://goo.gl/maps/PB7H7Us77BbeUKMPA",
+      "checkCode": "5"
+    },
+    {
+      "id": "124",
+      "name": "德明牙醫診所",
+      "address": "大雅區雅潭路四段 830號",
+      "tel": "(04)25661699",
+      "mapUrl": "https://goo.gl/maps/LYAiW9xGkb7KbE9FA",
+      "checkCode": "7"
+    },
+    {
+      "id": "125",
+      "name": "緻為耳鼻喉科診所",
+      "address": "大雅區雅環路一段 338號",
+      "tel": "(04)25668655",
+      "mapUrl": "https://goo.gl/maps/12qfq5sd2BAcFAKR8",
+      "checkCode": "35"
+    },
+    {
+      "id": "126",
+      "name": "陳台祝診所",
+      "address": "大雅區學府路171號",
+      "tel": "(04)25680299",
+      "mapUrl": "https://goo.gl/maps/9fqNGSF6BwY43aTSA",
+      "checkCode": "5"
+    }
+  ],
+  "429": [
+    {
+      "id": "705",
+      "name": "君品牙醫診所",
+      "address": "神岡區五權路20號",
+      "tel": "(04)25227768",
+      "mapUrl": "https://goo.gl/maps/3rLGm5VAb5VPHaSU9",
+      "checkCode": "7"
+    },
+    {
+      "id": "706",
+      "name": "文政診所",
+      "address": "神岡區文政街56號及58號",
+      "tel": "(04)25630193",
+      "mapUrl": "https://goo.gl/maps/UiiWPv6mvaZeKCKf9",
+      "checkCode": "5"
+    },
+    {
+      "id": "707",
+      "name": "陳忠義診所",
+      "address": "神岡區民生路22號",
+      "tel": "(04)25628672",
+      "mapUrl": "https://goo.gl/maps/4ShASN3uo3T21Zff6",
+      "checkCode": "5"
+    },
+    {
+      "id": "708",
+      "name": "李內兒科診所",
+      "address": "神岡區社口里中山路628號",
+      "tel": "(04)25627097",
+      "mapUrl": "https://goo.gl/maps/2rJWjrjPxycBF2UR7",
+      "checkCode": "5"
+    },
+    {
+      "id": "709",
+      "name": "杏安診所",
+      "address": "神岡區社口里中山路654號",
+      "tel": "(04)25612869",
+      "mapUrl": "https://goo.gl/maps/ohMf8UJzNvSLhDHF8",
+      "checkCode": "5"
+    },
+    {
+      "id": "710",
+      "name": "祈安聯合診所",
+      "address": "神岡區社南里民生路27號",
+      "tel": "(04)25625470",
+      "mapUrl": "https://goo.gl/maps/a9NQcPxZrqUWfRWU7",
+      "checkCode": "5"
+    },
+    {
+      "id": "711",
+      "name": "李敦錦聯合診所",
+      "address": "神岡區社南里民生路40–2號",
+      "tel": "(04)25617382",
+      "mapUrl": "https://goo.gl/maps/GcBja7xCrqvd8eKG9",
+      "checkCode": "5"
+    },
+    {
+      "id": "712",
+      "name": "臺中市神岡區衛生所",
+      "address": "神岡區神岡里神岡路2號",
+      "tel": "(04)25622792",
+      "mapUrl": "https://goo.gl/maps/rpf94hgAgz4L9wKc9",
+      "checkCode": "35"
+    },
+    {
+      "id": "713",
+      "name": "源美內兒科診所",
+      "address": "神岡區神岡里神岡路45之1號",
+      "tel": "(04)25626065",
+      "mapUrl": "https://goo.gl/maps/ZRUzaLuviL8sMt1N6",
+      "checkCode": "5"
+    },
+    {
+      "id": "714",
+      "name": "劉俊欣耳鼻喉科診所",
+      "address": "神岡區神岡路88巷 12號",
+      "tel": "(04)25633797",
+      "mapUrl": "https://goo.gl/maps/tub37JWdHpKJ55eS6",
+      "checkCode": "7"
+    },
+    {
+      "id": "715",
+      "name": "祥祐診所",
+      "address": "神岡區豐洲里五權路69號",
+      "tel": "(04)25201825",
+      "mapUrl": "https://goo.gl/maps/3BojtZrwi5AotAY1A",
+      "checkCode": "5"
+    }
+  ],
+  "432": [
+    {
+      "id": "29",
+      "name": "欣民診所",
+      "address": "大肚區沙田路2段 625號",
+      "tel": "(04)26993299",
+      "mapUrl": "https://goo.gl/maps/S16p2CpfS2bBVyMbA",
+      "checkCode": "5"
+    },
+    {
+      "id": "30",
+      "name": "其安診所",
+      "address": "大肚區沙田路一段 404號",
+      "tel": "(04)26935789",
+      "mapUrl": "https://goo.gl/maps/1crEVL4s9kue7yLX9",
+      "checkCode": "5"
+    },
+    {
+      "id": "31",
+      "name": "培安診所",
+      "address": "大肚區沙田路一段 404號",
+      "tel": "(04)26935789",
+      "mapUrl": "https://goo.gl/maps/3shABdq57eETv4uU7",
+      "checkCode": "5"
+    },
+    {
+      "id": "32",
+      "name": "明安診所",
+      "address": "大肚區沙田路一段 404號",
+      "tel": "(04)26935789",
+      "mapUrl": "",
+      "checkCode": "5"
+    },
+    {
+      "id": "33",
+      "name": "百健診所",
+      "address": "大肚區沙田路二段 614號",
+      "tel": "(04)26999920",
+      "mapUrl": "https://goo.gl/maps/sXiREZcGEweJQZke6",
+      "checkCode": "5"
+    },
+    {
+      "id": "34",
+      "name": "大度診所",
+      "address": "大肚區沙田路二段 621號",
+      "tel": "(04)26993637",
+      "mapUrl": "https://goo.gl/maps/ab8nsveueJdtuCgt8",
+      "checkCode": "35"
+    },
+    {
+      "id": "35",
+      "name": "彭士能診所",
+      "address": "大肚區沙田路三段 45號",
+      "tel": "(04)26998769",
+      "mapUrl": "https://goo.gl/maps/zZmUGqikvZMikHPs8",
+      "checkCode": "5"
+    },
+    {
+      "id": "36",
+      "name": "李岡燦耳鼻喉科診所",
+      "address": "大肚區沙田路三段 61號",
+      "tel": "(04)26990460",
+      "mapUrl": "https://goo.gl/maps/3abnsvVMTMAUWSzZ6",
+      "checkCode": "5"
+    },
+    {
+      "id": "37",
+      "name": "芯好牙醫診所",
+      "address": "大肚區育英路15號",
+      "tel": "(04)26985060",
+      "mapUrl": "https://goo.gl/maps/jfGmr3zo11eecffR8",
+      "checkCode": "7"
+    },
+    {
+      "id": "38",
+      "name": "臺中市大肚區衛生所",
+      "address": "大肚區頂街里榮華街1號",
+      "tel": "(04)26996311",
+      "mapUrl": "https://goo.gl/maps/rd7KnRW73qpoNgt1A",
+      "checkCode": "35"
+    },
+    {
+      "id": "39",
+      "name": "美倫牙醫診所",
+      "address": "大肚區遊園路二段 101號",
+      "tel": "(04)26913719",
+      "mapUrl": "https://goo.gl/maps/e9FYgi8FbSPZ1wiP7",
+      "checkCode": "7"
+    },
+    {
+      "id": "40",
+      "name": "自強診所",
+      "address": "大肚區遊園路二段 206號",
+      "tel": "(04)26914188",
+      "mapUrl": "https://goo.gl/maps/mHx88X2T2ZeZVqRx8",
+      "checkCode": "5"
+    },
+    {
+      "id": "41",
+      "name": "大肚天佑內小兒科診所",
+      "address": "大肚區福山里沙田路一段510號",
+      "tel": "(04)26930035",
+      "mapUrl": "https://goo.gl/maps/qiVxDBJQTBSNex739",
+      "checkCode": "5"
+    },
+    {
+      "id": "42",
+      "name": "光華診所",
+      "address": "大肚區蔗趎里遊園路2段255號",
+      "tel": "(04)26910451",
+      "mapUrl": "https://goo.gl/maps/bjCLBJzuaCD4vdrN8",
+      "checkCode": "5"
+    },
+    {
+      "id": "43",
+      "name": "松美牙醫診所",
+      "address": "大肚區蔗廓里遊園路二段175號",
+      "tel": "(04)26914595",
+      "mapUrl": "https://goo.gl/maps/ch8shs3ExpLUq9598",
+      "checkCode": "7"
+    }
+  ],
+  "433": [
+    {
+      "id": "498",
+      "name": "彰仁外科家醫科診所",
+      "address": "沙鹿區大同街65號",
+      "tel": "(04)26622902",
+      "mapUrl": "https://goo.gl/maps/Yjxv4SyWLPcESfuv6",
+      "checkCode": "105"
+    },
+    {
+      "id": "499",
+      "name": "舒安婦產科診所",
+      "address": "沙鹿區中山路161之 1號",
+      "tel": "(04)26630216",
+      "mapUrl": "https://goo.gl/maps/UabveHC73x8ixwD27",
+      "checkCode": "3"
+    },
+    {
+      "id": "500",
+      "name": "程耳鼻喉科診所",
+      "address": "沙鹿區中山路386之 1號",
+      "tel": "(04)26633990",
+      "mapUrl": "https://goo.gl/maps/WchtAEjuiMzQH3936",
+      "checkCode": "35"
+    },
+    {
+      "id": "501",
+      "name": "群洲牙醫診所",
+      "address": "沙鹿區中山路392號",
+      "tel": "(04)26651857",
+      "mapUrl": "https://goo.gl/maps/Wyp72ZLv7w6UNwqG6",
+      "checkCode": "7"
+    },
+    {
+      "id": "502",
+      "name": "許煥澤婦產科診所",
+      "address": "沙鹿區中山路449之 2號",
+      "tel": "(04)26625511",
+      "mapUrl": "https://goo.gl/maps/zPfxxX4P2QeyENf37",
+      "checkCode": "3"
+    },
+    {
+      "id": "503",
+      "name": "朱博欣小兒科診所",
+      "address": "沙鹿區中山路487之 2號",
+      "tel": "(04)26630086",
+      "mapUrl": "https://goo.gl/maps/a8FoxPawyGowDahMA",
+      "checkCode": "5"
+    },
+    {
+      "id": "504",
+      "name": "黃如峰診所",
+      "address": "沙鹿區中清路六段 271號",
+      "tel": "(04)26150107",
+      "mapUrl": "https://goo.gl/maps/NXtfwtAUsAmrQDNa9",
+      "checkCode": "5"
+    },
+    {
+      "id": "505",
+      "name": "專誠牙醫診所",
+      "address": "沙鹿區斗潭路503號",
+      "tel": "(04)26366168",
+      "mapUrl": "https://goo.gl/maps/LCFrRyf6w6sg7ZHY7",
+      "checkCode": "7"
+    },
+    {
+      "id": "506",
+      "name": "魏重耀婦產科診所",
+      "address": "沙鹿區北勢里鎮南路二段418號",
+      "tel": "(04)26316988",
+      "mapUrl": "https://goo.gl/maps/URjyetp1aihciN78A",
+      "checkCode": "15"
+    },
+    {
+      "id": "507",
+      "name": "晨安診所",
+      "address": "沙鹿區北勢東路695號",
+      "tel": "(04)26520606",
+      "mapUrl": "https://goo.gl/maps/m8uCVHTDKvt141b96",
+      "checkCode": "5"
+    },
+    {
+      "id": "508",
+      "name": "醫達人診所",
+      "address": "沙鹿區正義路2號2樓",
+      "tel": "(04)26315951",
+      "mapUrl": "https://goo.gl/maps/8XWouQuDSdTQs1ZB9",
+      "checkCode": "5"
+    },
+    {
+      "id": "509",
+      "name": "林榮宗診所",
+      "address": "沙鹿區光大路240號",
+      "tel": "(04)26625181",
+      "mapUrl": "https://goo.gl/maps/28WuLDzDfy9WdAeT6",
+      "checkCode": "7"
+    },
+    {
+      "id": "510",
+      "name": "真善美診所",
+      "address": "沙鹿區成功東街 117、119號",
+      "tel": "(04)26656037",
+      "mapUrl": "https://goo.gl/maps/Jwh4XrPnUXVr5qNi8",
+      "checkCode": "5"
+    },
+    {
+      "id": "511",
+      "name": "光田醫療社團法人光田綜合醫院",
+      "address": "沙鹿區沙田路117號",
+      "tel": "(04)26625111",
+      "mapUrl": "https://goo.gl/maps/HZaoAcsCYxLyQgYRA",
+      "checkCode": "210"
+    },
+    {
+      "id": "512",
+      "name": "夏在中診所",
+      "address": "沙鹿區沙田路57之4號",
+      "tel": "(04)26360995",
+      "mapUrl": "https://goo.gl/maps/wY4cZFfbE1AX74meA",
+      "checkCode": "3"
+    },
+    {
+      "id": "513",
+      "name": "鴻仁婦產科診所",
+      "address": "沙鹿區洛泉里中山路179號",
+      "tel": "(04)26625162",
+      "mapUrl": "https://goo.gl/maps/ZwpcgSgLLzRptC238",
+      "checkCode": "15"
+    },
+    {
+      "id": "514",
+      "name": "臺中市沙鹿區衛生所",
+      "address": "沙鹿區洛泉里文昌街20號",
+      "tel": "(04)26625040",
+      "mapUrl": "https://goo.gl/maps/a1UHZxHR81nvdnJw8",
+      "checkCode": "35"
+    },
+    {
+      "id": "515",
+      "name": "信美牙醫診所",
+      "address": "沙鹿區鹿寮里光榮街4號",
+      "tel": "(04)26628117",
+      "mapUrl": "https://goo.gl/maps/rJwaGGjQPtxCqWp86",
+      "checkCode": "7"
+    },
+    {
+      "id": "516",
+      "name": "大維診所",
+      "address": "沙鹿區鹿寮里成功東街99號",
+      "tel": "(04)26624457",
+      "mapUrl": "https://goo.gl/maps/mgJjE6PtPQBopFic9",
+      "checkCode": "5"
+    },
+    {
+      "id": "517",
+      "name": "昌和診所",
+      "address": "沙鹿區福興里鎮南路2段249號",
+      "tel": "(04)26364819",
+      "mapUrl": "https://goo.gl/maps/x31CNSRUNXgfWnxw8",
+      "checkCode": "5"
+    },
+    {
+      "id": "518",
+      "name": "高銘診所",
+      "address": "沙鹿區臺灣大道7段 791號",
+      "tel": "(04)26620286",
+      "mapUrl": "https://goo.gl/maps/9gRCffTtGKcQathj9",
+      "checkCode": "35"
+    },
+    {
+      "id": "519",
+      "name": "鎮安診所",
+      "address": "沙鹿區鎮南路二段 50號",
+      "tel": "(04)26337172",
+      "mapUrl": "https://goo.gl/maps/CtohS7mUAvBisvGw5",
+      "checkCode": "5"
+    },
+    {
+      "id": "520",
+      "name": "朝安診所",
+      "address": "沙鹿區鎮南路二段 50號",
+      "tel": "(04)26337172",
+      "mapUrl": "https://goo.gl/maps/CtohS7mUAvBisvGw5",
+      "checkCode": "5"
+    }
+  ],
+  "434": [
+    {
+      "id": "782",
+      "name": "忠和診所",
+      "address": "龍井區三德里中央路二段156號",
+      "tel": "(04)26398542",
+      "mapUrl": "https://goo.gl/maps/hMhNjL1VEAcKxkzD7",
+      "checkCode": "5"
+    },
+    {
+      "id": "783",
+      "name": "陳俊良診所",
+      "address": "龍井區沙田路5段 129號",
+      "tel": "(04)26364498",
+      "mapUrl": "https://goo.gl/maps/kt6EAuUNpnZmkefc7",
+      "checkCode": "5"
+    },
+    {
+      "id": "784",
+      "name": "博仁家庭醫學科診所",
+      "address": "龍井區沙田路五段 45號",
+      "tel": "(04)26352253",
+      "mapUrl": "https://g.page/pozenclinic?share",
+      "checkCode": "5"
+    },
+    {
+      "id": "785",
+      "name": "臺中市龍井區衛生所",
+      "address": "龍井區沙田路四段 243號",
+      "tel": "(04)26352228",
+      "mapUrl": "https://goo.gl/maps/n9CsUwY5yzbRW5iM8",
+      "checkCode": "5"
+    },
+    {
+      "id": "786",
+      "name": "佳德牙醫診所",
+      "address": "龍井區沙田路四段 688號",
+      "tel": "(04)26364808",
+      "mapUrl": "https://goo.gl/maps/36UotgoLEGMs7HLk8",
+      "checkCode": "7"
+    },
+    {
+      "id": "787",
+      "name": "祐晟診所",
+      "address": "龍井區國際街111號",
+      "tel": "(04)26326408",
+      "mapUrl": "https://goo.gl/maps/KLiodsMsGxLgoT3r6",
+      "checkCode": "5"
+    },
+    {
+      "id": "788",
+      "name": "理想牙醫診所",
+      "address": "龍井區國際街161， 163號",
+      "tel": "(04)26322892",
+      "mapUrl": "https://goo.gl/maps/iHZRaTsYPwFxo5kQ8",
+      "checkCode": "7"
+    },
+    {
+      "id": "789",
+      "name": "崇祐診所",
+      "address": "龍井區新東里新興路45之2號",
+      "tel": "(04)26321081",
+      "mapUrl": "https://goo.gl/maps/TnuSv992qRDAZzy7A",
+      "checkCode": "5"
+    },
+    {
+      "id": "790",
+      "name": "陸婦產科診所",
+      "address": "龍井區新興路45之3號",
+      "tel": "(04)26520695",
+      "mapUrl": "https://goo.gl/maps/bHdetbt643hVKMLi9",
+      "checkCode": "3"
+    },
+    {
+      "id": "791",
+      "name": "優植牙醫診所",
+      "address": "龍井區新興路52號",
+      "tel": "(04)26522228",
+      "mapUrl": "https://goo.gl/maps/PpnFnU1XmxKYZKUAA",
+      "checkCode": "7"
+    },
+    {
+      "id": "792",
+      "name": "惟仁耳鼻喉科診所",
+      "address": "龍井區遊園南路250號",
+      "tel": "(04)26315160",
+      "mapUrl": "https://goo.gl/maps/zHuRJX95R7n3qiuA6",
+      "checkCode": "7"
+    },
+    {
+      "id": "793",
+      "name": "魏嘉慶家庭醫學科診所",
+      "address": "龍井區臺灣大道五段109巷23號、29號",
+      "tel": "(04)26330053",
+      "mapUrl": "https://goo.gl/maps/bDA6pZNvq95mihDH9",
+      "checkCode": "5"
+    },
+    {
+      "id": "794",
+      "name": "全家診所",
+      "address": "龍井區臺灣大道五段109巷25號、27號",
+      "tel": "(04)26330053",
+      "mapUrl": "https://goo.gl/maps/bDA6pZNvq95mihDH9",
+      "checkCode": "5"
+    },
+    {
+      "id": "795",
+      "name": "龍安診所",
+      "address": "龍井區龍東里文昌路433號",
+      "tel": "(04)26390685",
+      "mapUrl": "https://goo.gl/maps/1khoBgSiQXsG2K716",
+      "checkCode": "5"
+    },
+    {
+      "id": "796",
+      "name": "聖和診所",
+      "address": "龍井區龍津里中央路一段241巷1弄1號",
+      "tel": "(04)26301862",
+      "mapUrl": "https://goo.gl/maps/Hq5tdH2aeFZhCtDw8",
+      "checkCode": "7"
+    },
+    {
+      "id": "797",
+      "name": "惠生牙醫診所",
+      "address": "龍井區龍津里中央路一段242號",
+      "tel": "(04)26398709",
+      "mapUrl": "https://goo.gl/maps/jhR8Ajb77JozRKse9",
+      "checkCode": "7"
+    },
+    {
+      "id": "798",
+      "name": "勤美牙醫診所",
+      "address": "龍井區藝術街19巷5號",
+      "tel": "(04)26527996",
+      "mapUrl": "https://goo.gl/maps/dnh4snJ3pmSQupRRA",
+      "checkCode": "7"
+    }
+  ],
+  "435": [
+    {
+      "id": "716",
+      "name": "啟恩診所",
+      "address": "梧棲區中正里中和街81號",
+      "tel": "(04)26562268",
+      "mapUrl": "https://goo.gl/maps/5xH4NNjJHMZgRuhQA",
+      "checkCode": "35"
+    },
+    {
+      "id": "717",
+      "name": "明德醫院",
+      "address": "梧棲區中正里仁美街33巷50號",
+      "tel": "(04)26579595",
+      "mapUrl": "https://goo.gl/maps/RKuFTiVGbKE2xgDi8",
+      "checkCode": "5"
+    },
+    {
+      "id": "718",
+      "name": "宏恩診所",
+      "address": "梧棲區中和里梧棲路132號",
+      "tel": "(04)26562957",
+      "mapUrl": "https://goo.gl/maps/hzs8hz8PEQysubAB8",
+      "checkCode": "35"
+    },
+    {
+      "id": "719",
+      "name": "美澄牙醫診所",
+      "address": "梧棲區中興路370號",
+      "tel": "(04)26576887",
+      "mapUrl": "https://goo.gl/maps/1NjJFyyexY3c7z4H7",
+      "checkCode": "7"
+    },
+    {
+      "id": "720",
+      "name": "安心診所",
+      "address": "梧棲區港埠路一段 1115號",
+      "tel": "(04)26562059",
+      "mapUrl": "https://goo.gl/maps/QtpZwFTAoAyA25mm6",
+      "checkCode": "35"
+    },
+    {
+      "id": "721",
+      "name": "瑞比診所",
+      "address": "梧棲區港埠路一段 827巷2號",
+      "tel": "(04)26576117",
+      "mapUrl": "https://goo.gl/maps/Eg6tZm6qCMdM1Vm26",
+      "checkCode": "5"
+    },
+    {
+      "id": "722",
+      "name": "臺中市梧棲區衛生所",
+      "address": "梧棲區雲集街70巷3號",
+      "tel": "(04)26562809",
+      "mapUrl": "https://goo.gl/maps/BR5ksm2TCb9cT9Fu9",
+      "checkCode": "35"
+    },
+    {
+      "id": "723",
+      "name": "童綜合醫療社團法人童綜合醫院",
+      "address": "梧棲區臺灣大道八段699號",
+      "tel": "(04)26581919",
+      "mapUrl": "https://goo.gl/maps/GHK96WLJiv8H3Bsn8",
+      "checkCode": "210"
+    }
+  ],
+  "436": [
+    {
+      "id": "724",
+      "name": "蔡神經科診所",
+      "address": "清水區中山路134之 2號",
+      "tel": "(04)26222050",
+      "mapUrl": "https://goo.gl/maps/pLzR3yKdsuwTxrwcA",
+      "checkCode": "105"
+    },
+    {
+      "id": "725",
+      "name": "楊超博診所",
+      "address": "清水區中山路151之 8號",
+      "tel": "(04)26229595",
+      "mapUrl": "https://goo.gl/maps/m1shstMLRajy6UAS9",
+      "checkCode": "35"
+    },
+    {
+      "id": "726",
+      "name": "林澤民小兒科診所",
+      "address": "清水區中山路242– 1號",
+      "tel": "(04)26233935",
+      "mapUrl": "https://goo.gl/maps/TfdfVdCfmYAebDC1A",
+      "checkCode": "5"
+    },
+    {
+      "id": "727",
+      "name": "清水區向陽耳鼻喉科診所",
+      "address": "清水區中山路243之 2號",
+      "tel": "(04)26228595",
+      "mapUrl": "https://goo.gl/maps/mgwMS1qMsdaWWVv38",
+      "checkCode": "7"
+    },
+    {
+      "id": "728",
+      "name": "亞緻牙醫診所",
+      "address": "清水區中山路357號",
+      "tel": "(04)26221066",
+      "mapUrl": "https://g.page/artdentistclinic?share",
+      "checkCode": "7"
+    },
+    {
+      "id": "729",
+      "name": "林佳輝診所",
+      "address": "清水區中正街19號",
+      "tel": "(04)26233955",
+      "mapUrl": "https://goo.gl/maps/SBkNEagyfkzbUvgR7",
+      "checkCode": "5"
+    },
+    {
+      "id": "730",
+      "name": "蘇光緯診所",
+      "address": "清水區中興里中山路198號",
+      "tel": "(04)26222300",
+      "mapUrl": "https://goo.gl/maps/R9ghJZteELGTw75e6",
+      "checkCode": "5"
+    },
+    {
+      "id": "731",
+      "name": "慈銘婦產科診所",
+      "address": "清水區中興街35之5號",
+      "tel": "(04)26221660",
+      "mapUrl": "https://goo.gl/maps/hakNPCJ5E6vT2qsA7",
+      "checkCode": "3"
+    },
+    {
+      "id": "732",
+      "name": "五權博士診所",
+      "address": "清水區五權路59之5號",
+      "tel": "(04)26261285",
+      "mapUrl": "https://goo.gl/maps/N1Q7x7gAvbfPwQ656",
+      "checkCode": "5"
+    },
+    {
+      "id": "733",
+      "name": "明哲診所",
+      "address": "清水區北寧里中山路449之1號",
+      "tel": "(04)26227661",
+      "mapUrl": "https://goo.gl/maps/rWC6aVm5aaBUpYBv5",
+      "checkCode": "5"
+    },
+    {
+      "id": "734",
+      "name": "清水張牙醫診所",
+      "address": "清水區北寧里中興街32之2號",
+      "tel": "(04)26226182",
+      "mapUrl": "https://goo.gl/maps/9LVV8C188DDJt1KWA",
+      "checkCode": "7"
+    },
+    {
+      "id": "735",
+      "name": "顏耳鼻喉科診所",
+      "address": "清水區光復街110號",
+      "tel": "(04)26220765",
+      "mapUrl": "https://goo.gl/maps/4QDvAS3uFu1XbHmR9",
+      "checkCode": "35"
+    },
+    {
+      "id": "736",
+      "name": "陽明診所",
+      "address": "清水區光華路75號",
+      "tel": "(04)26234075",
+      "mapUrl": "https://goo.gl/maps/zu2wBU2GbJhmS46Q9",
+      "checkCode": "5"
+    },
+    {
+      "id": "737",
+      "name": "紀小兒科內科診所",
+      "address": "清水區西寧里中興街66號",
+      "tel": "(04)26228596",
+      "mapUrl": "https://goo.gl/maps/vgWb2R53otHjp8dC7",
+      "checkCode": "5"
+    },
+    {
+      "id": "738",
+      "name": "蔡篤煌診所",
+      "address": "清水區西寧里西寧路15號",
+      "tel": "(04)26225690",
+      "mapUrl": "https://goo.gl/maps/VRZA9dPny3KcsAz88",
+      "checkCode": "5"
+    },
+    {
+      "id": "739",
+      "name": "萬安診所",
+      "address": "清水區南寧里中山路126–2號",
+      "tel": "(04)26227823",
+      "mapUrl": "https://goo.gl/maps/wRZhHW7nCRn4CCEL6",
+      "checkCode": "5"
+    },
+    {
+      "id": "740",
+      "name": "清水回生家庭醫學科診所",
+      "address": "清水區南寧里中山路134號",
+      "tel": "(04)26222050",
+      "mapUrl": "https://goo.gl/maps/ogdqL4YiBftrykCk9",
+      "checkCode": "3"
+    },
+    {
+      "id": "741",
+      "name": "林玉彪診所",
+      "address": "清水區南寧里光華路135號",
+      "tel": "(04)26233880",
+      "mapUrl": "https://goo.gl/maps/iw8v1PSt6RnJW6Fe8",
+      "checkCode": "35"
+    },
+    {
+      "id": "742",
+      "name": "何耳鼻喉科診所",
+      "address": "清水區清水里中山路199之1，199之2號",
+      "tel": "(04)26221366",
+      "mapUrl": "https://goo.gl/maps/XMMSeejSRipqkRSu7",
+      "checkCode": "7"
+    },
+    {
+      "id": "743",
+      "name": "清水王婦產科診所",
+      "address": "清水區清水里鎮南街38號",
+      "tel": "(04)26225909",
+      "mapUrl": "https://goo.gl/maps/HC95r7A9cGLnxUzJ9",
+      "checkCode": "3"
+    },
+    {
+      "id": "744",
+      "name": "嘉佑診所",
+      "address": "清水區橋頭里高美路117–3號",
+      "tel": "(04)26275066",
+      "mapUrl": "https://goo.gl/maps/YajXjTLmXuuHeg1s6",
+      "checkCode": "5"
+    },
+    {
+      "id": "745",
+      "name": "順風耳鼻喉科診所",
+      "address": "清水區鎮南街41、 43號",
+      "tel": "(04)26226161",
+      "mapUrl": "https://goo.gl/maps/PqcPzUhswWfUnCxeA",
+      "checkCode": "7"
+    },
+    {
+      "id": "746",
+      "name": "臺中市清水區衛生所",
+      "address": "清水區鎮政路101號",
+      "tel": "(04)26222639",
+      "mapUrl": "https://goo.gl/maps/YQG1z1bAYwtNx3ep7",
+      "checkCode": "5"
+    },
+    {
+      "id": "747",
+      "name": "銓安診所",
+      "address": "清水區鰲峰路110號",
+      "tel": "(04)26229588",
+      "mapUrl": "https://goo.gl/maps/cgA5mTaCaaBt5mjY6",
+      "checkCode": "5"
+    },
+    {
+      "id": "748",
+      "name": "德安診所",
+      "address": "清水區鰲峰路36之3號",
+      "tel": "(04)26223169",
+      "mapUrl": "https://goo.gl/maps/EvyKkzoDC3xV6mFF8",
+      "checkCode": "5"
+    }
+  ],
+  "437": [
+    {
+      "id": "1",
+      "name": "李綜合醫療社團法人大甲李綜合醫院",
+      "address": "大甲區八德街2號",
+      "tel": "(04)26862288",
+      "mapUrl": "https://goo.gl/maps/zdwtiojKr5ZPHQTL8",
+      "checkCode": "210"
+    },
+    {
+      "id": "2",
+      "name": "雅臻牙醫診所",
+      "address": "大甲區三民路146號",
+      "tel": "(04)26869888",
+      "mapUrl": "https://goo.gl/maps/Qgo3HiVpMkgH4oADA",
+      "checkCode": "7"
+    },
+    {
+      "id": "3",
+      "name": "小熊的森林診所",
+      "address": "大甲區三民路132號",
+      "tel": "(04)26805060",
+      "mapUrl": "https://goo.gl/maps/8cE4rdiDnfw1szSj7",
+      "checkCode": "5"
+    },
+    {
+      "id": "4",
+      "name": "鄭成發診所",
+      "address": "大甲區大甲里光明路68號",
+      "tel": "(04)26882366",
+      "mapUrl": "https://goo.gl/maps/cnY3fTtD1tK7AwRE9",
+      "checkCode": "7"
+    },
+    {
+      "id": "5",
+      "name": "佑安診所",
+      "address": "大甲區大安港路351號",
+      "tel": "(04)26760248",
+      "mapUrl": "https://goo.gl/maps/wzBQZRAqwDZicqRj8",
+      "checkCode": "5"
+    },
+    {
+      "id": "6",
+      "name": "璩大維診所",
+      "address": "大甲區中山路一段 1035號",
+      "tel": "(04)26863600",
+      "mapUrl": "https://goo.gl/maps/zvZgYPatnJn961YB8",
+      "checkCode": "35"
+    },
+    {
+      "id": "7",
+      "name": "仁禾診所",
+      "address": "大甲區中山路一段 859號及861號",
+      "tel": "(04)26888106",
+      "mapUrl": "https://goo.gl/maps/jsD9u3wdkJdAH5ENA",
+      "checkCode": "5"
+    },
+    {
+      "id": "8",
+      "name": "元吉診所",
+      "address": "大甲區文武路65號",
+      "tel": "(04)26872012",
+      "mapUrl": "https://goo.gl/maps/CHtZTa4VfhEKsnQ96",
+      "checkCode": "3"
+    },
+    {
+      "id": "9",
+      "name": "良安診所",
+      "address": "大甲區日南里幼四路43號",
+      "tel": "(04)26819816",
+      "mapUrl": "https://goo.gl/maps/tJ8LadG46t9S85Rg9",
+      "checkCode": "5"
+    },
+    {
+      "id": "10",
+      "name": "青年診所",
+      "address": "大甲區日南里青年路8之1號",
+      "tel": "(04)26810837",
+      "mapUrl": "https://goo.gl/maps/daKSrEdouvYj9stDA",
+      "checkCode": "5"
+    },
+    {
+      "id": "11",
+      "name": "喜月婦產科診所",
+      "address": "大甲區水源路11號",
+      "tel": "(04)26881746",
+      "mapUrl": "https://goo.gl/maps/skV3XRoUecmdAiA19",
+      "checkCode": "15"
+    },
+    {
+      "id": "12",
+      "name": "安榮診所",
+      "address": "大甲區民生路18號",
+      "tel": "(04)26863252",
+      "mapUrl": "https://goo.gl/maps/znbAVksXw7FG2A4HA",
+      "checkCode": "35"
+    },
+    {
+      "id": "13",
+      "name": "岷安診所",
+      "address": "大甲區民生路9之2號",
+      "tel": "(04)26873636",
+      "mapUrl": "https://goo.gl/maps/2LvPvvLGWdovYz4f8",
+      "checkCode": "5"
+    },
+    {
+      "id": "14",
+      "name": "全信賴診所",
+      "address": "大甲區甲后路5段 267號",
+      "tel": "(04)26762248",
+      "mapUrl": "https://goo.gl/maps/m4vTHVTKhgQw2a61A",
+      "checkCode": "5"
+    },
+    {
+      "id": "15",
+      "name": "順安醫院",
+      "address": "大甲區光明路6號",
+      "tel": "(04)26862328",
+      "mapUrl": "https://goo.gl/maps/kDvY3fcL9E5hQKEE9",
+      "checkCode": "5"
+    },
+    {
+      "id": "16",
+      "name": "錫欽診所",
+      "address": "大甲區孟春里通天路178號",
+      "tel": "(04)26815785",
+      "mapUrl": "https://goo.gl/maps/tN3HFnS8TqNb8pHe8",
+      "checkCode": "105"
+    },
+    {
+      "id": "17",
+      "name": "寶貝牙牙醫診所",
+      "address": "大甲區孟春里通天路206號",
+      "tel": "(04)26822638",
+      "mapUrl": "https://goo.gl/maps/WPNWQXV9dxdGf1m99",
+      "checkCode": "7"
+    },
+    {
+      "id": "18",
+      "name": "琉璃光診所",
+      "address": "大甲區岷山里順天路342號",
+      "tel": "(04)26873051",
+      "mapUrl": "https://goo.gl/maps/iMTvE2W4wQ9j8yr68",
+      "checkCode": "105"
+    },
+    {
+      "id": "19",
+      "name": "王登源診所",
+      "address": "大甲區南陽里中山路一段576號",
+      "tel": "(04)26882620",
+      "mapUrl": "https://goo.gl/maps/PeKWT6m17stnNzms5",
+      "checkCode": "5"
+    },
+    {
+      "id": "20",
+      "name": "李婦產科診所",
+      "address": "大甲區朝陽里民生路22之2號",
+      "tel": "(04)26883771",
+      "mapUrl": "https://goo.gl/maps/y7y4A9ZMnGjgnMj1A",
+      "checkCode": "15"
+    },
+    {
+      "id": "21",
+      "name": "大元診所",
+      "address": "大甲區順天路136號",
+      "tel": "(04)26802250",
+      "mapUrl": "https://goo.gl/maps/utbbptn5fs3P7ySk6",
+      "checkCode": "5"
+    },
+    {
+      "id": "22",
+      "name": "見安診所",
+      "address": "大甲區順天路391號",
+      "tel": "(04)26889595",
+      "mapUrl": "https://goo.gl/maps/NMGVBs3FNeKtSHkSA",
+      "checkCode": "5"
+    },
+    {
+      "id": "23",
+      "name": "張漢昌婦產科診所",
+      "address": "大甲區經國路1978巷3號",
+      "tel": "(04)26817420",
+      "mapUrl": "https://goo.gl/maps/gnGZQ7zuxqZVt2aaA",
+      "checkCode": "3"
+    },
+    {
+      "id": "24",
+      "name": "臺中市大甲區衛生所",
+      "address": "大甲區德興路81號",
+      "tel": "(04)26872153",
+      "mapUrl": "https://goo.gl/maps/KEXo2A2BtXqnSrUG8",
+      "checkCode": "5"
+    },
+    {
+      "id": "25",
+      "name": "力倫診所",
+      "address": "大甲區蔣公路246號",
+      "tel": "(04)26805889",
+      "mapUrl": "https://goo.gl/maps/egLjMVpZBV5VSa7g8",
+      "checkCode": "35"
+    },
+    {
+      "id": "26",
+      "name": "宏光診所",
+      "address": "大甲區鎮政路3號",
+      "tel": "(04)26882002",
+      "mapUrl": "https://goo.gl/maps/ivrkzyFzhHyzFrmV8",
+      "checkCode": "5"
+    }
+  ],
+  "438": [
+    {
+      "id": "358",
+      "name": "佳優診所",
+      "address": "外埔區甲后路三段 1042號",
+      "tel": "(04)26832807",
+      "mapUrl": "https://goo.gl/maps/MwFMECH7pTDToZMe9",
+      "checkCode": "35"
+    },
+    {
+      "id": "359",
+      "name": "臺中市外埔區衛生所",
+      "address": "外埔區甲后路三段 1062號",
+      "tel": "(04)26833208",
+      "mapUrl": "https://goo.gl/maps/DtTWhN7YKVQz61SeA",
+      "checkCode": "35"
+    },
+    {
+      "id": "360",
+      "name": "外埔診所",
+      "address": "外埔區甲后路三段 881號",
+      "tel": "(04)26837751",
+      "mapUrl": "https://goo.gl/maps/XjVYJZaGPZZG3i9x9",
+      "checkCode": "5"
+    }
+  ],
+  "439": [
+    {
+      "id": "27",
+      "name": "安田診所",
+      "address": "大安區中山南路281號，283號",
+      "tel": "(04)26713527",
+      "mapUrl": "https://goo.gl/maps/iMeNtrsHSZaTTLdKA",
+      "checkCode": "5"
+    },
+    {
+      "id": "28",
+      "name": "臺中市大安區衛生所",
+      "address": "大安區中山南路333號",
+      "tel": "(04)26713681",
+      "mapUrl": "https://goo.gl/maps/WQoHpPjPqCk5TMbZ9",
+      "checkCode": "5"
+    }
+  ]
+}

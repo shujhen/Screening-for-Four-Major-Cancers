@@ -1,84 +1,128 @@
-
 let taichungHospitalData = [];
 let taichungDistrictData = [];
 const h2 = document.querySelector('h2');
 const hospitalCards = document.querySelector('.hospital-cards');
+const searchBtn = document.querySelector('.btn-search');
+
+let hospitalList;
+let zipCode;
+// 篩檢項目的檢查值陣列
+let checkItems = [];
 
 // call API
-// fetch_data(
-//   'https://datacenter.taichung.gov.tw/swagger/OpenData/d07c49df-8069-4fec-9aaf-09960a67bb76'
-// );
+fetch_data('json/hospital-list.json');
 // 取得 API 資料
 function fetch_data(url) {
   // 非同步處理
-  fetch(url, { cache: 'default' })
+  fetch(url)
     // response 會是一個 Response資料組
     .then(function (response) {
       // json() 會將資料轉換成可供 javascript 使用的JSON
-
       return response.json();
     })
     .then(function (data) {
-      // 原始資料：
-      // 乳房X光攝影檢查: "V"
-      // 區域: "霧峰"
-      // 口腔黏膜檢查: "V"
-      // 地址: "霧峰區福新路222號"
-      // 子宮頸抹片檢查: "V"
-      // 糞便潛血檢查: "V"
-      // 編號: "1"
-      // 醫療院所名稱: "亞洲大學附屬醫院"
-      // 電話: "04-37061668"
-      process(data);
+      hospitalList = data;
+      console.log(hospitalList);
     });
 }
 
-// 處理資料
-function process(data) {
-  // 把所有資料跑一次做地區分組
-  // 預計處理後產出：
+// 監聽 select change 事件
+selectDist.addEventListener('change', function () {
+  zipCode = selectDist.value;
 
-  // taichungHospitalData = [
-  //   "霧峰區":[
-  //   "name": "亞洲大學附屬醫院",
-  //   "address": "霧峰區福新路222號",
-  //   "tel": "04-37061668",
-  //   "lungCancerCheck": "V",
-  //   "oralCancerCheck": "",
-  //   "breastCancerCheck": "V",
-  //   "colorectalCancerCheck": "",
-  // ]]
+  return;
+  let allCards = document.querySelectorAll('.card');
 
-  let district = '';
-  data.forEach((hospital) => {
-    let address = hospital['地址'];
-    if (hospital['區域']) {
-      district = hospital['區域'];
+  allCards.forEach((card) => {
+    card.classList.add('d-none');
+    let district = card.dataset.dist;
+    if (district == selectDist.value) {
+      card.classList.remove('d-none');
     }
-    if (address.indexOf('台中巿') !== -1) {
-      address = address.split('台中巿')[1];
-    }
-    if (address.indexOf('區') !== -1) {
-      district = address.split('區')[0] + '區';
-    } else {
-      address = district + address;
-    }
-    if (taichungHospitalData[district] === undefined) {
-      taichungHospitalData[district] = [];
-      taichungDistrictData.push(district);
-    }
+  });
+});
 
-    taichungHospitalData[district].push({
-      name: hospital['醫療院所名稱'],
-      address: '台中市' + address,
-      tel: hospital['電話'],
-      colorectalCancerCheck: hospital['糞便潛血檢查'],
-      oralCancerCheck: hospital['口腔黏膜檢查'],
-      breastCancerCheck: hospital['乳房X光攝影檢查'],
-      uterineCancerCheck: hospital['子宮頸抹片檢查'],
+// 監聽 button click 事件
+searchBtn.addEventListener('click', function () {
+  // 有選取的篩檢項目
+  let choices = document.querySelectorAll('.search-choice input:checked');
+
+  let checkString = '';
+  // 先清空檢查值陣列
+  checkItems = [];
+  choices.forEach((item) => {
+    checkItems.push(item.value);
+
+    checkString +=
+      checkString === '' ? item.dataset.name : '、' + item.dataset.name;
+  });
+
+  if (checkItems.length < 1) {
+    alert('請選擇篩檢項目');
+    return false;
+  }
+  // 將卡片資料清空
+  hospitalCards.innerHTML = '';
+  // h2 顯示搜尋 地區/篩檢項目
+  h2.innerHTML = districtJson[zipCode] + ' / ' + checkString;
+  // 處理資料
+  process();
+});
+
+// 依據 zipCode 分別處理資料
+function process() {
+  if (zipCode == 'all') {
+    for(let index in hospitalList) {
+      doFilter(hospitalList[index]);
+    }
+  } else {
+    doFilter(hospitalList[zipCode]);
+  }
+}
+
+// 檢出符合查詢條件的醫院
+function doFilter(items) {
+  items.forEach((item) => {
+    checkItems.forEach((primeNum) => {
+      // 被整除 = 此機構有提供這個檢查項目
+      if (item.checkCode % primeNum === 0) {
+        showCard(item);
+      }
     });
   });
-  insertIntoHtml();
+}
+
+// 生成卡片 & 顯示
+function showCard(item) {
+  hospitalCards.innerHTML += `
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title">${item.name}</h3>
+          <p class="card-text row flex-nowrap align-items-center no-gutters">
+            <span>地址 : ${item.address}</span>
+            <a href="${
+              item.mapUrl
+            }" class="icon-location" target="_blank" title="前往 Google Map"
+              ></a>
+          </p>
+          <p class="card-text">電話 : ${item.tel}</p>
+          <div class="search-result-icons row no-gutters">
+            <div class="icon-cancer icon-5 ${
+              item.checkCode % 5 === 0 ? 'active' : 'none'
+            }"></div>
+            <div class="icon-cancer icon-2 ${
+              item.checkCode % 2 === 0 ? 'active' : 'none'
+            }"></div>
+            <div class="icon-cancer icon-7 ${
+              item.checkCode % 7 === 0 ? 'active' : 'none'
+            }"></div>
+            <div class="icon-cancer icon-3 ${
+              item.checkCode % 3 === 0 ? 'active' : 'none'
+            }"></div>
+          </div>
+        </div>
+      </div>
+    `;
 }
 
 // 將內容塞進HTML中
@@ -115,16 +159,3 @@ function insertIntoHtml() {
     });
   });
 }
-// 監聽 select change 事件
-selectDist.addEventListener('change', function () {
-  h2.innerHTML = selectDist.value;
-  let allCards = document.querySelectorAll('.card');
-
-  allCards.forEach((card) => {
-    card.classList.add('d-none');
-    let district = card.dataset.dist;
-    if (district == selectDist.value) {
-      card.classList.remove('d-none');
-    }
-  });
-});

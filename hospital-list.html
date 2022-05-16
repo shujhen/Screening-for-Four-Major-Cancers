@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>四癌篩檢補助 | 醫療機構列表</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="./css/all.css" />
+    <link rel="stylesheet" href="./css/hospital-list.css" />
   </head>
   <body>
     <!-- LOGO + 導覽列 -->
@@ -74,28 +74,28 @@
               for="oralCancer"
               class="search-choice row align-items-center flex-nowrap"
             >
-              <input type="checkbox" id="oralCancer" value="5" />
+              <input type="checkbox" id="oralCancer" value="5" data-name="口腔癌" />
               <span></span>口腔癌 (口腔黏膜檢查)
             </label>
             <label
               for="breastCancer"
               class="search-choice row align-items-center flex-nowrap"
             >
-              <input type="checkbox" id="breastCancer" value="2" />
+              <input type="checkbox" id="breastCancer" value="2" data-name="乳癌" />
               <span></span>乳癌 (乳房X光攝影檢查)
             </label>
             <label
               for="colorectalCancer"
               class="search-choice row align-items-center flex-nowrap"
             >
-              <input type="checkbox" id="colorectalCancer" value="7" />
+              <input type="checkbox" id="colorectalCancer" value="7" data-name="大腸癌" />
               <span></span>大腸癌 (糞便潛血檢查)
             </label>
             <label
               for="uterineCancer"
               class="search-choice row align-items-center flex-nowrap"
             >
-              <input type="checkbox" id="uterineCancer" value="3" />
+              <input type="checkbox" id="uterineCancer" value="3" data-name="子宮頸癌" />
               <span></span>子宮頸癌 (子宮頸抹片檢查)
             </label>
           </div>
@@ -221,6 +221,6 @@
     <script src="./js/jquery.slim.min.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/district.js"></script>
-    <!-- <script src="./js/hospital-list.js"></script> -->
+    <script src="./js/hospital-list.js"></script>
   </body>
 </html>
