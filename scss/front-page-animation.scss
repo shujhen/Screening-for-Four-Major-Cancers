@@ -1,5 +1,6 @@
 @import 'all';
 
+
 main {
     #front-page-animation {
         .skip-btn {
@@ -22,7 +23,7 @@ main {
             position: relative;
             overflow: hidden;
 
-            h1 {
+            h2 {
                 font-weight: 800;
                 font-size: 64px;
                 font-style: normal;
@@ -47,26 +48,29 @@ main {
 
         .page-1 {
 
-            h1 {
+            h2 {
                 width: 294px;
                 height: 77px;
-                left: 815px;
+                left: 50%;
                 top: 272px;
+                transform: translateX(-50%);
 
             }
 
             span {
                 width: 696px;
                 height: 58px;
-                left: 612px;
+                left: 50%;
                 top: 410px;
+                transform: translateX(-50%);
             }
 
             .img-earth {
                 width: 1920px;
                 height: 1920px;
-                left: 0px;
+                left: 50%;
                 top: 570px;
+                transform: translateX(-50%);
 
             }
         }
@@ -78,34 +82,38 @@ main {
                 line-height: 61px;
                 width: 750px;
                 height: 61px;
-                left: 636px;
+                left: 50%;
                 top: 529px;
+                transform: translateX(-50%);
+                z-index: 1;
             }
 
             .img-cell-1 {
-                left: -220.26px;
+                left: -9.6%;
                 top: 143.4px;
             }
 
             .img-cell-2 {
-                left: 1403.31px;
+                left: 71.25%;
                 top: 580px;
             }
         }
 
         .page-3 {
-            h1 {
+            h2 {
                 width: 349px;
                 height: 77px;
-                left: 187px;
+                left: 18.82%;
                 top: 501px;
+                transform: translateX(-50%);
             }
 
             span {
                 width: 476px;
                 height: 58px;
-                left: 187px;
+                left: 22.13%;
                 top: 619px;
+                transform: translateX(-50%);
             }
 
             .img-clock {
@@ -116,7 +124,7 @@ main {
         }
 
         .page-4 {
-            h1 {
+            h2 {
                 width: 679px;
                 height: 77px;
                 left: 1122px;
@@ -147,44 +155,65 @@ main {
         }
 
         .page-5 {
-            span {
-                width: 830px;
-                height: 48px;
-                left: 537px;
-                top: 306px;
-                font-size: 40px;
-                line-height: 48px;
-                letter-spacing: 0.12em;
-            }
-
-            .title-box {
+            .title-border {
                 position: absolute;
-                width: 1478px;
-                height: 325px;
-                left: 223px;
-                top: 414px;
-                background-color: rgba(255, 255, 255, 0.8);
-                box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
-                display: flex;
-                justify-content: center;
-                align-items: center;
-
-                h1 {
-                    position: static;
-                }
-
-                .green-title {
-                    color: $green-400;
-                }
-
+                width: 1193px;
+                height: 534px;
+                left: 50%;
+                top: 205px;
+                transform: translateX(-50%);
+                background-color: $green-700;
+                border: 16px solid #FFFFFF;
+                filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.4));
+                z-index: 1;
                 .brown-title {
+                    width: 524px;
+                    height: 77px;
+                    left: 50%;
+                    top: 95px;
+                    transform: translateX(-50%);
                     color: $brown-800;
                 }
+
+                .white-title {
+                    position: absolute;
+                    width: 781px;
+                    height: 77px;
+                    left: 50%;
+                    top: 212px;
+                    transform: translateX(-50%);
+                    color: #FFFFFF;
+                }
+
+                .title-box {
+                    position: absolute;
+                    width: 1192px;
+                    height: 151px;
+                    left: 50%;
+                    bottom: 0;
+                    transform: translateX(-50%);
+
+                    background-color: #FFFFFF;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .green-span{
+                        position: static;
+                        color: $green-400;
+                    }
+                    .brown-span{
+                        position: static;
+
+                        color: $brown-800;
+                    }
+                }
+
             }
 
             .img-arrow {
-                left: 824px;
-                top: 656px;
+                left: 50%;
+                bottom: 80.65px;
+                transform: translateX(-50%);
             }
         }
     }

@@ -13834,7 +13834,7 @@ main #front-page-animation .animation-container {
   overflow: hidden;
 }
 
-main #front-page-animation .animation-container h1 {
+main #front-page-animation .animation-container h2 {
   font-weight: 800;
   font-size: 64px;
   font-style: normal;
@@ -13856,25 +13856,31 @@ main #front-page-animation .animation-container img {
   position: absolute;
 }
 
-main #front-page-animation .page-1 h1 {
+main #front-page-animation .page-1 h2 {
   width: 294px;
   height: 77px;
-  left: 815px;
+  left: 50%;
   top: 272px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 main #front-page-animation .page-1 span {
   width: 696px;
   height: 58px;
-  left: 612px;
+  left: 50%;
   top: 410px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 main #front-page-animation .page-1 .img-earth {
   width: 1920px;
   height: 1920px;
-  left: 0px;
+  left: 50%;
   top: 570px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 main #front-page-animation .page-2 span {
@@ -13882,32 +13888,39 @@ main #front-page-animation .page-2 span {
   line-height: 61px;
   width: 750px;
   height: 61px;
-  left: 636px;
+  left: 50%;
   top: 529px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 1;
 }
 
 main #front-page-animation .page-2 .img-cell-1 {
-  left: -220.26px;
+  left: -9.6%;
   top: 143.4px;
 }
 
 main #front-page-animation .page-2 .img-cell-2 {
-  left: 1403.31px;
+  left: 71.25%;
   top: 580px;
 }
 
-main #front-page-animation .page-3 h1 {
+main #front-page-animation .page-3 h2 {
   width: 349px;
   height: 77px;
-  left: 187px;
+  left: 18.82%;
   top: 501px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 main #front-page-animation .page-3 span {
   width: 476px;
   height: 58px;
-  left: 187px;
+  left: 22.13%;
   top: 619px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 main #front-page-animation .page-3 .img-clock {
@@ -13915,7 +13928,7 @@ main #front-page-animation .page-3 .img-clock {
   top: 55.18px;
 }
 
-main #front-page-animation .page-4 h1 {
+main #front-page-animation .page-4 h2 {
   width: 679px;
   height: 77px;
   left: 1122px;
@@ -13944,25 +13957,51 @@ main #front-page-animation .page-4 .img-magnifier {
   top: -35px;
 }
 
-main #front-page-animation .page-5 span {
-  width: 830px;
-  height: 48px;
-  left: 537px;
-  top: 306px;
-  font-size: 40px;
-  line-height: 48px;
-  letter-spacing: 0.12em;
+main #front-page-animation .page-5 .title-border {
+  position: absolute;
+  width: 1193px;
+  height: 534px;
+  left: 50%;
+  top: 205px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: #123e30;
+  border: 16px solid #FFFFFF;
+  -webkit-filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.4));
+          filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.4));
+  z-index: 1;
 }
 
-main #front-page-animation .page-5 .title-box {
+main #front-page-animation .page-5 .title-border .brown-title {
+  width: 524px;
+  height: 77px;
+  left: 50%;
+  top: 95px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  color: #A86D03;
+}
+
+main #front-page-animation .page-5 .title-border .white-title {
   position: absolute;
-  width: 1478px;
-  height: 325px;
-  left: 223px;
-  top: 414px;
-  background-color: rgba(255, 255, 255, 0.8);
-  -webkit-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
-          box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
+  width: 781px;
+  height: 77px;
+  left: 50%;
+  top: 212px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  color: #FFFFFF;
+}
+
+main #front-page-animation .page-5 .title-border .title-box {
+  position: absolute;
+  width: 1192px;
+  height: 151px;
+  left: 50%;
+  bottom: 0;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: #FFFFFF;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13974,20 +14013,20 @@ main #front-page-animation .page-5 .title-box {
           align-items: center;
 }
 
-main #front-page-animation .page-5 .title-box h1 {
+main #front-page-animation .page-5 .title-border .title-box .green-span {
   position: static;
-}
-
-main #front-page-animation .page-5 .title-box .green-title {
   color: #306b56;
 }
 
-main #front-page-animation .page-5 .title-box .brown-title {
+main #front-page-animation .page-5 .title-border .title-box .brown-span {
+  position: static;
   color: #A86D03;
 }
 
 main #front-page-animation .page-5 .img-arrow {
-  left: 824px;
-  top: 656px;
+  left: 50%;
+  bottom: 80.65px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 /*# sourceMappingURL=front-page-animation.css.map */
