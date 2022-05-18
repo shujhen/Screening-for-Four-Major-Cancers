@@ -13818,7 +13818,7 @@ main #front-page-animation .skip-btn {
   width: 103px;
   height: 39px;
   left: 1716px;
-  top: 147px;
+  top: 57px;
   font-weight: 800;
   font-size: 32px;
   line-height: 39px;
@@ -13828,7 +13828,7 @@ main #front-page-animation .skip-btn {
 
 main #front-page-animation .animation-container {
   width: 100%;
-  height: 100vh;
+  height: 5000px;
   background-color: #123e30;
   position: relative;
   overflow: hidden;
@@ -13840,7 +13840,7 @@ main #front-page-animation .animation-container h2 {
   font-style: normal;
   line-height: 77px;
   color: #d7b06a;
-  position: absolute;
+  position: fixed;
 }
 
 main #front-page-animation .animation-container span {
@@ -13849,122 +13849,133 @@ main #front-page-animation .animation-container span {
   font-style: normal;
   line-height: 58px;
   color: #FFFFFF;
-  position: absolute;
+  position: fixed;
 }
 
 main #front-page-animation .animation-container img {
-  position: absolute;
+  position: fixed;
 }
 
-main #front-page-animation .page-1 h2 {
+main #front-page-animation .animation-container .page-1-h2 {
   width: 294px;
   height: 77px;
-  left: 50%;
+  left: calc(50% - 147px);
   top: 272px;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
 }
 
-main #front-page-animation .page-1 span {
+main #front-page-animation .animation-container .page-1-span {
   width: 696px;
   height: 58px;
-  left: 50%;
+  left: calc(50% - 348px);
   top: 410px;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
 }
 
-main #front-page-animation .page-1 .img-earth {
+main #front-page-animation .animation-container .img-earth {
   width: 1920px;
   height: 1920px;
-  left: 50%;
+  left: calc(50% - 960px);
   top: 570px;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
 }
 
-main #front-page-animation .page-2 span {
+main #front-page-animation .animation-container .page-2-span {
   font-size: 50px;
   line-height: 61px;
   width: 750px;
   height: 61px;
-  left: 50%;
+  left: calc(50% - 375px);
   top: 529px;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
   z-index: 1;
 }
 
-main #front-page-animation .page-2 .img-cell-1 {
+main #front-page-animation .animation-container .img-cell-1 {
   left: -9.6%;
   top: 143.4px;
 }
 
-main #front-page-animation .page-2 .img-cell-2 {
+main #front-page-animation .animation-container .img-cell-2 {
   left: 71.25%;
   top: 580px;
 }
 
-main #front-page-animation .page-3 h2 {
-  width: 349px;
-  height: 77px;
-  left: 18.82%;
-  top: 501px;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-}
-
-main #front-page-animation .page-3 span {
+main #front-page-animation .animation-container .page-3-title-box {
+  position: fixed;
   width: 476px;
-  height: 58px;
-  left: 22.13%;
-  top: 619px;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  height: 176px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  top: 425px;
+  left: 9.7%;
+  z-index: 1;
 }
 
-main #front-page-animation .page-3 .img-clock {
-  left: 581.3px;
+main #front-page-animation .animation-container .page-3-title-box .page-3-h2 {
+  position: static;
+}
+
+main #front-page-animation .animation-container .page-3-title-box .page-3-span {
+  position: static;
+}
+
+main #front-page-animation .animation-container .img-clock {
+  right: -0.79%;
   top: 55.18px;
 }
 
-main #front-page-animation .page-4 h2 {
-  width: 679px;
-  height: 77px;
-  left: 1122px;
-  top: 494px;
-}
-
-main #front-page-animation .page-4 span {
+main #front-page-animation .animation-container .page-4-title-box {
+  position: fixed;
   width: 772px;
-  height: 116px;
-  left: 1122px;
-  top: 632px;
+  height: 254px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  top: 430px;
+  right: 1.35%;
+  z-index: 1;
 }
 
-main #front-page-animation .page-4 .img-cell-3 {
-  left: 351px;
+main #front-page-animation .animation-container .page-4-title-box .page-4-h2 {
+  position: static;
+}
+
+main #front-page-animation .animation-container .page-4-title-box .page-4-span {
+  position: static;
+}
+
+main #front-page-animation .animation-container .img-cell-3 {
+  left: 18.28%;
   top: 236px;
 }
 
-main #front-page-animation .page-4 .img-cell-4 {
-  left: 626px;
+main #front-page-animation .animation-container .img-cell-4 {
+  left: 32.6%;
   top: 533px;
 }
 
-main #front-page-animation .page-4 .img-magnifier {
-  left: -225px;
+main #front-page-animation .animation-container .img-magnifier {
+  left: -11.71%;
   top: -35px;
 }
 
-main #front-page-animation .page-5 .title-border {
-  position: absolute;
-  width: 1193px;
+main #front-page-animation .animation-container .title-border {
+  position: fixed;
+  width: calc(100% - 727px);
   height: 534px;
-  left: 50%;
+  left: calc(50% - (100% - 727px) / 2);
   top: 205px;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
   background-color: #123e30;
   border: 16px solid #FFFFFF;
   -webkit-filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.4));
@@ -13972,7 +13983,7 @@ main #front-page-animation .page-5 .title-border {
   z-index: 1;
 }
 
-main #front-page-animation .page-5 .title-border .brown-title {
+main #front-page-animation .animation-container .title-border .brown-title {
   width: 524px;
   height: 77px;
   left: 50%;
@@ -13982,7 +13993,7 @@ main #front-page-animation .page-5 .title-border .brown-title {
   color: #A86D03;
 }
 
-main #front-page-animation .page-5 .title-border .white-title {
+main #front-page-animation .animation-container .title-border .white-title {
   position: absolute;
   width: 781px;
   height: 77px;
@@ -13993,9 +14004,9 @@ main #front-page-animation .page-5 .title-border .white-title {
   color: #FFFFFF;
 }
 
-main #front-page-animation .page-5 .title-border .title-box {
+main #front-page-animation .animation-container .title-border .title-box {
   position: absolute;
-  width: 1192px;
+  width: calc(100% + 2px);
   height: 151px;
   left: 50%;
   bottom: 0;
@@ -14013,20 +14024,18 @@ main #front-page-animation .page-5 .title-border .title-box {
           align-items: center;
 }
 
-main #front-page-animation .page-5 .title-border .title-box .green-span {
+main #front-page-animation .animation-container .title-border .title-box .green-span {
   position: static;
   color: #306b56;
 }
 
-main #front-page-animation .page-5 .title-border .title-box .brown-span {
+main #front-page-animation .animation-container .title-border .title-box .brown-span {
   position: static;
   color: #A86D03;
 }
 
-main #front-page-animation .page-5 .img-arrow {
-  left: 50%;
+main #front-page-animation .animation-container .img-arrow {
+  left: calc(50% - 154px);
   bottom: 80.65px;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
 }
 /*# sourceMappingURL=front-page-animation.css.map */
