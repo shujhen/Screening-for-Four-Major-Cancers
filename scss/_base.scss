@@ -5,62 +5,6 @@ body {
   }
 }
 
-// checkbox 樣式設定
-input[type='checkbox'] {
-  display: none;
-}
-input[type='checkbox'] + span {
-  display: inline-block;
-  width: 36px;
-  height: 36px;
-  margin-right: 18px;
-  background: url('../images/checkbox.svg') no-repeat;
-  background-size: contain;
-  user-select: none;
-  cursor: pointer;
-  @media (max-width: $grid-md) {
-    width: 20px;
-    height: 20px;
-    margin-right: 8px;
-  }
-}
-input[type='checkbox']:checked + span {
-  background: url('../images/checkbox-checked.svg') no-repeat;
-  background-size: contain;
-  @media (max-width: $grid-md) {
-    width: 20px;
-    height: 20px;
-  }
-}
-
-// radio 樣式設定
-input[type='radio'] {
-  display: none;
-}
-input[type='radio'] + span {
-  display: inline-block;
-  width: 36px;
-  height: 36px;
-  margin-right: 18px;
-  background: url('../images/radio.svg') no-repeat;
-  background-size: contain;
-  user-select: none;
-  cursor: pointer;
-  @media (max-width: $grid-md) {
-    width: 20px;
-    height: 20px;
-    margin-right: 8px;
-  }
-}
-input[type='radio']:checked + span {
-  background: url('../images/radio-checked.svg') no-repeat;
-  background-size: contain;
-  @media (max-width: $grid-md) {
-    width: 20px;
-    height: 20px;
-  }
-}
-
 // LOGO + 導覽列
 .header {
   position: sticky;
