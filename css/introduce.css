@@ -13779,229 +13779,36 @@ main h2 {
   font-size: 48px;
 }
 
-main #front-page-animation .skip-btn {
-  position: fixed;
-  width: 103px;
-  height: 39px;
-  left: 1716px;
-  top: 57px;
-  font-weight: 800;
-  font-size: 32px;
-  line-height: 39px;
-  color: rgba(255, 255, 255, 0.5);
-  z-index: 1;
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-main #front-page-animation .animation-container {
-  width: 100%;
-  height: 5000px;
-  background-color: #123e30;
-  position: relative;
-  overflow: hidden;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-main #front-page-animation .animation-container h2 {
-  font-weight: 800;
-  font-size: 64px;
-  font-style: normal;
-  line-height: 77px;
-  color: #d7b06a;
-  position: fixed;
+.cardBgc {
+  background: #FFFBE3;
 }
 
-main #front-page-animation .animation-container span {
-  font-weight: 800;
-  font-size: 48px;
-  font-style: normal;
-  line-height: 58px;
-  color: #FFFFFF;
-  position: fixed;
+.textColor-b {
+  color: #B26D2C;
 }
 
-main #front-page-animation .animation-container img {
-  position: fixed;
+.textColor-g {
+  color: #595947;
 }
 
-main #front-page-animation .animation-container .page-1-h2 {
-  width: 294px;
-  height: 77px;
-  left: calc(50% - 147px);
-  top: 272px;
+.buttColor {
+  background: #723010;
 }
 
-main #front-page-animation .animation-container .page-1-span {
-  width: 696px;
-  height: 58px;
-  left: calc(50% - 348px);
-  top: 410px;
+@media (min-width: 1393px) {
+  .my-col-4 {
+    margin: 0 auto;
+    width: 33.3% !important;
+  }
 }
-
-main #front-page-animation .animation-container .img-earth {
-  width: 1920px;
-  height: 1920px;
-  left: calc(50% - 960px);
-  top: 570px;
-}
-
-main #front-page-animation .animation-container .page-2-span {
-  font-size: 50px;
-  line-height: 61px;
-  width: 750px;
-  height: 61px;
-  left: calc(50% - 375px);
-  top: 529px;
-  z-index: 1;
-}
-
-main #front-page-animation .animation-container .img-cell-1 {
-  left: -9.6%;
-  top: 143.4px;
-}
-
-main #front-page-animation .animation-container .img-cell-2 {
-  left: 71.25%;
-  top: 580px;
-}
-
-main #front-page-animation .animation-container .page-3-title-box {
-  position: fixed;
-  width: 476px;
-  height: 176px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  top: 425px;
-  left: 9.7%;
-  z-index: 1;
-}
-
-main #front-page-animation .animation-container .page-3-title-box .page-3-h2 {
-  position: static;
-}
-
-main #front-page-animation .animation-container .page-3-title-box .page-3-span {
-  position: static;
-}
-
-main #front-page-animation .animation-container .img-clock {
-  right: -0.79%;
-  top: 55.18px;
-}
-
-main #front-page-animation .animation-container .page-4-title-box {
-  position: fixed;
-  width: 772px;
-  height: 254px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  top: 430px;
-  right: 1.35%;
-  z-index: 1;
-}
-
-main #front-page-animation .animation-container .page-4-title-box .page-4-h2 {
-  position: static;
-}
-
-main #front-page-animation .animation-container .page-4-title-box .page-4-span {
-  position: static;
-}
-
-main #front-page-animation .animation-container .img-cell-3 {
-  left: 18.28%;
-  top: 236px;
-}
-
-main #front-page-animation .animation-container .img-cell-4 {
-  left: 32.6%;
-  top: 533px;
-}
-
-main #front-page-animation .animation-container .img-magnifier {
-  left: -11.71%;
-  top: -35px;
-}
-
-main #front-page-animation .animation-container .title-border {
-  position: fixed;
-  width: calc(100% - 727px);
-  height: 534px;
-  left: calc(50% - (100% - 727px) / 2);
-  top: 205px;
-  background-color: #123e30;
-  border: 16px solid #FFFFFF;
-  -webkit-filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.4));
-          filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.4));
-  z-index: 1;
-}
-
-main #front-page-animation .animation-container .title-border .brown-title {
-  width: 524px;
-  height: 77px;
-  left: 50%;
-  top: 95px;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  color: #A86D03;
-}
-
-main #front-page-animation .animation-container .title-border .white-title {
-  position: absolute;
-  width: 781px;
-  height: 77px;
-  left: 50%;
-  top: 212px;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  color: #FFFFFF;
-}
-
-main #front-page-animation .animation-container .title-border .title-box {
-  position: absolute;
-  width: calc(100% + 2px);
-  height: 151px;
-  left: 50%;
-  bottom: 0;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  background-color: #FFFFFF;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-main #front-page-animation .animation-container .title-border .title-box .green-span {
-  position: static;
-  color: #306b56;
-}
-
-main #front-page-animation .animation-container .title-border .title-box .brown-span {
-  position: static;
-  color: #A86D03;
-}
-
-main #front-page-animation .animation-container .img-arrow {
-  left: calc(50% - 154px);
-  bottom: 80.65px;
-}
-/*# sourceMappingURL=front-page-animation.css.map */
+/*# sourceMappingURL=introduce.css.map */
