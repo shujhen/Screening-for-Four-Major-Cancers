@@ -1,5 +1,6 @@
-// 保留這一行 @import，下面寫各自頁面的 CSS
 @import 'all';
+@import 'input';
+
 // 手機板尺吋 padding
 .container {
   @media (max-width: $grid-sm) {

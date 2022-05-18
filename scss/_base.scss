@@ -70,12 +70,19 @@ input[type='radio']:checked + span {
   .navbar {
     padding: 0px;
     .navbar-brand {
-      padding: 3px 0px 3px 60px;
+      padding: 3px 0px;
+      margin-left: 30px;
+
+      @media (max-width: $grid-lg) {
+        margin-left: 15px;
+      }
       @media (max-width: $grid-md) {
         padding: 7px 0px 4px 10px;
+        margin-left: 13px;
       }
       .logo {
         height: 64px;
+
         @media (max-width: $grid-md) {
           height: 37px;
         }
@@ -84,19 +91,34 @@ input[type='radio']:checked + span {
     .navbar-toggler {
       padding: 12px 15px;
     }
-    ul {
+    .navbar-nav {
       text-align: center;
-      li {
+
+      .nav-item {
         font-weight: 700;
         font-size: 22px;
         line-height: 30px;
+
+        @media (max-width: $grid-lg) {
+          font-size: 20px;
+        }
         @media (max-width: $grid-md) {
-          font-weight: 400;
           font-size: 15px;
           line-height: 20px;
-          border-top: 1px solid $white;
-          &:last-child {
-            border-bottom: 1px solid $white;
+
+          background-color: #f1f0e9;
+
+          border-bottom: 1px solid rgba(137, 137, 137, 0.15);
+        }
+        &:last-child {
+          padding-right: 40px;
+
+          @media (max-width: $grid-lg) {
+            padding-right: 20px;
+          }
+          @media (max-width: $grid-md) {
+            padding-right: 0px;
+            border-bottom: none;
           }
         }
       }
@@ -105,12 +127,24 @@ input[type='radio']:checked + span {
   .nav-link {
     padding-top: 20px;
     padding-bottom: 20px;
-    margin: 0px 20px;
+    margin: 0px 30px;
+
+    color: $white;
+
     position: relative;
+
+    @media (max-width: $grid-xl) {
+      margin: 0px 10px;
+    }
+    @media (max-width: $grid-lg) {
+      margin: 0px 5px;
+    }
     @media (max-width: $grid-md) {
       margin: 0px;
-      padding-top: 14px;
-      padding-bottom: 14px;
+      padding-top: 20px;
+      padding-bottom: 18px;
+
+      color: $green-400;
     }
     &:hover::after {
       content: '';
@@ -120,6 +154,7 @@ input[type='radio']:checked + span {
       height: 4px;
       width: 100%;
       background-color: $white;
+
       @media (max-width: $grid-md) {
         display: none;
       }
@@ -131,6 +166,7 @@ input[type='radio']:checked + span {
 footer {
   padding: 24px 55px 24px 45px;
   background-color: $green-300;
+
   @media (max-width: $grid-md) {
     padding: 14px 0px;
   }
@@ -141,6 +177,7 @@ footer {
     font-size: 20px;
     font-weight: 300;
     line-height: 24px;
+
     @media (max-width: $grid-md) {
       padding: 14px 0px;
       font-size: 8px;
