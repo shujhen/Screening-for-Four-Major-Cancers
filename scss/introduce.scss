@@ -1,0 +1,31 @@
+// 保留這一行 @import，下面寫各自頁面的 CSS
+@import 'all';
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.cardBgc{
+    background: #FFFBE3;
+}
+
+.textColor-b{
+    color: #B26D2C;
+    ;
+}
+
+.textColor-g{
+    color: #595947;
+
+}
+
+.my-col-4{
+    @media(min-width: 1393px){
+        margin: 0 auto;
+        width: 33.3% !important;
+
+    }
+}
