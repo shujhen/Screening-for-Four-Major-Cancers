@@ -23,7 +23,7 @@ main {
   }
   // 查詢選項區
   .qualify-check-section {
-    margin-top: 43px;
+    margin: 43px 80px 0px;
     padding: 107px 208px 61px;
 
     background: rgba(255, 255, 255, 0.6);
@@ -212,12 +212,18 @@ main {
   }
   // 查詢結果顯示區
   .result-section {
-    margin-top: 43px;
+    position: relative;
+    margin: 43px 80px 0px;
     padding: 24px 24px 116px;
 
     background: rgba(238, 238, 238, 0.6);
     box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
     border-radius: 40px;
+
+    
+    @media (max-width: 1460px) {
+     justify-content: flex-start;
+    }
   }
   .condition {
     width: 100%;
@@ -231,44 +237,98 @@ main {
     color: $black;
     background-color: #dcdcdc;
     border-radius: 30px;
-    
-    @media (max-width: $grid-sm) {
-      background-color: transparent;
-      border-bottom: 1px solid #CBCBCB;
+
+    @media (max-width: $grid-lg) {
+      margin-bottom: 350px;
     }
-    
+    @media (max-width: $grid-sm) {
+      padding: 29px 33px 14px;
+      margin-bottom: 224px;
+
+      font-size: 13px;
+      line-height: 20px;
+
+      border-radius: 0px;
+    }
   }
   .result-box {
-    padding: 0px 170px;
-
     font-weight: 700;
-
-    p{
+    p {
       margin: 10px 0px;
     }
-    p:first-child {
-      font-size: 32px;
-      line-height: 1.5;
+  }
+  .p-line-1 {
+    font-size: 32px;
+    line-height: 1.5;
 
-      color: #723010;
+    color: #723010;
+
+    @media (max-width: $grid-lg) {
+      position: absolute;
+      top: calc(50% - 170px);
+      left: calc(50%);
+      transform: translate(-50%, -50%);
     }
-    p:nth-child(2) {
-      font-weight: 800;
-    
-      font-size: 40px;
-      line-height: 1;
+  }
+  .p-line-2 {
+    font-weight: 800;
 
-      color: #9E0900;
+    font-size: 40px;
+    line-height: 1;
+
+    color: #9e0900;
+
+    @media (max-width: $grid-lg) {
+      position: absolute;
+      top: calc(50% - 90px);
+      left: calc(50%);
+      transform: translate(-50%, -50%);
     }
-    p:nth-child(3) {
-      font-size: 32px;
-      line-height: 1.5;
+  }
+  .p-line-3 {
+    font-size: 32px;
+    line-height: 1.5;
 
-      color: #1b5e45;
+    color: #1b5e45;
+
+    @media (max-width: $grid-lg) {
+      position: absolute;
+      top: calc(50% + 80px);
+      left: calc(50% + 30px);
+      transform: translate(-50%, -50%);
+    }
+  }
+  .qualify-check-doctor {
+    @media (max-width: $grid-lg) {
+      position: absolute;
+      top: calc(50% - 5px);
+      left: calc(50% - 350px);
+      transform: translate(-50%, -50%);
+    }
+  }
+  .skim {
+    position: absolute;
+    top: calc(50% + 40px);
+    left: calc(50% - 250px);
+    transform: translate(-50%, -50%);
+
+    @media (max-width: 1460px) {
+      left: calc(50% - 200px);
+    }
+    @media (max-width: $grid-lg) {
+      top: calc(50% - 43px);
+      left: calc(50% - 230px);
     }
   }
   .btn-arrow-row {
     margin-top: 41px;
+
+    @media (max-width: 1460px) {
+      position: absolute;
+      top: calc(50%);
+      left: calc(50%);
+      transform: translate(-50%, -50%);
+    }
   }
   .btn-link-arrow-layout,
   .btn-refresh-arrow-layout {
