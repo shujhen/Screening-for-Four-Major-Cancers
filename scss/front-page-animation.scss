@@ -8,7 +8,7 @@ main {
             width: 103px;
             height: 39px;
             left: 1716px;
-            top: 147px;
+            top: 57px;
             font-weight: 800;
             font-size: 32px;
             line-height: 39px;
@@ -18,7 +18,7 @@ main {
 
         .animation-container {
             width: 100%;
-            height: 100vh;
+            height: 5000px;
             background-color: $green-700;
             position: relative;
             overflow: hidden;
@@ -29,7 +29,7 @@ main {
                 font-style: normal;
                 line-height: 77px;
                 color: $yellow-400;
-                position: absolute;
+                position: fixed;
             }
 
             span {
@@ -38,53 +38,44 @@ main {
                 font-style: normal;
                 line-height: 58px;
                 color: #FFFFFF;
-                position: absolute;
+                position: fixed;
             }
 
             img {
-                position: absolute;
+                position: fixed;
             }
-        }
 
-        .page-1 {
 
-            h2 {
+            .page-1-h2 {
                 width: 294px;
                 height: 77px;
-                left: 50%;
+                left: calc(50% - 147px);
                 top: 272px;
-                transform: translateX(-50%);
 
             }
 
-            span {
+            .page-1-span {
                 width: 696px;
                 height: 58px;
-                left: 50%;
+                left: calc(50% - 348px);
                 top: 410px;
-                transform: translateX(-50%);
             }
 
             .img-earth {
                 width: 1920px;
                 height: 1920px;
-                left: 50%;
+                left: calc(50% - 960px) ;
                 top: 570px;
-                transform: translateX(-50%);
 
             }
-        }
 
-        .page-2 {
-
-            span {
+            .page-2-span {
                 font-size: 50px;
                 line-height: 61px;
                 width: 750px;
                 height: 61px;
-                left: 50%;
+                left: calc(50% - 375px);
                 top: 529px;
-                transform: translateX(-50%);
                 z-index: 1;
             }
 
@@ -97,75 +88,80 @@ main {
                 left: 71.25%;
                 top: 580px;
             }
-        }
 
-        .page-3 {
-            h2 {
-                width: 349px;
-                height: 77px;
-                left: 18.82%;
-                top: 501px;
-                transform: translateX(-50%);
-            }
-
-            span {
+            .page-3-title-box {
+                position: fixed;
                 width: 476px;
-                height: 58px;
-                left: 22.13%;
-                top: 619px;
-                transform: translateX(-50%);
+                height: 176px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                top: 425px;
+                left: 9.7%;
+                z-index: 1;
+
+                .page-3-h2 {
+                    position: static;
+                }
+
+                .page-3-span {
+                    position: static;
+                }
             }
+
 
             .img-clock {
-                left: 581.3px;
+                right: -0.79%;
                 top: 55.18px;
             }
 
-        }
-
-        .page-4 {
-            h2 {
-                width: 679px;
-                height: 77px;
-                left: 1122px;
-                top: 494px;
-            }
-
-            span {
+            .page-4-title-box {
+                position: fixed;
                 width: 772px;
-                height: 116px;
-                left: 1122px;
-                top: 632px;
+                height: 254px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                top: 430px;
+                right: 1.35%;
+                z-index: 1;
+
+                .page-4-h2 {
+                    position: static;
+                }
+
+                .page-4-span {
+                    position: static;
+                }
             }
+
 
             .img-cell-3 {
-                left: 351px;
+                left: 18.28%;
                 top: 236px;
             }
 
             .img-cell-4 {
-                left: 626px;
+                left: 32.6%;
                 top: 533px;
             }
 
             .img-magnifier {
-                left: -225px;
+                left: -11.71%;
                 top: -35px;
             }
-        }
 
-        .page-5 {
             .title-border {
-                position: absolute;
-                width: 1193px;
+                position: fixed;
+                width: calc(100% - 727px);
                 height: 534px;
-                left: 50%;
+                left: calc(50% - (100% - 727px) / 2);
                 top: 205px;
-                transform: translateX(-50%);
                 background-color: $green-700;
                 border: 16px solid #FFFFFF;
                 filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.4));
                 z-index: 1;
+
                 .brown-title {
                     width: 524px;
                     height: 77px;
@@ -187,7 +183,7 @@ main {
 
                 .title-box {
                     position: absolute;
-                    width: 1192px;
+                    width: calc(100% + 2px);
                     height: 151px;
                     left: 50%;
                     bottom: 0;
@@ -197,11 +193,13 @@ main {
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    .green-span{
+
+                    .green-span {
                         position: static;
                         color: $green-400;
                     }
-                    .brown-span{
+
+                    .brown-span {
                         position: static;
 
                         color: $brown-800;
@@ -211,10 +209,17 @@ main {
             }
 
             .img-arrow {
-                left: 50%;
+                left: calc(50% - 154px);
                 bottom: 80.65px;
-                transform: translateX(-50%);
             }
+
         }
+
+
+
+
+
+
+
     }
 }
