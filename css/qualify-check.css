@@ -14007,6 +14007,19 @@ main .btn {
   line-height: 36px;
 }
 
+main .btn span {
+  display: inline-block;
+  width: 95px;
+  height: 95px;
+  margin-right: 15px;
+  background: url("../images/right-arrow.svg") no-repeat;
+  background-size: contain;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
 main .btn-reset-layout {
   margin-right: 29px;
   background-color: #aeaeac;
@@ -14040,6 +14053,93 @@ main .result-section {
   -webkit-box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
           box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
   border-radius: 40px;
+}
+
+main .condition {
+  width: 100%;
+  padding: 30px 0px;
+  margin-bottom: 108px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.5;
+  color: #000;
+  background-color: #dcdcdc;
+  border-radius: 30px;
+}
+
+@media (max-width: 575px) {
+  main .condition {
+    background-color: transparent;
+    border-bottom: 1px solid #CBCBCB;
+  }
+}
+
+main .result-box {
+  padding: 0px 170px;
+  font-weight: 700;
+}
+
+main .result-box p {
+  margin: 10px 0px;
+}
+
+main .result-box p:first-child {
+  font-size: 32px;
+  line-height: 1.5;
+  color: #723010;
+}
+
+main .result-box p:nth-child(2) {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 1;
+  color: #9E0900;
+}
+
+main .result-box p:nth-child(3) {
+  font-size: 32px;
+  line-height: 1.5;
+  color: #1b5e45;
+}
+
+main .btn-arrow-row {
+  margin-top: 41px;
+}
+
+main .btn-link-arrow-layout,
+main .btn-refresh-arrow-layout {
+  padding: 27px 30px 24px 33px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.105em;
+  color: #fff;
+  -webkit-box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 157.5px;
+}
+
+main .btn-link-arrow-layout span,
+main .btn-refresh-arrow-layout span {
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  margin-left: 15px;
+  background: url("../images/right-arrow.svg") no-repeat;
+  background-size: contain;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+main .btn-link-arrow-layout {
+  background-color: #319e76;
+}
+
+main .btn-refresh-arrow-layout {
+  margin-left: 28px;
+  background-color: #723010;
 }
 
 @media (min-width: 799px) and (max-width: 1640px) {
