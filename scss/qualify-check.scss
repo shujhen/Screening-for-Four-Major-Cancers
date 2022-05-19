@@ -1,6 +1,13 @@
 @import 'all';
 @import 'input';
 
+// 手機板尺吋 padding
+.container {
+  @media (max-width: $grid-sm) {
+    padding-right: 26px;
+    padding-left: 26px;
+  }
+}
 // 主要內容
 main {
   margin-top: 86px;
@@ -30,8 +37,24 @@ main {
     box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
     border-radius: 40px;
 
+    @media (max-width: $grid-xxl) {
+      margin: 30px 10px;
+      padding: 100px 120px 61px;
+    }
+    @media (max-width: $grid-xl) {
+      padding: 80px 80px 51px;
+    }
+    @media (max-width: $grid-lg) {
+      padding: 40px 50px 31px;
+    }
     @media (max-width: $grid-md) {
       position: relative;
+
+      box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.3);
+      border-radius: 10px;
+    }
+    @media (max-width: $grid-sm) {
+      padding: 28px;
     }
   }
   .check-form {
@@ -124,6 +147,8 @@ main {
     @media (max-width: $grid-md) {
       font-size: 20px;
       line-height: 26px;
+
+      border-top: 1px solid #cbcbcb;
     }
     @media (max-width: $grid-sm) {
       font-size: 13px;
@@ -145,13 +170,25 @@ main {
     line-height: 29px;
     cursor: pointer;
 
+    @media (max-width: 1240px) {
+      font-size: 20px;
+    }
+    @media (max-width: $grid-xl) {
+      width: 100%;
+    }
     @media (max-width: $grid-md) {
       margin-bottom: 11px;
+
+      padding: 10px 0px 10px 21px;
+      font-size: 20px;
+      line-height: 25px;
+
+      background: $yellow-200;
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+
       position: relative;
       left: 50%;
       transform: translateX(-50%);
-      background: $yellow-200;
-      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
     }
     @media (max-width: $grid-sm) {
       padding-left: 10px;
@@ -170,6 +207,20 @@ main {
     font-size: 30px;
     font-weight: 700;
     line-height: 36px;
+
+    @media (max-width: $grid-lg) {
+      margin-top: 25px;
+      font-size: 25px;
+      line-height: 30px;
+      border-radius: 50px;
+    }
+    @media (max-width: $grid-sm) {
+      margin-top: 14px;
+      padding: 6px 16px;
+      font-size: 13px;
+      line-height: 16px;
+      border: 4px solid #ffffff;
+    }
     span {
       display: inline-block;
       width: 95px;
@@ -187,6 +238,15 @@ main {
 
     color: #605e5d;
 
+    @media (max-width: $grid-lg) {
+      margin-right: 20px;
+    }
+    @media (max-width: $grid-md) {
+      margin-right: 15px;
+    }
+    @media (max-width: $grid-sm) {
+      margin-right: 13px;
+    }
     &:hover {
       color: #605e5d;
     }
@@ -220,15 +280,36 @@ main {
     box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
     border-radius: 40px;
 
-    
-    @media (max-width: 1460px) {
-     justify-content: flex-start;
+    @media (max-width: $grid-xxl) {
+      margin: 30px 10px;
+      padding: 60px 100px;
+    }
+    @media (max-width: 1399px) {
+      padding-bottom: 460px;
+    }
+    @media (max-width: $grid-xl) {
+      padding: 50px 80px 460px;
+    }
+    @media (max-width: $grid-lg) {
+      padding: 30px 50px 460px;
+    }
+    @media (max-width: 690px) {
+      padding-bottom: 500px;
+    }
+    @media (max-width: $grid-md) {
+      background: rgba(255, 255, 255, 0.6);
+      box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.3);
+      border-radius: 10px;
+    }
+    @media (max-width: $grid-sm) {
+      padding: 28px;
+      padding-bottom: 500px;
     }
   }
   .condition {
     width: 100%;
-    padding: 30px 0px;
-    margin-bottom: 108px;
+    padding: 30px 10px;
+    margin-bottom: 100px;
 
     font-weight: 700;
     font-size: 28px;
@@ -238,23 +319,41 @@ main {
     background-color: #dcdcdc;
     border-radius: 30px;
 
-    @media (max-width: $grid-lg) {
-      margin-bottom: 350px;
+    @media (max-width: 1399px) {
+      margin-bottom: 0px;
+      font-size: 25px;
+    }
+    @media (max-width: $grid-xl) {
+      font-size: 20px;
+    }
+    @media (max-width: $grid-md) {
+      background-color: transparent;
+      border-radius: 0px;
+
+      border-bottom: 1px solid #cbcbcb;
     }
     @media (max-width: $grid-sm) {
-      padding: 29px 33px 14px;
-      margin-bottom: 224px;
+      padding: 0px;
+      padding-bottom: 14px;
 
       font-size: 13px;
       line-height: 20px;
-
-      border-radius: 0px;
+    }
+    span {
+      @media (max-width: $grid-sm) {
+        text-align: left;
+        display: inline-block;
+        width: 100%;
+      }
     }
   }
   .result-box {
     font-weight: 700;
+
     p {
-      margin: 10px 0px;
+      // margin: 10px 0px;
+      margin: 0px;
+      text-align: left;
     }
   }
   .p-line-1 {
@@ -263,11 +362,31 @@ main {
 
     color: #723010;
 
-    @media (max-width: $grid-lg) {
+    @media (max-width: 1399px) {
       position: absolute;
-      top: calc(50% - 170px);
+      top: calc(50% - 117px);
       left: calc(50%);
       transform: translate(-50%, -50%);
+    }
+    @media (max-width: $grid-xl) {
+      font-size: 25px;
+    }
+    @media (max-width: $grid-lg) {
+      left: calc(50% - 50px);
+    }
+    @media (max-width: 690px) {
+      width: 80%;
+      top: calc(50% - 145px);
+      left: calc(50% + 50px);
+
+      font-size: 20px;
+    }
+    @media (max-width: $grid-sm) {
+      top: calc(50% - 176px);
+      left: calc(50% + -18px);
+
+      font-size: 13px;
+      line-height: 20px;
     }
   }
   .p-line-2 {
@@ -278,11 +397,29 @@ main {
 
     color: #9e0900;
 
-    @media (max-width: $grid-lg) {
+    @media (max-width: 1399px) {
       position: absolute;
-      top: calc(50% - 90px);
+      top: calc(50% - 45px);
       left: calc(50%);
       transform: translate(-50%, -50%);
+    }
+    @media (max-width: $grid-xl) {
+      font-size: 35px;
+    }
+    @media (max-width: $grid-lg) {
+      left: calc(50% + 20px);
+    }
+
+    @media (max-width: 690px) {
+      width: 50%;
+      top: calc(50% - 83px);
+      left: calc(50% + 60px);
+
+      font-size: 30px;
+    }
+    @media (max-width: $grid-sm) {
+      font-size: 20px;
+      line-height: 1.5;
     }
   }
   .p-line-3 {
@@ -291,44 +428,98 @@ main {
 
     color: #1b5e45;
 
-    @media (max-width: $grid-lg) {
+    @media (max-width: 1399px) {
       position: absolute;
       top: calc(50% + 80px);
-      left: calc(50% + 30px);
+      left: calc(50% + 65px);
       transform: translate(-50%, -50%);
+    }
+    @media (max-width: $grid-xl) {
+      font-size: 25px;
+    }
+    @media (max-width: 690px) {
+      width: 50%;
+      top: calc(50% + 5px);
+      left: calc(50% + 89px);
+
+      font-size: 20px;
+    }
+    @media (max-width: $grid-sm) {
+      font-size: 12px;
+      line-height: 1.5;
     }
   }
   .qualify-check-doctor {
-    @media (max-width: $grid-lg) {
+    // width: 307px;
+    // height: 322px;
+    // background: url('../images/qualify-check-doctor.svg') no-repeat;
+    // background-size: contain;
+    @media (max-width: 1399px) {
+      height: 280px;
+
       position: absolute;
-      top: calc(50% - 5px);
-      left: calc(50% - 350px);
+      top: calc(50% + 36px);
+      left: calc(20%);
       transform: translate(-50%, -50%);
+    }
+    @media (max-width: $grid-xl) {
+      height: 225px;
+
+      position: absolute;
+      top: 45%;
+      left: 20px;
+      transform: translateX(0%);
+    }
+    @media (max-width: $grid-lg) {
+      height: 190px;
+    }
+    @media (max-width: $grid-md) {
+      height: 190px;
+    }
+    @media (max-width: 690px) {
+      top: 35%;
+    }
+    @media (max-width: $grid-sm) {
+      height: 107px;
     }
   }
   .skim {
+    width: 49px;
+    height: 32px;
+    background: url('../images/skim.svg') no-repeat;
+    background-size: contain;
+
     position: absolute;
-    top: calc(50% + 40px);
+    top: calc(50% + 25px);
     left: calc(50% - 250px);
     transform: translate(-50%, -50%);
 
-    @media (max-width: 1460px) {
+    @media (max-width: $grid-xxl) {
       left: calc(50% - 200px);
     }
-    @media (max-width: $grid-lg) {
-      top: calc(50% - 43px);
-      left: calc(50% - 230px);
+    @media (max-width: 1399px) {
+      left: 30%;
+      top: 50%;
+    }
+    @media (max-width: $grid-xl) {
+      top: calc(50% + 22px);
+    }
+    @media (max-width: $grid-md) {
+      width: 17px;
+      height: 8px;
+
+      left: 35%;
+      top: calc(50% + 90px);
+
+      background: url('../images/skim-small.svg') no-repeat;
+    }
+    @media (max-width: 690px) {
+      top: calc(50% + 53px);
+      left: calc(50% - 43px);
     }
   }
   .btn-arrow-row {
     margin-top: 41px;
-
-    @media (max-width: 1460px) {
-      position: absolute;
-      top: calc(50%);
-      left: calc(50%);
-      transform: translate(-50%, -50%);
-    }
   }
   .btn-link-arrow-layout,
   .btn-refresh-arrow-layout {
@@ -343,6 +534,28 @@ main {
 
     box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
     border-radius: 157.5px;
+
+    @media (max-width: 1399px) {
+      padding: 15px 33px;
+    }
+    @media (max-width: $grid-xl) {
+      font-size: 20px;
+      line-height: 25px;
+      padding: 15px 30px;
+    }
+    @media (max-width: $grid-md) {
+      font-size: 18px;
+      line-height: 20px;
+      padding: 10px 20px;
+    }
+    @media (max-width: 690px) {
+      padding: 10px 50px;
+    }
+    @media (max-width: $grid-sm) {
+      font-size: 13px;
+      line-height: 16px;
+      padding: 9px 32px;
+    }
     span {
       display: inline-block;
       width: 38px;
@@ -351,15 +564,58 @@ main {
       background: url('../images/right-arrow.svg') no-repeat;
       background-size: contain;
       user-select: none;
+
+      @media (max-width: $grid-xl) {
+        width: 25px;
+        height: 25px;
+      }
+      @media (max-width: $grid-sm) {
+        width: 20px;
+        height: 20px;
+        margin-left: 5px;
+      }
     }
   }
   .btn-link-arrow-layout {
     background-color: $green-200;
+
+    @media (max-width: 1399px) {
+      position: absolute;
+      bottom: 60px;
+      left: calc(50% + 50px);
+    }
+    @media (max-width: $grid-xl) {
+      left: calc(100% - 80px);
+      transform: translateX(-200%);
+    }
+    @media (max-width: 690px) {
+      bottom: calc(50% - 150px);
+      left: calc(50%);
+      transform: translate(-50%, +50%);
+    }
   }
   .btn-refresh-arrow-layout {
     margin-left: 28px;
 
     background-color: #723010;
+
+    @media (max-width: 1399px) {
+      margin: 0;
+
+      position: absolute;
+      bottom: 60px;
+      left: calc(50% + 30px);
+      transform: translateX(-100%);
+    }
+    @media (max-width: $grid-xl) {
+      left: calc(100% - 50px);
+      transform: translateX(-100%);
+    }
+    @media (max-width: 690px) {
+      bottom: calc(50% - 196px);
+      left: calc(50%);
+      transform: translate(-50%, +100%);
+    }
   }
 }
 
