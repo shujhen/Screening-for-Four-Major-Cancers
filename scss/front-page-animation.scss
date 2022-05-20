@@ -1,6 +1,8 @@
 @import 'all';
 
-
+*{
+    transition: 2s;
+}
 main {
     #front-page-animation {
         .skip-btn {
@@ -14,6 +16,7 @@ main {
             line-height: 39px;
             color: rgba(255, 255, 255, 0.5);
             z-index: 1;
+            
         }
 
         .animation-container {
@@ -30,6 +33,7 @@ main {
                 line-height: 77px;
                 color: $yellow-400;
                 position: fixed;
+               
             }
 
             span {
@@ -51,7 +55,7 @@ main {
                 height: 77px;
                 left: calc(50% - 147px);
                 top: 272px;
-
+                opacity: 0;
             }
 
             .page-1-span {
@@ -59,6 +63,7 @@ main {
                 height: 58px;
                 left: calc(50% - 348px);
                 top: 410px;
+                opacity: 0;
             }
 
             .img-earth {
@@ -66,7 +71,7 @@ main {
                 height: 1920px;
                 left: calc(50% - 960px);
                 top: 570px;
-
+                opacity: 0;
             }
 
             .page-2-span {
@@ -77,16 +82,19 @@ main {
                 left: calc(50% - 375px);
                 top: 529px;
                 z-index: 1;
+                opacity: 0;
             }
 
             .img-cell-1 {
                 left: -9.6%;
                 top: 143.4px;
+                opacity: 0;
             }
 
             .img-cell-2 {
                 left: 71.25%;
                 top: 580px;
+                opacity: 0;
             }
 
             .page-3-title-box {
@@ -99,7 +107,7 @@ main {
                 top: 425px;
                 left: 9.7%;
                 z-index: 1;
-
+                opacity: 0;
                 .page-3-h2 {
                     position: static;
                 }
@@ -113,6 +121,7 @@ main {
             .img-clock {
                 right: -0.79%;
                 top: 55.18px;
+                opacity: 0;
             }
 
             .page-4-title-box {
@@ -125,7 +134,7 @@ main {
                 top: 430px;
                 right: 1.35%;
                 z-index: 1;
-
+                opacity: 0;
                 .page-4-h2 {
                     position: static;
                 }
@@ -139,16 +148,19 @@ main {
             .img-cell-3 {
                 left: 18.28%;
                 top: 236px;
+                opacity: 0;
             }
 
             .img-cell-4 {
                 left: 32.6%;
                 top: 533px;
+                opacity: 0;
             }
 
             .img-magnifier {
                 right: 42.83%;
                 top: -35px;
+                opacity: 0;
             }
 
             .title-border {
@@ -161,7 +173,7 @@ main {
                 border: 16px solid #FFFFFF;
                 filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.4));
                 z-index: 1;
-
+                opacity: 0;
                 .brown-title {
                     width: 524px;
                     height: 77px;
@@ -253,6 +265,7 @@ main {
             .img-arrow {
                 left: calc(50% - 154px);
                 bottom: 80.65px;
+                opacity: 0;
             }
             @media (max-width: 1609px){
                 .page-4-title-box{
@@ -282,9 +295,81 @@ main {
                     right: 20%;
                 }
             }
+            @media (max-width: 869px){
+                .page-1-h2{
+                    font-size: 32px;
+                    text-align: center;
+                }
+                .page-1-span{
+                    font-size: 24px;
+                    text-align: center;
+                }
+                .page-2-span{
+                    font-size: 24px;
+                    text-align: center;
+                }
+            }
             @media (max-width: $grid-sm) {
                 .mobile-hide {
                     display: none;
+                }
+                .page-1-h2{
+                    font-size: 20px;
+                    line-height: 24.2px;
+                    width: 92px;
+                    height: 24px;
+                    top: 127px;
+                    left: calc(50% - 46px);
+                }
+                .page-1-span{
+                    font-size: 14px;
+                    line-height: 16.94px;
+                    width: 203px;
+                    height: 17px;
+                    top: 170px;
+                    left: calc(50% - 101.5px);
+                }
+                .img-earth{
+                    width: 528.71px;
+                    height: 528.71px;
+                    top: 278.43px;
+                    left: calc(50% - 264.355px);
+                }
+                .page-2-span{
+                    width: 210px;
+                    height: 17px;
+                    top: 267px;
+                    left: calc(50% - 105px);
+                    font-size: 14px;
+                    line-height: 17px;
+                }
+                .img-cell-1{
+                    top: 29px;
+                    left: -23.12%;
+                }
+                .img-cell-2{
+                    top: 275px;
+                    left: auto;
+                    right: -56.63%;
+                }
+                .page-3-title-box{
+                    width: 139px;
+                    height: 61px;
+                    top: 416px;
+                    left: 12.18%;
+                    .page-3-h2{
+                        font-size: 20px;
+                        line-height: 24px;
+                    }
+                    .page-3-span{
+                        font-size: 14px;
+                        line-height: 17px;
+                    }
+                }
+                .img-clock{
+                    top: -78px;
+                    right: -38.18%;
+                    left: auto;
                 }
                 .page-4-title-box{
                     width: 213px;
@@ -406,5 +491,26 @@ main {
 
 
 
+    }
+}
+
+@keyframes beginning{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: .5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes rotation{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
     }
 }

@@ -13779,6 +13779,11 @@ main h2 {
   font-size: 48px;
 }
 
+* {
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
 main #front-page-animation .skip-btn {
   position: fixed;
   width: 103px;
@@ -13827,6 +13832,7 @@ main #front-page-animation .animation-container .page-1-h2 {
   height: 77px;
   left: calc(50% - 147px);
   top: 272px;
+  opacity: 0;
 }
 
 main #front-page-animation .animation-container .page-1-span {
@@ -13834,6 +13840,7 @@ main #front-page-animation .animation-container .page-1-span {
   height: 58px;
   left: calc(50% - 348px);
   top: 410px;
+  opacity: 0;
 }
 
 main #front-page-animation .animation-container .img-earth {
@@ -13841,6 +13848,7 @@ main #front-page-animation .animation-container .img-earth {
   height: 1920px;
   left: calc(50% - 960px);
   top: 570px;
+  opacity: 0;
 }
 
 main #front-page-animation .animation-container .page-2-span {
@@ -13851,16 +13859,19 @@ main #front-page-animation .animation-container .page-2-span {
   left: calc(50% - 375px);
   top: 529px;
   z-index: 1;
+  opacity: 0;
 }
 
 main #front-page-animation .animation-container .img-cell-1 {
   left: -9.6%;
   top: 143.4px;
+  opacity: 0;
 }
 
 main #front-page-animation .animation-container .img-cell-2 {
   left: 71.25%;
   top: 580px;
+  opacity: 0;
 }
 
 main #front-page-animation .animation-container .page-3-title-box {
@@ -13880,6 +13891,7 @@ main #front-page-animation .animation-container .page-3-title-box {
   top: 425px;
   left: 9.7%;
   z-index: 1;
+  opacity: 0;
 }
 
 main #front-page-animation .animation-container .page-3-title-box .page-3-h2 {
@@ -13893,6 +13905,7 @@ main #front-page-animation .animation-container .page-3-title-box .page-3-span {
 main #front-page-animation .animation-container .img-clock {
   right: -0.79%;
   top: 55.18px;
+  opacity: 0;
 }
 
 main #front-page-animation .animation-container .page-4-title-box {
@@ -13911,6 +13924,7 @@ main #front-page-animation .animation-container .page-4-title-box {
   top: 430px;
   right: 1.35%;
   z-index: 1;
+  opacity: 0;
 }
 
 main #front-page-animation .animation-container .page-4-title-box .page-4-h2 {
@@ -13924,16 +13938,19 @@ main #front-page-animation .animation-container .page-4-title-box .page-4-span {
 main #front-page-animation .animation-container .img-cell-3 {
   left: 18.28%;
   top: 236px;
+  opacity: 0;
 }
 
 main #front-page-animation .animation-container .img-cell-4 {
   left: 32.6%;
   top: 533px;
+  opacity: 0;
 }
 
 main #front-page-animation .animation-container .img-magnifier {
   right: 42.83%;
   top: -35px;
+  opacity: 0;
 }
 
 main #front-page-animation .animation-container .title-border {
@@ -13947,6 +13964,7 @@ main #front-page-animation .animation-container .title-border {
   -webkit-filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.4));
           filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.4));
   z-index: 1;
+  opacity: 0;
 }
 
 main #front-page-animation .animation-container .title-border .brown-title {
@@ -14047,6 +14065,7 @@ main #front-page-animation .animation-container .mobile-show {
 main #front-page-animation .animation-container .img-arrow {
   left: calc(50% - 154px);
   bottom: 80.65px;
+  opacity: 0;
 }
 
 @media (max-width: 1609px) {
@@ -14079,9 +14098,82 @@ main #front-page-animation .animation-container .img-arrow {
   }
 }
 
+@media (max-width: 869px) {
+  main #front-page-animation .animation-container .page-1-h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+  main #front-page-animation .animation-container .page-1-span {
+    font-size: 24px;
+    text-align: center;
+  }
+  main #front-page-animation .animation-container .page-2-span {
+    font-size: 24px;
+    text-align: center;
+  }
+}
+
 @media (max-width: 575px) {
   main #front-page-animation .animation-container .mobile-hide {
     display: none;
+  }
+  main #front-page-animation .animation-container .page-1-h2 {
+    font-size: 20px;
+    line-height: 24.2px;
+    width: 92px;
+    height: 24px;
+    top: 127px;
+    left: calc(50% - 46px);
+  }
+  main #front-page-animation .animation-container .page-1-span {
+    font-size: 14px;
+    line-height: 16.94px;
+    width: 203px;
+    height: 17px;
+    top: 170px;
+    left: calc(50% - 101.5px);
+  }
+  main #front-page-animation .animation-container .img-earth {
+    width: 528.71px;
+    height: 528.71px;
+    top: 278.43px;
+    left: calc(50% - 264.355px);
+  }
+  main #front-page-animation .animation-container .page-2-span {
+    width: 210px;
+    height: 17px;
+    top: 267px;
+    left: calc(50% - 105px);
+    font-size: 14px;
+    line-height: 17px;
+  }
+  main #front-page-animation .animation-container .img-cell-1 {
+    top: 29px;
+    left: -23.12%;
+  }
+  main #front-page-animation .animation-container .img-cell-2 {
+    top: 275px;
+    left: auto;
+    right: -56.63%;
+  }
+  main #front-page-animation .animation-container .page-3-title-box {
+    width: 139px;
+    height: 61px;
+    top: 416px;
+    left: 12.18%;
+  }
+  main #front-page-animation .animation-container .page-3-title-box .page-3-h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  main #front-page-animation .animation-container .page-3-title-box .page-3-span {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  main #front-page-animation .animation-container .img-clock {
+    top: -78px;
+    right: -38.18%;
+    left: auto;
   }
   main #front-page-animation .animation-container .page-4-title-box {
     width: 213px;
@@ -14190,6 +14282,52 @@ main #front-page-animation .animation-container .img-arrow {
     font-size: 15px;
     line-height: 18px;
     color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+@-webkit-keyframes beginning {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes beginning {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes rotation {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+  }
+}
+
+@keyframes rotation {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
   }
 }
 /*# sourceMappingURL=front-page-animation.css.map */
