@@ -14229,7 +14229,7 @@ main .result-section {
 @media (max-width: 575px) {
   main .result-section {
     padding: 28px;
-    padding-bottom: 500px;
+    padding-bottom: 350px;
   }
 }
 
@@ -14288,6 +14288,7 @@ main .result-box {
 }
 
 main .result-box p {
+  line-height: 1.5;
   margin: 0px;
   text-align: left;
 }
@@ -14331,8 +14332,8 @@ main .p-line-1 {
 
 @media (max-width: 575px) {
   main .p-line-1 {
-    top: calc(50% - 176px);
-    left: calc(50% + -18px);
+    top: calc(50% - 105px);
+    left: calc(50% + 5px);
     font-size: 13px;
     line-height: 20px;
   }
@@ -14380,6 +14381,8 @@ main .p-line-2 {
   main .p-line-2 {
     font-size: 20px;
     line-height: 1.5;
+    top: calc(50% - 59px);
+    left: calc(50% + -28px);
   }
 }
 
@@ -14418,6 +14421,8 @@ main .p-line-3 {
   main .p-line-3 {
     font-size: 12px;
     line-height: 1.5;
+    top: calc(50%);
+    left: calc(50% + 42px);
   }
 }
 
@@ -14464,6 +14469,8 @@ main .p-line-3 {
 @media (max-width: 575px) {
   main .qualify-check-doctor {
     height: 107px;
+    top: calc(35% + 35px);
+    left: 7px;
   }
 }
 
@@ -14510,8 +14517,15 @@ main .skim {
 
 @media (max-width: 690px) {
   main .skim {
-    top: calc(50% + 53px);
-    left: calc(50% - 43px);
+    top: calc(50% + 35px);
+    left: calc(50% - 71px);
+  }
+}
+
+@media (max-width: 575px) {
+  main .skim {
+    top: calc(50% + 30px);
+    left: 98px;
   }
 }
 
@@ -14567,6 +14581,8 @@ main .btn-refresh-arrow-layout {
 @media (max-width: 575px) {
   main .btn-link-arrow-layout,
   main .btn-refresh-arrow-layout {
+    -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
     font-size: 13px;
     line-height: 16px;
     padding: 9px 32px;
@@ -14633,6 +14649,12 @@ main .btn-link-arrow-layout {
   }
 }
 
+@media (max-width: 575px) {
+  main .btn-link-arrow-layout {
+    bottom: 114px;
+  }
+}
+
 main .btn-refresh-arrow-layout {
   margin-left: 28px;
   background-color: #723010;
@@ -14663,6 +14685,12 @@ main .btn-refresh-arrow-layout {
     left: calc(50%);
     -webkit-transform: translate(-50%, 100%);
             transform: translate(-50%, 100%);
+  }
+}
+
+@media (max-width: 575px) {
+  main .btn-refresh-arrow-layout {
+    bottom: 82px;
   }
 }
 

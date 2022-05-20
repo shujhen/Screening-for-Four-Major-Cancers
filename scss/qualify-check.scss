@@ -303,7 +303,7 @@ main {
     }
     @media (max-width: $grid-sm) {
       padding: 28px;
-      padding-bottom: 500px;
+      padding-bottom: 350px;
     }
   }
   .condition {
@@ -351,7 +351,7 @@ main {
     font-weight: 700;
 
     p {
-      // margin: 10px 0px;
+      line-height: 1.5;
       margin: 0px;
       text-align: left;
     }
@@ -382,8 +382,8 @@ main {
       font-size: 20px;
     }
     @media (max-width: $grid-sm) {
-      top: calc(50% - 176px);
-      left: calc(50% + -18px);
+      top: calc(50% - 105px);
+      left: calc(50% + 5px);
 
       font-size: 13px;
       line-height: 20px;
@@ -420,6 +420,8 @@ main {
     @media (max-width: $grid-sm) {
       font-size: 20px;
       line-height: 1.5;
+      top: calc(50% - 59px);
+      left: calc(50% + -28px);
     }
   }
   .p-line-3 {
@@ -447,6 +449,8 @@ main {
     @media (max-width: $grid-sm) {
       font-size: 12px;
       line-height: 1.5;
+      top: calc(50%);
+      left: calc(50% + 42px);
     }
   }
   .qualify-check-doctor {
@@ -481,6 +485,8 @@ main {
     }
     @media (max-width: $grid-sm) {
       height: 107px;
+      top: calc(35% + 35px);
+      left: 7px;
     }
   }
   .skim {
@@ -514,8 +520,12 @@ main {
       background: url('../images/skim-small.svg') no-repeat;
     }
     @media (max-width: 690px) {
-      top: calc(50% + 53px);
-      left: calc(50% - 43px);
+      top: calc(50% + 35px);
+      left: calc(50% - 71px);
+    }
+    @media (max-width: $grid-sm) {
+      top: calc(50% + 30px);
+      left: 98px;
     }
   }
   .btn-arrow-row {
@@ -552,6 +562,7 @@ main {
       padding: 10px 50px;
     }
     @media (max-width: $grid-sm) {
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
       font-size: 13px;
       line-height: 16px;
       padding: 9px 32px;
@@ -593,6 +604,9 @@ main {
       left: calc(50%);
       transform: translate(-50%, +50%);
     }
+    @media (max-width: $grid-sm) {
+      bottom: 114px;
+    }
   }
   .btn-refresh-arrow-layout {
     margin-left: 28px;
@@ -615,6 +629,9 @@ main {
       bottom: calc(50% - 196px);
       left: calc(50%);
       transform: translate(-50%, +100%);
+    }
+    @media (max-width: $grid-sm) {
+      bottom: 82px;
     }
   }
 }
