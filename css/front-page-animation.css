@@ -13780,8 +13780,8 @@ main h2 {
 }
 
 * {
-  -webkit-transition: 2s;
-  transition: 2s;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 main #front-page-animation .skip-btn {
@@ -13799,7 +13799,7 @@ main #front-page-animation .skip-btn {
 
 main #front-page-animation .animation-container {
   width: 100%;
-  height: 5000px;
+  height: 6000px;
   background-color: #123e30;
   position: relative;
   overflow: hidden;
@@ -13849,6 +13849,40 @@ main #front-page-animation .animation-container .img-earth {
   left: calc(50% - 960px);
   top: 570px;
   opacity: 0;
+}
+
+main #front-page-animation .animation-container .scroll-tips {
+  position: fixed;
+  width: 206px;
+  height: 97px;
+  top: 906px;
+  left: calc(50% - 103px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #front-page-animation .animation-container .scroll-tips h3 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 58px;
+  letter-spacing: 0.055em;
+  color: #123e30;
+}
+
+main #front-page-animation .animation-container .scroll-tips img {
+  position: static;
+  width: 38px;
 }
 
 main #front-page-animation .animation-container .page-2-span {
@@ -13933,6 +13967,23 @@ main #front-page-animation .animation-container .page-4-title-box .page-4-h2 {
 
 main #front-page-animation .animation-container .page-4-title-box .page-4-span {
   position: static;
+}
+
+main #front-page-animation .animation-container .scroll-bar {
+  position: fixed;
+  bottom: 43px;
+  left: 53px;
+  z-index: 2;
+}
+
+main #front-page-animation .animation-container .scroll-bar .circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #89B19D;
+  margin-bottom: 13.53px;
+  -webkit-transition: none;
+  transition: none;
 }
 
 main #front-page-animation .animation-container .img-cell-3 {
