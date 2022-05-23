@@ -6,6 +6,9 @@ const searchBtn = document.querySelector('.btn-search');
 
 let hospitalList;
 let zipCode = 'all';
+
+// 篩檢項目要全部符合(精準查詢)
+let totalMatch = 1;
 // 篩檢項目的檢查值陣列
 let checkItems = [];
 
@@ -24,22 +27,29 @@ function fetch_data(url) {
     })
     .then(function (data) {
       hospitalList = data;
+
+      // 判斷有傳入網址參數
+      let getUrlString = location.href;
+      let url = new URL(getUrlString);
+      let options = url.searchParams.get('options');
+      if(options){
+        let choices = document.querySelectorAll('.search-choice input[type="checkbox"]');
+        choices.forEach((item) => {
+          console.log(options,item.value);
+          if (options % item.value == 0){
+            item.checked = true;
+          }
+        });
+        organize();
+      }
     });
 }
 
-// 監聽 select change 事件
-selectDist.addEventListener('change', function () {
-  zipCode = selectDist.value;
-
-  return;
-});
-
-// 監聽 button click 事件
-searchBtn.addEventListener('click', function () {
+function organize() {
   // 有選取的篩檢項目
   let choices = document.querySelectorAll('.search-choice input:checked');
 
-  // 項目字串拼接
+  // 清空項目字串
   let checkString = '';
   // 篩檢項目要全部符合(精準查詢)
   totalMatch = 1;
@@ -67,7 +77,7 @@ searchBtn.addEventListener('click', function () {
     checkString;
   // 處理資料
   process();
-});
+}
 
 // 依據 zipCode 分別處理資料
 function process() {
@@ -131,3 +141,12 @@ function showCard(item) {
     </div>
   `;
 }
+
+// 監聽 select change 事件
+selectDist.addEventListener('change', function () {
+  zipCode = selectDist.value;
+
+  return;
+});
+// 監聽 button click 事件
+searchBtn.addEventListener('click', organize);
