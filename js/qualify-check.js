@@ -6,17 +6,19 @@ resultSection.style.display = 'none';
 let date = new Date();
 let thisYear = date.getFullYear();
 let firstYear = thisYear - 130;
-let defaultYear = thisYear;
+let defaultYear = thisYear - 30;
 let optionStr = '';
 
 for (let i = thisYear; i >= firstYear; i--) {
   if (thisYear - i === 30) {
-    defaultYear = thisYear - i;
     optionStr += `<option value="${i}" selected>${i}</option>`;
   } else {
     optionStr += `<option value="${i}">${i}</option>`;
   }
 }
+
+// 所有篩檢項目
+const choices = document.querySelectorAll('.check-choice input');
 
 const selectBirthYear = document.querySelector('#selectBirthYear');
 selectBirthYear.innerHTML = optionStr;
@@ -41,9 +43,6 @@ checkBtn.addEventListener('click', function () {
     'input[name="gender"]:checked'
   ).value;
 
-  // 所有篩檢項目
-  let choices = document.querySelectorAll('.check-choice input');
-
   choices.forEach(function (choice) {
     let choiceValue = choice.value;
     switch (choiceValue) {
@@ -51,8 +50,6 @@ checkBtn.addEventListener('click', function () {
       case '5':
         if (choice.checked) {
           skipOptionsArr.push('口腔癌');
-          // 還原勾選
-          choice.checked = false;
         } else if (age >= 30) {
           checkOptionsNum *= choiceValue;
           checkOptionsArr.push('口腔癌');
@@ -62,8 +59,6 @@ checkBtn.addEventListener('click', function () {
       case '2':
         if (choice.checked) {
           skipOptionsArr.push('乳癌');
-          // 還原勾選
-          choice.checked = false;
         } else if (age >= 45 && age <= 69 && genderValue === 'female') {
           checkOptionsNum *= choiceValue;
           checkOptionsArr.push('乳癌');
@@ -73,8 +68,6 @@ checkBtn.addEventListener('click', function () {
       case '7':
         if (choice.checked) {
           skipOptionsArr.push('大腸癌');
-          // 還原勾選
-          choice.checked = false;
         } else if (age >= 50 && age <= 74) {
           checkOptionsNum *= choiceValue;
           checkOptionsArr.push('大腸癌');
@@ -84,8 +77,6 @@ checkBtn.addEventListener('click', function () {
       case '3':
         if (choice.checked) {
           skipOptionsArr.push('子宮頸癌');
-          // 還原勾選
-          choice.checked = false;
         } else if (age >= 30 && genderValue === 'female') {
           checkOptionsNum *= choiceValue;
           checkOptionsArr.push('子宮頸癌');
@@ -126,21 +117,23 @@ checkBtn.addEventListener('click', function () {
   qualifyCheckSection.style.display = 'none';
   resultSection.style.display = 'flex';
 
+});
+
+// 重新查詢
+function refresh() {
   // 還原查詢頁的選項
   // 預設年份
-  let optionBirthYear = document.querySelector(
-    'option[value="' + defaultYear + '"]'
-  );
-  optionBirthYear.selected = true;
+  selectBirthYear.value = defaultYear;
   // 預設男性
   let defaultGender = document.querySelector(
     'input[name="gender"][value="male"]'
   );
   defaultGender.checked = true;
-});
-
-// 重新查詢
-function refresh() {
+  // 清空 checkboxes
+  choices.forEach(function (choice) {
+    // 還原勾選
+    choice.checked = false;
+  });
   // 切換顯示頁
   qualifyCheckSection.style.display = 'flex';
   resultSection.style.display = 'none';

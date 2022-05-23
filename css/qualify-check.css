@@ -14189,7 +14189,7 @@ main .result-section {
 @media (max-width: 1799px) {
   main .result-section {
     margin: 30px 10px;
-    padding: 60px 100px;
+    padding: 30px 50px 100px;
   }
 }
 
@@ -14272,14 +14272,18 @@ main .condition {
     padding-bottom: 14px;
     font-size: 13px;
     line-height: 20px;
+    text-align: left;
   }
 }
 
+main .condition p {
+  display: inline-block;
+  margin: 0px;
+}
+
 @media (max-width: 575px) {
-  main .condition span {
-    text-align: left;
-    display: inline-block;
-    width: 100%;
+  main .condition p {
+    display: block;
   }
 }
 
@@ -14350,7 +14354,7 @@ main .p-line-2 {
   main .p-line-2 {
     position: absolute;
     top: calc(50% - 45px);
-    left: calc(50%);
+    left: calc(50% + 50px);
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
   }
@@ -14364,7 +14368,8 @@ main .p-line-2 {
 
 @media (max-width: 991px) {
   main .p-line-2 {
-    left: calc(50% + 20px);
+    left: calc(50% + 92px);
+    width: 60%;
   }
 }
 
@@ -14379,10 +14384,10 @@ main .p-line-2 {
 
 @media (max-width: 575px) {
   main .p-line-2 {
+    width: 70%;
     font-size: 20px;
-    line-height: 1.5;
     top: calc(50% - 59px);
-    left: calc(50% + -28px);
+    left: calc(50% + 25px);
   }
 }
 
@@ -14419,10 +14424,15 @@ main .p-line-3 {
 
 @media (max-width: 575px) {
   main .p-line-3 {
-    font-size: 12px;
-    line-height: 1.5;
+    font-size: 14px;
     top: calc(50%);
-    left: calc(50% + 42px);
+    left: calc(40% + 58px);
+  }
+}
+
+@media (max-width: 319px) {
+  main .p-line-3 {
+    font-size: 12px;
   }
 }
 
@@ -14518,7 +14528,7 @@ main .skim {
 @media (max-width: 690px) {
   main .skim {
     top: calc(50% + 35px);
-    left: calc(50% - 71px);
+    left: calc(50% - 50px);
   }
 }
 
@@ -14534,7 +14544,9 @@ main .btn-arrow-row {
 }
 
 main .btn-link-arrow-layout,
-main .btn-refresh-arrow-layout {
+main .btn-refresh-arrow-layout,
+main .btn-link-arrow-layout:focus,
+main .btn-refresh-arrow-layout:focus {
   padding: 27px 30px 24px 33px;
   font-weight: 700;
   font-size: 25px;
@@ -14548,14 +14560,18 @@ main .btn-refresh-arrow-layout {
 
 @media (max-width: 1399px) {
   main .btn-link-arrow-layout,
-  main .btn-refresh-arrow-layout {
+  main .btn-refresh-arrow-layout,
+  main .btn-link-arrow-layout:focus,
+  main .btn-refresh-arrow-layout:focus {
     padding: 15px 33px;
   }
 }
 
 @media (max-width: 1199px) {
   main .btn-link-arrow-layout,
-  main .btn-refresh-arrow-layout {
+  main .btn-refresh-arrow-layout,
+  main .btn-link-arrow-layout:focus,
+  main .btn-refresh-arrow-layout:focus {
     font-size: 20px;
     line-height: 25px;
     padding: 15px 30px;
@@ -14564,7 +14580,9 @@ main .btn-refresh-arrow-layout {
 
 @media (max-width: 799px) {
   main .btn-link-arrow-layout,
-  main .btn-refresh-arrow-layout {
+  main .btn-refresh-arrow-layout,
+  main .btn-link-arrow-layout:focus,
+  main .btn-refresh-arrow-layout:focus {
     font-size: 18px;
     line-height: 20px;
     padding: 10px 20px;
@@ -14573,14 +14591,18 @@ main .btn-refresh-arrow-layout {
 
 @media (max-width: 690px) {
   main .btn-link-arrow-layout,
-  main .btn-refresh-arrow-layout {
+  main .btn-refresh-arrow-layout,
+  main .btn-link-arrow-layout:focus,
+  main .btn-refresh-arrow-layout:focus {
     padding: 10px 50px;
   }
 }
 
 @media (max-width: 575px) {
   main .btn-link-arrow-layout,
-  main .btn-refresh-arrow-layout {
+  main .btn-refresh-arrow-layout,
+  main .btn-link-arrow-layout:focus,
+  main .btn-refresh-arrow-layout:focus {
     -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
             box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
     font-size: 13px;
@@ -14590,7 +14612,9 @@ main .btn-refresh-arrow-layout {
 }
 
 main .btn-link-arrow-layout span,
-main .btn-refresh-arrow-layout span {
+main .btn-refresh-arrow-layout span,
+main .btn-link-arrow-layout:focus span,
+main .btn-refresh-arrow-layout:focus span {
   display: inline-block;
   width: 38px;
   height: 38px;
@@ -14605,7 +14629,9 @@ main .btn-refresh-arrow-layout span {
 
 @media (max-width: 1199px) {
   main .btn-link-arrow-layout span,
-  main .btn-refresh-arrow-layout span {
+  main .btn-refresh-arrow-layout span,
+  main .btn-link-arrow-layout:focus span,
+  main .btn-refresh-arrow-layout:focus span {
     width: 25px;
     height: 25px;
   }
@@ -14613,7 +14639,9 @@ main .btn-refresh-arrow-layout span {
 
 @media (max-width: 575px) {
   main .btn-link-arrow-layout span,
-  main .btn-refresh-arrow-layout span {
+  main .btn-refresh-arrow-layout span,
+  main .btn-link-arrow-layout:focus span,
+  main .btn-refresh-arrow-layout:focus span {
     width: 20px;
     height: 20px;
     margin-left: 5px;

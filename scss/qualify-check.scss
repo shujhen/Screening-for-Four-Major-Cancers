@@ -282,7 +282,7 @@ main {
 
     @media (max-width: $grid-xxl) {
       margin: 30px 10px;
-      padding: 60px 100px;
+      padding: 30px 50px 100px;
     }
     @media (max-width: 1399px) {
       padding-bottom: 460px;
@@ -338,12 +338,14 @@ main {
 
       font-size: 13px;
       line-height: 20px;
+      text-align: left;
     }
-    span {
+    p {
+      display: inline-block;
+      margin: 0px;
+
       @media (max-width: $grid-sm) {
-        text-align: left;
-        display: inline-block;
-        width: 100%;
+        display: block;
       }
     }
   }
@@ -400,14 +402,15 @@ main {
     @media (max-width: 1399px) {
       position: absolute;
       top: calc(50% - 45px);
-      left: calc(50%);
+      left: calc(50% + 50px);
       transform: translate(-50%, -50%);
     }
     @media (max-width: $grid-xl) {
       font-size: 35px;
     }
     @media (max-width: $grid-lg) {
-      left: calc(50% + 20px);
+      left: calc(50% + 92px);
+      width: 60%;
     }
 
     @media (max-width: 690px) {
@@ -418,10 +421,10 @@ main {
       font-size: 30px;
     }
     @media (max-width: $grid-sm) {
+      width: 70%;
       font-size: 20px;
-      line-height: 1.5;
       top: calc(50% - 59px);
-      left: calc(50% + -28px);
+      left: calc(50% + 25px);
     }
   }
   .p-line-3 {
@@ -447,10 +450,13 @@ main {
       font-size: 20px;
     }
     @media (max-width: $grid-sm) {
-      font-size: 12px;
-      line-height: 1.5;
+      font-size: 14px;
       top: calc(50%);
-      left: calc(50% + 42px);
+      left: calc(40% + 58px);
+    }
+    
+    @media (max-width: $grid-xs) {
+      font-size: 12px;
     }
   }
   .qualify-check-doctor {
@@ -521,7 +527,7 @@ main {
     }
     @media (max-width: 690px) {
       top: calc(50% + 35px);
-      left: calc(50% - 71px);
+      left: calc(50% - 50px);
     }
     @media (max-width: $grid-sm) {
       top: calc(50% + 30px);
@@ -532,7 +538,9 @@ main {
     margin-top: 41px;
   }
   .btn-link-arrow-layout,
-  .btn-refresh-arrow-layout {
+  .btn-refresh-arrow-layout,
+  .btn-link-arrow-layout:focus,
+  .btn-refresh-arrow-layout:focus {
     padding: 27px 30px 24px 33px;
 
     font-weight: 700;
