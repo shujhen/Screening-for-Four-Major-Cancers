@@ -14170,10 +14170,9 @@ main .btn-check-layout:hover {
 }
 
 main .hr-border {
-  width: 95%;
-  border-top: 1px solid #acacac;
-  margin-top: 38px;
-  margin-bottom: 16px;
+  width: 100%;
+  border-top: 1px solid #cbcbcb;
+  margin-bottom: 17px;
 }
 
 main .result-section {
