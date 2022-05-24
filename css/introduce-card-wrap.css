@@ -41,7 +41,7 @@
 /*back card*/
 .card-back {
     position: absolute;
-    top: 0;
+    top: 72px;
     position: absolute;
     border-radius: 5px;
     backface-visibility: hidden;
@@ -67,3 +67,4 @@
 .position {
     position: relative;
 }
+
