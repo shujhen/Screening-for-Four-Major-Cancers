@@ -32,11 +32,12 @@ function fetch_data(url) {
       let getUrlString = location.href;
       let url = new URL(getUrlString);
       let options = url.searchParams.get('options');
-      if(options){
-        let choices = document.querySelectorAll('.search-choice input[type="checkbox"]');
+      if (options) {
+        let choices = document.querySelectorAll(
+          '.search-choice input[type="checkbox"]'
+        );
         choices.forEach((item) => {
-          console.log(options,item.value);
-          if (options % item.value == 0){
+          if (options % item.value == 0) {
             item.checked = true;
           }
         });
@@ -53,7 +54,7 @@ function organize() {
   let checkString = '';
   // 篩檢項目要全部符合(精準查詢)
   totalMatch = 1;
-  // 先清空檢查值陣列(模糊查詢)
+  // 先清空檢查值陣列
   checkItems = [];
 
   choices.forEach((item) => {
@@ -69,7 +70,9 @@ function organize() {
     return false;
   }
   // 將卡片資料清空
-  hospitalCards.innerHTML = '';
+  hospitalCards.innerHTML = '<p class="w-100 mb-150">查無機構資料</p>';
+  // 清空暫存字串
+  cardsData = '';
   // h2 顯示搜尋 地區/篩檢項目
   h2.innerHTML =
     (districtJson[zipCode] ? districtJson[zipCode] : '全區') +
@@ -83,7 +86,6 @@ function organize() {
 function process() {
   if (zipCode === 'all') {
     for (let index in hospitalList) {
-      // setTimeout(doFilter(hospitalList[index]), 1000);
       doFilter(hospitalList[index]);
     }
   } else {
@@ -98,15 +100,16 @@ function doFilter(items) {
     if (item.checkCode % totalMatch === 0) {
       showCard(item);
     }
+    // 模糊查詢
     // checkItems.forEach((primeNum) => {
-    //   // 此機構有提供這個檢查項目(模糊查詢)
+    //   // 此機構有提供其中一個檢查項目(模糊查詢)
     //   if (item.checkCode % primeNum === 0) {
     //     showCard(item);
     //   }
     // });
   });
 
-  hospitalCards.innerHTML = cardsData;
+  hospitalCards.innerHTML = cardsData + '<div class="w-100 mb-100"></div>';
 }
 
 // 生成卡片 & 顯示
