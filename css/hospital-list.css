@@ -13918,12 +13918,6 @@ main .medical-staff-image-1 {
   background-position: bottom;
 }
 
-@media (max-width: 799px) {
-  main .medical-staff-image-1 {
-    background-image: url("../images/medical-staff-1-small.svg");
-  }
-}
-
 main .medical-staff-image-2 {
   width: 332px;
   height: 476px;

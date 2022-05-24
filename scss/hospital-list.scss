@@ -55,10 +55,6 @@ main {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
-
-    @media (max-width: $grid-md) {
-      background-image: url('../images/medical-staff-1-small.svg');
-    }
   }
   .medical-staff-image-2 {
     width: 332px;
