@@ -13797,6 +13797,10 @@ body {
   color: #B26D2C;
 }
 
+.textcolor-cardB {
+  color: #a75912;
+}
+
 .textColor-g {
   color: #595947;
 }
@@ -13810,5 +13814,21 @@ body {
     margin: 0 auto;
     width: 33.3% !important;
   }
+}
+
+.button1 {
+  margin-top: 25px;
+}
+
+.button2 {
+  margin-top: 25px;
+}
+
+.button3 {
+  margin-top: 26px;
+}
+
+.button4 {
+  margin-top: 26px;
 }
 /*# sourceMappingURL=introduce.css.map */
