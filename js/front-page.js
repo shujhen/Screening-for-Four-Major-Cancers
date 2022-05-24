@@ -8,3 +8,8 @@ var swiper = new Swiper(".mySwiper", {
       clickable: true,
     },
   });
+  
+function hideIframe(){
+  const iframe = document.querySelector('iframe');
+  iframe.style.display = 'none';
+}
