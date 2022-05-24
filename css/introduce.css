@@ -13809,13 +13809,6 @@ body {
   background: #723010;
 }
 
-@media (min-width: 1393px) {
-  .my-col-4 {
-    margin: 0 auto;
-    width: 33.3% !important;
-  }
-}
-
 .button1 {
   margin-top: 25px;
 }
@@ -13830,5 +13823,17 @@ body {
 
 .button4 {
   margin-top: 26px;
+}
+
+@media (max-width: 550px) {
+  .card {
+    width: 400px;
+  }
+}
+
+@media (max-width: 420px) {
+  .card {
+    width: 300px;
+  }
 }
 /*# sourceMappingURL=introduce.css.map */
