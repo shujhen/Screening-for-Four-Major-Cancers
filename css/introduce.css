@@ -13809,13 +13809,6 @@ body {
   background: #723010;
 }
 
-@media (min-width: 1393px) {
-  .my-col-4 {
-    margin: 0 auto;
-    width: 33.3% !important;
-  }
-}
-
 .button1 {
   margin-top: 25px;
 }
@@ -13830,5 +13823,34 @@ body {
 
 .button4 {
   margin-top: 26px;
+}
+
+@media (max-width: 550px) {
+  .card {
+    width: 400px;
+  }
+}
+
+@media (max-width: 420px) {
+  .pt-5 h1 {
+    font-size: 15px;
+  }
+  .card-wrap div h5 {
+    font-size: 14px !important;
+    text-align: center;
+  }
+  .card-wrap div p {
+    font-size: 8px;
+    text-align: center;
+  }
+  .card-wrap div .card {
+    width: 300px;
+  }
+  .card-wrap div .card .card-body p {
+    text-align: left;
+  }
+  .card-wrap div button {
+    font-size: 12px;
+  }
 }
 /*# sourceMappingURL=introduce.css.map */

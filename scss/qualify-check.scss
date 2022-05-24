@@ -264,11 +264,9 @@ main {
 
   // 分隔線
   .hr-border {
-    width: 95%;
-    border-top: 1px solid #acacac;
-
-    margin-top: 38px;
-    margin-bottom: 16px;
+    width: 100%;
+    border-top: 1px solid #cbcbcb;
+    margin-bottom: 17px;
   }
   // 查詢結果顯示區
   .result-section {
@@ -454,7 +452,7 @@ main {
       top: calc(50%);
       left: calc(40% + 58px);
     }
-    
+
     @media (max-width: $grid-xs) {
       font-size: 12px;
     }
