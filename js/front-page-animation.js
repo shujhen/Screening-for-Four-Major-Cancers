@@ -368,3 +368,12 @@ window.onload = function () {
     })
 }
 
+
+window.onscroll = function () {
+    console.log("滾動");
+    var intElemScrollHeight = document.querySelector('body').scrollHeight;
+    console.log(document.documentElement.scrollTop, intElemScrollHeight);
+    if (document.documentElement.scrollTop >= (intElemScrollHeight - 969) ) {
+      parent.hideIframe()
+    }
+  }

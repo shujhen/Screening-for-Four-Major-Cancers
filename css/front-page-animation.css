@@ -13871,7 +13871,7 @@ main #front-page-animation .animation-container .scroll-tips {
   position: fixed;
   width: 206px;
   height: 97px;
-  top: 906px;
+  bottom: 73px;
   left: calc(50% - 103px);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -13907,14 +13907,14 @@ main #front-page-animation .animation-container .page-2-span {
   width: 750px;
   height: 61px;
   left: calc(50% - 375px);
-  top: 529px;
+  bottom: 490px;
   z-index: 1;
   opacity: 0;
 }
 
 main #front-page-animation .animation-container .img-cell-1 {
   left: -9.6%;
-  top: 143.4px;
+  top: 57px;
   opacity: 0;
 }
 
@@ -13971,7 +13971,7 @@ main #front-page-animation .animation-container .page-4-title-box {
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  top: 430px;
+  bottom: 396px;
   right: 1.35%;
   z-index: 1;
   opacity: 0;
