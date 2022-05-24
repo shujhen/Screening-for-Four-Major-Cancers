@@ -13784,6 +13784,22 @@ main h2 {
   transition: 1s;
 }
 
+html {
+  overflow: -moz-hidden-unscrollable;
+  height: 100%;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  height: 100%;
+  width: calc(100vw + 18px);
+  overflow: auto;
+}
+
 main #front-page-animation .skip-btn {
   position: fixed;
   width: 103px;
