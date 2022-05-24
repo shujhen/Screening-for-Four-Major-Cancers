@@ -1,3 +1,4 @@
+// 翻背面
 let but1 = document.querySelectorAll('.button1');
 let but2 = document.querySelectorAll('.button2');
 let but3 = document.querySelectorAll('.button3');
@@ -17,7 +18,7 @@ but1.forEach((e) => {
         card1.classList.add('cardk')
         card_back1.classList.add('cardS')
         card_back1.classList.add('card-backNew')
-        card_back1.style.marginTop = '0.5rem 0 0 0!important'
+        card_back1.style.marginTop = '0 0 0 0!important'
     })
 })
 
@@ -51,3 +52,36 @@ but4.forEach((e) => {
     })
 })
 
+// 翻回正面
+let back1 = document.querySelector('.back');
+let back2 = document.querySelector('.back2');
+let back3 = document.querySelector('.back3');
+let back4 = document.querySelector('.back4');
+
+back1.addEventListener('click', function(){
+    card1.classList.remove('cardk')
+    card_back1.classList.remove('cardS')
+    card_back1.classList.remove('card-backNew')
+    card_back1.style.marginTop = '0.5rem 0 0 0!important'
+});
+
+back2.addEventListener('click', function(){
+    card2.classList.remove('cardk')
+    card_back2.classList.remove('cardS')
+    card_back2.classList.remove('card-backNew')
+    card_back2.style.marginTop = '0.5rem 0 0 0!important'
+});
+
+back3.addEventListener('click', function(){
+    card3.classList.remove('cardk')
+    card_back3.classList.remove('cardS')
+    card_back3.classList.remove('card-backNew')
+    card_back3.style.marginTop = '0.5rem 0 0 0!important'
+});
+
+back4.addEventListener('click', function(){
+    card4.classList.remove('cardk')
+    card_back4.classList.remove('cardS')
+    card_back4.classList.remove('card-backNew')
+    card_back4.style.marginTop = '0.5rem 0 0 0!important'
+});
