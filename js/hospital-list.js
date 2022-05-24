@@ -119,11 +119,12 @@ function showCard(item) {
       <div class="card-body">
         <h3 class="card-title">${item.name}</h3>
         <p class="card-text row flex-nowrap align-items-center no-gutters">
-          <span>地址 : ${item.address}</span>
-          <a href="${
-            item.mapUrl
-          }" class="icon-location" target="_blank" title="前往 Google Map"
-            ></a>
+          <span>地址 : ${item.address}</span>`;
+  if (item.mapUrl) {
+    cardsData += `
+            <a href="${item.mapUrl}" class="icon-location" target="_blank" title="前往 Google Map"></a>`;
+  }
+  cardsData += `
         </p>
         <p class="card-text">電話 : ${item.tel}</p>
         <div class="search-result-icons row no-gutters">
