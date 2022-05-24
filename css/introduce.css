@@ -13832,8 +13832,22 @@ body {
 }
 
 @media (max-width: 420px) {
-  .card {
+  .card-wrap div h5 {
+    font-size: 14px !important;
+    text-align: center;
+  }
+  .card-wrap div p {
+    font-size: 8px;
+    text-align: center;
+  }
+  .card-wrap div .card {
     width: 300px;
+  }
+  .card-wrap div .card .card-body p {
+    text-align: left;
+  }
+  .card-wrap div button {
+    font-size: 12px;
   }
 }
 /*# sourceMappingURL=introduce.css.map */

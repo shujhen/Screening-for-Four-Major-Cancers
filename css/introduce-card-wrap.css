@@ -4,7 +4,7 @@
 }
 
 .card{
-    width: 100%;
+    /* width: 100%; */
     width: 500px;
     /* height: 600px; */
 }
@@ -29,18 +29,9 @@
     /* display: none !important; */
 }
 
-
-
-
-
-
-
-
-
-
 /*back card*/
 .card-back {
-    position: absolute;
+    z-index: -10;
     top: 72px;
     position: absolute;
     border-radius: 5px;
