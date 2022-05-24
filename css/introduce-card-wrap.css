@@ -1,0 +1,69 @@
+.card-wrap {
+    /* width: 500px; */
+    position: relative;
+}
+
+.card {
+    position: absolute;
+    width: 100%;
+    width: 500px;
+}
+
+.card1 {
+    /*preserve the back when fliping*/
+    transform-style: preserve-3d;
+    transition: 0.3s all ease;
+}
+
+.card2 {
+
+    /*preserve the back when fliping*/
+    transform-style: preserve-3d;
+    transition: 0.3s all ease;
+}
+
+.cardk {
+    height: 0;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    /* display: none !important; */
+}
+
+
+
+
+
+
+
+
+
+
+/*back card*/
+.card-back {
+    position: absolute;
+    top: 0;
+    position: absolute;
+    border-radius: 5px;
+    backface-visibility: hidden;
+    /* display: none; */
+    background-color: #fffbe3;
+    font-size: 16px;
+    transform-style: preserve-3d;
+    transition: 0.5s all ease;
+    transform: rotateY(180deg);
+}
+
+.cardS {
+    backface-visibility: visible;
+    /* display: block; */
+    transform: rotateY(360deg);
+
+}
+
+.card-backNew {
+    position: unset;
+}
+
+.position {
+    position: relative;
+}
