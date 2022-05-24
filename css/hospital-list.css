@@ -13862,6 +13862,14 @@ input[type='radio']:checked + span {
   }
 }
 
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+.mb-150 {
+  margin-bottom: 150px;
+}
+
 main {
   margin-top: 86px;
   margin-bottom: 51px;
