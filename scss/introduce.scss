@@ -24,43 +24,60 @@ body{
     background: #723010;
 }
 .button1{
-    margin-top: 25px
+    margin: 25px 0 33px;
 }
 .button2{
-    margin-top: 25px
+    margin: 21px 0 28px;
 }
 .button3{
-    margin-top: 26px
+    margin: 16px 0 36px;
 }
 .button4{
-    margin-top: 26px
+    margin: 35px 0 41px;
 }
 
+.backBut1{
+    margin: 16px 0 31px;
+}
 
+.backBut2{
+    margin: -20px 0 34px;
+}
+
+.backBut3{
+    margin: -27px 0 35px;
+    z-index: 5;
+}
+
+.backBut4{
+    margin: 13px 0 37px;
+    z-index: 5;
+}
+
+@media(max-width: 715px){
+    .card{
+        width: 500px;
+    }
+}
 @media(max-width: 550px){
-    
     .card{
         width: 400px;
     }
 }
 @media(max-width: 420px){
-    .pt-5{
-        h1{
-            font-size: 15px;
-        }
-    }
     .card-wrap{
         div{
-            h5{
-                font-size: 14px !important;
+            .title{
+                font-size: 16px !important;
                 text-align: center;
             }
             p{
-                font-size: 8px;
+                font-size: 12px;
                 text-align: center;
             }
             .card{
-                width: 300px;
+                padding: 0;
+                width: 250px;
                 .card-body{
                     p{
                         text-align: left;
@@ -73,4 +90,33 @@ body{
         }
     }
 }
+@media(max-width: 330px){
+    .mt-5{
+            .centered-wrap{
+                .card-wrap{
+                    div{
+                        h5{
+                            font-size: 14px !important;
+                            text-align: center;
+                        }
+                        p{
+                            font-size: 12px;
+                            text-align: center;
+                        }
+                        .card{
+                            width: 300px;
+                            .card-body{
+                                p{
+                                    text-align: left;
+                                }
+                            }
+                        }
+                        button{
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 
