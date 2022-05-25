@@ -13922,9 +13922,6 @@ main .step-1 .word-container .container .tab-content .tab-pane h2 {
     width: 800px;
     font-size: 20px;
   }
-  main .step-1 .word-container .container .tab-content .tab-pane:nth-child(3) {
-    padding-top: 36px;
-  }
 }
 
 @media (max-width: 991px) {
@@ -13937,14 +13934,11 @@ main .step-1 .word-container .container .tab-content .tab-pane h2 {
     font-size: 24px;
   }
   main .step-1 ul li:nth-child(2) .nav-link {
-    background-position: 2.12px;
+    background-position: 15.135px;
   }
   main .step-1 .word-container .container .tab-content .tab-pane {
     width: 700px;
     font-size: 20px;
-  }
-  main .step-1 .word-container .container .tab-content .tab-pane:nth-child(3) {
-    padding-top: 36px;
   }
 }
 
@@ -13964,11 +13958,12 @@ main .step-1 .word-container .container .tab-content .tab-pane h2 {
   }
   main .step-1 ul {
     margin-top: 24px;
+    padding: 0 15.22% 0;
   }
   main .step-1 ul li .nav-link {
     width: 50.6px;
     height: 49.48px;
-    margin-right: 50px;
+    margin-right: 0px;
     border-radius: 40px;
     -webkit-box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.3);
             box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.3);
@@ -13978,7 +13973,7 @@ main .step-1 .word-container .container .tab-content .tab-pane h2 {
     line-height: 14.52px;
     width: 50.31px;
     height: 15.27px;
-    bottom: -5.25px;
+    bottom: -12.25px;
   }
   main .step-1 ul li:first-child .nav-link {
     background-image: url(../images/step-1-Oral-Cancer-White-mobile-Icon.svg);
@@ -14022,13 +14017,13 @@ main .step-1 .word-container .container .tab-content .tab-pane h2 {
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
   main .step-1 .word-container .container .tab-content .tab-pane:nth-child(3) {
-    height: 300px;
+    height: 350px;
   }
 }
 
 @media (max-width: 575px) {
-  main .step-1 ul li .nav-link {
-    margin-right: 9.45px;
+  main .step-1 ul {
+    padding: 0 11.22% 0;
   }
 }
 
