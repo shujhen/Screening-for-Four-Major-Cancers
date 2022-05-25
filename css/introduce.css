@@ -13856,21 +13856,42 @@ body {
 }
 
 @media (max-width: 420px) {
-  .card-wrap div h5 {
-    font-size: 14px !important;
+  .card-wrap div .title {
+    font-size: 16px !important;
     text-align: center;
   }
   .card-wrap div p {
-    font-size: 8px;
+    font-size: 12px;
     text-align: center;
   }
   .card-wrap div .card {
-    width: 300px;
+    padding: 0;
+    width: 250px;
   }
   .card-wrap div .card .card-body p {
     text-align: left;
   }
   .card-wrap div button {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 330px) {
+  .mt-5 .centered-wrap .card-wrap div h5 {
+    font-size: 14px !important;
+    text-align: center;
+  }
+  .mt-5 .centered-wrap .card-wrap div p {
+    font-size: 12px;
+    text-align: center;
+  }
+  .mt-5 .centered-wrap .card-wrap div .card {
+    width: 300px;
+  }
+  .mt-5 .centered-wrap .card-wrap div .card .card-body p {
+    text-align: left;
+  }
+  .mt-5 .centered-wrap .card-wrap div button {
     font-size: 12px;
   }
 }

@@ -67,16 +67,17 @@ body{
 @media(max-width: 420px){
     .card-wrap{
         div{
-            h5{
-                font-size: 14px !important;
+            .title{
+                font-size: 16px !important;
                 text-align: center;
             }
             p{
-                font-size: 8px;
+                font-size: 12px;
                 text-align: center;
             }
             .card{
-                width: 300px;
+                padding: 0;
+                width: 250px;
                 .card-body{
                     p{
                         text-align: left;
@@ -89,4 +90,33 @@ body{
         }
     }
 }
+@media(max-width: 330px){
+    .mt-5{
+            .centered-wrap{
+                .card-wrap{
+                    div{
+                        h5{
+                            font-size: 14px !important;
+                            text-align: center;
+                        }
+                        p{
+                            font-size: 12px;
+                            text-align: center;
+                        }
+                        .card{
+                            width: 300px;
+                            .card-body{
+                                p{
+                                    text-align: left;
+                                }
+                            }
+                        }
+                        button{
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 
