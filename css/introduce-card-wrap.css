@@ -1,12 +1,11 @@
+/* 卡片翻轉 */
 .card-wrap {
     /* width: 500px; */
     position: relative;
 }
 
 .card{
-    /* width: 100%; */
-    width: 500px;
-    /* height: 600px; */
+    width: 644px;
 }
 
 .card1 {
@@ -68,3 +67,24 @@
     position: relative;
 }
 
+/* 卡片文字大小 */
+.title{
+    font-size: 30px;
+}
+.SecTitle{
+    font-size: 16px;
+}
+.ThirdTitle{
+    font-size: 28px;
+}
+.textSize{
+    font-size: 22px;
+}
+
+.cardTitleSize{
+    font-size: 32px;
+}
+/* 按鈕字距 */
+.butSpacing{
+    letter-spacing: 10.5%;
+}
