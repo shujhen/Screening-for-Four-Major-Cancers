@@ -16,7 +16,16 @@
 }
 
 .card2 {
-
+    /*preserve the back when fliping*/
+    transform-style: preserve-3d;
+    transition: 0.3s all ease;
+}
+.card3 {
+    /*preserve the back when fliping*/
+    transform-style: preserve-3d;
+    transition: 0.3s all ease;
+}
+.card4 {
     /*preserve the back when fliping*/
     transform-style: preserve-3d;
     transition: 0.3s all ease;
