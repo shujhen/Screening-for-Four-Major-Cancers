@@ -93,7 +93,7 @@ main {
                 position: fixed;
                 width: 206px;
                 height: 97px;
-                top: 906px;
+                bottom: 73px;
                 left: calc(50% - 103px);
                 display: flex;
                 flex-direction: column;
@@ -121,14 +121,14 @@ main {
                 width: 750px;
                 height: 61px;
                 left: calc(50% - 375px);
-                top: 529px;
+                bottom: 490px;
                 z-index: 1;
                 opacity: 0;
             }
 
             .img-cell-1 {
                 left: -9.6%;
-                top: 143.4px;
+                top: 57px;
                 opacity: 0;
             }
 
@@ -172,7 +172,7 @@ main {
                 display: flex;
                 flex-direction: column;
                 justify-content: space-around;
-                top: 430px;
+                bottom: 396px;
                 right: 1.35%;
                 z-index: 1;
                 opacity: 0;

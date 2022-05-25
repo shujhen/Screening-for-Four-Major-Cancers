@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>四癌篩檢補助 | 醫療機構列表</title>
     <!-- Favicon -->
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
     <!-- CSS -->
     <link rel="stylesheet" href="./css/hospital-list.css" />
   </head>
@@ -76,28 +76,48 @@
               for="oralCancer"
               class="search-choice row align-items-center flex-nowrap"
             >
-              <input type="checkbox" id="oralCancer" value="5" data-name="口腔癌" />
+              <input
+                type="checkbox"
+                id="oralCancer"
+                value="5"
+                data-name="口腔癌"
+              />
               <span></span>口腔癌 (口腔黏膜檢查)
             </label>
             <label
               for="breastCancer"
               class="search-choice row align-items-center flex-nowrap"
             >
-              <input type="checkbox" id="breastCancer" value="2" data-name="乳癌" />
+              <input
+                type="checkbox"
+                id="breastCancer"
+                value="2"
+                data-name="乳癌"
+              />
               <span></span>乳癌 (乳房X光攝影檢查)
             </label>
             <label
               for="colorectalCancer"
               class="search-choice row align-items-center flex-nowrap"
             >
-              <input type="checkbox" id="colorectalCancer" value="7" data-name="大腸癌" />
+              <input
+                type="checkbox"
+                id="colorectalCancer"
+                value="7"
+                data-name="大腸癌"
+              />
               <span></span>大腸癌 (糞便潛血檢查)
             </label>
             <label
               for="uterineCancer"
               class="search-choice row align-items-center flex-nowrap"
             >
-              <input type="checkbox" id="uterineCancer" value="3" data-name="子宮頸癌" />
+              <input
+                type="checkbox"
+                id="uterineCancer"
+                value="3"
+                data-name="子宮頸癌"
+              />
               <span></span>子宮頸癌 (子宮頸抹片檢查)
             </label>
           </div>
@@ -116,6 +136,21 @@
         ></div>
       </section>
     </main>
+
+    <!-- Modal -->
+    <div class="modal fade" id="alertModal" tabindex="-1">
+      <div class="modal-dialog modal-sm modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header flex-column align-items-center">
+            <img src="./images/alert.svg" alt="">
+            <h5 class="modal-title ">您尚未選擇篩檢項目</h5>
+          </div>
+          <div class="modal-footer justify-content-center">
+            <button type="button" class="btn btn-alert" data-dismiss="modal">確定</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- 表尾資訊 -->
     <footer>
       <div class="row justify-content-between align-items-center no-gutters">

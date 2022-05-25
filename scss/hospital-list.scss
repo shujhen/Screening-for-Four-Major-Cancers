@@ -14,7 +14,26 @@
 .mb-150{
   margin-bottom: 150px;
 }
-
+.modal-header{
+  padding: 37px 10px 23px;
+  color: #6B4D30;
+  img{
+    margin-bottom: 15px;
+  }
+}
+.btn-alert, .btn-alert:hover{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.035em;
+  
+  text-align: center;
+  
+  color: #FFFFFF;
+  background: #692300;
+  border-radius: 3px;
+  padding: 10px 60px;
+}
 // 主要內容
 main {
   margin-top: 86px;

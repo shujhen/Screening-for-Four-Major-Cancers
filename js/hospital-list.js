@@ -66,7 +66,7 @@ function organize() {
   });
 
   if (checkItems.length < 1) {
-    alert('請選擇篩檢項目');
+    $('#alertModal').modal('toggle')
     return false;
   }
   // 將卡片資料清空
