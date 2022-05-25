@@ -13604,7 +13604,7 @@ a.text-dark:hover, a.text-dark:focus {
   position: -webkit-sticky;
   position: sticky;
   top: 0px;
-  z-index: 1;
+  z-index: 2;
   background-color: #55b793;
 }
 
@@ -13907,20 +13907,20 @@ main #front-page-animation .animation-container .page-2-span {
   width: 750px;
   height: 61px;
   left: calc(50% - 375px);
-  bottom: 490px;
+  bottom: 460px;
   z-index: 1;
   opacity: 0;
 }
 
 main #front-page-animation .animation-container .img-cell-1 {
   left: -9.6%;
-  top: 57px;
+  top: -100px;
   opacity: 0;
 }
 
 main #front-page-animation .animation-container .img-cell-2 {
   left: 71.25%;
-  top: 580px;
+  top: 530px;
   opacity: 0;
 }
 
@@ -13954,7 +13954,7 @@ main #front-page-animation .animation-container .page-3-title-box .page-3-span {
 
 main #front-page-animation .animation-container .img-clock {
   right: -0.79%;
-  top: 55.18px;
+  bottom: -497.95px;
   opacity: 0;
 }
 
@@ -14300,13 +14300,13 @@ main #front-page-animation .animation-container .img-arrow {
   main #front-page-animation .animation-container .title-border .spen-1 {
     position: static;
     width: 157px;
-    height: 25px;
+    height: 28px;
     text-align: left;
     font-size: 16px;
     color: #d7b06a;
   }
   main #front-page-animation .animation-container .title-border .spen-2 {
-    bottom: calc(13.64% + 10px);
+    bottom: 13.64%;
     font-size: 16px;
   }
   main #front-page-animation .animation-container .title-border .border {
@@ -14317,18 +14317,19 @@ main #front-page-animation .animation-container .img-arrow {
     width: 157px;
     height: 56px;
     font-size: 36px;
+    line-height: 75px;
   }
   main #front-page-animation .animation-container .title-border .title-2 {
     width: 161px;
     height: 39px;
     font-size: 25px;
-    line-height: 39.13px;
+    line-height: 50px;
   }
   main #front-page-animation .animation-container .title-border .title-3 {
     width: 160px;
     height: 78px;
     font-size: 50px;
-    line-height: 35px;
+    line-height: 50px;
   }
   main #front-page-animation .animation-container .title-border .title-box {
     height: 13.64%;

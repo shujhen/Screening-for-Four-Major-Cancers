@@ -33,9 +33,9 @@ main {
 
             li {
                 .nav-link {
-                    width: 174.88px;
-                    height: 171px;
-                    margin-right: 70.49px;
+                    width: 152.38px;
+                    height: 149px;
+                    margin-right: 61.4px;
                     background-color: $green-100;
                     border-radius: 22px;
                     background-repeat: no-repeat;
@@ -79,7 +79,7 @@ main {
             li:nth-child(2) {
                 .nav-link {
                     background-image: url(../images/Breast-Cancer-White-Icon.svg);
-                    background-position: 24.12px;
+                    background-position: 30.97px;
                 }
 
                 .active {
@@ -139,9 +139,6 @@ main {
                         }
                     }
 
-                    .tab-pane:nth-child(3) {
-                        padding-top: 24px;
-                    }
                 }
 
             }
@@ -316,6 +313,9 @@ main {
                             background-color: #FFFBE3;
                             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
                         }
+                        .tab-pane:nth-child(3) {
+                            height: 300px;
+                        }
                     }
                 }
             }
@@ -389,9 +389,11 @@ main {
                 img {
                     position: absolute;
                 }
+
                 .mobile-show {
                     display: none;
                 }
+
                 .swiper-man {
 
                     top: 87.23px;
@@ -435,8 +437,9 @@ main {
                         position: absolute;
                         width: 420px;
                         top: 38px;
-                        left: 55% ;
+                        left: 55%;
                         transform: translateX(-50%);
+
                         h3 {
                             font-size: 32px;
                             font-weight: 800;
@@ -455,7 +458,22 @@ main {
                 }
 
             }
-
+            .swiper-slide:nth-child(3) {
+                .swiper-word {
+                    .word-box {
+                        left: 50%;
+                        text-align: center;
+                    }
+                }
+            }
+            .swiper-slide:nth-child(4) {
+                .swiper-word {
+                    .word-box {
+                        left: 50%;
+                        text-align: center;
+                    }
+                }
+            }
             .swiper-pagination {
                 .swiper-pagination-bullet {
                     width: 19px;
@@ -466,22 +484,27 @@ main {
                 }
             }
         }
+
         @media (max-width: $grid-xxl) {
             .swiper {
                 height: 824px;
+
                 .swiper-slide {
                     height: 700px;
-                    overflow:visible;
+                    overflow: visible;
+
                     .swiper-word {
                         width: calc(100% + 32px);
                         height: 289px;
                         bottom: -16px;
                         z-index: 1;
+
                         .border {
                             width: 420px;
                             left: 50%;
                             transform: translateX(-50%);
                         }
+
                         .word-box {
                             left: 50%;
                             text-align: center;
@@ -490,20 +513,24 @@ main {
                 }
             }
         }
+
         @media (max-width: $grid-xl) {
             h1 {
                 font-size: 36px;
             }
-            .swiper{
+
+            .swiper {
                 .swiper-slide {
                     width: 80%;
+
                     h2 {
                         font-size: 40px;
                     }
-                   
+
                 }
             }
         }
+
         @media (max-width: $grid-lg) {
             .swiper {
                 .swiper-slide {
@@ -511,19 +538,23 @@ main {
                 }
             }
         }
+
         @media (max-width: $grid-md) {
             padding-top: 29px;
+
             h1 {
                 font-size: 15px;
                 line-height: 18px;
             }
+
             .swiper {
                 height: 382px;
                 margin-bottom: 15px;
+
                 .swiper-slide {
                     width: 78.12%;
                     height: 349px;
-                    border: 4px solid $brown-100 ;
+                    border: 4px solid $brown-100;
                     h2 {
                         font-size: 24px;
                         line-height: 29px;
@@ -533,26 +564,85 @@ main {
                         transform: none;
                         z-index: 2;
                     }
+                    .swiper-icon {
+                        top: 142px;
+                        left: calc(25.4% - 40px);
+                        z-index: 2;
+                    }
                     .mobile-hide {
                         display: none;
                     }
+
                     .mobile-show {
                         display: block;
                     }
+
+                    .swiper-man {
+                        top: 18.98px;
+                        left: 8px;
+                    }
+
+                    .swiper-oldman {
+                        top: 51.59px;
+                        left: 71.28px;
+                    }
+
+                    .swiper-women {
+                        top: 17.6px;
+                        right: 16.31px;
+                    }
+
+                    .swiper-oldwomen {
+                        top: 31.27px;
+                        right: 62.14px;
+                    }
+
                     .swiper-word {
                         width: calc(100% + 8px);
                         height: 227px;
                         bottom: -4px;
+                        .border {
+                            width: calc(100% - 55px);
+                            top: 103px;
+                        }
+                        .word-box {
+                            width: calc(100% - 55px);
+                            top: 68px;
+                            h3 {
+                                font-size: 14px;
+                                font-weight: 500;
+                                line-height: 23px;
+                            }
+                            p {
+                                font-size: 14px;
+                            }
+                        }
                     }
                 }
+                
+
                 .swiper-pagination {
                     bottom: 3px;
+
                     .swiper-pagination-bullet {
                         width: 10px;
                         height: 10px;
                         margin: 0 4px;
                     }
                 }
+            }
+        }
+
+        @media (max-width: $grid-sm){
+            .swiper {
+                .swiper-slide,.swiper-slide:nth-child(3),.swiper-slide:nth-child(4) {
+                    .swiper-word{
+                        .word-box {
+                            text-align: left;
+                        }
+                    }
+                }
+                
             }
         }
     }

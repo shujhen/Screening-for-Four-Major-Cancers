@@ -13604,7 +13604,7 @@ a.text-dark:hover, a.text-dark:focus {
   position: -webkit-sticky;
   position: sticky;
   top: 0px;
-  z-index: 1;
+  z-index: 2;
   background-color: #55b793;
 }
 

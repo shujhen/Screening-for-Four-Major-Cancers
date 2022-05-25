@@ -158,13 +158,20 @@ window.onload = function () {
         cursorX: {
             translateX: [
                 [0, 'screenWidth'],
-                [0, 200],
+                {
+                    568:[0,0],
+                    1400:[0, 50],
+                }
             ],
         },
         cursorY: {
             translateY: [
                 [0, 'screenHeight'],
-                [0, 200],
+                {
+                    568:[0,0],
+                    1400:[0, 50],
+                },
+                
             ],
         },
     })
@@ -188,14 +195,21 @@ window.onload = function () {
         cursorX: {
             translateX: [
                 [0, 'screenWidth'],
-                [0, 50],
+                {
+                    568:[0,0],
+                    1400:[0, 50],
+                },
+                
             ],
         },
 
         cursorY: {
             translateY: [
                 [0, 'screenHeight'],
-                [0, 50],
+                {
+                    568:[0,0],
+                    1400:[0, 50],
+                }
             ],
         },
     })
@@ -226,7 +240,118 @@ window.onload = function () {
             ],
         }
     })
-    lax.addElements('.img-clock', {
+    lax.addElements('.clock-1', {
+        scrollY: {scale: [
+            [2900, 3000],
+            [1, 0],
+        ],
+        translateX: [
+            [2900, 3000],
+            {
+                568: [0, '-screenWidth/5'],
+                1400: [0, '-screenWidth/5'],
+            },
+
+        ],
+        translateY: [
+            [1900, 2000, 2900, 3000],
+            {
+                568: [-1200, 0, 0, 'screenHeight/4'],
+                1400: [1200, 0, 0, '-screenHeight/4'],
+            },
+
+        ],
+            opacity: [
+                [1900, 2000, 2900, 3000],
+                [0, 1, 1, 0],
+            ],
+        }
+    })
+    lax.addElements('.clock-2', {
+        scrollY: {
+            scale: [
+                [2900, 3000],
+                [1, 0],
+            ],
+            translateX: [
+                [2900, 3000],
+                {
+                    568: [0, '-screenWidth/5'],
+                    1400: [0, '-screenWidth/5'],
+                },
+
+            ],
+            translateY: [
+                [1900, 2000, 2900, 3000],
+                {
+                    568: [-1200, 0, 0, 'screenHeight/4'],
+                    1400: [1200, 0, 0, '-screenHeight/4'],
+                },
+
+            ],
+            opacity: [
+                [2199, 2200, 2900, 3000],
+                [0, 1, 1, 0],
+            ],
+        }
+    })
+    lax.addElements('.clock-3', {
+        scrollY: {
+            scale: [
+                [2900, 3000],
+                [1, 0],
+            ],
+            translateX: [
+                [2900, 3000],
+                {
+                    568: [0, '-screenWidth/5'],
+                    1400: [0, '-screenWidth/5'],
+                },
+
+            ],
+            translateY: [
+                [1900, 2000, 2900, 3000],
+                {
+                    568: [-1200, 0, 0, 'screenHeight/4'],
+                    1400: [1200, 0, 0, '-screenHeight/4'],
+                },
+
+            ],
+            opacity: [
+                [2399,2400, 2900, 3000],
+                [0, 1, 1, 0],
+            ],
+        }
+    })
+    lax.addElements('.clock-4', {
+        scrollY: {
+            scale: [
+                [2900, 3000],
+                [1, 0],
+            ],
+            translateX: [
+                [2900, 3000],
+                {
+                    568: [0, '-screenWidth/5'],
+                    1400: [0, '-screenWidth/5'],
+                },
+
+            ],
+            translateY: [
+                [1900, 2000, 2900, 3000],
+                {
+                    568: [-1200, 0, 0, 'screenHeight/4'],
+                    1400: [1200, 0, 0, '-screenHeight/4'],
+                },
+
+            ],
+            opacity: [
+                [2599, 2600, 2900, 3000],
+                [0, 1, 1, 0],
+            ],
+        }
+    })
+    lax.addElements('.clock-mobile', {
         scrollY: {
             scale: [
                 [2900, 3000],

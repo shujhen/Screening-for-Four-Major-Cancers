@@ -121,20 +121,20 @@ main {
                 width: 750px;
                 height: 61px;
                 left: calc(50% - 375px);
-                bottom: 490px;
+                bottom: 460px;
                 z-index: 1;
                 opacity: 0;
             }
 
             .img-cell-1 {
                 left: -9.6%;
-                top: 57px;
+                top: -100px;
                 opacity: 0;
             }
 
             .img-cell-2 {
                 left: 71.25%;
-                top: 580px;
+                top: 530px;
                 opacity: 0;
             }
 
@@ -161,7 +161,7 @@ main {
 
             .img-clock {
                 right: -0.79%;
-                top: 55.18px;
+                bottom: -497.95px;
                 opacity: 0;
             }
            
@@ -508,7 +508,7 @@ main {
                     .spen-1 {
                         position: static;
                         width: 157px;
-                        height: 25px;
+                        height: 28px;
                         text-align: left;
                         font-size: 16px;
                         color: $yellow-400;
@@ -516,7 +516,7 @@ main {
                     }
 
                     .spen-2 {
-                        bottom: calc(13.64% + 10px);
+                        bottom: 13.64%;
                         font-size: 16px;
                     }
 
@@ -529,20 +529,21 @@ main {
                         width: 157px;
                         height: 56px;
                         font-size: 36px;
+                        line-height: 75px;
                     }
 
                     .title-2 {
                         width: 161px;
                         height: 39px;
                         font-size: 25px;
-                        line-height: 39.13px;
+                        line-height: 50px;
                     }
 
                     .title-3 {
                         width: 160px;
                         height: 78px;
                         font-size: 50px;
-                        line-height: 35px;
+                        line-height: 50px;
                     }
 
                     .title-box {

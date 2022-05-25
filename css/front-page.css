@@ -13604,7 +13604,7 @@ a.text-dark:hover, a.text-dark:focus {
   position: -webkit-sticky;
   position: sticky;
   top: 0px;
-  z-index: 1;
+  z-index: 2;
   background-color: #55b793;
 }
 
@@ -13811,9 +13811,9 @@ main .step-1 ul {
 }
 
 main .step-1 ul li .nav-link {
-  width: 174.88px;
-  height: 171px;
-  margin-right: 70.49px;
+  width: 152.38px;
+  height: 149px;
+  margin-right: 61.4px;
   background-color: #55b793;
   border-radius: 22px;
   background-repeat: no-repeat;
@@ -13851,7 +13851,7 @@ main .step-1 ul li:nth-child(1) .active {
 
 main .step-1 ul li:nth-child(2) .nav-link {
   background-image: url(../images/Breast-Cancer-White-Icon.svg);
-  background-position: 24.12px;
+  background-position: 30.97px;
 }
 
 main .step-1 ul li:nth-child(2) .active {
@@ -13903,10 +13903,6 @@ main .step-1 .word-container .container .tab-content .tab-pane h2 {
   font-weight: 800;
   line-height: 19px;
   margin-bottom: 15px;
-}
-
-main .step-1 .word-container .container .tab-content .tab-pane:nth-child(3) {
-  padding-top: 24px;
 }
 
 @media (max-width: 1199px) {
@@ -14024,6 +14020,9 @@ main .step-1 .word-container .container .tab-content .tab-pane:nth-child(3) {
     background-color: #FFFBE3;
     -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  main .step-1 .word-container .container .tab-content .tab-pane:nth-child(3) {
+    height: 300px;
   }
 }
 
@@ -14161,6 +14160,16 @@ main .step-2 .swiper .swiper-slide .dark {
   opacity: 0.4;
 }
 
+main .step-2 .swiper .swiper-slide:nth-child(3) .swiper-word .word-box {
+  left: 50%;
+  text-align: center;
+}
+
+main .step-2 .swiper .swiper-slide:nth-child(4) .swiper-word .word-box {
+  left: 50%;
+  text-align: center;
+}
+
 main .step-2 .swiper .swiper-pagination .swiper-pagination-bullet {
   width: 19px;
   height: 19px;
@@ -14239,16 +14248,53 @@ main .step-2 .swiper .swiper-pagination .swiper-pagination-bullet {
             transform: none;
     z-index: 2;
   }
+  main .step-2 .swiper .swiper-slide .swiper-icon {
+    top: 142px;
+    left: calc(25.4% - 40px);
+    z-index: 2;
+  }
   main .step-2 .swiper .swiper-slide .mobile-hide {
     display: none;
   }
   main .step-2 .swiper .swiper-slide .mobile-show {
     display: block;
   }
+  main .step-2 .swiper .swiper-slide .swiper-man {
+    top: 18.98px;
+    left: 8px;
+  }
+  main .step-2 .swiper .swiper-slide .swiper-oldman {
+    top: 51.59px;
+    left: 71.28px;
+  }
+  main .step-2 .swiper .swiper-slide .swiper-women {
+    top: 17.6px;
+    right: 16.31px;
+  }
+  main .step-2 .swiper .swiper-slide .swiper-oldwomen {
+    top: 31.27px;
+    right: 62.14px;
+  }
   main .step-2 .swiper .swiper-slide .swiper-word {
     width: calc(100% + 8px);
     height: 227px;
     bottom: -4px;
+  }
+  main .step-2 .swiper .swiper-slide .swiper-word .border {
+    width: calc(100% - 55px);
+    top: 103px;
+  }
+  main .step-2 .swiper .swiper-slide .swiper-word .word-box {
+    width: calc(100% - 55px);
+    top: 68px;
+  }
+  main .step-2 .swiper .swiper-slide .swiper-word .word-box h3 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+  }
+  main .step-2 .swiper .swiper-slide .swiper-word .word-box p {
+    font-size: 14px;
   }
   main .step-2 .swiper .swiper-pagination {
     bottom: 3px;
@@ -14257,6 +14303,12 @@ main .step-2 .swiper .swiper-pagination .swiper-pagination-bullet {
     width: 10px;
     height: 10px;
     margin: 0 4px;
+  }
+}
+
+@media (max-width: 575px) {
+  main .step-2 .swiper .swiper-slide .swiper-word .word-box, main .step-2 .swiper .swiper-slide:nth-child(3) .swiper-word .word-box, main .step-2 .swiper .swiper-slide:nth-child(4) .swiper-word .word-box {
+    text-align: left;
   }
 }
 /*# sourceMappingURL=front-page.css.map */
