@@ -13832,9 +13832,6 @@ body {
 }
 
 @media (max-width: 420px) {
-  .pt-5 h1 {
-    font-size: 15px;
-  }
   .card-wrap div h5 {
     font-size: 14px !important;
     text-align: center;
