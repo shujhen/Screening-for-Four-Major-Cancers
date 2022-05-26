@@ -77,13 +77,18 @@ body{
     }
 }
 @media(max-width: 420px){
+    .pt-5{
+        .p-3{
+            font-size: 22px;
+        }
+    }
     .card-wrap{
         div{
             .title{
                 font-size: 16px !important;
                 text-align: center;
             }
-            p{
+            .SecTitle{
                 font-size: 12px;
                 text-align: center;
             }
@@ -91,8 +96,26 @@ body{
                 padding: 0;
                 width: 250px;
                 .card-body{
-                    p{
+                    .ThirdTitle{
                         text-align: left;
+                        font-size: 15px;
+                    }
+                    .textSize{
+                        font-size: 12px;
+                    }
+                }
+                .d-flex{
+                    .button1{
+                        margin: 0;
+                    }
+                    .button2{
+                        margin: 0;
+                    }
+                    .button3{
+                        margin: 0;
+                    }
+                    .button4{
+                        margin: 0;
                     }
                 }
             }
@@ -102,33 +125,29 @@ body{
         }
     }
 }
-@media(max-width: 330px){
-    .mt-5{
-            .centered-wrap{
-                .card-wrap{
-                    div{
-                        h5{
-                            font-size: 14px !important;
-                            text-align: center;
-                        }
-                        p{
-                            font-size: 12px;
-                            text-align: center;
-                        }
-                        .card{
-                            width: 300px;
-                            .card-body{
-                                p{
-                                    text-align: left;
-                                }
-                            }
-                        }
-                        button{
-                            font-size: 12px;
-                        }
-                    }
-                }
-            }
-        }
-    }
+// @media(max-width: 330px){
+//     .mt-5{
+//             .centered-wrap{
+//                 .card-wrap{
+//                     div{
+//                         p{
+//                             font-size: 12px;
+//                             text-align: center;
+//                         }
+//                         .card{
+//                             width: 300px;
+//                             .card-body{
+//                                 p{
+//                                     text-align: left;
+//                                 }
+//                             }
+//                         }
+//                         button{
+//                             font-size: 12px;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
 
