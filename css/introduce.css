@@ -13811,34 +13811,46 @@ body {
 
 .button1 {
   margin: 84px 0 31px;
+  font-weight: 700;
 }
 
 .button2 {
-  margin: 21px 0 28px;
+  margin: 54px 0 28px;
+  font-weight: 700;
 }
 
 .button3 {
-  margin: 16px 0 36px;
+  font-weight: 700;
+  margin: 49px 0 36px;
 }
 
 .button4 {
+  font-weight: 700;
   margin: 11px 0 41px;
 }
 
 .backBut1 {
+  font-weight: 700;
   margin: 16px 0 31px;
 }
 
 .backBut2 {
+  font-weight: 700;
   margin: -20px 0 34px;
 }
 
 .backBut3 {
+  font-weight: 700;
   margin: -51px 0 35px;
   z-index: 5;
 }
 
+.buttom {
+  margin-bottom: 100px;
+}
+
 .backBut4 {
+  font-weight: 700;
   margin: 13px 0 37px;
   z-index: 5;
 }
