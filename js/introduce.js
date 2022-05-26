@@ -1,10 +1,18 @@
+let img = '<span><img src="./images/right-arrow.svg" alt=""></span>';
 function changeText1() {
     let element = document.getElementById("btn1");
-    // 按鈕改變
-    if (element.value == "口腔癌介紹")
+    let elementTitle = document.getElementById("title1");
+    // 按鈕、title改變
+    if (element.value == "口腔癌介紹"){
         element.value = "口腔癌篩檢介紹";
-    else
+        element.innerHTML = "口腔癌篩檢介紹" + img;
+        elementTitle.innerHTML = "口腔癌介紹";
+    }else{
         element.value = "口腔癌介紹";
+        element.innerHTML = "口腔癌介紹" + img;
+        elementTitle.innerHTML = "口腔癌篩檢介紹";
+    }
+    
     // 文字改變
     let btn1_p1 = document.querySelector('.btn1_p1');
     let btn1_p2 = document.querySelector('.btn1_p2');
@@ -19,11 +27,17 @@ function changeText1() {
 
 function changeText2() {
     let element = document.getElementById("btn2");
-    // 按鈕改變
-    if (element.value == "乳癌介紹")
+    let elementTitle = document.getElementById("title2");
+    // 按鈕、title改變
+    if (element.value == "乳癌介紹"){
         element.value = "乳癌篩檢介紹";
-    else
+        element.innerHTML = "乳癌篩檢介紹" + img;
+        elementTitle.innerHTML = "乳癌介紹";
+    }else{
         element.value = "乳癌介紹";
+        element.innerHTML = "乳癌介紹" + img;
+        elementTitle.innerHTML = "乳癌篩檢介紹";
+    }
     // 文字改變
     let btn2_p1 = document.querySelector('.btn2_p1');
     let btn2_p2 = document.querySelector('.btn2_p2');
@@ -37,11 +51,17 @@ function changeText2() {
 }
 function changeText3() {
     let element = document.getElementById("btn3");
-    // 按鈕改變
-    if (element.value == "大腸癌介紹")
+    let elementTitle = document.getElementById("title3");
+    // 按鈕、title改變
+    if (element.value == "大腸癌介紹"){
         element.value = "大腸癌篩檢介紹";
-    else
+        element.innerHTML = "大腸癌篩檢介紹" + img;
+        elementTitle.innerHTML = "大腸癌介紹";
+    }else{
         element.value = "大腸癌介紹";
+        element.innerHTML = "大腸癌介紹" + img;
+        elementTitle.innerHTML = "大腸癌篩檢介紹";
+    }
     // 文字改變
     let btn3_p1 = document.querySelector('.btn3_p1');
     let btn3_p2 = document.querySelector('.btn3_p2');
@@ -55,11 +75,17 @@ function changeText3() {
 }
 function changeText4() {
     let element = document.getElementById("btn4");
-    // 按鈕改變
-    if (element.value == "乳癌介紹")
+    let elementTitle = document.getElementById("title4");
+    // 按鈕、title改變
+    if (element.value == "乳癌介紹"){
         element.value = "乳癌篩檢介紹";
-    else
+        element.innerHTML = "乳癌篩檢介紹" + img;
+        elementTitle.innerHTML = "乳癌介紹";
+    }else{
         element.value = "乳癌介紹";
+        element.innerHTML = "乳癌介紹" + img;
+        elementTitle.innerHTML = "乳癌篩檢介紹";
+    }
     // 文字改變
     let btn4_p1 = document.querySelector('.btn4_p1');
     let btn4_p2 = document.querySelector('.btn4_p2');

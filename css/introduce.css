@@ -13789,7 +13789,74 @@ body {
   padding: 0;
 }
 
+.row .mb-4 .titleArea {
+  text-align: left;
+}
+
+.row .mb-4 .titleArea h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #275544;
+}
+
+.row .mb-4 .titleArea h5 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #B26D2C;
+}
+
 .row .mb-4 .card .card-body {
+  height: 620px;
+  padding: 60px;
   background: #FFFBE3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.row .mb-4 .card .card-body div h5 {
+  font-size: 28px;
+  font-weight: 800;
+  color: #595947;
+}
+
+.row .mb-4 .card .card-body div p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #595947;
+}
+
+.row .mb-4 .card .card-body div button {
+  background-color: #723010;
+  color: white;
+  font-size: 24px;
+  padding: 21px 35px;
+  letter-spacing: 8px;
+  border-radius: 50px;
+}
+
+@media (max-width: 1330px) {
+  .row .mb-4 .card .card-body div h5 {
+    font-size: 28px;
+  }
+  .row .mb-4 .card .card-body div p {
+    font-size: 18px;
+  }
+  .row .mb-4 .card .card-body div button {
+    font-size: 18px;
+    padding: 21px 35px;
+    letter-spacing: 8px;
+    border-radius: 50px;
+  }
 }
 /*# sourceMappingURL=introduce.css.map */

@@ -13,10 +13,86 @@ body{
 
 .row{
     .mb-4{
+        .titleArea{
+            text-align: left;
+            h3{
+                font-size: 30px;
+                font-weight: 700;
+                color: #275544;
+            }
+            h5{
+                font-size: 16px;
+                font-weight: 500;
+                color: #B26D2C;
+            }
+        }
         .card{
             .card-body{
+                height: 620px;
+                padding: 60px;
                 background: #FFFBE3;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                div{
+                    h5{
+                        font-size: 28px;
+                        font-weight: 800;
+                        color: #595947;
+                    }
+                    p{
+                        font-size: 20px;
+                        font-weight: 500;
+                        color: #595947;
+                    }
+                }
+                div{
+                    button{
+                        background-color: #723010;
+                        color: white;
+                        font-size: 24px;
+                        padding: 21px 35px;
+                        letter-spacing: 8px;
+                        border-radius: 50px;
+                    }
+                }
             }
         }
     }
 }
+
+@media (max-width: 1330px){
+    .row{
+        .mb-4{
+            .card{
+                .card-body{
+                    div{
+                        h5{
+                            font-size: 28px;
+                        }
+                        p{
+                            font-size: 18px;
+                        }
+                    }
+                    div{
+                        button{
+                            font-size: 18px;
+                            padding: 21px 35px;
+                            letter-spacing: 8px;
+                            border-radius: 50px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// @media (max-width: 1080px){
+//     .row{
+//         .col{
+//             width: 100%;
+//         }
+//     }
+// }

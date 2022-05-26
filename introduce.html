@@ -51,9 +51,9 @@
         <section>
             <div class="row row-cols-1 row-cols-md-2">
                 <!-- card1 -->
-                <div class="col mb-4">
+                <div class="col mb-4 ">
                     <!-- title1 -->
-                    <div>
+                    <div class="titleArea">
                         <h3>口腔癌 - 口腔黏膜檢查</h3>
                         <h5>資料來源 : 童綜合醫療社團法人童綜合醫院</h5>
                     </div>
@@ -64,15 +64,19 @@
                             allowfullscreen>
                         </iframe>
                         <div class="card-body text-left">
-                            <h5 class="card-title" id="title1">口腔癌篩檢介紹</h5>
-                            <p class="card-text btn1_p1">
-                                口腔黏膜檢查是由醫生目視或觸診口腔黏膜，看有沒有疑似癌前病變或癌症的病兆，不會疼痛，也沒有副作用。
-                            </p>
-                            <p class="card-text btn1_p2">
-                                檢查結果若為陰性，請持續每2年接受1次口腔黏膜檢查。若為陽性，請根據醫生指示做後續治療。
-                            </p>
                             <div>
-                                <input onclick="changeText1()" type="button" value="口腔癌介紹" id="btn1" class="border-0">
+                                <h5 class="card-title" id="title1">口腔癌篩檢介紹</h5>
+                                <p class="card-text btn1_p1">
+                                    口腔黏膜檢查是由醫生目視或觸診口腔黏膜，看有沒有疑似癌前病變或癌症的病兆，不會疼痛，也沒有副作用。
+                                </p>
+                                <p class="card-text btn1_p2">
+                                    檢查結果若為陰性，請持續每2年接受1次口腔黏膜檢查。若為陽性，請根據醫生指示做後續治療。
+                                </p>
+                            </div>
+                            <div>
+                                <button onclick="changeText1()" type="button" value="口腔癌介紹" id="btn1"
+                                    class="border-0">口腔癌介紹<span><img src="./images/right-arrow.svg"
+                                            alt=""></span></button>
                             </div>
                         </div>
                     </div>
@@ -80,7 +84,7 @@
                 <!-- card2 -->
                 <div class="col mb-4">
                     <!-- title2 -->
-                    <div>
+                    <div class="titleArea">
                         <h3>乳癌 - 乳房X光攝影檢查</h3>
                         <h5>資料來源 : 佛教正德醫院</h5>
                     </div>
@@ -89,19 +93,21 @@
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen>
-
-
                         </iframe>
                         <div class="card-body text-left">
-                            <h5 class="card-title">乳癌篩檢介紹</h5>
-                            <p class="card-text btn2_p1">
-                                乳房X光攝影檢查過程中，女性放射師會以壓迫板緊壓乳房， 以獲得清晰的影像並減少輻射劑量，所以會有疼痛感。
-                            </p>
-                            <p class="card-text btn2_p2">
-                                檢查結果若無異常，請持續每2年接受1次乳房X光攝影檢查。若有無法確定診斷之變化，需再做其他影像檢查 。若有疑似良性變化，請3-6個月進行追蹤內檢查。
-                            </p>
                             <div>
-                                <input onclick="changeText2()" type="button" value="乳癌介紹" id="btn2" class="border-0">
+                                <h5 class="card-title" id="title2">乳癌篩檢介紹</h5>
+                                <p class="card-text btn2_p1">
+                                    乳房X光攝影檢查過程中，女性放射師會以壓迫板緊壓乳房， 以獲得清晰的影像並減少輻射劑量，所以會有疼痛感。
+                                </p>
+                                <p class="card-text btn2_p2">
+                                    檢查結果若無異常，請持續每2年接受1次乳房X光攝影檢查。若有無法確定診斷之變化，需再做其他影像檢查 。若有疑似良性變化，請3-6個月進行追蹤內檢查。
+                                </p>
+                            </div>
+                            <div>
+                                <button onclick="changeText2()" type="button" value="乳癌介紹" id="btn2"
+                                    class="border-0">乳癌介紹<span><img src="./images/right-arrow.svg"
+                                            alt=""></span></button>
                             </div>
                         </div>
                     </div>
@@ -109,8 +115,8 @@
                 <!-- card3 -->
                 <div class="col mb-4">
                     <!-- title3 -->
-                    <div>
-                        <h3>大腸癌 (糞便潛血檢查)                        </h3>
+                    <div class="titleArea">
+                        <h3>大腸癌 (糞便潛血檢查)</h3>
                         <h5>資料來源 : 中國醫藥大學附設醫院</h5>
                     </div>
                     <div class="card">
@@ -120,11 +126,17 @@
                             allowfullscreen>
                         </iframe>
                         <div class="card-body text-left">
-                            <h5 class="card-title">大腸癌介紹</h5>
-                            <p class="card-text btn3_p1">大腸內的腫瘤或息肉，受到糞便摩擦而出血，血液因而附在糞便表面排出，經採集表面糞便送至檢驗室檢驗，即可測出是否含血液。為避免糞便中血紅素受熱破壞，檢體應放在含保存液之採便管冷藏保存，並儘速送回檢驗。</p>
-                            <p class="card-text btn3_p2">檢查結果若為陰性，請持續每2年接受1次糞便潛血檢查。檢查結果若為陽性，請根據醫生指示做後續治療。</p>
                             <div>
-                                <input onclick="changeText3()" type="button" value="大腸癌介紹" id="btn3" class="border-0">
+                                <h5 class="card-title" id="title3">大腸癌篩檢介紹</h5>
+                                <p class="card-text btn3_p1">
+                                    大腸內的腫瘤或息肉，受到糞便摩擦而出血，血液因而附在糞便表面排出，經採集表面糞便送至檢驗室檢驗，即可測出是否含血液。為避免糞便中血紅素受熱破壞，檢體應放在含保存液之採便管冷藏保存，並儘速送回檢驗。
+                                </p>
+                                <p class="card-text btn3_p2">檢查結果若為陰性，請持續每2年接受1次糞便潛血檢查。檢查結果若為陽性，請根據醫生指示做後續治療。</p>
+                            </div>
+                            <div>
+                                <button onclick="changeText3()" type="button" value="大腸癌介紹" id="btn3"
+                                    class="border-0">大腸癌介紹<span><img src="./images/right-arrow.svg"
+                                            alt=""></span></button>
                             </div>
                         </div>
                     </div>
@@ -132,7 +144,7 @@
                 <!-- card4 -->
                 <div class="col mb-4">
                     <!-- title4 -->
-                    <div>
+                    <div class="titleArea">
                         <h3>乳癌 - 乳房X光攝影檢查</h3>
                         <h5>資料來源 : 佛教正德醫院</h5>
                     </div>
@@ -141,14 +153,20 @@
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
-                            <div class="card-body text-left">
-                                <h5 class="card-title">乳癌介紹</h5>
-                                <p class="card-text btn4_p1">子宮頸抹片檢查會先以擴陰器擴張陰道，再以小木棒或刷子輕輕刮取子宮頸 剝落的細胞，塗抹於玻片和染色後，經顯微鏡觀察是否有 癌前病變或是癌症。</p>
-                                <p class="card-text btn4_p2">檢查結果若正常，請持續每3年至少接受1次子宮頸每抹片檢查。若有意義不明的鱗狀細胞變化 、有輕度癌前病變 、重度癌前病變、意義未明的腺體細胞變化或癌症，請根據醫生指示做後續治療。</p>
-                                <div>
-                                    <input onclick="changeText4()" type="button" value="乳癌介紹" id="btn4" class="border-0">
-                                </div>
+                        <div class="card-body text-left">
+                            <div>
+                                <h5 class="card-title" id="title4">乳癌篩檢介紹</h5>
+                                <p class="card-text btn4_p1">子宮頸抹片檢查會先以擴陰器擴張陰道，再以小木棒或刷子輕輕刮取子宮頸 剝落的細胞，塗抹於玻片和染色後，經顯微鏡觀察是否有
+                                    癌前病變或是癌症。</p>
+                                <p class="card-text btn4_p2">檢查結果若正常，請持續每3年至少接受1次子宮頸每抹片檢查。若有意義不明的鱗狀細胞變化 、有輕度癌前病變
+                                    、重度癌前病變、意義未明的腺體細胞變化或癌症，請根據醫生指示做後續治療。</p>
                             </div>
+                            <div>
+                                <button onclick="changeText4()" type="button" value="乳癌介紹" id="btn4"
+                                    class="border-0">乳癌介紹<span><img src="./images/right-arrow.svg"
+                                            alt=""></span></button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
