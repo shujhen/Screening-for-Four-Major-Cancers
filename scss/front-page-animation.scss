@@ -384,37 +384,40 @@ main {
                 }
 
                 .page-1-h2 {
-                    font-size: 20px;
+                    font-size: 22px;
                     line-height: 24.2px;
-                    width: 92px;
-                    height: 24px;
-                    top: 127px;
-                    left: calc(50% - 46px);
+                    width: 101px;
+                    height: 27px;
+                    top: 128px;
+                    left: calc(50% - 50.5px);
                 }
 
                 .page-1-span {
-                    font-size: 14px;
-                    line-height: 16.94px;
-                    width: 203px;
-                    height: 17px;
-                    top: 170px;
-                    left: calc(50% - 101.5px);
+                    font-size: 16px;
+                    line-height: 19px;
+                    width: 232px;
+                    height: 19px;
+                    top: 171px;
+                    left: calc(50% - 116px);
                 }
 
                 .img-earth {
                     width: 528.71px;
                     height: 528.71px;
-                    top: 278.43px;
+                    top: auto;
+                    bottom:-239.14px;
                     left: calc(50% - 264.355px);
                 }
 
                 .page-2-span {
-                    width: 210px;
-                    height: 17px;
+                    width: 145px;
+                    height: 70px;
                     top: 267px;
-                    left: calc(50% - 105px);
-                    font-size: 14px;
-                    line-height: 17px;
+                    left: calc(50% - 72.5px);
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 35px;
+                    text-align: left;
                 }
 
                 .img-cell-1 {
@@ -429,19 +432,19 @@ main {
                 }
 
                 .page-3-title-box {
-                    width: 139px;
-                    height: 61px;
+                    width: 159px;
+                    height: 58px;
                     top: 416px;
                     left: 12.18%;
 
                     .page-3-h2 {
-                        font-size: 20px;
-                        line-height: 24px;
+                        font-size: 22px;
+                        line-height: 27px;
                     }
 
                     .page-3-span {
-                        font-size: 14px;
-                        line-height: 17px;
+                        font-size: 16px;
+                        line-height: 19px;
                     }
                 }
 
@@ -452,20 +455,20 @@ main {
                 }
 
                 .page-4-title-box {
-                    width: 213px;
+                    width: 240px;
                     height: 79px;
-                    left: calc(50% - 106.5px);
+                    left: calc(50% - 120px);
                     top: 92px;
-                    text-align: center;
+                    text-align: left;
 
                     h2 {
-                        font-size: 20px;
-                        line-height: 24px;
+                        font-size: 22px;
+                        line-height: 27px;
                     }
 
                     span {
-                        font-size: 14px;
-                        line-height: 17px;
+                        font-size: 16px;
+                        line-height: 19px;
                     }
                 }
 
@@ -491,59 +494,67 @@ main {
                 }
 
                 .title-border {
-                    width: calc(100% - 71px);
+                    width: 77.81%;
                     height: 403px;
-                    top: 81px;
-                    left: calc(50% - (100% - 71px) / 2);
+                    background-color: transparent;
+                    top: calc(50% - 201.5px);
+                    left: calc(50% - (77.81% / 2));
                     border: 2px solid #FFFFFF;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
 
-                    h2 {
-                        position: static;
-                    }
 
                     .spen-1 {
-                        position: static;
-                        width: 157px;
-                        height: 28px;
-                        text-align: left;
+                        width: 64px;
+                        height: 25px;
+                        text-align: center;
                         font-size: 16px;
+                        line-height: 25px;
+                        top: 57px;
+                        left: calc(50% - 80px);
                         color: $yellow-400;
 
                     }
 
                     .spen-2 {
                         bottom: 13.64%;
-                        font-size: 16px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        font-size: 20px;
                     }
 
                     .border {
+                        position: absolute;
                         width: 153px;
                         height: 2px;
+                        top: 150px;
+                        left: calc(50% - 80px);
+
                     }
 
                     .title-1 {
                         width: 157px;
                         height: 56px;
+                        top: 85px;
+                        left: calc(50% - 80px);
                         font-size: 36px;
-                        line-height: 75px;
+                        line-height: 56px;
                     }
 
                     .title-2 {
                         width: 161px;
                         height: 39px;
+                        top: 163px;
+                        left: calc(50% - 80px);
                         font-size: 25px;
-                        line-height: 50px;
+                        line-height: 39px;
                     }
 
                     .title-3 {
                         width: 160px;
                         height: 78px;
+                        top: 196px;
+                        left: calc(50% - 80px);
                         font-size: 50px;
-                        line-height: 50px;
+                        line-height: 78px;
                     }
 
                     .title-box {
@@ -552,6 +563,7 @@ main {
                         .green-span {
                             font-size: 14px;
                             color: $green-700;
+                            letter-spacing: 0.115em;
                         }
 
                     }

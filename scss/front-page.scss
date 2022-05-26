@@ -216,11 +216,11 @@ main {
             background-color: #FFFFFF;
 
             .title-box {
-                width: 200px;
+                width: 240px;
                 height: 18px;
 
                 h1 {
-                    font-size: 15px;
+                    font-size: 18px;
                     line-height: 18px;
                 }
             }
@@ -237,9 +237,9 @@ main {
                         box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.3);
 
                         span {
-                            font-size: 12px;
+                            font-size: 14px;
                             line-height: 14.52px;
-                            width: 50.31px;
+                            width: 56px;
                             height: 15.27px;
                             bottom: -12.25px;
                         }
@@ -299,8 +299,8 @@ main {
 
                         .tab-pane {
                             width: 84.78%;
-                            height: 260px;
-                            font-size: 12px;
+                            height: 300px;
+                            font-size: 14px;
                             padding: 19px 28px;
                             background-color: #FFFBE3;
                             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -530,7 +530,7 @@ main {
             padding-top: 29px;
 
             h1 {
-                font-size: 15px;
+                font-size: 18px;
                 line-height: 18px;
             }
 
@@ -566,22 +566,23 @@ main {
 
                     .swiper-man {
                         top: 18.98px;
-                        left: 8px;
+                        left: calc(50% - 113px);
+                        
                     }
 
                     .swiper-oldman {
                         top: 51.59px;
-                        left: 71.28px;
+                        left: calc(50% - 49.72px);
                     }
 
                     .swiper-women {
                         top: 17.6px;
-                        right: 16.31px;
+                        right: calc(50% - 104.69px);
                     }
 
                     .swiper-oldwomen {
                         top: 31.27px;
-                        right: 62.14px;
+                        right: calc(50% - 58.85px);
                     }
 
                     .swiper-word {
@@ -596,12 +597,13 @@ main {
                             width: calc(100% - 55px);
                             top: 68px;
                             h3 {
-                                font-size: 14px;
-                                font-weight: 500;
+                                font-size: 16px;
+                                font-weight: 800;
                                 line-height: 23px;
                             }
                             p {
                                 font-size: 14px;
+                                font-weight: 500;
                             }
                         }
                     }
