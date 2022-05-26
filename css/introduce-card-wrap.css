@@ -73,9 +73,12 @@
 }
 .SecTitle{
     font-size: 16px;
+    font-weight: 500;
 }
 .ThirdTitle{
-    font-size: 28px;
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 25px;
 }
 .textSize{
     font-size: 22px;

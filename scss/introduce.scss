@@ -24,32 +24,44 @@ body{
     background: #723010;
 }
 .button1{
-    margin: 25px 0 33px;
+    margin: 84px 0 31px;
+    font-weight: 700;
 }
 .button2{
-    margin: 21px 0 28px;
+    margin: 54px 0 28px;
+    font-weight: 700;
 }
 .button3{
-    margin: 16px 0 36px;
+    font-weight: 700;
+    margin: 49px 0 36px;
 }
 .button4{
-    margin: 35px 0 41px;
+    font-weight: 700;
+    margin: 11px 0 41px;
 }
 
 .backBut1{
+    font-weight: 700;
     margin: 16px 0 31px;
 }
 
 .backBut2{
+    font-weight: 700;
     margin: -20px 0 34px;
 }
 
 .backBut3{
-    margin: -27px 0 35px;
+    font-weight: 700;
+    margin: -51px 0 35px;
     z-index: 5;
 }
 
+.buttom{
+    margin-bottom: 100px;
+}
+
 .backBut4{
+    font-weight: 700;
     margin: 13px 0 37px;
     z-index: 5;
 }
@@ -65,13 +77,18 @@ body{
     }
 }
 @media(max-width: 420px){
+    .pt-5{
+        .p-3{
+            font-size: 22px;
+        }
+    }
     .card-wrap{
         div{
             .title{
                 font-size: 16px !important;
                 text-align: center;
             }
-            p{
+            .SecTitle{
                 font-size: 12px;
                 text-align: center;
             }
@@ -79,8 +96,26 @@ body{
                 padding: 0;
                 width: 250px;
                 .card-body{
-                    p{
+                    .ThirdTitle{
                         text-align: left;
+                        font-size: 15px;
+                    }
+                    .textSize{
+                        font-size: 12px;
+                    }
+                }
+                .d-flex{
+                    .button1{
+                        margin: 0;
+                    }
+                    .button2{
+                        margin: 0;
+                    }
+                    .button3{
+                        margin: 0;
+                    }
+                    .button4{
+                        margin: 0;
                     }
                 }
             }
@@ -90,33 +125,29 @@ body{
         }
     }
 }
-@media(max-width: 330px){
-    .mt-5{
-            .centered-wrap{
-                .card-wrap{
-                    div{
-                        h5{
-                            font-size: 14px !important;
-                            text-align: center;
-                        }
-                        p{
-                            font-size: 12px;
-                            text-align: center;
-                        }
-                        .card{
-                            width: 300px;
-                            .card-body{
-                                p{
-                                    text-align: left;
-                                }
-                            }
-                        }
-                        button{
-                            font-size: 12px;
-                        }
-                    }
-                }
-            }
-        }
-    }
+// @media(max-width: 330px){
+//     .mt-5{
+//             .centered-wrap{
+//                 .card-wrap{
+//                     div{
+//                         p{
+//                             font-size: 12px;
+//                             text-align: center;
+//                         }
+//                         .card{
+//                             width: 300px;
+//                             .card-body{
+//                                 p{
+//                                     text-align: left;
+//                                 }
+//                             }
+//                         }
+//                         button{
+//                             font-size: 12px;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
 
