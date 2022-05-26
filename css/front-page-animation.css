@@ -14203,7 +14203,8 @@ main #front-page-animation .animation-container .img-arrow {
   main #front-page-animation .animation-container .img-earth {
     width: 528.71px;
     height: 528.71px;
-    top: 278.43px;
+    top: auto;
+    bottom: -239.14px;
     left: calc(50% - 264.355px);
   }
   main #front-page-animation .animation-container .page-2-span {
