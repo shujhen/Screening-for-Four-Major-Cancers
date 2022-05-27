@@ -13922,4 +13922,19 @@ body {
     letter-spacing: 3px;
   }
 }
+
+@media (max-width: 600px) {
+  .row .change .card .bodyHight1 {
+    height: 290px;
+  }
+  .row .change .card .bodyHight2 {
+    height: 370px;
+  }
+  .row .change .card .bodyHight3 {
+    height: 350px;
+  }
+  .row .change .card .bodyHight4 {
+    height: 340px;
+  }
+}
 /*# sourceMappingURL=introduce.css.map */
