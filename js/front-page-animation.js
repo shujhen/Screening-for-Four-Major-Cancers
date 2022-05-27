@@ -143,12 +143,12 @@ window.onload = function () {
     lax.addElements('.img-cell-1', {
         scrollY: {
             scale: [
-                
-                [900, 1000,1300,1700, 1900, 2000],
+
+                [900, 1000, 1300, 1700, 1900, 2000],
                 {
-                    568:[0,1,1,1,1,0],
-                    1400:[0, 1,0.8,1.2, 1, 0],
-                }       
+                    568: [0, 1, 1, 1, 1, 0],
+                    1400: [0, 1, 0.8, 1.2, 1, 0],
+                }
             ],
             opacity: [
                 [900, 1000, 1900, 2000],
@@ -159,8 +159,8 @@ window.onload = function () {
             translateX: [
                 [0, 'screenWidth'],
                 {
-                    568:[0,0],
-                    1400:[0, 50],
+                    568: [0, 0],
+                    1400: [0, 50],
                 }
             ],
         },
@@ -168,10 +168,10 @@ window.onload = function () {
             translateY: [
                 [0, 'screenHeight'],
                 {
-                    568:[0,0],
-                    1400:[0, 50],
+                    568: [0, 0],
+                    1400: [0, 50],
                 },
-                
+
             ],
         },
     })
@@ -180,12 +180,12 @@ window.onload = function () {
         scrollY: {
 
             scale: [
-                [800, 900, 1000,1300,1700, 1900, 2000],
+                [800, 900, 1000, 1300, 1700, 1900, 2000],
                 {
-                    568:[0,0,0.5,0.5,0.5,0.5,0],
-                    1400:[0,0,1,1.2,0.8, 1, 0]
+                    568: [0, 0, 0.5, 0.5, 0.5, 0.5, 0],
+                    1400: [0, 0, 1, 1.2, 0.8, 1, 0]
                 },
-                
+
             ],
             opacity: [
                 [900, 1000, 1900, 2000],
@@ -196,10 +196,10 @@ window.onload = function () {
             translateX: [
                 [0, 'screenWidth'],
                 {
-                    568:[0,0],
-                    1400:[0, 50],
+                    568: [0, 0],
+                    1400: [0, 50],
                 },
-                
+
             ],
         },
 
@@ -207,8 +207,8 @@ window.onload = function () {
             translateY: [
                 [0, 'screenHeight'],
                 {
-                    568:[0,0],
-                    1400:[0, 50],
+                    568: [0, 0],
+                    1400: [0, 50],
                 }
             ],
         },
@@ -241,26 +241,27 @@ window.onload = function () {
         }
     })
     lax.addElements('.clock-1', {
-        scrollY: {scale: [
-            [2900, 3000],
-            [1, 0],
-        ],
-        translateX: [
-            [2900, 3000],
-            {
-                568: [0, '-screenWidth/5'],
-                1400: [0, '-screenWidth/5'],
-            },
+        scrollY: {
+            scale: [
+                [2900, 3000],
+                [1, 0],
+            ],
+            translateX: [
+                [2900, 3000],
+                {
+                    568: [0, '-screenWidth/5'],
+                    1400: [0, '-screenWidth/5'],
+                },
 
-        ],
-        translateY: [
-            [1900, 2000, 2900, 3000],
-            {
-                568: [-1200, 0, 0, 'screenHeight/4'],
-                1400: [1200, 0, 0, '-screenHeight/4'],
-            },
+            ],
+            translateY: [
+                [1900, 2000, 2900, 3000],
+                {
+                    568: [-1200, 0, 0, 'screenHeight/4'],
+                    1400: [1200, 0, 0, '-screenHeight/4'],
+                },
 
-        ],
+            ],
             opacity: [
                 [1900, 2000, 2900, 3000],
                 [0, 1, 1, 0],
@@ -318,7 +319,7 @@ window.onload = function () {
 
             ],
             opacity: [
-                [2399,2400, 2900, 3000],
+                [2399, 2400, 2900, 3000],
                 [0, 1, 1, 0],
             ],
         }
@@ -406,10 +407,10 @@ window.onload = function () {
             translateY: [
                 [2900, 3000, 3900, 4000],
                 {
-                    568:[-700,0,0,0],
-                    1400:[-700, 0, 0, -1000],
+                    568: [-700, 0, 0, 0],
+                    1400: [-700, 0, 0, -1000],
                 }
-                
+
             ],
             scale: [
                 [3000, 3100, 3200, 3300, 3400, 3500, 3600, 3700, 3800],
@@ -418,10 +419,10 @@ window.onload = function () {
             opacity: [
                 [2900, 3000, 3900, 4000],
                 {
-                    568:[0,1,1,0.4],
-                    1400:[0, 1, 1, 0],
+                    568: [0, 1, 1, 0.4],
+                    1400: [0, 1, 1, 0],
                 }
-                
+
             ],
         }
     })
@@ -434,10 +435,10 @@ window.onload = function () {
             translateY: [
                 [2900, 3000, 3900, 4000],
                 {
-                    568:[500,0,0,0],
-                    1400:[500, 0, 0, -1000],
+                    568: [500, 0, 0, 0],
+                    1400: [500, 0, 0, -1000],
                 }
-                
+
             ],
             scale: [
                 [3000, 3100, 3200, 3300, 3400, 3500, 3600, 3700, 3800],
@@ -446,10 +447,10 @@ window.onload = function () {
             opacity: [
                 [2900, 3000, 3900, 4000],
                 {
-                    568:[0,1,1,0.4],
-                    1400:[0, 1, 1, 0],
+                    568: [0, 1, 1, 0.4],
+                    1400: [0, 1, 1, 0],
                 }
-                
+
             ],
         }
     })
@@ -480,10 +481,10 @@ window.onload = function () {
             opacity: [
                 [2900, 3000, 3900, 4000],
                 {
-                    568:[0,1,1,0.4],
-                    1400:[0, 1, 1, 0],
+                    568: [0, 1, 1, 0.4],
+                    1400: [0, 1, 1, 0],
                 }
-                
+
             ],
         }
     })
@@ -515,10 +516,15 @@ window.onload = function () {
 
 
 
-document.querySelectorAll(".circle").forEach(function(item,i){
-    item.addEventListener('click',function(){
-        document.body.scrollTop = i*1000;
-        document.documentElement.scrollTop = i*1000;
+document.querySelectorAll(".circle").forEach(function (item, i) {
+    item.addEventListener('click', function () {
+        if (i === 0) {
+            document.body.scrollTop = 200;
+            document.documentElement.scrollTop = 200;
+        } else {
+            document.body.scrollTop = i * 1000;
+            document.documentElement.scrollTop = i * 1000;
+        }
     })
 })
 
@@ -527,19 +533,18 @@ document.querySelectorAll(".circle").forEach(function(item,i){
 window.onscroll = function () {
     console.log("滾動");
     var intElemScrollHeight = document.querySelector('body').scrollHeight;
-    
-    console.log(document.documentElement.scrollTop, intElemScrollHeight);
-    if (document.body.scrollTop >=  (intElemScrollHeight - 969) || document.documentElement.scrollTop >= (intElemScrollHeight - 969) ) {
-      parent.hideIframe()
-    }
-  }
 
-function scrollDown(){
-    if (document.body.scrollTop >= 4000 || document.documentElement.scrollTop >= 4000){
+    console.log(document.documentElement.scrollTop, intElemScrollHeight);
+    if (document.body.scrollTop >= (intElemScrollHeight - 969) || document.documentElement.scrollTop >= (intElemScrollHeight - 969)) {
         parent.hideIframe()
-    }else {
+    }
+}
+
+function scrollDown() {
+    if (document.body.scrollTop >= 4000 || document.documentElement.scrollTop >= 4000) {
+        parent.hideIframe()
+    } else {
         document.body.scrollTop = document.body.scrollTop + 1000;
         document.documentElement.scrollTop = document.documentElement.scrollTop + 1000;
     }
 }
-  

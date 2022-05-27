@@ -14223,6 +14223,7 @@ main .step-2 .swiper .swiper-pagination .swiper-pagination-bullet {
   main .step-2 h1 {
     font-size: 18px;
     line-height: 18px;
+    margin-bottom: 15px;
   }
   main .step-2 .swiper {
     height: 382px;
@@ -14259,7 +14260,7 @@ main .step-2 .swiper .swiper-pagination .swiper-pagination-bullet {
     left: calc(50% - 113px);
   }
   main .step-2 .swiper .swiper-slide .swiper-oldman {
-    top: 51.59px;
+    top: 31.59px;
     left: calc(50% - 49.72px);
   }
   main .step-2 .swiper .swiper-slide .swiper-women {
