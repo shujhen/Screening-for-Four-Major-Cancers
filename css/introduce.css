@@ -13885,6 +13885,9 @@ body {
   .row .change {
     width: 100%;
   }
+  .row .mb-4 .titleArea {
+    text-align: center;
+  }
   .row .mb-4 .titleArea h5 {
     font-size: 11px;
   }
@@ -13894,6 +13897,9 @@ body {
   .row .mb-4 .card .card-body {
     height: 472px;
     padding: 30px;
+  }
+  .row .mb-4 .card .card-body div h5 {
+    font-size: 18px;
   }
   .row .mb-4 .card .card-body div p {
     font-size: 14px;

@@ -135,6 +135,7 @@ body {
 
         .mb-4 {
             .titleArea{
+                text-align: center;
                 h5 {
                     font-size: 11px;
                 }
@@ -149,6 +150,9 @@ body {
                     padding: 30px;
 
                     div {
+                        h5 {
+                            font-size: 18px;
+                        }
                         p {
                             font-size: 14px;
                         }
