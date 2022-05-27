@@ -69,31 +69,31 @@ function changeText3() {
         btn3_p1.innerHTML = "大腸內的腫瘤或息肉，受到糞便摩擦而出血，血液因而附在糞便表面排出，經採集表面糞便送至檢驗室檢驗，即可測出是否含血液。為避免糞便中血紅素受熱破壞，檢體應放在含保存液之採便管冷藏保存，並儘速送回檢驗。"
         btn3_p2.innerHTML = "檢查結果若為陰性，請持續每2年接受1次糞便潛血檢查。檢查結果若為陽性，請根據醫生指示做後續治療。"
     } else if (element.value = "乳癌篩檢介紹") {
-        btn3_p1.innerHTML = "子宮頸抹片檢查會先以擴陰器擴張陰道，再以小木棒或刷子輕輕刮取子宮頸 剝落的細胞，塗抹於玻片和染色後，經顯微鏡觀察是否有 癌前病變或是癌症。"
-        btn3_p2.innerHTML = "檢查結果若正常，請持續每3年至少接受1次子宮頸每抹片檢查。若有意義不明的鱗狀細胞變化 、有輕度癌前病變 、重度癌前病變、意義未明的腺體細胞變化或癌症，請根據醫生指示做後續治療。"
+        btn3_p1.innerHTML = "大腸癌是可以早期發現早期治療，且治癒率很高的癌症。根據統計，早期的大腸癌如果妥善治療，存活率高達90％以上。大腸癌主要是由大腸內的腺瘤瘜肉癌化所造成，因此如能早期發現腺瘤瘜肉予以切除，可以減少大腸癌的發生。"
+        btn3_p2.innerHTML = "透過實施糞便潛血檢查可以降低大腸癌發生率，如果糞便潛血檢查呈陽性時，應進一步接受大腸鏡檢查，其好處是檢查過程如有發現病兆或瘜肉時，可以直接取樣做切片或是將它切除。"
     }
 }
 function changeText4() {
     let element = document.getElementById("btn4");
     let elementTitle = document.getElementById("title4");
     // 按鈕、title改變
-    if (element.value == "乳癌介紹"){
-        element.value = "乳癌篩檢介紹";
-        element.innerHTML = "乳癌篩檢介紹" + img;
-        elementTitle.innerHTML = "乳癌介紹";
+    if (element.value == "子宮頸癌介紹"){
+        element.value = "子宮頸癌篩檢介紹";
+        element.innerHTML = "子宮頸癌篩檢介紹" + img;
+        elementTitle.innerHTML = "子宮頸癌介紹";
     }else{
-        element.value = "乳癌介紹";
-        element.innerHTML = "乳癌介紹" + img;
-        elementTitle.innerHTML = "乳癌篩檢介紹";
+        element.value = "子宮頸癌介紹";
+        element.innerHTML = "子宮頸癌介紹" + img;
+        elementTitle.innerHTML = "子宮頸癌篩檢介紹";
     }
     // 文字改變
     let btn4_p1 = document.querySelector('.btn4_p1');
     let btn4_p2 = document.querySelector('.btn4_p2');
-    if (element.value == "乳癌介紹") {
+    if (element.value == "子宮頸癌介紹") {
         btn4_p1.innerHTML = "子宮頸抹片檢查會先以擴陰器擴張陰道，再以小木棒或刷子輕輕刮取子宮頸 剝落的細胞，塗抹於玻片和染色後，經顯微鏡觀察是否有 癌前病變或是癌症。"
         btn4_p2.innerHTML = "檢查結果若正常，請持續每3年至少接受1次子宮頸每抹片檢查。若有意義不明的鱗狀細胞變化 、有輕度癌前病變 、重度癌前病變、意義未明的腺體細胞變化或癌症，請根據醫生指示做後續治療。"
-    } else if (element.value = "乳癌篩檢介紹") {
-        btn4_p1.innerHTML = "大腸癌是可以早期發現早期治療，且治癒率很高的癌症。根據統計，早期的大腸癌如果妥善治療，存活率高達90％以上。大腸癌主要是由大腸內的腺瘤瘜肉癌化所造成，因此如能早期發現腺瘤瘜肉予以切除，可以減少大腸癌的發生。"
-        btn4_p2.innerHTML = "透過實施糞便潛血檢查可以降低大腸癌發生率，如果糞便潛血檢查呈陽性時，應進一步接受大腸鏡檢查，其好處是檢查過程如有發現病兆或瘜肉時，可以直接取樣做切片或是將它切除。"
+    } else if (element.value = "子宮頸癌篩檢介紹") {
+        btn4_p1.innerHTML = "子宮頸癌是女性常見且可經由篩檢早期發現早期治療之癌症，子宮頸癌是一個疾病發展相當緩慢的癌症，婦女朋友只要定期抹片檢查即可早期發現，且子宮頸原位癌治癒率可達100％。"
+        btn4_p2.innerHTML = "另外，在面對發生率急遽上升的乳癌，婦女已經不再只是做好自我檢查，而是要透過專科醫師檢查及乳房攝影篩檢，才能早期發現早時治療。"
     }
 }
