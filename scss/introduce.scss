@@ -1,33 +1,45 @@
 // 保留這一行 @import，下面寫各自頁面的 CSS
 @import 'all';
 
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
 }
 
+.pt-5 {
+    hr {
+        margin-bottom: 100px;
+    }
+}
 
-.row{
-    .mb-4{
-        .titleArea{
+.row {
+    .mb-4 {
+        .titleArea {
             text-align: left;
-            h3{
+
+            h3 {
                 font-size: 30px;
                 font-weight: 700;
                 color: #275544;
             }
-            h5{
+
+            h5 {
                 font-size: 16px;
                 font-weight: 500;
                 color: #B26D2C;
             }
         }
-        .card{
-            .card-body{
+
+        .card {
+            iframe {
+                height: 375px;
+            }
+
+            .card-body {
                 height: 620px;
                 padding: 60px;
                 background: #FFFBE3;
@@ -35,26 +47,31 @@ body{
                 flex-direction: column;
                 justify-content: space-between;
                 align-items: center;
-                div{
-                    h5{
+
+                div {
+                    h5 {
                         font-size: 28px;
                         font-weight: 800;
                         color: #595947;
+                        margin-bottom: 30px;
                     }
-                    p{
+
+                    p {
                         font-size: 20px;
                         font-weight: 500;
                         color: #595947;
                     }
                 }
-                div{
-                    button{
+
+                div {
+                    button {
                         background-color: #723010;
                         color: white;
-                        font-size: 24px;
-                        padding: 21px 35px;
+                        font-size: 22px;
+                        padding: 16px 26px;
                         letter-spacing: 8px;
                         border-radius: 50px;
+
                     }
                 }
             }
@@ -62,23 +79,39 @@ body{
     }
 }
 
-@media (max-width: 1330px){
-    .row{
-        .mb-4{
-            .card{
-                .card-body{
-                    div{
-                        h5{
+@media (max-width: 1330px) {
+    .row {
+        .mb-4 {
+            .titleArea {
+                h3 {
+                    font-size: 20px;
+                }
+
+                h5 {
+                    font-size: 11px;
+                }
+            }
+
+            .card {
+                iframe {
+                    height: 180px;
+                }
+
+                .card-body {
+                    div {
+                        h5 {
                             font-size: 28px;
                         }
-                        p{
+
+                        p {
                             font-size: 18px;
                         }
                     }
-                    div{
-                        button{
+
+                    div {
+                        button {
                             font-size: 18px;
-                            padding: 21px 35px;
+                            padding: 21px 28px;
                             letter-spacing: 8px;
                             border-radius: 50px;
                         }
@@ -89,10 +122,62 @@ body{
     }
 }
 
-// @media (max-width: 1080px){
-//     .row{
-//         .col{
-//             width: 100%;
+@media (max-width: 1100px) {
+    .pt-5 {
+        h1{
+            font-size: 22px;
+        }
+    }
+    .row {
+        .change {
+            width: 100%;
+        }
+
+        .mb-4 {
+            .titleArea{
+                text-align: center;
+                h5 {
+                    font-size: 11px;
+                }
+            }
+            .card {
+                iframe {
+                    height: 300px;
+                }
+
+                .card-body {
+                    height: 472px;
+                    padding: 30px;
+
+                    div {
+                        h5 {
+                            font-size: 18px;
+                        }
+                        p {
+                            font-size: 14px;
+                        }
+                    }
+
+                    div {
+                        button {
+                            padding: 13px 18px;
+                            font-size: 16px;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// @media (max-width: 500px) {
+//     .row {
+//         .mb-4 {
+//             .card {
+//                 .card-body {
+//                 }
+//             }
 //         }
 //     }
 // }

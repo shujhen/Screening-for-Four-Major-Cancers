@@ -1,4 +1,4 @@
-let img = '<span><img src="./images/right-arrow.svg" alt=""></span>';
+let img = '<span><img src="./images/right-arrow.svg"></span>';
 function changeText1() {
     let element = document.getElementById("btn1");
     let elementTitle = document.getElementById("title1");
