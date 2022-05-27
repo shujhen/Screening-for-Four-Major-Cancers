@@ -33,14 +33,21 @@ main {
             z-index: 1;
 
         }
-
+        .scroll-btn {
+            position: fixed;
+            width: 100%;
+            height: 50vh;
+            bottom: 50px;
+            left: 0;
+            z-index: 2;
+        }
         .animation-container {
             width: 100%;
             height: 6000px;
             background-color: $green-700;
             position: relative;
             overflow: hidden;
-
+            scroll-behavior: smooth;
             h2 {
                 font-weight: 800;
                 font-size: 64px;

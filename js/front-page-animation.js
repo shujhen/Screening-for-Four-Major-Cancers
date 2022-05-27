@@ -517,8 +517,18 @@ window.onload = function () {
 window.onscroll = function () {
     console.log("滾動");
     var intElemScrollHeight = document.querySelector('body').scrollHeight;
+    
     console.log(document.documentElement.scrollTop, intElemScrollHeight);
     if (document.documentElement.scrollTop >= (intElemScrollHeight - 969) ) {
       parent.hideIframe()
     }
   }
+
+function scrollDown(){
+    if (document.documentElement.scrollTop >= 4000){
+        parent.hideIframe()
+    }else {
+        document.documentElement.scrollTop = document.documentElement.scrollTop + 1000;
+    }
+}
+  
