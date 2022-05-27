@@ -13906,11 +13906,12 @@ body {
     height: 300px;
   }
   .row .change .card .card-body {
-    height: 472px;
-    padding: 30px;
+    height: 455px;
+    padding: 20px;
   }
   .row .change .card .card-body div h5 {
     font-size: 18px;
+    margin-bottom: 5px;
   }
   .row .change .card .card-body div p {
     font-size: 16px;
@@ -13918,6 +13919,7 @@ body {
   .row .change .card .card-body div button {
     padding: 13px 18px;
     font-size: 18px;
+    letter-spacing: 3px;
   }
 }
 /*# sourceMappingURL=introduce.css.map */
