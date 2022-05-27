@@ -17,10 +17,10 @@ body {
 }
 
 .row {
-    .mb-4 {
+    .change {
+        margin-bottom: 100px;
         .titleArea {
             text-align: left;
-
             h3 {
                 font-size: 30px;
                 font-weight: 700;
@@ -68,6 +68,7 @@ body {
                         background-color: #723010;
                         color: white;
                         font-size: 22px;
+                        font-weight: 500;
                         padding: 16px 26px;
                         letter-spacing: 8px;
                         border-radius: 50px;
@@ -81,7 +82,7 @@ body {
 
 @media (max-width: 1330px) {
     .row {
-        .mb-4 {
+        .change {
             .titleArea {
                 h3 {
                     font-size: 20px;
@@ -114,6 +115,12 @@ body {
                             padding: 21px 28px;
                             letter-spacing: 8px;
                             border-radius: 50px;
+                            
+                            span{
+                                img{
+                                    width: 20px;
+                                }
+                            }
                         }
                     }
                 }
@@ -127,13 +134,13 @@ body {
         h1{
             font-size: 22px;
         }
+        hr {
+            margin-bottom: 60px;
+        }
     }
     .row {
         .change {
-            width: 100%;
-        }
-
-        .mb-4 {
+            margin-bottom: 60px;
             .titleArea{
                 text-align: center;
                 h5 {
@@ -154,14 +161,14 @@ body {
                             font-size: 18px;
                         }
                         p {
-                            font-size: 14px;
+                            font-size: 16px;
                         }
                     }
 
                     div {
                         button {
                             padding: 13px 18px;
-                            font-size: 16px;
+                            font-size: 18px;
 
                         }
                     }

@@ -13793,27 +13793,31 @@ body {
   margin-bottom: 100px;
 }
 
-.row .mb-4 .titleArea {
+.row .change {
+  margin-bottom: 100px;
+}
+
+.row .change .titleArea {
   text-align: left;
 }
 
-.row .mb-4 .titleArea h3 {
+.row .change .titleArea h3 {
   font-size: 30px;
   font-weight: 700;
   color: #275544;
 }
 
-.row .mb-4 .titleArea h5 {
+.row .change .titleArea h5 {
   font-size: 16px;
   font-weight: 500;
   color: #B26D2C;
 }
 
-.row .mb-4 .card iframe {
+.row .change .card iframe {
   height: 375px;
 }
 
-.row .mb-4 .card .card-body {
+.row .change .card .card-body {
   height: 620px;
   padding: 60px;
   background: #FFFBE3;
@@ -13832,49 +13836,53 @@ body {
           align-items: center;
 }
 
-.row .mb-4 .card .card-body div h5 {
+.row .change .card .card-body div h5 {
   font-size: 28px;
   font-weight: 800;
   color: #595947;
   margin-bottom: 30px;
 }
 
-.row .mb-4 .card .card-body div p {
+.row .change .card .card-body div p {
   font-size: 20px;
   font-weight: 500;
   color: #595947;
 }
 
-.row .mb-4 .card .card-body div button {
+.row .change .card .card-body div button {
   background-color: #723010;
   color: white;
   font-size: 22px;
+  font-weight: 500;
   padding: 16px 26px;
   letter-spacing: 8px;
   border-radius: 50px;
 }
 
 @media (max-width: 1330px) {
-  .row .mb-4 .titleArea h3 {
+  .row .change .titleArea h3 {
     font-size: 20px;
   }
-  .row .mb-4 .titleArea h5 {
+  .row .change .titleArea h5 {
     font-size: 11px;
   }
-  .row .mb-4 .card iframe {
+  .row .change .card iframe {
     height: 180px;
   }
-  .row .mb-4 .card .card-body div h5 {
+  .row .change .card .card-body div h5 {
     font-size: 28px;
   }
-  .row .mb-4 .card .card-body div p {
+  .row .change .card .card-body div p {
     font-size: 18px;
   }
-  .row .mb-4 .card .card-body div button {
+  .row .change .card .card-body div button {
     font-size: 18px;
     padding: 21px 28px;
     letter-spacing: 8px;
     border-radius: 50px;
+  }
+  .row .change .card .card-body div button span img {
+    width: 20px;
   }
 }
 
@@ -13882,31 +13890,34 @@ body {
   .pt-5 h1 {
     font-size: 22px;
   }
-  .row .change {
-    width: 100%;
+  .pt-5 hr {
+    margin-bottom: 60px;
   }
-  .row .mb-4 .titleArea {
+  .row .change {
+    margin-bottom: 60px;
+  }
+  .row .change .titleArea {
     text-align: center;
   }
-  .row .mb-4 .titleArea h5 {
+  .row .change .titleArea h5 {
     font-size: 11px;
   }
-  .row .mb-4 .card iframe {
+  .row .change .card iframe {
     height: 300px;
   }
-  .row .mb-4 .card .card-body {
+  .row .change .card .card-body {
     height: 472px;
     padding: 30px;
   }
-  .row .mb-4 .card .card-body div h5 {
+  .row .change .card .card-body div h5 {
     font-size: 18px;
   }
-  .row .mb-4 .card .card-body div p {
-    font-size: 14px;
-  }
-  .row .mb-4 .card .card-body div button {
-    padding: 13px 18px;
+  .row .change .card .card-body div p {
     font-size: 16px;
+  }
+  .row .change .card .card-body div button {
+    padding: 13px 18px;
+    font-size: 18px;
   }
 }
 /*# sourceMappingURL=introduce.css.map */
