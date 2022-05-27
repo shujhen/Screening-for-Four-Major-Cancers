@@ -514,20 +514,31 @@ window.onload = function () {
 }
 
 
+
+document.querySelectorAll(".circle").forEach(function(item,i){
+    item.addEventListener('click',function(){
+        document.body.scrollTop = i*1000;
+        document.documentElement.scrollTop = i*1000;
+    })
+})
+
+
+
 window.onscroll = function () {
     console.log("滾動");
     var intElemScrollHeight = document.querySelector('body').scrollHeight;
     
     console.log(document.documentElement.scrollTop, intElemScrollHeight);
-    if (document.documentElement.scrollTop >= (intElemScrollHeight - 969) ) {
+    if (document.body.scrollTop >=  (intElemScrollHeight - 969) || document.documentElement.scrollTop >= (intElemScrollHeight - 969) ) {
       parent.hideIframe()
     }
   }
 
 function scrollDown(){
-    if (document.documentElement.scrollTop >= 4000){
+    if (document.body.scrollTop >= 4000 || document.documentElement.scrollTop >= 4000){
         parent.hideIframe()
     }else {
+        document.body.scrollTop = document.body.scrollTop + 1000;
         document.documentElement.scrollTop = document.documentElement.scrollTop + 1000;
     }
 }
