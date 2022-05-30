@@ -13808,9 +13808,14 @@ body {
 }
 
 .row .change .titleArea h5 {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   color: #B26D2C;
+}
+
+.row .change .card {
+  -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+          box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .row .change .card iframe {
@@ -13818,7 +13823,7 @@ body {
 }
 
 .row .change .card .card-body {
-  height: 620px;
+  height: 580px;
   padding: 60px;
   background: #FFFBE3;
   display: -webkit-box;
@@ -13844,7 +13849,7 @@ body {
 }
 
 .row .change .card .card-body div p {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 500;
   color: #595947;
 }
@@ -13852,11 +13857,15 @@ body {
 .row .change .card .card-body div button {
   background-color: #723010;
   color: white;
-  font-size: 22px;
-  font-weight: 500;
+  font-size: 25px;
+  font-weight: 700;
   padding: 16px 26px;
-  letter-spacing: 8px;
+  letter-spacing: 4px;
   border-radius: 50px;
+}
+
+.row .change .card .card-body div button span img {
+  margin-left: 5px;
 }
 
 @media (max-width: 1330px) {
