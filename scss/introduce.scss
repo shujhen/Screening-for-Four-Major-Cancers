@@ -43,7 +43,7 @@ body {
             }
 
             .card-body {
-                height: 580px;
+                height: 515px;
                 padding: 60px;
                 background: #FFFBE3;
                 display: flex;
@@ -103,7 +103,7 @@ body {
 
             .card {
                 iframe {
-                    height: 180px;
+                    height: 300px;
                 }
 
                 .card-body {
@@ -210,6 +210,26 @@ body {
                 }
                 .bodyHight4{
                     height: 340px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 320px) {
+    .row {
+        .change{
+            .card{
+                .bodyHight1{
+                    height: 409px;
+                }
+                .bodyHight2{
+                    height: 478px;
+                }
+                .bodyHight3{
+                    height: 480px;
+                }
+                .bodyHight4{
+                    height: 444px;
                 }
             }
         }
