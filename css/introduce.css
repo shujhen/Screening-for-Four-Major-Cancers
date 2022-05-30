@@ -13903,8 +13903,11 @@ body {
 }
 
 @media (max-width: 1280px) {
+  .row .change .titleArea h3 {
+    font-size: 25px;
+  }
   .row .change .titleArea h5 {
-    font-size: 14px;
+    font-size: 16px;
   }
   .row .change .card iframe {
     height: 300px;
@@ -13928,7 +13931,7 @@ body {
     text-align: center;
   }
   .row .change .titleArea h5 {
-    font-size: 22px;
+    font-size: 16px;
   }
   .row .change .card iframe {
     height: 229px;
