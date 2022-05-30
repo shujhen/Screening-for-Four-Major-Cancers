@@ -13970,16 +13970,16 @@ body {
     font-size: 18px;
   }
   .row .change .card .bodyHight1 {
-    height: 376px;
+    height: unset;
   }
   .row .change .card .bodyHight2 {
-    height: 435px;
+    height: unset;
   }
   .row .change .card .bodyHight3 {
-    height: 450px;
+    height: unset;
   }
   .row .change .card .bodyHight4 {
-    height: 400px;
+    height: unset;
   }
   .row .change .card .card-body {
     padding: 35px;
@@ -14016,19 +14016,19 @@ body {
     font-size: 14px;
   }
   .row .change .card iframe {
-    height: 155px;
+    height: unset;
   }
   .row .change .card .bodyHight1 {
-    height: 447px;
+    height: unset;
   }
   .row .change .card .bodyHight2 {
-    height: 510px;
+    height: unset;
   }
   .row .change .card .bodyHight3 {
-    height: 544px;
+    height: unset;
   }
   .row .change .card .bodyHight4 {
-    height: 486px;
+    height: unset;
   }
   .row .change .card .card-body {
     padding: 25px;
