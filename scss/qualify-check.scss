@@ -11,7 +11,7 @@
 // 主要內容
 main {
   margin-top: 86px;
-  margin-bottom: 51px;
+  margin-bottom: 86px;
 
   @media (max-width: $grid-md) {
     margin-top: 39px;
@@ -25,7 +25,10 @@ main {
       margin-bottom: 24px;
     }
     @media (max-width: $grid-sm) {
-      font-size: 15px;
+      font-size: 20px;
+    }
+    @media (max-width: $grid-xs) {
+      font-size: 16px;
     }
   }
   // 查詢選項區
@@ -38,7 +41,7 @@ main {
     border-radius: 40px;
 
     @media (max-width: $grid-xxl) {
-      margin: 30px 10px;
+      margin: 40px 10px;
       padding: 100px 120px 61px;
     }
     @media (max-width: $grid-xl) {
@@ -82,13 +85,14 @@ main {
       line-height: 26px;
     }
     @media (max-width: $grid-sm) {
-      font-size: 13px;
+      font-size: 16px;
       line-height: 16px;
     }
   }
 
   .gender-label {
     color: $green-600;
+    margin-left: 16px;
   }
   select.birth-year {
     width: 147px;
@@ -151,7 +155,7 @@ main {
       border-top: 1px solid #cbcbcb;
     }
     @media (max-width: $grid-sm) {
-      font-size: 13px;
+      font-size: 16px;
       line-height: 16px;
     }
   }
@@ -192,6 +196,11 @@ main {
     }
     @media (max-width: $grid-sm) {
       padding-left: 10px;
+      font-size: 15px;
+      line-height: 15px;
+    }
+    @media (max-width: 353px) {
+      padding-left: 8px;
       font-size: 12px;
       line-height: 15px;
     }
@@ -216,10 +225,15 @@ main {
     }
     @media (max-width: $grid-sm) {
       margin-top: 14px;
-      padding: 6px 16px;
-      font-size: 13px;
-      line-height: 16px;
+      padding: 10px 20px;
+      font-size: 18px;
+      line-height: 18px;
       border: 4px solid #ffffff;
+    }
+    @media (max-width: 353px) {
+      padding: 10px 20px;
+      font-size: 12px;
+      line-height: 12px;
     }
     span {
       display: inline-block;
@@ -279,7 +293,7 @@ main {
     border-radius: 40px;
 
     @media (max-width: $grid-xxl) {
-      margin: 30px 10px;
+      margin: 40px 10px;
       padding: 30px 50px 100px;
     }
     @media (max-width: 1399px) {
@@ -334,7 +348,7 @@ main {
       padding: 0px;
       padding-bottom: 14px;
 
-      font-size: 13px;
+      font-size: 16px;
       line-height: 20px;
       text-align: left;
     }
@@ -355,106 +369,98 @@ main {
       margin: 0px;
       text-align: left;
     }
-  }
-  .p-line-1 {
-    font-size: 32px;
-    line-height: 1.5;
-
-    color: #723010;
-
-    @media (max-width: 1399px) {
-      position: absolute;
-      top: calc(50% - 117px);
-      left: calc(50%);
-      transform: translate(-50%, -50%);
+    .p-box{
+      @media (max-width: 1399px) {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-30%,-50%);
+      }
+      @media (max-width: 690px) {
+        position: static;
+        transform: none;
+      }
     }
-    @media (max-width: $grid-xl) {
-      font-size: 25px;
+    .p-line-1 {
+      font-size: 32px;
+  
+      color: #723010;
+  
+      @media (max-width: $grid-xl) {
+        font-size: 25px;
+      }
+      @media (max-width: $grid-md) {
+        font-size: 20px;
+      }
+      @media (max-width: 690px) {
+        
+        position: absolute;
+        top: calc(30%);
+        left: calc(50%);
+        transform: translate(-50%,-50%);
+        word-break: keep-all;
+      }
+      @media (max-width: $grid-sm) {
+        font-size: 16px;
+        line-height: 20px;
+        top: calc(30%);
+        left: 80px;
+        transform: none;
+      }
     }
-    @media (max-width: $grid-lg) {
-      left: calc(50% - 50px);
+    .p-line-2 {
+      font-weight: 800;
+      font-size: 40px;
+      margin: 10px 0px;
+  
+      color: #9e0900;
+  
+      @media (max-width: $grid-xl) {
+        font-size: 35px;
+      }
+      @media (max-width: $grid-md) {
+        font-size: 30px;
+      }
+      @media (max-width: 690px) {
+        position: absolute;
+        top: calc(30% + 70px);
+        left: calc(50%);
+        transform: translate(-30%, -50%);
+        font-size: 26px;
+      }
+      @media (max-width: $grid-sm) {
+        font-size: 20px;
+        top: calc(35%);
+        left: 120px;
+        transform: none;
+      }
     }
-    @media (max-width: 690px) {
-      width: 80%;
-      top: calc(50% - 145px);
-      left: calc(50% + 50px);
-
-      font-size: 20px;
-    }
-    @media (max-width: $grid-sm) {
-      top: calc(50% - 105px);
-      left: calc(50% + 5px);
-
-      font-size: 13px;
-      line-height: 20px;
-    }
-  }
-  .p-line-2 {
-    font-weight: 800;
-
-    font-size: 40px;
-    line-height: 1;
-
-    color: #9e0900;
-
-    @media (max-width: 1399px) {
-      position: absolute;
-      top: calc(50% - 45px);
-      left: calc(50% + 50px);
-      transform: translate(-50%, -50%);
-    }
-    @media (max-width: $grid-xl) {
-      font-size: 35px;
-    }
-    @media (max-width: $grid-lg) {
-      left: calc(50% + 92px);
-      width: 60%;
-    }
-
-    @media (max-width: 690px) {
-      width: 50%;
-      top: calc(50% - 83px);
-      left: calc(50% + 60px);
-
-      font-size: 30px;
-    }
-    @media (max-width: $grid-sm) {
-      width: 70%;
-      font-size: 20px;
-      top: calc(50% - 59px);
-      left: calc(50% + 25px);
-    }
-  }
-  .p-line-3 {
-    font-size: 32px;
-    line-height: 1.5;
-
-    color: #1b5e45;
-
-    @media (max-width: 1399px) {
-      position: absolute;
-      top: calc(50% + 80px);
-      left: calc(50% + 65px);
-      transform: translate(-50%, -50%);
-    }
-    @media (max-width: $grid-xl) {
-      font-size: 25px;
-    }
-    @media (max-width: 690px) {
-      width: 50%;
-      top: calc(50% + 5px);
-      left: calc(50% + 89px);
-
-      font-size: 20px;
-    }
-    @media (max-width: $grid-sm) {
-      font-size: 14px;
-      top: calc(50%);
-      left: calc(40% + 58px);
-    }
-
-    @media (max-width: $grid-xs) {
-      font-size: 12px;
+    .p-line-3 {
+      font-size: 32px;
+  
+      color: #1b5e45;
+  
+      @media (max-width: $grid-xl) {
+        font-size: 25px;
+      }
+      @media (max-width: $grid-md) {
+        font-size: 20px;
+      }
+      @media (max-width: 690px) {
+        position: absolute;
+        top: calc(50% + 15px);
+        left: calc(50%);
+        transform: translateX(-30%);
+      }
+      @media (max-width: $grid-sm) {
+        font-size: 14px;
+        top: calc(55%);
+        left: 120px;
+        transform: none;
+      }
+      @media (max-width: $grid-xs) {
+        font-size: 12px;
+      }
     }
   }
   .qualify-check-doctor {
@@ -485,7 +491,8 @@ main {
       height: 190px;
     }
     @media (max-width: 690px) {
-      top: 35%;
+      height: 160px;
+      top: 40%;
     }
     @media (max-width: $grid-sm) {
       height: 107px;
@@ -518,14 +525,14 @@ main {
       width: 17px;
       height: 8px;
 
-      left: 35%;
+      left: 30%;
       top: calc(50% + 90px);
 
       background: url('../images/skim-small.svg') no-repeat;
     }
     @media (max-width: 690px) {
-      top: calc(50% + 35px);
-      left: calc(50% - 50px);
+      top: calc(50%);
+      left: 168px;
     }
     @media (max-width: $grid-sm) {
       top: calc(50% + 30px);
