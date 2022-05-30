@@ -13789,6 +13789,10 @@ body {
   padding: 0;
 }
 
+.sec {
+  margin-top: 38px;
+}
+
 .sec hr {
   margin-bottom: 100px;
 }
@@ -13912,7 +13916,7 @@ body {
 
 @media (max-width: 1024px) {
   .sec h1 {
-    font-size: 22px;
+    font-size: 35px;
   }
   .sec hr {
     margin-bottom: 60px;
@@ -13924,7 +13928,7 @@ body {
     text-align: center;
   }
   .row .change .titleArea h5 {
-    font-size: 14px;
+    font-size: 22px;
   }
   .row .change .card iframe {
     height: 229px;
@@ -13949,8 +13953,11 @@ body {
 }
 
 @media (max-width: 768px) {
+  .sec {
+    margin-top: 0;
+  }
   .sec h1 {
-    font-size: 35px;
+    font-size: 30px;
   }
   .row .change .titleArea h3 {
     font-size: 25px;
@@ -13986,9 +13993,15 @@ body {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 321px) {
+  .sec {
+    margin-top: 0;
+  }
   .sec h1 {
-    font-size: 24px;
+    font-size: 15px;
+  }
+  .sec hr {
+    margin-bottom: 30px;
   }
   .row .change {
     padding: 0 20px;
