@@ -14029,6 +14029,15 @@ main .step-1 .word-container .container .tab-content .tab-pane h2 {
   }
 }
 
+@media (max-width: 350px) {
+  main .step-1 .word-container .container .tab-content .tab-pane {
+    height: 350px;
+  }
+  main .step-1 .word-container .container .tab-content .tab-pane:nth-child(3) {
+    height: 400px;
+  }
+}
+
 main .step-2 {
   padding-top: 102px;
 }
