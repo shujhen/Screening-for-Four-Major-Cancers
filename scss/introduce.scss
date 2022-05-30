@@ -30,19 +30,20 @@ body {
             }
 
             h5 {
-                font-size: 16px;
+                font-size: 20px;
                 font-weight: 500;
                 color: #B26D2C;
             }
         }
 
         .card {
+            box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
             iframe {
                 height: 375px;
             }
 
             .card-body {
-                height: 620px;
+                height: 515px;
                 padding: 60px;
                 background: #FFFBE3;
                 display: flex;
@@ -59,7 +60,7 @@ body {
                     }
 
                     p {
-                        font-size: 20px;
+                        font-size: 18px;
                         font-weight: 500;
                         color: #595947;
                     }
@@ -69,12 +70,17 @@ body {
                     button {
                         background-color: #723010;
                         color: white;
-                        font-size: 22px;
-                        font-weight: 500;
+                        font-size: 25px;
+                        font-weight: 700;
                         padding: 16px 26px;
-                        letter-spacing: 8px;
+                        letter-spacing: 4px;
                         border-radius: 50px;
-
+                        
+                        span {
+                            img {
+                                margin-left: 5px;
+                            }
+                        }
                     }
                 }
             }
@@ -82,7 +88,7 @@ body {
     }
 }
 
-@media (max-width: 1330px) {
+@media (max-width: 1366px) {
     .row {
         .change {
             .titleArea {
@@ -97,10 +103,11 @@ body {
 
             .card {
                 iframe {
-                    height: 180px;
+                    height: 300px;
                 }
 
                 .card-body {
+                    height: 530px;
                     div {
                         h5 {
                             font-size: 28px;
@@ -131,7 +138,7 @@ body {
     }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1024px) {
     .pt-5 {
         h1 {
             font-size: 22px;
@@ -160,13 +167,13 @@ body {
                 }
 
                 .card-body {
-                    height: 455px;
+                    height: 400px;
                     padding: 20px;
 
                     div {
                         h5 {
                             font-size: 18px;
-                            margin-bottom: 5px;
+                            margin-bottom: 12px;
                         }
 
                         p {
@@ -176,6 +183,7 @@ body {
 
                     div {
                         button {
+                            margin-bottom: 11px;
                             padding: 13px 18px;
                             font-size: 18px;
                             letter-spacing: 3px;
@@ -187,7 +195,7 @@ body {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .row {
         .change{
             .card{
@@ -202,6 +210,26 @@ body {
                 }
                 .bodyHight4{
                     height: 340px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 320px) {
+    .row {
+        .change{
+            .card{
+                .bodyHight1{
+                    height: 409px;
+                }
+                .bodyHight2{
+                    height: 478px;
+                }
+                .bodyHight3{
+                    height: 480px;
+                }
+                .bodyHight4{
+                    height: 444px;
                 }
             }
         }
