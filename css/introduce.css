@@ -13789,7 +13789,7 @@ body {
   padding: 0;
 }
 
-.pt-5 hr {
+.sec hr {
   margin-bottom: 100px;
 }
 
@@ -13873,7 +13873,7 @@ body {
     font-size: 20px;
   }
   .row .change .titleArea h5 {
-    font-size: 11px;
+    font-size: 16px;
   }
   .row .change .card iframe {
     height: 300px;
@@ -13888,9 +13888,9 @@ body {
     font-size: 18px;
   }
   .row .change .card .card-body div button {
-    font-size: 18px;
-    padding: 21px 28px;
-    letter-spacing: 8px;
+    font-size: 22px;
+    padding: 15px 25px;
+    letter-spacing: 4px;
     border-radius: 50px;
   }
   .row .change .card .card-body div button span img {
@@ -13898,11 +13898,17 @@ body {
   }
 }
 
+@media (max-width: 1280px) {
+  .row .change .titleArea h5 {
+    font-size: 14px;
+  }
+}
+
 @media (max-width: 1024px) {
-  .pt-5 h1 {
+  .sec h1 {
     font-size: 22px;
   }
-  .pt-5 hr {
+  .sec hr {
     margin-bottom: 60px;
   }
   .row .change {
@@ -13912,10 +13918,10 @@ body {
     text-align: center;
   }
   .row .change .titleArea h5 {
-    font-size: 11px;
+    font-size: 14px;
   }
   .row .change .card iframe {
-    height: 300px;
+    height: 229px;
   }
   .row .change .card .card-body {
     height: 400px;
@@ -13937,6 +13943,15 @@ body {
 }
 
 @media (max-width: 768px) {
+  .sec h1 {
+    font-size: 35px;
+  }
+  .row .change .titleArea h3 {
+    font-size: 25px;
+  }
+  .row .change .titleArea h5 {
+    font-size: 18px;
+  }
   .row .change .card .bodyHight1 {
     height: 290px;
   }
@@ -13949,20 +13964,59 @@ body {
   .row .change .card .bodyHight4 {
     height: 340px;
   }
+  .row .change .card .card-body {
+    height: 400px;
+    padding: 35px;
+  }
+  .row .change .card .card-body div h5 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .row .change .card .card-body div button {
+    margin-bottom: 11px;
+    padding: 13px 18px;
+    font-size: 18px;
+    letter-spacing: 3px;
+  }
 }
 
 @media (max-width: 320px) {
+  .sec h1 {
+    font-size: 24px;
+  }
+  .row .change {
+    padding: 0 20px;
+  }
+  .row .change .titleArea h3 {
+    font-size: 20px;
+  }
+  .row .change .titleArea h5 {
+    font-size: 14px;
+  }
+  .row .change .card iframe {
+    height: 155px;
+  }
   .row .change .card .bodyHight1 {
-    height: 409px;
+    height: 447px;
   }
   .row .change .card .bodyHight2 {
-    height: 478px;
+    height: 510px;
   }
   .row .change .card .bodyHight3 {
-    height: 480px;
+    height: 544px;
   }
   .row .change .card .bodyHight4 {
-    height: 444px;
+    height: 486px;
+  }
+  .row .change .card .card-body {
+    padding: 25px;
+  }
+  .row .change .card .card-body div h5 {
+    font-size: 20px;
+  }
+  .row .change .card .card-body div button {
+    padding: 13px 13px;
+    margin: 10px 0;
   }
 }
 /*# sourceMappingURL=introduce.css.map */

@@ -10,7 +10,7 @@ body {
     padding: 0;
 }
 
-.pt-5 {
+.sec {
     hr {
         margin-bottom: 100px;
     }
@@ -38,6 +38,7 @@ body {
 
         .card {
             box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+
             iframe {
                 height: 375px;
             }
@@ -75,7 +76,7 @@ body {
                         padding: 16px 26px;
                         letter-spacing: 4px;
                         border-radius: 50px;
-                        
+
                         span {
                             img {
                                 margin-left: 5px;
@@ -97,7 +98,7 @@ body {
                 }
 
                 h5 {
-                    font-size: 11px;
+                    font-size: 16px;
                 }
             }
 
@@ -108,6 +109,7 @@ body {
 
                 .card-body {
                     height: 530px;
+
                     div {
                         h5 {
                             font-size: 28px;
@@ -120,9 +122,9 @@ body {
 
                     div {
                         button {
-                            font-size: 18px;
-                            padding: 21px 28px;
-                            letter-spacing: 8px;
+                            font-size: 22px;
+                            padding: 15px 25px;
+                            letter-spacing: 4px;
                             border-radius: 50px;
 
                             span {
@@ -138,8 +140,20 @@ body {
     }
 }
 
+@media (max-width: 1280px) {
+    .row {
+        .change {
+            .titleArea {
+                h5 {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 1024px) {
-    .pt-5 {
+    .sec {
         h1 {
             font-size: 22px;
         }
@@ -157,13 +171,13 @@ body {
                 text-align: center;
 
                 h5 {
-                    font-size: 11px;
+                    font-size: 14px;
                 }
             }
 
             .card {
                 iframe {
-                    height: 300px;
+                    height: 229px;
                 }
 
                 .card-body {
@@ -196,40 +210,119 @@ body {
 }
 
 @media (max-width: 768px) {
+    .sec {
+        h1 {
+            font-size: 35px;
+        }
+    }
+
     .row {
-        .change{
-            .card{
-                .bodyHight1{
+        .change {
+            .titleArea {
+                h3 {
+                    font-size: 25px;
+                }
+
+                h5 {
+                    font-size: 18px;
+                }
+            }
+
+            .card {
+                .bodyHight1 {
                     height: 290px;
                 }
-                .bodyHight2{
+
+                .bodyHight2 {
                     height: 370px;
                 }
-                .bodyHight3{
+
+                .bodyHight3 {
                     height: 350px;
                 }
-                .bodyHight4{
+
+                .bodyHight4 {
                     height: 340px;
+                }
+
+                .card-body {
+                    height: 400px;
+                    padding: 35px;
+
+                    div {
+                        h5 {
+                            font-size: 25px;
+                            margin-bottom: 15px;
+                        }
+                    }
+
+                    div {
+                        button {
+                            margin-bottom: 11px;
+                            padding: 13px 18px;
+                            font-size: 18px;
+                            letter-spacing: 3px;
+                        }
+                    }
                 }
             }
         }
     }
 }
+
 @media (max-width: 320px) {
+    .sec {
+        h1 {
+            font-size: 24px;
+        }
+    }
+
     .row {
-        .change{
-            .card{
-                .bodyHight1{
-                    height: 409px;
+        .change {
+            padding: 0 20px;
+            .titleArea {
+                h3 {
+                    font-size: 20px;
                 }
-                .bodyHight2{
-                    height: 478px;
+
+                h5 {
+                    font-size: 14px;
                 }
-                .bodyHight3{
-                    height: 480px;
+            }
+            .card {
+                iframe {
+                    height: 155px;
                 }
-                .bodyHight4{
-                    height: 444px;
+                .bodyHight1 {
+                    height: 447px;
+                }
+
+                .bodyHight2 {
+                    height: 510px;
+                }
+
+                .bodyHight3 {
+                    height: 544px;
+                }
+
+                .bodyHight4 {
+                    height: 486px;
+                }
+
+                .card-body {
+                    padding: 25px;
+                    div {
+                        h5 {
+                            font-size: 20px;
+                        }
+                    }
+                    div {
+
+                        button {
+                            padding: 13px 13px;
+                            margin: 10px 0;
+                        }
+                    }
                 }
             }
         }
