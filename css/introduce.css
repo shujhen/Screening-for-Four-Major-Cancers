@@ -13932,6 +13932,7 @@ body {
   }
   .row .change .titleArea h5 {
     font-size: 16px;
+    margin-bottom: 1rem;
   }
   .row .change .card iframe {
     height: 229px;
@@ -13941,7 +13942,7 @@ body {
     padding: 20px;
   }
   .row .change .card .card-body div h5 {
-    font-size: 18px;
+    font-size: 22px;
     margin-bottom: 12px;
   }
   .row .change .card .card-body div p {
