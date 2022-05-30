@@ -309,6 +309,9 @@ main {
                     h2 {
                         font-size: 36px;
                     }
+                    .brown-title {
+                        font-size: 54px;
+                    }
                     .title-box {
                         flex-wrap: wrap;
                         padding: 25px 0px;
@@ -338,6 +341,10 @@ main {
             @media (max-width: 1609px) {
                 .img-cell-1 {
                     width: 500px;
+                }
+                .img-cell-2 {
+                    top: auto;
+                    bottom:-5%
                 }
                 .page-3-title-box {
                     top: 365px;
@@ -375,12 +382,14 @@ main {
             }
             @media (max-width:1400px) {
                 .img-cell-1 {
-                    top: 6.5%;
+                    top: -2.5%;
+                    left: -11.6%;
                 }
                 .img-cell-2 {
-                    width: 300px;
+                    width: 400px;
                     top: auto;
                     bottom: 5%;
+                    left: 75.25%;
                 }
                 .page-3-title-box {
                     top: 285px;
@@ -402,7 +411,7 @@ main {
             }
             @media (max-width: 1300px) {
                 .img-cell-1 {
-                    left: -17%;
+                    left: -12%;
                 }
                 .img-cell-2 {
                     left: 65%;
@@ -421,6 +430,7 @@ main {
                 }
                 .page-3-title-box {
                     top: 190px;
+                    height: 130px;
                 }
                 .img-clock {
                     right: -32%;
@@ -428,7 +438,7 @@ main {
                 .page-4-title-box {
                     width: 600px;
                     height: 130px;
-                    top: calc(50% - 360px);
+                    top: calc(50% - 295px);
                     right: auto;
                     left: calc(50% - 300px);
                     text-align: center;
@@ -442,16 +452,14 @@ main {
                     }
                 }
                 .img-cell-3 {
-                    top: auto;
-                    bottom: 35%;
+                    top: calc(50% - 200px);
+                    
                 }
                 .img-cell-4 {
-                    top: auto;
-                    bottom: -10%;
+                    top: calc(50% - -10px);
                 }
                 .img-magnifier {
-                    top: auto;
-                    bottom: -25%;
+                    top: calc(50% - 580px);
                     right: 20%;
                 }
             }
@@ -459,19 +467,30 @@ main {
             @media (max-width: 869px) {
                 
                 .page-1-h2 {
-                    font-size: 32px;
+                    font-size: 40px;
                     text-align: center;
                 }
 
                 .page-1-span {
-                    font-size: 24px;
+                    font-size: 32px;
                     text-align: center;
                     top: 365px;
                 }
-
+                .pad-hide {
+                    display: none;
+                }
+                .pad-show {
+                    display: block;
+                }
                 .page-2-span {
-                    font-size: 24px;
-                    text-align: center;
+                    width: 282px;
+                    height: 126px;
+                    top: calc(50% - 63px);
+                    left: calc(50% - 141px);
+                    font-size: 40px;
+                    font-weight: 700;
+                    line-height: 70px;
+                    text-align: left;
                 }
 
                 .img-cell-2 {
@@ -479,15 +498,26 @@ main {
                     left: 60%;
                 }
                 .page-3-title-box {
+                    top: 220px;
+                    left: 15.7%;
                     .page-3-h2 {
-                        font-size: 32px;
+                        font-size: 40px;
                     }
                     .page-3-span {
-                        font-size: 24px;
+                        font-size: 32px;
                     }
                 }
                 .img-clock {
                     bottom: -40%;
+                }
+                .page-4-title-box {
+                    top: calc(50% - 330px);
+                    .page-4-h2 {
+                        font-size: 40px;
+                    }
+                    .page-4-span {
+                        font-size: 32px;
+                    }
                 }
             }
 
