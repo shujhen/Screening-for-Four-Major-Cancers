@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="四癌篩檢補助資訊網，介紹台中市轄區內癌症篩檢的補助資訊，總共有四項癌症補助：口腔癌(口腔黏膜檢查)、乳癌(乳房X光攝影檢查)、大腸癌(糞便潛血檢查)、子宮頸癌 (子宮頸抹片檢查)。"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Test</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/template.css" />
+    <link rel="stylesheet" href="./css/quiz.css" />
+  </head>
+  <body>
+    <!-- LOGO + 導覽列 -->
+    <div class="header">
+      <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="index.html"
+          ><img src="./images/logo.svg" class="logo" alt="四癌篩檢補助 Logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#dropdownMenu"
+          aria-controls="dropdownMenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <img src="./images/burger.svg" alt="Toggle Menu Button" />
+        </button>
+        <div class="collapse navbar-collapse" id="dropdownMenu">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="introduce.html" class="nav-link">四癌篩檢介紹</a>
+            </li>
+            <li class="nav-item">
+              <a href="qualify-check.html" class="nav-link">補助資格查詢</a>
+            </li>
+            <li class="nav-item">
+              <a href="hospital-list.html" class="nav-link">篩檢機構查詢</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- 主要內容 -->
+    <main class="container text-center">
+      <!-- 每個頁面要有一個 h1，為了讓 SEO 加分，即使沒有要顯示的也要寫，然後用 class="text-hide" 隱藏 -->
+      <h1 class="text-hide">四癌篩檢醫療機構列表(**請改成當前頁面標題**)</h1>
+
+
+
+      <section>  
+        <!-- quiz game -->
+        <div class="container">
+          <div class="quiz-title py-5">
+				    <span class="quiz-titleLarge">
+					    Step 3 : 四癌篩檢小測驗，考考你是否都會了!
+				    </span>
+				    <span class="quiz-titleSmall">
+					    Step 3 : 隨堂小測驗!
+				    </span>
+          </div>
+          <div class="row py-5">
+            <div class="col quiz-content-bgset py-5">
+              <div class="justify-content-center quiz-caption pt-5">
+                <div class="justify-content-center quizCount"></div>
+                <div class="quizQuestion  justify-content-center py-5"></div>
+              
+                  <div class="justify-content-center quizAnswer">
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- STEP.4：開始 -->
+    	<section class="quizAfter pb-3">
+        <div class="container">
+
+          <div class="quiz-title py-5">
+					  <span class="quiz-titleLarge">
+						  Step 4 : 確認自己是否符合補助資格、找尋篩檢機構 !
+					  </span>
+					  <span class="quiz-titleSmall">
+						  Step 4 : 查詢補助資格、找尋篩檢機構 !
+					  </span>
+          </div>
+
+          <!-- 兩欄外連結：開始 -->
+          <div class="row justify-content-center pt-5 pb-3">
+
+              <!-- 左欄：開始 -->
+              <div class="col-xl-5 col-lg-8 col-md-8 quiz-infoTop-bgSet mx-3 my-2">
+                <div class="row py-xl-5 py-lg-4 py-md-4 py-sm-4 py-4">
+                  <div class="col-xl-4 col-lg-4 col-md-5 col-5"></div>
+                  <div class="col-xl-8 col-lg-7 col-md-6 col-6 quiz-infoTop-saying">不要錯過自己權益</div>
+                </div>
+                <div class="row justify-content-center py-4 px-4">
+                  <div class="col-xl-12 col-lg-8 col-md-8 col-10 quizbtn-linkSupport justify-content-end align-items-center">
+                    <a href="qualify-check.html">
+                      <div>補助資格</div>
+                    </a>
+                    <a href="qualify-check.html">
+                      <div><img src="./images/quiz/linkbtn-play.svg" alt=""></div>
+                    </a>
+                  </div>
+                </div>  
+                <div class="quiz-imgLocation">
+                  <img src="./images/quiz/Dr.female.svg" alt="">
+                </div>        
+              </div> 
+              <!-- 左欄：結束 -->
+
+              <!-- 右欄：開始 -->
+              <div class="col-xl-5 col-lg-8 col-md-8 quiz-infoTop-bgSet mx-3 my-2">
+                <div class="row py-xl-5 py-lg-4">
+                  <div class="col-xl-4 col-lg-4"></div>
+                  <div class="col-xl-8 col-lg-7 quiz-infoTop-saying">定期篩檢很重要喔</div>
+                </div>
+                <div class="row justify-content-center py-4 px-4">
+                  <div class="col-xl-12 col-lg-8 col-md-10 quizbtn-linkSupport justify-content-end align-items-center">
+                    <a href="hospital-list.html">
+                      <div>篩檢機構</div>
+                      </a>
+                      <a href="hospital-list.html">
+                      <div><img src="./images/quiz/linkbtn-play.svg" alt=""></div>
+                    </a>
+                  </div>
+                
+                </div>  
+                <div class="quiz-imgLocation">
+                  <img src="./images/quiz/Dr.male.svg" alt="">
+                </div>        
+              </div>
+              <!-- 右欄：結束 -->
+          
+          </div>
+          <!-- 兩欄外連結：結束 -->
+
+          
+
+          
+         
+            <!-- 綠框框開始 -->
+            <div class="row justify-content-center py-5">
+              <div class=" col-11 quiz-infoDown-bgset pt-5">
+
+                <div class="row justify-content-center pt-5 pb-3">
+                  <div class="row justify-content-center my-lg-2 my-md-5">
+                    <div class="quiz-title justify-content-center quiz-titleSpace col-7 col-lg-12">
+                      記得隨時掌握最新健康資訊喔
+                    </div>
+                  </div>  
+                </div>
+
+                <div class="row justify-content-center pb-5 pt-3">
+
+                  <div class="row p-4">
+                    <div class="col-auto quizbtn-infoSupport justify-content-center align-items-center py-xl-2 mx-5"> 
+                      <div class="col-auto">
+                        <a href="https://www.facebook.com/mohw.gov.tw">
+                          <img src="./images/quiz/FB-icon.svg" alt=""></div>
+                          <div class="col-auto">衛生福利部</div>
+                        </a>
+                    </div>  
+                  </div>
+
+                  <div class="row p-4">
+                    <div class="col-auto quizbtn-infoSupport justify-content-center align-items-center py-xl-2">
+                      <div class="col-auto">
+                        <a href="https://www.facebook.com/HealthTaichung">
+                          <img src="./images/quiz/FB-icon.svg" alt=""></div>
+                        <div class="col-auto">台中市衛生局 - 健康小衛星</div>
+                        </a>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="row justify-content-center pt-3">
+                  <div class="col-12 col-md-11 col-lg-9">
+                    <img src="./images/quiz/werfamily.svg" alt="">
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <!-- 綠框框結束 -->
+    
+        </div>
+      </section>
+      <!-- STEP.4：結束 -->
+
+
+
+
+    </main>
+    <!-- 表尾資訊 -->
+    <footer>
+      <div class="row justify-content-between align-items-center no-gutters">
+        <p class="col-lg-6 col-md-12 p-0 text-center text-lg-left">
+          <span class="text-nowrap">Copyright © 2022 </span>
+          <span class="text-nowrap">Screening for Four Major Cancers </span>
+          <span class="text-nowrap">| Taichung Version</span>
+        </p>
+        <p class="col-lg-6 col-md-12 p-0 text-center text-lg-right">
+          資料來源 :
+          <a href="https://www.mohw.gov.tw/" target="_blank">衛生福利部</a>、<a
+            href="https://www.health.taichung.gov.tw/"
+            target="_blank"
+            >臺中市衛生局</a
+          >&nbsp;<span class="d-inline d-lg-none">(截至2022.05.31)</span>
+        </p>
+      </div>
+    </footer>
+    <!-- Javascript -->
+    <script src="./js/jquery.slim.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/quiz.js"></script>
+
+
+  </body>
+</html>
