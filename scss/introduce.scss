@@ -11,6 +11,7 @@ body {
 }
 
 .sec {
+    margin-top: 38px;
     hr {
         margin-bottom: 100px;
     }
@@ -129,7 +130,7 @@ body {
 
                             span {
                                 img {
-                                    width: 20px;
+                                    width: 30px;
                                 }
                             }
                         }
@@ -144,8 +145,28 @@ body {
     .row {
         .change {
             .titleArea {
+                h3{
+                    font-size: 25px;
+                }
                 h5 {
-                    font-size: 14px;
+                    font-size: 16px;
+                }
+            }
+            .card {
+                iframe {
+                    height: 300px;
+                }
+
+                .card-body {
+                    div {
+                        button {
+                            span {
+                                img {
+                                    width: 30px;
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -155,7 +176,7 @@ body {
 @media (max-width: 1024px) {
     .sec {
         h1 {
-            font-size: 22px;
+            font-size: 35px;
         }
 
         hr {
@@ -171,7 +192,7 @@ body {
                 text-align: center;
 
                 h5 {
-                    font-size: 14px;
+                    font-size: 16px;
                 }
             }
 
@@ -211,8 +232,9 @@ body {
 
 @media (max-width: 768px) {
     .sec {
-        h1 {
-            font-size: 35px;
+        margin-top: 0;
+        h1{
+            font-size: 30px;
         }
     }
 
@@ -230,23 +252,22 @@ body {
 
             .card {
                 .bodyHight1 {
-                    height: 290px;
+                    height: 376px;
                 }
 
                 .bodyHight2 {
-                    height: 370px;
+                    height: 435px;
                 }
 
                 .bodyHight3 {
-                    height: 350px;
+                    height: 450px;
                 }
 
                 .bodyHight4 {
-                    height: 340px;
+                    height: 400px;
                 }
 
                 .card-body {
-                    height: 400px;
                     padding: 35px;
 
                     div {
@@ -258,7 +279,7 @@ body {
 
                     div {
                         button {
-                            margin-bottom: 11px;
+                            margin: 11px;
                             padding: 13px 18px;
                             font-size: 18px;
                             letter-spacing: 3px;
@@ -270,10 +291,14 @@ body {
     }
 }
 
-@media (max-width: 320px) {
-    .sec {
-        h1 {
+@media (max-width: 321px) {
+    .sec  {
+        margin-top: 0;
+        h1{
             font-size: 24px;
+        }
+        hr{
+            margin-bottom: 30px;
         }
     }
 

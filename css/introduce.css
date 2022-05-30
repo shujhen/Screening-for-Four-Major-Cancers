@@ -13789,6 +13789,10 @@ body {
   padding: 0;
 }
 
+.sec {
+  margin-top: 38px;
+}
+
 .sec hr {
   margin-bottom: 100px;
 }
@@ -13894,19 +13898,28 @@ body {
     border-radius: 50px;
   }
   .row .change .card .card-body div button span img {
-    width: 20px;
+    width: 30px;
   }
 }
 
 @media (max-width: 1280px) {
+  .row .change .titleArea h3 {
+    font-size: 25px;
+  }
   .row .change .titleArea h5 {
-    font-size: 14px;
+    font-size: 16px;
+  }
+  .row .change .card iframe {
+    height: 300px;
+  }
+  .row .change .card .card-body div button span img {
+    width: 30px;
   }
 }
 
 @media (max-width: 1024px) {
   .sec h1 {
-    font-size: 22px;
+    font-size: 35px;
   }
   .sec hr {
     margin-bottom: 60px;
@@ -13918,7 +13931,7 @@ body {
     text-align: center;
   }
   .row .change .titleArea h5 {
-    font-size: 14px;
+    font-size: 16px;
   }
   .row .change .card iframe {
     height: 229px;
@@ -13943,8 +13956,11 @@ body {
 }
 
 @media (max-width: 768px) {
+  .sec {
+    margin-top: 0;
+  }
   .sec h1 {
-    font-size: 35px;
+    font-size: 30px;
   }
   .row .change .titleArea h3 {
     font-size: 25px;
@@ -13953,19 +13969,18 @@ body {
     font-size: 18px;
   }
   .row .change .card .bodyHight1 {
-    height: 290px;
+    height: 376px;
   }
   .row .change .card .bodyHight2 {
-    height: 370px;
+    height: 435px;
   }
   .row .change .card .bodyHight3 {
-    height: 350px;
+    height: 450px;
   }
   .row .change .card .bodyHight4 {
-    height: 340px;
+    height: 400px;
   }
   .row .change .card .card-body {
-    height: 400px;
     padding: 35px;
   }
   .row .change .card .card-body div h5 {
@@ -13973,16 +13988,22 @@ body {
     margin-bottom: 15px;
   }
   .row .change .card .card-body div button {
-    margin-bottom: 11px;
+    margin: 11px;
     padding: 13px 18px;
     font-size: 18px;
     letter-spacing: 3px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 321px) {
+  .sec {
+    margin-top: 0;
+  }
   .sec h1 {
     font-size: 24px;
+  }
+  .sec hr {
+    margin-bottom: 30px;
   }
   .row .change {
     padding: 0 20px;
