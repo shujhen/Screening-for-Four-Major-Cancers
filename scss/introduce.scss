@@ -129,7 +129,7 @@ body {
 
                             span {
                                 img {
-                                    width: 20px;
+                                    width: 30px;
                                 }
                             }
                         }
@@ -146,6 +146,23 @@ body {
             .titleArea {
                 h5 {
                     font-size: 14px;
+                }
+            }
+            .card {
+                iframe {
+                    height: 300px;
+                }
+
+                .card-body {
+                    div {
+                        button {
+                            span {
+                                img {
+                                    width: 30px;
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -271,7 +288,7 @@ body {
 }
 
 @media (max-width: 320px) {
-    .sec {
+    .sec  {
         h1 {
             font-size: 24px;
         }
