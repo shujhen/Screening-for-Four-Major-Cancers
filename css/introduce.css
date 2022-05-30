@@ -13868,7 +13868,7 @@ body {
   margin-left: 5px;
 }
 
-@media (max-width: 1330px) {
+@media (max-width: 1366px) {
   .row .change .titleArea h3 {
     font-size: 20px;
   }
@@ -13877,6 +13877,9 @@ body {
   }
   .row .change .card iframe {
     height: 180px;
+  }
+  .row .change .card .card-body {
+    height: 530px;
   }
   .row .change .card .card-body div h5 {
     font-size: 28px;
@@ -13895,7 +13898,7 @@ body {
   }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1024px) {
   .pt-5 h1 {
     font-size: 22px;
   }
@@ -13915,24 +13918,25 @@ body {
     height: 300px;
   }
   .row .change .card .card-body {
-    height: 455px;
+    height: 400px;
     padding: 20px;
   }
   .row .change .card .card-body div h5 {
     font-size: 18px;
-    margin-bottom: 5px;
+    margin-bottom: 12px;
   }
   .row .change .card .card-body div p {
     font-size: 16px;
   }
   .row .change .card .card-body div button {
+    margin-bottom: 11px;
     padding: 13px 18px;
     font-size: 18px;
     letter-spacing: 3px;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .row .change .card .bodyHight1 {
     height: 290px;
   }
