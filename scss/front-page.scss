@@ -319,6 +319,20 @@ main {
                 padding: 0 11.22% 0;
             }
         }
+        @media (max-width: 350px) {
+            .word-container {
+                .container {
+                    .tab-content {
+                        .tab-pane {
+                            height: 350px;
+                        }
+                        .tab-pane:nth-child(3) {
+                            height: 400px;
+                        }
+                    }
+                }
+            }
+        }
     }
 
     .step-2 {
