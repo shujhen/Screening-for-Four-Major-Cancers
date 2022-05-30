@@ -13966,19 +13966,18 @@ body {
     font-size: 18px;
   }
   .row .change .card .bodyHight1 {
-    height: 290px;
+    height: 376px;
   }
   .row .change .card .bodyHight2 {
-    height: 370px;
+    height: 435px;
   }
   .row .change .card .bodyHight3 {
-    height: 350px;
+    height: 450px;
   }
   .row .change .card .bodyHight4 {
-    height: 340px;
+    height: 400px;
   }
   .row .change .card .card-body {
-    height: 400px;
     padding: 35px;
   }
   .row .change .card .card-body div h5 {
@@ -13986,7 +13985,7 @@ body {
     margin-bottom: 15px;
   }
   .row .change .card .card-body div button {
-    margin-bottom: 11px;
+    margin: 11px;
     padding: 13px 18px;
     font-size: 18px;
     letter-spacing: 3px;
