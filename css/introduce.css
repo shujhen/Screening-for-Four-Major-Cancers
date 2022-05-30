@@ -13789,7 +13789,7 @@ body {
   padding: 0;
 }
 
-.pt-5 hr {
+.sec hr {
   margin-bottom: 100px;
 }
 
@@ -13905,10 +13905,10 @@ body {
 }
 
 @media (max-width: 1024px) {
-  .pt-5 h1 {
+  .sec h1 {
     font-size: 22px;
   }
-  .pt-5 hr {
+  .sec hr {
     margin-bottom: 60px;
   }
   .row .change {
@@ -13943,7 +13943,7 @@ body {
 }
 
 @media (max-width: 768px) {
-  .pt-5 h1 {
+  .sec h1 {
     font-size: 35px;
   }
   .row .change .titleArea h3 {
@@ -13981,7 +13981,7 @@ body {
 }
 
 @media (max-width: 320px) {
-  .pt-5 h1 {
+  .sec h1 {
     font-size: 24px;
   }
   .row .change {
