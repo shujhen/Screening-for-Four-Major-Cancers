@@ -9,13 +9,14 @@ main {
         padding-top: 95px;
 
         .title-box {
-            width: 532px;
+            width: 552px;
             height: 48px;
 
             h1 {
                 font-size: 40px;
                 font-weight: 800;
                 line-height: 48.41px;
+                letter-spacing: 1px;
             }
 
             .grern-title {
@@ -49,8 +50,9 @@ main {
                         left: 50%;
                         transform: translate(-50%, 100%);
                         font-size: 30px;
-                        font-weight: 800;
+                        font-weight: 700;
                         line-height: 36.31px;
+                        letter-spacing: 1px;
                         width: 147px;
                         height: 37.82px;
                         color: $green-400;
@@ -146,7 +148,7 @@ main {
 
         @media (max-width: $grid-xl) {
             .title-box {
-                width: 479px;
+                width: 500px;
 
                 h1 {
                     font-size: 36px;
@@ -216,7 +218,7 @@ main {
             background-color: #FFFFFF;
 
             .title-box {
-                width: 240px;
+                width: 260px;
                 height: 18px;
 
                 h1 {
@@ -239,7 +241,7 @@ main {
                         span {
                             font-size: 14px;
                             line-height: 14.52px;
-                            width: 56px;
+                            width: 60px;
                             height: 15.27px;
                             bottom: -12.25px;
                         }
@@ -327,6 +329,7 @@ main {
             font-size: 40px;
             font-weight: 800;
             line-height: 48px;
+            letter-spacing: 1px;
 
             .brown-title {
                 color: $brown-500;
@@ -411,7 +414,7 @@ main {
                     bottom: -16px;
                     left: 50%;
                     transform: translateX(-50%);
-                    color: #EBEBEB;
+                    color: #FFFFFF;
                     text-align: left;
 
                     .border {
@@ -429,7 +432,7 @@ main {
 
                         h3 {
                             font-size: 32px;
-                            font-weight: 800;
+                            font-weight: 700;
                             line-height: 52px;
                             margin-bottom: 30px;
                         }
@@ -474,25 +477,37 @@ main {
 
         @media (max-width: $grid-xxl) {
             .swiper {
-                height: 824px;
+                height: 764px;
 
                 .swiper-slide {
-                    height: 700px;
-                    overflow: visible;
-
+                    height: 640px;
+                    // overflow: visible;
+                    .swiper-man {
+                        left: calc(50% - 380px);
+                    }
+                    .swiper-oldman {
+                        left: calc(50% - 175px)
+                    }
+                    .swiper-women {
+                        right: calc(50% - 345px)
+                    }
+                    .swiper-oldwomen {
+                        right: calc(50% - 180px)
+                    }
                     .swiper-word {
                         width: calc(100% + 32px);
-                        height: 289px;
+                        height: 229px;
                         bottom: -16px;
                         z-index: 1;
 
                         .border {
-                            width: 420px;
+                            width: 500px;
                             left: 50%;
                             transform: translateX(-50%);
                         }
 
                         .word-box {
+                            width: 500px;
                             left: 50%;
                             text-align: center;
                         }
@@ -546,15 +561,17 @@ main {
                     h2 {
                         font-size: 24px;
                         line-height: 29px;
+                        font-weight: 700;
                         color: #FFFFFF;
                         top: 139px;
-                        left: 25.4%;
-                        transform: none;
+                        // left: 25.4%;
+                        left: 50%;
+                        transform: translateX(-50%);
                         z-index: 2;
                     }
                     .swiper-icon {
                         top: 142px;
-                        left: calc(25.4% - 40px);
+                        left: calc(50% - 70px);
                         z-index: 2;
                     }
                     .mobile-hide {
@@ -599,7 +616,7 @@ main {
                             top: 68px;
                             h3 {
                                 font-size: 16px;
-                                font-weight: 800;
+                                font-weight: 700;
                                 line-height: 23px;
                             }
                             p {
@@ -609,7 +626,11 @@ main {
                         }
                     }
                 }
-                
+                .swiper-slide:nth-child(4) {
+                    .swiper-icon {
+                        left: calc(50% - 80px);
+                    }
+                }
 
                 .swiper-pagination {
                     bottom: 3px;
@@ -626,6 +647,13 @@ main {
         @media (max-width: $grid-sm){
             .swiper {
                 .swiper-slide,.swiper-slide:nth-child(3),.swiper-slide:nth-child(4) {
+                    h2 {
+                        left: 62px;
+                        transform: none;
+                    }
+                    .swiper-icon {
+                        left: 27px;
+                    }
                     .swiper-word{
                         .word-box {
                             text-align: left;

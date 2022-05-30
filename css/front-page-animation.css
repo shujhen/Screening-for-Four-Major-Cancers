@@ -13917,7 +13917,7 @@ main #front-page-animation .animation-container .page-2-span {
   width: 750px;
   height: 61px;
   left: calc(50% - 375px);
-  bottom: 460px;
+  top: calc(50% - 30.5px);
   z-index: 1;
   opacity: 0;
 }
@@ -14035,7 +14035,7 @@ main #front-page-animation .animation-container .title-border {
   width: calc(100% - 727px);
   height: 534px;
   left: calc(50% - (100% - 727px) / 2);
-  top: 205px;
+  top: calc(50% - 267px);
   background-color: #123e30;
   border: 16px solid #FFFFFF;
   -webkit-filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.4));
@@ -14045,7 +14045,7 @@ main #front-page-animation .animation-container .title-border {
 }
 
 main #front-page-animation .animation-container .title-border .brown-title {
-  width: 524px;
+  width: 470px;
   height: 77px;
   left: 50%;
   top: 95px;
@@ -14056,7 +14056,7 @@ main #front-page-animation .animation-container .title-border .brown-title {
 
 main #front-page-animation .animation-container .title-border .white-title {
   position: absolute;
-  width: 781px;
+  width: 705px;
   height: 77px;
   left: 50%;
   top: 212px;
@@ -14118,13 +14118,9 @@ main #front-page-animation .animation-container .title-border .title-box .brown-
 }
 
 @media (max-width: 869px) {
-  main #front-page-animation .animation-container .title-border h2 {
-    font-size: 36px;
-    text-align: center;
-  }
-  main #front-page-animation .animation-container .title-border span {
-    font-size: 24px;
-    text-align: center;
+  main #front-page-animation .animation-container .title-border .title-box {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 
@@ -14146,6 +14142,21 @@ main #front-page-animation .animation-container .img-arrow {
 }
 
 @media (max-width: 1609px) {
+  main #front-page-animation .animation-container .page-3-title-box {
+    top: 365px;
+  }
+  main #front-page-animation .animation-container .img-clock {
+    right: -14.76%;
+  }
+  main #front-page-animation .animation-container .img-cell-3 {
+    top: 110px;
+  }
+  main #front-page-animation .animation-container .img-cell-4 {
+    top: 460px;
+  }
+  main #front-page-animation .animation-container .img-magnifier {
+    top: -190px;
+  }
   main #front-page-animation .animation-container .page-4-title-box {
     top: 185px;
     height: 175px;
@@ -14156,12 +14167,60 @@ main #front-page-animation .animation-container .img-arrow {
   main #front-page-animation .animation-container .page-4-title-box span {
     font-size: 36px;
   }
+  main #front-page-animation .animation-container .img-arrow {
+    display: none;
+  }
+}
+
+@media (max-width: 1400px) {
+  main #front-page-animation .animation-container .img-cell-2 {
+    top: 390px;
+  }
+  main #front-page-animation .animation-container .page-3-title-box {
+    top: 285px;
+  }
+  main #front-page-animation .animation-container .img-clock {
+    right: -24%;
+  }
+  main #front-page-animation .animation-container .page-4-title-box {
+    width: 600px;
+  }
+  main #front-page-animation .animation-container .img-magnifier {
+    top: -375px;
+  }
+  main #front-page-animation .animation-container .img-cell-3 {
+    top: -33px;
+  }
+  main #front-page-animation .animation-container .img-cell-4 {
+    top: 295px;
+  }
+}
+
+@media (max-width: 1300px) {
+  main #front-page-animation .animation-container .img-cell-1 {
+    left: -17%;
+    top: -170px;
+  }
+  main #front-page-animation .animation-container .img-cell-2 {
+    top: 350px;
+    left: 65%;
+  }
+  main #front-page-animation .animation-container .img-clock {
+    right: -36%;
+  }
 }
 
 @media (max-width: 1040px) {
+  main #front-page-animation .animation-container .page-3-title-box {
+    top: 190px;
+  }
+  main #front-page-animation .animation-container .img-clock {
+    bottom: -50%;
+    right: -48%;
+  }
   main #front-page-animation .animation-container .page-4-title-box {
     right: auto;
-    left: calc(50% - 386px);
+    left: calc(50% - 300px);
     text-align: center;
   }
   main #front-page-animation .animation-container .page-4-title-box h2 {
@@ -14170,7 +14229,14 @@ main #front-page-animation .animation-container .img-arrow {
   main #front-page-animation .animation-container .page-4-title-box span {
     font-size: 24px;
   }
+  main #front-page-animation .animation-container .img-cell-3 {
+    top: 30%;
+  }
+  main #front-page-animation .animation-container .img-cell-4 {
+    top: 60%;
+  }
   main #front-page-animation .animation-container .img-magnifier {
+    top: -10%;
     right: 20%;
   }
 }
@@ -14187,6 +14253,13 @@ main #front-page-animation .animation-container .img-arrow {
   main #front-page-animation .animation-container .page-2-span {
     font-size: 24px;
     text-align: center;
+  }
+  main #front-page-animation .animation-container .img-cell-2 {
+    top: 50%;
+    left: 45%;
+  }
+  main #front-page-animation .animation-container .img-clock {
+    bottom: -65%;
   }
 }
 
@@ -14220,7 +14293,7 @@ main #front-page-animation .animation-container .img-arrow {
   main #front-page-animation .animation-container .page-2-span {
     width: 145px;
     height: 70px;
-    top: 267px;
+    top: calc(50% - 35px);
     left: calc(50% - 72.5px);
     font-size: 20px;
     font-weight: 700;
@@ -14229,17 +14302,19 @@ main #front-page-animation .animation-container .img-arrow {
   }
   main #front-page-animation .animation-container .img-cell-1 {
     top: 29px;
-    left: -23.12%;
+    left: -12%;
   }
   main #front-page-animation .animation-container .img-cell-2 {
-    top: 275px;
+    top: auto;
+    bottom: -100px;
     left: auto;
-    right: -56.63%;
+    right: -36%;
   }
   main #front-page-animation .animation-container .page-3-title-box {
     width: 159px;
     height: 58px;
-    top: 416px;
+    top: auto;
+    bottom: 94px;
     left: 12.18%;
   }
   main #front-page-animation .animation-container .page-3-title-box .page-3-h2 {
@@ -14259,7 +14334,7 @@ main #front-page-animation .animation-container .img-arrow {
     width: 240px;
     height: 79px;
     left: calc(50% - 120px);
-    top: 92px;
+    top: calc(50% - 220px);
     text-align: left;
   }
   main #front-page-animation .animation-container .page-4-title-box h2 {
@@ -14271,18 +14346,18 @@ main #front-page-animation .animation-container .img-arrow {
     line-height: 19px;
   }
   main #front-page-animation .animation-container .img-cell-3 {
-    top: 255.33px;
-    left: 5.11%;
+    top: calc(50% - 71px);
+    left: calc(50% - 133px);
   }
   main #front-page-animation .animation-container .img-cell-4 {
-    top: 250.15px;
+    top: calc(50% - 80px);
     left: auto;
-    right: -8.15%;
+    right: calc(50% - 210px);
   }
   main #front-page-animation .animation-container .img-magnifier {
-    top: 214px;
+    top: calc(50% - 148px);
     right: auto;
-    left: -30%;
+    left: calc(50% - 295px);
   }
   main #front-page-animation .animation-container .mobile-show {
     display: block;
