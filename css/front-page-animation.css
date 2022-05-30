@@ -14118,6 +14118,9 @@ main #front-page-animation .animation-container .title-border .title-box .brown-
 }
 
 @media (max-width: 869px) {
+  main #front-page-animation .animation-container .title-border h2 {
+    font-size: 36px;
+  }
   main #front-page-animation .animation-container .title-border .title-box {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -14146,7 +14149,9 @@ main #front-page-animation .animation-container .img-arrow {
     top: 365px;
   }
   main #front-page-animation .animation-container .img-clock {
+    width: 1000px;
     right: -14.76%;
+    bottom: -235px;
   }
   main #front-page-animation .animation-container .img-cell-3 {
     top: 110px;
@@ -14158,7 +14163,8 @@ main #front-page-animation .animation-container .img-arrow {
     top: -190px;
   }
   main #front-page-animation .animation-container .page-4-title-box {
-    top: 185px;
+    top: calc(50% - 87.5px);
+    right: -10%;
     height: 175px;
   }
   main #front-page-animation .animation-container .page-4-title-box h2 {
@@ -14173,8 +14179,12 @@ main #front-page-animation .animation-container .img-arrow {
 }
 
 @media (max-width: 1400px) {
+  main #front-page-animation .animation-container .img-cell-1 {
+    width: 500px;
+  }
   main #front-page-animation .animation-container .img-cell-2 {
-    top: 390px;
+    width: 300px;
+    top: 600px;
   }
   main #front-page-animation .animation-container .page-3-title-box {
     top: 285px;
@@ -14182,17 +14192,14 @@ main #front-page-animation .animation-container .img-arrow {
   main #front-page-animation .animation-container .img-clock {
     right: -24%;
   }
-  main #front-page-animation .animation-container .page-4-title-box {
-    width: 600px;
-  }
   main #front-page-animation .animation-container .img-magnifier {
-    top: -375px;
+    top: calc(50% - 680px);
   }
   main #front-page-animation .animation-container .img-cell-3 {
-    top: -33px;
+    top: calc(50% - 450px);
   }
   main #front-page-animation .animation-container .img-cell-4 {
-    top: 295px;
+    top: calc(50% + 40px);
   }
 }
 
@@ -14202,11 +14209,14 @@ main #front-page-animation .animation-container .img-arrow {
     top: -170px;
   }
   main #front-page-animation .animation-container .img-cell-2 {
-    top: 350px;
+    top: 600px;
     left: 65%;
   }
   main #front-page-animation .animation-container .img-clock {
-    right: -36%;
+    right: -20%;
+  }
+  main #front-page-animation .animation-container .page-4-title-box {
+    right: -15%;
   }
 }
 
@@ -14215,10 +14225,11 @@ main #front-page-animation .animation-container .img-arrow {
     top: 190px;
   }
   main #front-page-animation .animation-container .img-clock {
-    bottom: -50%;
-    right: -48%;
+    right: -32%;
   }
   main #front-page-animation .animation-container .page-4-title-box {
+    width: 600px;
+    top: calc(50% - 375.5px);
     right: auto;
     left: calc(50% - 300px);
     text-align: center;
@@ -14255,11 +14266,11 @@ main #front-page-animation .animation-container .img-arrow {
     text-align: center;
   }
   main #front-page-animation .animation-container .img-cell-2 {
-    top: 50%;
-    left: 45%;
+    top: 63%;
+    left: 60%;
   }
   main #front-page-animation .animation-container .img-clock {
-    bottom: -65%;
+    bottom: -40%;
   }
 }
 
@@ -14303,12 +14314,14 @@ main #front-page-animation .animation-container .img-arrow {
   main #front-page-animation .animation-container .img-cell-1 {
     top: 29px;
     left: -12%;
+    width: auto;
   }
   main #front-page-animation .animation-container .img-cell-2 {
     top: auto;
     bottom: -100px;
     left: auto;
     right: -36%;
+    width: auto;
   }
   main #front-page-animation .animation-container .page-3-title-box {
     width: 159px;
@@ -14326,6 +14339,7 @@ main #front-page-animation .animation-container .img-arrow {
     line-height: 19px;
   }
   main #front-page-animation .animation-container .img-clock {
+    width: auto;
     top: -78px;
     right: -38.18%;
     left: auto;
