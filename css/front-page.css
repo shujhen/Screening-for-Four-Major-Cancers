@@ -13976,7 +13976,7 @@ main .step-1 .word-container .container .tab-content .tab-pane .w750-show {
     padding: 0 100px;
   }
   main .step-1 ul li .nav-link {
-    margin-right: 75px;
+    margin-right: 80px;
     margin-bottom: 75px;
   }
   main .step-1 ul li .nav-link span {
@@ -13994,7 +13994,7 @@ main .step-1 .word-container .container .tab-content .tab-pane .w750-show {
   }
   main .step-1 .word-container .container .tab-content .tab-pane {
     width: 84.78%;
-    height: 300px;
+    height: 220px;
     font-size: 14px;
     padding: 19px 28px;
     background-color: #FFFBE3;
@@ -14005,7 +14005,7 @@ main .step-1 .word-container .container .tab-content .tab-pane .w750-show {
     display: block;
   }
   main .step-1 .word-container .container .tab-content .tab-pane:nth-child(3) {
-    height: 350px;
+    height: 300px;
   }
 }
 
@@ -14020,6 +14020,12 @@ main .step-1 .word-container .container .tab-content .tab-pane .w750-show {
   }
   main .step-1 ul li:nth-child(2) .nav-link {
     margin-right: 0;
+  }
+  main .step-1 .word-container .container .tab-content .tab-pane {
+    height: 260px;
+  }
+  main .step-1 .word-container .container .tab-content .tab-pane:nth-child(3) {
+    height: 300px;
   }
 }
 
@@ -14073,6 +14079,12 @@ main .step-1 .word-container .container .tab-content .tab-pane .w750-show {
   }
   main .step-1 .word-container {
     margin-top: 46px;
+  }
+  main .step-1 .word-container .container .tab-content .tab-pane {
+    height: 350px;
+  }
+  main .step-1 .word-container .container .tab-content .tab-pane:nth-child(3) {
+    height: 350px;
   }
 }
 
