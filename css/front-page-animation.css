@@ -14410,11 +14410,11 @@ main #front-page-animation .animation-container .img-arrow {
     top: calc(50% - 220px);
     text-align: left;
   }
-  main #front-page-animation .animation-container .page-4-title-box h2 {
+  main #front-page-animation .animation-container .page-4-title-box .page-4-h2 {
     font-size: 22px;
     line-height: 27px;
   }
-  main #front-page-animation .animation-container .page-4-title-box span {
+  main #front-page-animation .animation-container .page-4-title-box .page-4-span {
     font-size: 16px;
     line-height: 19px;
   }
