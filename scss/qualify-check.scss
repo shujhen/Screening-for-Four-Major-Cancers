@@ -11,25 +11,27 @@
 
 // 主要內容
 main {
-  margin-top: 86px;
-  margin-bottom: 86px;
+  padding: 86px 0px;
 
   @media (max-width: $grid-md) {
-    margin-top: 39px;
-    margin-bottom: 39px;
-    padding-right: 26px;
-    padding-left: 26px;
+    padding: 86px 26px;
+  }
+  @media (max-width: 768px) {
+    padding: 48px 26px;
   }
   h1 {
+    @media (max-width: 1024px) {
+      font-size: 35px;
+    }
     @media (max-width: $grid-md) {
-      font-size: 30px;
       margin-bottom: 24px;
     }
-    @media (max-width: $grid-sm) {
-      font-size: 20px;
+    @media (max-width: 768px) {
+      font-size: 30px;
     }
-    @media (max-width: $grid-xs) {
-      font-size: 16px;
+    // 原 321px 因字數較多會換行，提早變版
+    @media (max-width: 355px) {
+      font-size: 24px;
     }
   }
   // 查詢選項區
@@ -206,7 +208,7 @@ main {
       line-height: 15px;
     }
   }
-  .btn-box{
+  .btn-box {
     @media (max-width: 380px) {
       flex-direction: column-reverse;
     }
@@ -303,17 +305,11 @@ main {
       margin: 40px 10px;
       padding: 30px 50px 100px;
     }
-    @media (max-width: 1399px) {
-      padding-bottom: 460px;
-    }
     @media (max-width: $grid-xl) {
-      padding: 50px 80px 460px;
-    }
-    @media (max-width: $grid-lg) {
-      padding: 30px 50px 460px;
+      padding-bottom: 50px;
     }
     @media (max-width: 690px) {
-      padding-bottom: 500px;
+      padding-bottom: 150px;
     }
     @media (max-width: $grid-md) {
       background: rgba(255, 255, 255, 0.6);
@@ -321,28 +317,29 @@ main {
       border-radius: 10px;
     }
     @media (max-width: $grid-sm) {
-      padding: 28px;
-      padding-bottom: 350px;
+      padding: 28px 28px 150px;
+      padding-bottom: 130px;
     }
   }
   .condition {
     width: 100%;
     padding: 30px 10px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 
     font-weight: 700;
     font-size: 28px;
     line-height: 1.5;
+    text-align: center;
 
     color: $black;
     background-color: #dcdcdc;
     border-radius: 30px;
 
     @media (max-width: 1399px) {
-      margin-bottom: 0px;
       font-size: 25px;
     }
     @media (max-width: $grid-xl) {
+      margin-bottom: 40px;
       font-size: 20px;
     }
     @media (max-width: $grid-md) {
@@ -354,6 +351,7 @@ main {
     @media (max-width: $grid-sm) {
       padding: 0px;
       padding-bottom: 14px;
+      margin-bottom: 30px;
 
       font-size: 16px;
       line-height: 20px;
@@ -371,28 +369,58 @@ main {
   .result-box {
     font-weight: 700;
 
+    .qualify-check-doctor {
+
+      background: url('../images/skim.svg') no-repeat;
+      background-size: 49px 32px;
+      background-position: 100% 40%;
+
+      @media (max-width: 1399px) {
+        height: 280px;
+      }
+      @media (max-width: $grid-xl) {
+        height: 225px;
+      }
+      @media (max-width: $grid-lg) {
+        height: 190px;
+        background-size: 30px 19px;
+      }
+      @media (max-width: $grid-md) {
+        height: 190px;
+        background: url('../images/skim-small.svg') no-repeat;
+        background-size: 17px 8px;
+        background-position: 90% 50%;
+      }
+      @media (max-width: 690px) {
+        height: 160px;
+      }
+      @media (max-width: $grid-sm) {
+        height: 107px;
+      }
+
+      @media (max-width: 420px) {
+        display: none;
+      }
+    }
     p {
       line-height: 1.5;
       margin: 0px;
       text-align: left;
     }
-    .p-box{
-      @media (max-width: 1399px) {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-30%,-50%);
+    .p-box {
+      margin-left: 45px;
+      @media (max-width: $grid-md) {
+        margin-left: 25px;
       }
-      @media (max-width: 690px) {
-        position: static;
-        transform: none;
+      @media (max-width: $grid-sm) {
+        margin-left: 15px;
       }
     }
     .p-line-1 {
       font-size: 32px;
-  
+
       color: #723010;
-  
+
       @media (max-width: $grid-xl) {
         font-size: 25px;
       }
@@ -400,28 +428,20 @@ main {
         font-size: 20px;
       }
       @media (max-width: 690px) {
-        
-        position: absolute;
-        top: calc(30%);
-        left: calc(50%);
-        transform: translate(-50%,-50%);
         word-break: keep-all;
       }
       @media (max-width: $grid-sm) {
         font-size: 16px;
         line-height: 20px;
-        top: calc(30%);
-        left: 80px;
-        transform: none;
       }
     }
     .p-line-2 {
       font-weight: 800;
       font-size: 40px;
       margin: 10px 0px;
-  
+
       color: #9e0900;
-  
+
       @media (max-width: $grid-xl) {
         font-size: 35px;
       }
@@ -429,125 +449,48 @@ main {
         font-size: 30px;
       }
       @media (max-width: 690px) {
-        position: absolute;
-        top: calc(30% + 70px);
-        left: calc(50%);
-        transform: translate(-30%, -50%);
         font-size: 26px;
       }
       @media (max-width: $grid-sm) {
         font-size: 20px;
-        top: calc(35%);
-        left: 120px;
-        transform: none;
       }
     }
     .p-line-3 {
       font-size: 32px;
-  
+
       color: #1b5e45;
-  
+
       @media (max-width: $grid-xl) {
         font-size: 25px;
       }
       @media (max-width: $grid-md) {
         font-size: 20px;
       }
-      @media (max-width: 690px) {
-        position: absolute;
-        top: calc(50% + 15px);
-        left: calc(50%);
-        transform: translateX(-30%);
-      }
       @media (max-width: $grid-sm) {
         font-size: 14px;
-        top: calc(55%);
-        left: 120px;
-        transform: none;
       }
       @media (max-width: $grid-xs) {
         font-size: 12px;
       }
     }
   }
-  .qualify-check-doctor {
-    // width: 307px;
-    // height: 322px;
-    // background: url('../images/qualify-check-doctor.svg') no-repeat;
-    // background-size: contain;
-    @media (max-width: 1399px) {
-      height: 280px;
-
-      position: absolute;
-      top: calc(50% + 36px);
-      left: calc(20%);
-      transform: translate(-50%, -50%);
-    }
-    @media (max-width: $grid-xl) {
-      height: 225px;
-
-      position: absolute;
-      top: 45%;
-      left: 20px;
-      transform: translateX(0%);
-    }
-    @media (max-width: $grid-lg) {
-      height: 190px;
-    }
-    @media (max-width: $grid-md) {
-      height: 190px;
-    }
-    @media (max-width: 690px) {
-      height: 160px;
-      top: 40%;
-    }
-    @media (max-width: $grid-sm) {
-      height: 107px;
-      top: calc(35% + 35px);
-      left: 7px;
-    }
-  }
-  .skim {
-    width: 49px;
-    height: 32px;
-    background: url('../images/skim.svg') no-repeat;
-    background-size: contain;
-
-    position: absolute;
-    top: calc(50% + 25px);
-    left: calc(50% - 250px);
-    transform: translate(-50%, -50%);
-
-    @media (max-width: $grid-xxl) {
-      left: calc(50% - 200px);
-    }
-    @media (max-width: 1399px) {
-      left: 30%;
-      top: 50%;
-    }
-    @media (max-width: $grid-xl) {
-      top: calc(50% + 22px);
-    }
-    @media (max-width: $grid-md) {
-      width: 17px;
-      height: 8px;
-
-      left: 30%;
-      top: calc(50% + 90px);
-
-      background: url('../images/skim-small.svg') no-repeat;
-    }
-    @media (max-width: 690px) {
-      top: calc(50%);
-      left: 168px;
-    }
-    @media (max-width: $grid-sm) {
-      top: calc(50% + 30px);
-      left: 98px;
-    }
-  }
   .btn-arrow-row {
     margin-top: 41px;
+    @media (max-width: $grid-xl) {
+      margin-top: 30px;
+    }
+    @media (max-width: $grid-lg) {
+      margin-top: 10px;
+    }
+    @media (max-width: 690px) {
+      position: absolute;
+      bottom: 40px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    @media (max-width: $grid-sm) {
+      bottom: 35px;
+    }
   }
   .btn-link-arrow-layout,
   .btn-refresh-arrow-layout,
@@ -572,6 +515,9 @@ main {
       font-size: 20px;
       line-height: 25px;
       padding: 15px 30px;
+    }
+    @media (max-width: $grid-lg) {
+      margin-top: 10px;
     }
     @media (max-width: $grid-md) {
       font-size: 18px;
@@ -609,50 +555,19 @@ main {
   }
   .btn-link-arrow-layout {
     background-color: $green-200;
-
-    @media (max-width: 1399px) {
-      position: absolute;
-      bottom: 60px;
-      left: calc(50% + 50px);
-    }
+    margin-right: 28px;
     @media (max-width: $grid-xl) {
-      left: calc(100% - 80px);
-      transform: translateX(-200%);
+      margin-right: 20px;
     }
-    @media (max-width: 690px) {
-      bottom: calc(50% - 150px);
-      left: calc(50%);
-      transform: translate(-50%, +50%);
+    @media (max-width: $grid-lg) {
+      margin-right: 10px;
     }
-    @media (max-width: $grid-sm) {
-      bottom: 114px;
+    @media (max-width: $grid-md) {
+      margin-right: 0px;
     }
   }
   .btn-refresh-arrow-layout {
-    margin-left: 28px;
-
     background-color: #723010;
-
-    @media (max-width: 1399px) {
-      margin: 0;
-
-      position: absolute;
-      bottom: 60px;
-      left: calc(50% + 30px);
-      transform: translateX(-100%);
-    }
-    @media (max-width: $grid-xl) {
-      left: calc(100% - 50px);
-      transform: translateX(-100%);
-    }
-    @media (max-width: 690px) {
-      bottom: calc(50% - 196px);
-      left: calc(50%);
-      transform: translate(-50%, +100%);
-    }
-    @media (max-width: $grid-sm) {
-      bottom: 82px;
-    }
   }
 }
 
