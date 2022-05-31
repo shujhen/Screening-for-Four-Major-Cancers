@@ -13,6 +13,8 @@
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <!-- CSS -->
     <link rel="stylesheet" href="./css/qualify-check.css" />
+    <!-- Preload -->
+    <link rel="preload" href="./images/checkbox-checked.svg" as="image">
   </head>
   <body>
     <!-- LOGO + 導覽列 -->
@@ -90,7 +92,7 @@
               </label>
             </div>
           </div>
-          <span class="check-choice-ask"
+          <span class="check-choice-ask text-left"
             >請勾選您過去兩年內已經篩檢過的項目! (可複選)</span
           >
           <div class="row justify-content-between no-gutters">
@@ -143,9 +145,9 @@
               <span></span>子宮頸癌 (子宮頸抹片檢查)
             </label>
           </div>
-          <div class="row justify-content-center justify-content-lg-end no-gutters">
+          <div class="btn-box row justify-content-center justify-content-lg-end no-gutters">
             <button class="btn btn-reset-layout btn-reset" onclick="refresh()">重新填寫</button>
-            <button class="btn btn-check-layout btn-check">查詢</button>
+            <button class="btn btn-check-layout btn-check">馬上查詢</button>
           </div>
         </div>
       </section>

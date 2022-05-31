@@ -14103,6 +14103,15 @@ main .check-choice {
   }
 }
 
+@media (max-width: 380px) {
+  main .btn-box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
 main .btn {
   margin-top: 31px;
   padding: 12px 29px;
@@ -14134,11 +14143,9 @@ main .btn {
   }
 }
 
-@media (max-width: 353px) {
+@media (max-width: 380px) {
   main .btn {
-    padding: 10px 20px;
-    font-size: 12px;
-    line-height: 12px;
+    padding: 10px 16px;
   }
 }
 
@@ -14176,6 +14183,12 @@ main .btn-reset-layout {
 @media (max-width: 575px) {
   main .btn-reset-layout {
     margin-right: 13px;
+  }
+}
+
+@media (max-width: 380px) {
+  main .btn-reset-layout {
+    margin-right: 0px;
   }
 }
 
