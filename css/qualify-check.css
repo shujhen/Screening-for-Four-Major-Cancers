@@ -13951,7 +13951,6 @@ main label {
 
 main .birth-year-label,
 main .gender-box {
-  margin-bottom: 27px;
   font-weight: 700;
   font-size: 28px;
   line-height: 34px;
@@ -14029,6 +14028,7 @@ main select.birth-year {
 
 main .check-choice-ask {
   padding-top: 28px;
+  margin-top: 17px;
   margin-bottom: 36px;
   border-top: 1px solid #306b56;
   font-weight: 700;
@@ -14215,7 +14215,7 @@ main .btn-check-layout:hover {
 main .hr-border {
   width: 100%;
   border-top: 1px solid #cbcbcb;
-  margin-bottom: 17px;
+  margin: 17px 0px;
 }
 
 main .result-section {

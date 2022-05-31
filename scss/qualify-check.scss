@@ -76,7 +76,6 @@ main {
   // 生日選擇區塊
   .birth-year-label,
   .gender-box {
-    margin-bottom: 27px;
 
     font-weight: 700;
     font-size: 28px;
@@ -142,6 +141,7 @@ main {
   // 詢問兩年內篩檢項目
   .check-choice-ask {
     padding-top: 28px;
+    margin-top: 17px;
     margin-bottom: 36px;
 
     border-top: 1px solid $green-400;
@@ -289,7 +289,7 @@ main {
   .hr-border {
     width: 100%;
     border-top: 1px solid #cbcbcb;
-    margin-bottom: 17px;
+    margin: 17px 0px;
   }
   // 查詢結果顯示區
   .result-section {
