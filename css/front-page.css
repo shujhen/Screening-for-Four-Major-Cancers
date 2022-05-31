@@ -13981,6 +13981,7 @@ main .step-1 .word-container .container .tab-content .tab-pane .w750-show {
   }
   main .step-1 ul li .nav-link span {
     font-size: 20px;
+    bottom: -17px;
   }
   main .step-1 ul li:nth-child(2) .nav-link {
     margin-right: 0;
