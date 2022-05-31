@@ -14236,8 +14236,21 @@ main #front-page-animation .animation-container .img-arrow {
   main #front-page-animation .animation-container .img-clock {
     right: -20%;
   }
+  main #front-page-animation .animation-container .page-3-title-box .page-3-h2 {
+    font-size: 40px;
+  }
+  main #front-page-animation .animation-container .page-3-title-box .page-3-span {
+    font-size: 32px;
+  }
   main #front-page-animation .animation-container .page-4-title-box {
     right: -15%;
+  }
+  main #front-page-animation .animation-container .page-4-title-box .page-4-h2 {
+    line-height: 50px;
+  }
+  main #front-page-animation .animation-container .page-4-title-box .page-4-span {
+    font-size: 28px;
+    text-indent: 25px;
   }
 }
 
@@ -14417,6 +14430,7 @@ main #front-page-animation .animation-container .img-arrow {
   main #front-page-animation .animation-container .page-4-title-box .page-4-span {
     font-size: 16px;
     line-height: 19px;
+    text-indent: 0px;
   }
   main #front-page-animation .animation-container .img-cell-3 {
     top: calc(50% - 60px);
