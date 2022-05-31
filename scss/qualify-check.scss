@@ -8,6 +8,7 @@
     padding-left: 26px;
   }
 }
+
 // 主要內容
 main {
   margin-top: 86px;
@@ -205,6 +206,11 @@ main {
       line-height: 15px;
     }
   }
+  .btn-box{
+    @media (max-width: 380px) {
+      flex-direction: column-reverse;
+    }
+  }
   .btn {
     margin-top: 31px;
     padding: 12px 29px;
@@ -230,10 +236,8 @@ main {
       line-height: 18px;
       border: 4px solid #ffffff;
     }
-    @media (max-width: 353px) {
-      padding: 10px 20px;
-      font-size: 12px;
-      line-height: 12px;
+    @media (max-width: 380px) {
+      padding: 10px 16px;
     }
     span {
       display: inline-block;
@@ -260,6 +264,9 @@ main {
     }
     @media (max-width: $grid-sm) {
       margin-right: 13px;
+    }
+    @media (max-width: 380px) {
+      margin-right: 0px;
     }
     &:hover {
       color: #605e5d;
