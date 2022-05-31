@@ -31,7 +31,7 @@ main {
 
         ul {
             margin-top: 57px;
-
+            justify-content: center;
             li {
                 .nav-link {
                     width: 152.38px;
@@ -211,8 +211,11 @@ main {
                 }
             }
         }
-
         @media (max-width:$grid-md) {
+
+        }
+
+        @media (max-width:400px) {
             padding-top: 37px;
             padding-bottom: 26px;
             background-color: #FFFFFF;
@@ -230,6 +233,7 @@ main {
             ul {
                 margin-top: 24px;
                 padding:0 15.22% 0;
+                justify-content: space-between;
                 li {
                     .nav-link {
                         width: 50.6px;
@@ -674,6 +678,16 @@ main {
                         }
                     }
                 }
+                .swiper-slide:nth-child(2) {
+                    .swiper-word {
+                        .word-box {
+                            h3 {
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+
                 
             }
         }

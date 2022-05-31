@@ -14121,6 +14121,9 @@ main #front-page-animation .animation-container .title-border .title-box .brown-
   main #front-page-animation .animation-container .title-border h2 {
     font-size: 36px;
   }
+  main #front-page-animation .animation-container .title-border .brown-title {
+    font-size: 54px;
+  }
   main #front-page-animation .animation-container .title-border .title-box {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -14151,6 +14154,10 @@ main #front-page-animation .animation-container .img-arrow {
 @media (max-width: 1609px) {
   main #front-page-animation .animation-container .img-cell-1 {
     width: 500px;
+  }
+  main #front-page-animation .animation-container .img-cell-2 {
+    top: auto;
+    bottom: -5%;
   }
   main #front-page-animation .animation-container .page-3-title-box {
     top: 365px;
@@ -14187,12 +14194,14 @@ main #front-page-animation .animation-container .img-arrow {
 
 @media (max-width: 1400px) {
   main #front-page-animation .animation-container .img-cell-1 {
-    top: 6.5%;
+    top: -2.5%;
+    left: -11.6%;
   }
   main #front-page-animation .animation-container .img-cell-2 {
-    width: 300px;
+    width: 400px;
     top: auto;
     bottom: 5%;
+    left: 75.25%;
   }
   main #front-page-animation .animation-container .page-3-title-box {
     top: 285px;
@@ -14213,7 +14222,7 @@ main #front-page-animation .animation-container .img-arrow {
 
 @media (max-width: 1300px) {
   main #front-page-animation .animation-container .img-cell-1 {
-    left: -17%;
+    left: -12%;
   }
   main #front-page-animation .animation-container .img-cell-2 {
     left: 65%;
@@ -14233,6 +14242,7 @@ main #front-page-animation .animation-container .img-arrow {
   }
   main #front-page-animation .animation-container .page-3-title-box {
     top: 190px;
+    height: 130px;
   }
   main #front-page-animation .animation-container .img-clock {
     right: -32%;
@@ -14240,7 +14250,7 @@ main #front-page-animation .animation-container .img-arrow {
   main #front-page-animation .animation-container .page-4-title-box {
     width: 600px;
     height: 130px;
-    top: calc(50% - 360px);
+    top: calc(50% - 295px);
     right: auto;
     left: calc(50% - 300px);
     text-align: center;
@@ -14252,46 +14262,68 @@ main #front-page-animation .animation-container .img-arrow {
     font-size: 24px;
   }
   main #front-page-animation .animation-container .img-cell-3 {
-    top: auto;
-    bottom: 35%;
+    top: calc(50% - 200px);
   }
   main #front-page-animation .animation-container .img-cell-4 {
-    top: auto;
-    bottom: -10%;
+    top: calc(50% - -10px);
   }
   main #front-page-animation .animation-container .img-magnifier {
-    top: auto;
-    bottom: -25%;
+    top: calc(50% - 580px);
     right: 20%;
   }
 }
 
 @media (max-width: 869px) {
   main #front-page-animation .animation-container .page-1-h2 {
-    font-size: 32px;
+    font-size: 40px;
     text-align: center;
   }
   main #front-page-animation .animation-container .page-1-span {
-    font-size: 24px;
+    font-size: 32px;
     text-align: center;
     top: 365px;
   }
+  main #front-page-animation .animation-container .pad-hide {
+    display: none;
+  }
+  main #front-page-animation .animation-container .pad-show {
+    display: block;
+  }
   main #front-page-animation .animation-container .page-2-span {
-    font-size: 24px;
-    text-align: center;
+    width: 282px;
+    height: 126px;
+    top: calc(50% - 63px);
+    left: calc(50% - 141px);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: left;
   }
   main #front-page-animation .animation-container .img-cell-2 {
     top: 63%;
     left: 60%;
   }
+  main #front-page-animation .animation-container .page-3-title-box {
+    top: 220px;
+    left: 15.7%;
+  }
   main #front-page-animation .animation-container .page-3-title-box .page-3-h2 {
-    font-size: 32px;
+    font-size: 40px;
   }
   main #front-page-animation .animation-container .page-3-title-box .page-3-span {
-    font-size: 24px;
+    font-size: 32px;
   }
   main #front-page-animation .animation-container .img-clock {
     bottom: -40%;
+  }
+  main #front-page-animation .animation-container .page-4-title-box {
+    top: calc(50% - 330px);
+  }
+  main #front-page-animation .animation-container .page-4-title-box .page-4-h2 {
+    font-size: 40px;
+  }
+  main #front-page-animation .animation-container .page-4-title-box .page-4-span {
+    font-size: 32px;
   }
 }
 

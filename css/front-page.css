@@ -13809,6 +13809,9 @@ main .step-1 .title-box .brown-title {
 
 main .step-1 ul {
   margin-top: 57px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 main .step-1 ul li .nav-link {
@@ -13944,7 +13947,7 @@ main .step-1 .word-container .container .tab-content .tab-pane h2 {
   }
 }
 
-@media (max-width: 799px) {
+@media (max-width: 400px) {
   main .step-1 {
     padding-top: 37px;
     padding-bottom: 26px;
@@ -13961,6 +13964,9 @@ main .step-1 .word-container .container .tab-content .tab-pane h2 {
   main .step-1 ul {
     margin-top: 24px;
     padding: 0 15.22% 0;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   main .step-1 ul li .nav-link {
     width: 50.6px;
@@ -14342,6 +14348,9 @@ main .step-2 .swiper .swiper-pagination .swiper-pagination-bullet {
   }
   main .step-2 .swiper .swiper-slide .swiper-word .word-box, main .step-2 .swiper .swiper-slide:nth-child(3) .swiper-word .word-box, main .step-2 .swiper .swiper-slide:nth-child(4) .swiper-word .word-box {
     text-align: left;
+  }
+  main .step-2 .swiper .swiper-slide:nth-child(2) .swiper-word .word-box h3 {
+    font-size: 15px;
   }
 }
 /*# sourceMappingURL=front-page.css.map */
