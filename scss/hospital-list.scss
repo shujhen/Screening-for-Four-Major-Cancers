@@ -8,52 +8,66 @@
     padding-left: 26px;
   }
 }
-.mb-100{
-  margin-bottom: 100px;
+.mt-100 {
+  margin-top: 100px;
 }
-.mb-150{
-  margin-bottom: 150px;
+.no-result {
+  font-size: 20px;
+  line-height: 150px;
+
+  @media (max-width: $grid-sm) {
+    font-size: 14px;
+    line-height: 100px;
+  }
 }
-.modal-header{
+.modal-header {
   padding: 37px 10px 23px;
-  color: #6B4D30;
-  img{
+  color: #6b4d30;
+  img {
     margin-bottom: 15px;
   }
 }
-.btn-alert, .btn-alert:hover{
+.btn-alert,
+.btn-alert:hover {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.035em;
-  
+
   text-align: center;
-  
-  color: #FFFFFF;
+
+  color: #ffffff;
   background: #692300;
   border-radius: 3px;
   padding: 10px 60px;
 }
 // 主要內容
 main {
-  margin-top: 86px;
-  margin-bottom: 51px;
+  padding: 86px 0px;
 
   @media (max-width: $grid-md) {
-    margin-top: 39px;
-    margin-bottom: 39px;
-    padding-right: 26px;
-    padding-left: 26px;
+    padding: 86px 26px;
+  }
+  @media (max-width: 768px) {
+    padding: 48px 26px;
   }
   h1 {
+    margin-bottom: 39px;
+    @media (max-width: 1024px) {
+      font-size: 35px;
+    }
     @media (max-width: $grid-md) {
-      font-size: 30px;
       margin-bottom: 24px;
     }
-    @media (max-width: $grid-sm) {
-      font-size: 15px;
+    @media (max-width: 768px) {
+      font-size: 30px;
+    }
+    // 原 321px 因字數較多會換行，提早變版
+    @media (max-width: 355px) {
+      font-size: 24px;
     }
   }
+
   // 查詢選項區
   .search-section {
     @media (max-width: $grid-md) {
@@ -241,7 +255,8 @@ main {
     }
   }
   // 查詢按鈕
-  .btn-search-layout, .btn-search-layout:focus {
+  .btn-search-layout,
+  .btn-search-layout:focus {
     width: 100%;
     margin-top: 51px;
     padding: 22px 0px 21px;
@@ -303,14 +318,20 @@ main {
 
     h2 {
       line-height: 58px;
-      margin-top: 126px;
-      margin-bottom: 80px;
+      margin-top: 86px;
+      margin-bottom: 39px;
 
+      @media (max-width: 1024px) {
+        font-size: 35px;
+        line-height: 45px;
+      }
       @media (max-width: $grid-md) {
         font-size: 30px;
         line-height: 38px;
-        margin-top: 100px;
-        margin-bottom: 60px;
+        margin-bottom: 24px;
+      }
+      @media (max-width: 768px) {
+        margin-top: 48px;
       }
       @media (max-width: $grid-sm) {
         text-align: left;
