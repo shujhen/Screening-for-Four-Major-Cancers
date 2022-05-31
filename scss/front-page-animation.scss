@@ -119,6 +119,7 @@ main {
                 img {
                     position: static;
                     width: 38px;
+                    animation: scroll-down 1.5s ease 3s infinite normal none;
                 }
             }
 
@@ -766,5 +767,13 @@ main {
 
     100% {
         transform: rotate(-360deg);
+    }
+}
+@keyframes scroll-down {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(10px);
     }
 }

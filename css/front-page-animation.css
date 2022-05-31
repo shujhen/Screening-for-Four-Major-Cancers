@@ -13909,6 +13909,8 @@ main #front-page-animation .animation-container .scroll-tips h3 {
 main #front-page-animation .animation-container .scroll-tips img {
   position: static;
   width: 38px;
+  -webkit-animation: scroll-down 1.5s ease 3s infinite normal none;
+          animation: scroll-down 1.5s ease 3s infinite normal none;
 }
 
 main #front-page-animation .animation-container .page-2-span {
@@ -14555,6 +14557,28 @@ main #front-page-animation .animation-container .img-arrow {
   100% {
     -webkit-transform: rotate(-360deg);
             transform: rotate(-360deg);
+  }
+}
+
+@-webkit-keyframes scroll-down {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  100% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+}
+
+@keyframes scroll-down {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  100% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
   }
 }
 /*# sourceMappingURL=front-page-animation.css.map */
