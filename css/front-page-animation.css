@@ -13922,6 +13922,10 @@ main #front-page-animation .animation-container .page-2-span {
   opacity: 0;
 }
 
+main #front-page-animation .animation-container .pad-show {
+  display: none;
+}
+
 main #front-page-animation .animation-container .img-cell-1 {
   left: -9.6%;
   top: -100px;

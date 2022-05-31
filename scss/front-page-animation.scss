@@ -132,7 +132,9 @@ main {
                 z-index: 1;
                 opacity: 0;
             }
-
+            .pad-show {
+                display: none;
+            }
             .img-cell-1 {
                 left: -9.6%;
                 top: -100px;

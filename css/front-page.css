@@ -13910,6 +13910,10 @@ main .step-1 .word-container .container .tab-content .tab-pane h2 {
   margin-bottom: 15px;
 }
 
+main .step-1 .word-container .container .tab-content .tab-pane .w750-show {
+  display: none;
+}
+
 @media (max-width: 1199px) {
   main .step-1 .title-box {
     width: 500px;
@@ -13947,7 +13951,13 @@ main .step-1 .word-container .container .tab-content .tab-pane h2 {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 799px) {
+  main .step-1 .word-container .container .tab-content .tab-pane {
+    width: 660px;
+  }
+}
+
+@media (max-width: 750px) {
   main .step-1 {
     padding-top: 37px;
     padding-bottom: 26px;
@@ -13962,16 +13972,69 @@ main .step-1 .word-container .container .tab-content .tab-pane h2 {
     line-height: 18px;
   }
   main .step-1 ul {
+    margin-top: 50px;
+    padding: 0 100px;
+  }
+  main .step-1 ul li .nav-link {
+    margin-right: 75px;
+    margin-bottom: 75px;
+  }
+  main .step-1 ul li .nav-link span {
+    font-size: 20px;
+  }
+  main .step-1 ul li:nth-child(2) .nav-link {
+    margin-right: 0;
+  }
+  main .step-1 .word-container {
+    margin-top: 0px;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    height: auto;
+  }
+  main .step-1 .word-container .container .tab-content .tab-pane {
+    width: 84.78%;
+    height: 300px;
+    font-size: 14px;
+    padding: 19px 28px;
+    background-color: #FFFBE3;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  main .step-1 .word-container .container .tab-content .tab-pane .w750-show {
+    display: block;
+  }
+  main .step-1 .word-container .container .tab-content .tab-pane:nth-child(3) {
+    height: 350px;
+  }
+}
+
+@media (max-width: 575px) {
+  main .step-1 ul {
     margin-top: 24px;
-    padding: 0 15.22% 0;
+    padding: 0 30px;
+  }
+  main .step-1 ul li .nav-link {
+    margin-right: 60px;
+    margin-bottom: 75px;
+  }
+  main .step-1 ul li:nth-child(2) .nav-link {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  main .step-1 ul {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    padding: 0 11.22% 0;
   }
   main .step-1 ul li .nav-link {
     width: 50.6px;
     height: 49.48px;
     margin-right: 0px;
+    margin-bottom: 0px;
     border-radius: 40px;
     -webkit-box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.3);
             box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.3);
@@ -14009,29 +14072,7 @@ main .step-1 .word-container .container .tab-content .tab-pane h2 {
     background-image: url(../images/step-1-Cervical-Cancer-Brown-mobile-Icon.svg);
   }
   main .step-1 .word-container {
-    margin-top: 46.53px;
-    background-color: transparent;
-    -webkit-box-shadow: none;
-            box-shadow: none;
-    height: auto;
-  }
-  main .step-1 .word-container .container .tab-content .tab-pane {
-    width: 84.78%;
-    height: 300px;
-    font-size: 14px;
-    padding: 19px 28px;
-    background-color: #FFFBE3;
-    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
-  main .step-1 .word-container .container .tab-content .tab-pane:nth-child(3) {
-    height: 350px;
-  }
-}
-
-@media (max-width: 575px) {
-  main .step-1 ul {
-    padding: 0 11.22% 0;
+    margin-top: 46px;
   }
 }
 
@@ -14247,21 +14288,13 @@ main .step-2 .swiper .swiper-pagination .swiper-pagination-bullet {
 }
 
 @media (max-width: 799px) {
-  main .step-2 {
-    padding-top: 29px;
-  }
-  main .step-2 h1 {
-    font-size: 18px;
-    line-height: 18px;
-    margin-bottom: 15px;
-  }
   main .step-2 .swiper {
-    height: 382px;
+    height: 435px;
     margin-bottom: 15px;
   }
   main .step-2 .swiper .swiper-slide {
     width: 78.12%;
-    height: 349px;
+    height: 375px;
     border: 4px solid #6b4d30;
   }
   main .step-2 .swiper .swiper-slide h2 {
@@ -14269,14 +14302,14 @@ main .step-2 .swiper .swiper-pagination .swiper-pagination-bullet {
     line-height: 29px;
     font-weight: 700;
     color: #FFFFFF;
-    top: 139px;
+    top: 165px;
     left: 50%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
     z-index: 2;
   }
   main .step-2 .swiper .swiper-slide .swiper-icon {
-    top: 142px;
+    top: 168px;
     left: calc(50% - 70px);
     z-index: 2;
   }
@@ -14288,19 +14321,23 @@ main .step-2 .swiper .swiper-pagination .swiper-pagination-bullet {
   }
   main .step-2 .swiper .swiper-slide .swiper-man {
     top: 18.98px;
-    left: calc(50% - 113px);
+    left: calc(50% - 143px);
+    width: 87px;
   }
   main .step-2 .swiper .swiper-slide .swiper-oldman {
     top: 31.59px;
-    left: calc(50% - 49.72px);
+    left: calc(50% - 60.72px);
+    width: 77px;
   }
   main .step-2 .swiper .swiper-slide .swiper-women {
     top: 17.6px;
-    right: calc(50% - 104.69px);
+    right: calc(50% - 134.69px);
+    width: 80px;
   }
   main .step-2 .swiper .swiper-slide .swiper-oldwomen {
     top: 31.27px;
-    right: calc(50% - 58.85px);
+    right: calc(50% - 88.85px);
+    width: 79px;
   }
   main .step-2 .swiper .swiper-slide .swiper-word {
     width: calc(100% + 8px);
@@ -14316,16 +14353,30 @@ main .step-2 .swiper .swiper-pagination .swiper-pagination-bullet {
     top: 68px;
   }
   main .step-2 .swiper .swiper-slide .swiper-word .word-box h3 {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 23px;
   }
   main .step-2 .swiper .swiper-slide .swiper-word .word-box p {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
   }
   main .step-2 .swiper .swiper-slide:nth-child(4) .swiper-icon {
     left: calc(50% - 80px);
+  }
+}
+
+@media (max-width: 750px) {
+  main .step-2 {
+    padding-top: 29px;
+  }
+  main .step-2 h1 {
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 15px;
+  }
+  main .step-2 .swiper {
+    height: 420px;
   }
   main .step-2 .swiper .swiper-pagination {
     bottom: 3px;
@@ -14338,16 +14389,47 @@ main .step-2 .swiper .swiper-pagination .swiper-pagination-bullet {
 }
 
 @media (max-width: 575px) {
+  main .step-2 .swiper {
+    height: 382px;
+  }
+  main .step-2 .swiper .swiper-slide, main .step-2 .swiper .swiper-slide:nth-child(3), main .step-2 .swiper .swiper-slide:nth-child(4) {
+    height: 349px;
+  }
   main .step-2 .swiper .swiper-slide h2, main .step-2 .swiper .swiper-slide:nth-child(3) h2, main .step-2 .swiper .swiper-slide:nth-child(4) h2 {
+    top: 139px;
     left: 62px;
     -webkit-transform: none;
             transform: none;
   }
   main .step-2 .swiper .swiper-slide .swiper-icon, main .step-2 .swiper .swiper-slide:nth-child(3) .swiper-icon, main .step-2 .swiper .swiper-slide:nth-child(4) .swiper-icon {
+    top: 142px;
     left: 27px;
+  }
+  main .step-2 .swiper .swiper-slide .swiper-man, main .step-2 .swiper .swiper-slide:nth-child(3) .swiper-man, main .step-2 .swiper .swiper-slide:nth-child(4) .swiper-man {
+    top: 18.98px;
+    left: calc(50% - 113px);
+    width: auto;
+  }
+  main .step-2 .swiper .swiper-slide .swiper-oldman, main .step-2 .swiper .swiper-slide:nth-child(3) .swiper-oldman, main .step-2 .swiper .swiper-slide:nth-child(4) .swiper-oldman {
+    top: 31.59px;
+    left: calc(50% - 49.72px);
+    width: auto;
+  }
+  main .step-2 .swiper .swiper-slide .swiper-women, main .step-2 .swiper .swiper-slide:nth-child(3) .swiper-women, main .step-2 .swiper .swiper-slide:nth-child(4) .swiper-women {
+    top: 17.6px;
+    right: calc(50% - 104.69px);
+    width: auto;
+  }
+  main .step-2 .swiper .swiper-slide .swiper-oldwomen, main .step-2 .swiper .swiper-slide:nth-child(3) .swiper-oldwomen, main .step-2 .swiper .swiper-slide:nth-child(4) .swiper-oldwomen {
+    top: 31.27px;
+    right: calc(50% - 58.85px);
+    width: auto;
   }
   main .step-2 .swiper .swiper-slide .swiper-word .word-box, main .step-2 .swiper .swiper-slide:nth-child(3) .swiper-word .word-box, main .step-2 .swiper .swiper-slide:nth-child(4) .swiper-word .word-box {
     text-align: left;
+  }
+  main .step-2 .swiper .swiper-slide .swiper-word .word-box h3, main .step-2 .swiper .swiper-slide:nth-child(3) .swiper-word .word-box h3, main .step-2 .swiper .swiper-slide:nth-child(4) .swiper-word .word-box h3 {
+    font-size: 15px;
   }
   main .step-2 .swiper .swiper-slide:nth-child(2) .swiper-word .word-box h3 {
     font-size: 15px;
