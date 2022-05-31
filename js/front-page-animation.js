@@ -535,7 +535,7 @@ window.onscroll = function () {
     var intElemScrollHeight = document.querySelector('body').scrollHeight;
 
     console.log(document.documentElement.scrollTop, intElemScrollHeight);
-    if (document.body.scrollTop >= (intElemScrollHeight - 969) || document.documentElement.scrollTop >= (intElemScrollHeight - 969)) {
+    if (document.body.scrollTop >= (intElemScrollHeight - 1108) || document.documentElement.scrollTop >= (intElemScrollHeight - 1180)) {
         parent.hideIframe()
     }
 }
