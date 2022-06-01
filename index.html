@@ -15,6 +15,7 @@
   <!-- CSS -->
   <link rel="stylesheet" href="./css/front-page.css" />
   <link rel="stylesheet" href="./css/lastindex.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <style>
     .nav-pills .nav-link.active,
     .nav-pills .show>.nav-link {
@@ -208,7 +209,8 @@
 
     <section class="quizgameStart">
       <!-- quiz game -->
-      <div class="container">
+      <div class="container" data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom">
         <div class="title4 p-3">
           <h1 class="title4text">Step 3 : 四癌篩檢小測驗</h1>
         </div>
@@ -265,7 +267,8 @@
 
 
         <!-- 兩欄外連結：開始 -->
-        <div class="row justify-content-center step4All">
+        <div class="row justify-content-center step4All" data-aos="zoom-in"
+        data-aos-duration="1000">
 
           <!-- 左欄：開始 -->
           <div class="quiz-infoTop-bgSet px-4 py-2 mx-3">
@@ -325,7 +328,8 @@
 
     <section class="lastPart pb-5">
 
-      <div class="greenLine_BG">
+      <div class="greenLine_BG" data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom">
         <div class="quiz-title-health justify-content-center quiz-titleSpace">
           記得隨時掌握最新健康資訊喔!
         </div>
@@ -397,6 +401,10 @@
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="./js/front-page.js"></script>
   <!-- <script src="./js/quiz.js"></script> -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
