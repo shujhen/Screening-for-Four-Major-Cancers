@@ -14293,7 +14293,6 @@ main .search-result h2 {
 
 @media (max-width: 575px) {
   main .search-result h2 {
-    text-align: left;
     font-size: 14px;
     line-height: 17px;
     margin-top: 16px;

@@ -14061,7 +14061,7 @@ main .check-choice-ask {
 @media (max-width: 575px) {
   main .check-choice-ask {
     font-size: 16px;
-    line-height: 16px;
+    line-height: 22px;
   }
 }
 
