@@ -13796,7 +13796,7 @@ main .step-1 .title-box h1 {
   font-size: 40px;
   font-weight: 800;
   line-height: 48.41px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 
 main .step-1 .title-box .grern-title {
@@ -13964,7 +13964,7 @@ main .step-1 .word-container .container .tab-content .tab-pane .w750-show {
     background-color: #FFFFFF;
   }
   main .step-1 .title-box {
-    width: 260px;
+    width: 266px;
     height: 18px;
   }
   main .step-1 .title-box h1 {
@@ -14107,7 +14107,7 @@ main .step-2 h1 {
   font-size: 40px;
   font-weight: 800;
   line-height: 48px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 
 main .step-2 h1 .brown-title {
@@ -14408,47 +14408,117 @@ main .step-2 .swiper .swiper-pagination .swiper-pagination-bullet {
   main .step-2 .swiper {
     height: 382px;
   }
-  main .step-2 .swiper .swiper-slide, main .step-2 .swiper .swiper-slide:nth-child(2), main .step-2 .swiper .swiper-slide:nth-child(3), main .step-2 .swiper .swiper-slide:nth-child(4) {
+  main .step-2 .swiper .swiper-slide,
+  main .step-2 .swiper .swiper-slide:nth-child(2),
+  main .step-2 .swiper .swiper-slide:nth-child(3),
+  main .step-2 .swiper .swiper-slide:nth-child(4) {
     height: 349px;
   }
-  main .step-2 .swiper .swiper-slide h2, main .step-2 .swiper .swiper-slide:nth-child(2) h2, main .step-2 .swiper .swiper-slide:nth-child(3) h2, main .step-2 .swiper .swiper-slide:nth-child(4) h2 {
+  main .step-2 .swiper .swiper-slide h2,
+  main .step-2 .swiper .swiper-slide:nth-child(2) h2,
+  main .step-2 .swiper .swiper-slide:nth-child(3) h2,
+  main .step-2 .swiper .swiper-slide:nth-child(4) h2 {
     top: 139px;
     left: 62px;
     -webkit-transform: none;
             transform: none;
   }
-  main .step-2 .swiper .swiper-slide .swiper-icon, main .step-2 .swiper .swiper-slide:nth-child(2) .swiper-icon, main .step-2 .swiper .swiper-slide:nth-child(3) .swiper-icon, main .step-2 .swiper .swiper-slide:nth-child(4) .swiper-icon {
+  main .step-2 .swiper .swiper-slide .swiper-icon,
+  main .step-2 .swiper .swiper-slide:nth-child(2) .swiper-icon,
+  main .step-2 .swiper .swiper-slide:nth-child(3) .swiper-icon,
+  main .step-2 .swiper .swiper-slide:nth-child(4) .swiper-icon {
     top: 142px;
     left: 27px;
   }
-  main .step-2 .swiper .swiper-slide .swiper-man, main .step-2 .swiper .swiper-slide:nth-child(2) .swiper-man, main .step-2 .swiper .swiper-slide:nth-child(3) .swiper-man, main .step-2 .swiper .swiper-slide:nth-child(4) .swiper-man {
+  main .step-2 .swiper .swiper-slide .swiper-man,
+  main .step-2 .swiper .swiper-slide:nth-child(2) .swiper-man,
+  main .step-2 .swiper .swiper-slide:nth-child(3) .swiper-man,
+  main .step-2 .swiper .swiper-slide:nth-child(4) .swiper-man {
     top: 18.98px;
     left: calc(50% - 113px);
     width: auto;
   }
-  main .step-2 .swiper .swiper-slide .swiper-oldman, main .step-2 .swiper .swiper-slide:nth-child(2) .swiper-oldman, main .step-2 .swiper .swiper-slide:nth-child(3) .swiper-oldman, main .step-2 .swiper .swiper-slide:nth-child(4) .swiper-oldman {
+  main .step-2 .swiper .swiper-slide .swiper-oldman,
+  main .step-2 .swiper .swiper-slide:nth-child(2) .swiper-oldman,
+  main .step-2 .swiper .swiper-slide:nth-child(3) .swiper-oldman,
+  main .step-2 .swiper .swiper-slide:nth-child(4) .swiper-oldman {
     top: 31.59px;
     left: calc(50% - 49.72px);
     width: auto;
   }
-  main .step-2 .swiper .swiper-slide .swiper-women, main .step-2 .swiper .swiper-slide:nth-child(2) .swiper-women, main .step-2 .swiper .swiper-slide:nth-child(3) .swiper-women, main .step-2 .swiper .swiper-slide:nth-child(4) .swiper-women {
+  main .step-2 .swiper .swiper-slide .swiper-women,
+  main .step-2 .swiper .swiper-slide:nth-child(2) .swiper-women,
+  main .step-2 .swiper .swiper-slide:nth-child(3) .swiper-women,
+  main .step-2 .swiper .swiper-slide:nth-child(4) .swiper-women {
     top: 17.6px;
     right: calc(50% - 104.69px);
     width: auto;
   }
-  main .step-2 .swiper .swiper-slide .swiper-oldwomen, main .step-2 .swiper .swiper-slide:nth-child(2) .swiper-oldwomen, main .step-2 .swiper .swiper-slide:nth-child(3) .swiper-oldwomen, main .step-2 .swiper .swiper-slide:nth-child(4) .swiper-oldwomen {
+  main .step-2 .swiper .swiper-slide .swiper-oldwomen,
+  main .step-2 .swiper .swiper-slide:nth-child(2) .swiper-oldwomen,
+  main .step-2 .swiper .swiper-slide:nth-child(3) .swiper-oldwomen,
+  main .step-2 .swiper .swiper-slide:nth-child(4) .swiper-oldwomen {
     top: 31.27px;
     right: calc(50% - 58.85px);
     width: auto;
   }
-  main .step-2 .swiper .swiper-slide .swiper-word .word-box, main .step-2 .swiper .swiper-slide:nth-child(2) .swiper-word .word-box, main .step-2 .swiper .swiper-slide:nth-child(3) .swiper-word .word-box, main .step-2 .swiper .swiper-slide:nth-child(4) .swiper-word .word-box {
+  main .step-2 .swiper .swiper-slide .swiper-word .word-box,
+  main .step-2 .swiper .swiper-slide:nth-child(2) .swiper-word .word-box,
+  main .step-2 .swiper .swiper-slide:nth-child(3) .swiper-word .word-box,
+  main .step-2 .swiper .swiper-slide:nth-child(4) .swiper-word .word-box {
     text-align: left;
   }
-  main .step-2 .swiper .swiper-slide .swiper-word .word-box h3, main .step-2 .swiper .swiper-slide:nth-child(2) .swiper-word .word-box h3, main .step-2 .swiper .swiper-slide:nth-child(3) .swiper-word .word-box h3, main .step-2 .swiper .swiper-slide:nth-child(4) .swiper-word .word-box h3 {
+  main .step-2 .swiper .swiper-slide .swiper-word .word-box h3,
+  main .step-2 .swiper .swiper-slide:nth-child(2) .swiper-word .word-box h3,
+  main .step-2 .swiper .swiper-slide:nth-child(3) .swiper-word .word-box h3,
+  main .step-2 .swiper .swiper-slide:nth-child(4) .swiper-word .word-box h3 {
     font-size: 15px;
   }
   main .step-2 .swiper .swiper-slide:nth-child(2) .swiper-word .word-box h3 {
     font-size: 15px;
   }
+}
+
+main .title4text {
+  margin-bottom: 52px;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 1199px) {
+  main .title4text {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 750px) {
+  main .title4text {
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 15px;
+  }
+}
+
+.modal-header {
+  padding: 37px 10px 23px;
+  color: #6B4D30;
+}
+
+.modal-header img {
+  margin-bottom: 15px;
+}
+
+.btn-alert, .btn-alert:hover {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.035em;
+  text-align: center;
+  color: #FFFFFF;
+  background: #692300;
+  border-radius: 3px;
+  padding: 10px 60px;
 }
 /*# sourceMappingURL=front-page.css.map */

@@ -18,3 +18,6 @@ function hideIframe() {
   iframe.style.display = 'none';
 }
 
+function not_ready() {
+  $('#alertModal').modal('toggle');
+}

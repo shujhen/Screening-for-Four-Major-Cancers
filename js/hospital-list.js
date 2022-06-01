@@ -13,7 +13,6 @@ let totalMatch = 1;
 let checkItems = [];
 
 let cardsData = '';
-let matchNum = 0;
 
 // call API
 fetch_data('json/hospital-list.json');
@@ -67,11 +66,11 @@ function organize() {
   });
 
   if (checkItems.length < 1) {
-    $('#alertModal').modal('toggle');
+    $('#alertModal').modal('toggle')
     return false;
   }
   // 將卡片資料清空
-  hospitalCards.innerHTML = '<p class="w-100 no-result">查無機構資料</p>';
+  hospitalCards.innerHTML = '<p class="w-100 mb-150">查無機構資料</p>';
   // 清空暫存字串
   cardsData = '';
   // h2 顯示搜尋 地區/篩檢項目
@@ -85,21 +84,12 @@ function organize() {
 
 // 依據 zipCode 分別處理資料
 function process() {
-  // 歸 0
-  matchNum = 0;
   if (zipCode === 'all') {
     for (let index in hospitalList) {
       doFilter(hospitalList[index]);
     }
   } else {
     doFilter(hospitalList[zipCode]);
-  }
-  // 結果數量不多時給網頁底部多一些空間
-  if (matchNum > 0 && matchNum < 5) {
-    cardsData += '<div class="w-100 mt-100"></div>';
-  }
-  if (cardsData) {
-    hospitalCards.innerHTML = cardsData;
   }
 }
 
@@ -108,7 +98,6 @@ function doFilter(items) {
   items.forEach((item) => {
     // 機構完全符合檢查項目(精準查詢)
     if (item.checkCode % totalMatch === 0) {
-      matchNum++;
       showCard(item);
     }
     // 模糊查詢
@@ -119,6 +108,8 @@ function doFilter(items) {
     //   }
     // });
   });
+
+  hospitalCards.innerHTML = cardsData + '<div class="w-100 mb-100"></div>';
 }
 
 // 生成卡片 & 顯示

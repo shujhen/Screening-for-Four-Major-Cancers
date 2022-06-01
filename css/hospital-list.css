@@ -13650,8 +13650,23 @@ a.text-dark:hover, a.text-dark:focus {
 
 .header .navbar .navbar-nav .nav-item {
   font-weight: 700;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 30px;
+}
+
+@media (max-width: 991px) {
+  .header .navbar .navbar-nav .nav-item {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 799px) {
+  .header .navbar .navbar-nav .nav-item {
+    font-size: 15px;
+    line-height: 20px;
+    background-color: #f1f0e9;
+    border-bottom: 1px solid rgba(137, 137, 137, 0.15);
+  }
 }
 
 .header .navbar .navbar-nav .nav-item:last-child {
@@ -13668,21 +13683,6 @@ a.text-dark:hover, a.text-dark:focus {
   .header .navbar .navbar-nav .nav-item:last-child {
     padding-right: 0px;
     border-bottom: none;
-  }
-}
-
-@media (max-width: 799px) {
-  .header .navbar .navbar-nav .nav-item {
-    font-size: 20px;
-    background-color: #f1f0e9;
-    border-bottom: 1px solid rgba(137, 137, 137, 0.15);
-  }
-}
-
-@media (max-width: 400px) {
-  .header .navbar .navbar-nav .nav-item {
-    font-size: 18px;
-    line-height: 20px;
   }
 }
 
@@ -13751,29 +13751,16 @@ footer p {
   line-height: 24px;
 }
 
-@media (max-width: 1024px) {
-  footer p:first-child {
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 575px) {
-  footer p:first-child {
-    padding: 0px 23px;
+@media (max-width: 799px) {
+  footer p {
+    padding: 14px 0px;
     font-size: 8px;
-    line-height: 20px;
+    line-height: 10px;
   }
   footer p:last-child {
     margin-top: 5px;
     font-size: 9px;
-    line-height: 20px;
-  }
-}
-
-@media (max-width: 400px) {
-  footer p.text-center {
-    padding-left: 23px !important;
-    text-align: left !important;
+    line-height: 11px;
   }
 }
 
@@ -13875,85 +13862,59 @@ input[type='radio']:checked + span {
   }
 }
 
-.mt-100 {
-  margin-top: 100px;
+.mb-100 {
+  margin-bottom: 100px;
 }
 
-.no-result {
-  font-size: 20px;
-  line-height: 150px;
-}
-
-@media (max-width: 575px) {
-  .no-result {
-    font-size: 14px;
-    line-height: 100px;
-  }
+.mb-150 {
+  margin-bottom: 150px;
 }
 
 .modal-header {
   padding: 37px 10px 23px;
-  color: #6b4d30;
+  color: #6B4D30;
 }
 
 .modal-header img {
   margin-bottom: 15px;
 }
 
-.btn-alert,
-.btn-alert:hover {
+.btn-alert, .btn-alert:hover {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.035em;
   text-align: center;
-  color: #ffffff;
+  color: #FFFFFF;
   background: #692300;
   border-radius: 3px;
   padding: 10px 60px;
 }
 
 main {
-  padding: 86px 0px;
+  margin-top: 86px;
+  margin-bottom: 51px;
 }
 
 @media (max-width: 799px) {
   main {
-    padding: 86px 26px;
-  }
-}
-
-@media (max-width: 768px) {
-  main {
-    padding: 48px 26px;
-  }
-}
-
-main h1 {
-  margin-bottom: 39px;
-}
-
-@media (max-width: 1024px) {
-  main h1 {
-    font-size: 35px;
+    margin-top: 39px;
+    margin-bottom: 39px;
+    padding-right: 26px;
+    padding-left: 26px;
   }
 }
 
 @media (max-width: 799px) {
   main h1 {
+    font-size: 30px;
     margin-bottom: 24px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 575px) {
   main h1 {
-    font-size: 30px;
-  }
-}
-
-@media (max-width: 355px) {
-  main h1 {
-    font-size: 24px;
+    font-size: 15px;
   }
 }
 
@@ -14187,8 +14148,7 @@ main .search-choice {
   }
 }
 
-main .btn-search-layout,
-main .btn-search-layout:focus {
+main .btn-search-layout, main .btn-search-layout:focus {
   width: 100%;
   margin-top: 51px;
   padding: 22px 0px 21px;
@@ -14203,14 +14163,12 @@ main .btn-search-layout:focus {
   color: #692300;
 }
 
-main .btn-search-layout:hover,
-main .btn-search-layout:focus:hover {
+main .btn-search-layout:hover, main .btn-search-layout:focus:hover {
   color: #692300;
 }
 
 @media (max-width: 1640px) {
-  main .btn-search-layout,
-  main .btn-search-layout:focus {
+  main .btn-search-layout, main .btn-search-layout:focus {
     width: 85%;
     -ms-flex-item-align: start;
         align-self: flex-start;
@@ -14226,8 +14184,7 @@ main .btn-search-layout:focus:hover {
 }
 
 @media (max-width: 799px) {
-  main .btn-search-layout,
-  main .btn-search-layout:focus {
+  main .btn-search-layout, main .btn-search-layout:focus {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -14237,8 +14194,7 @@ main .btn-search-layout:focus:hover {
 }
 
 @media (max-width: 575px) {
-  main .btn-search-layout,
-  main .btn-search-layout:focus {
+  main .btn-search-layout, main .btn-search-layout:focus {
     width: auto;
     margin-top: 5px;
     font-size: 13px;
@@ -14266,28 +14222,16 @@ main .search-result {
 
 main .search-result h2 {
   line-height: 58px;
-  margin-top: 86px;
-  margin-bottom: 39px;
-}
-
-@media (max-width: 1024px) {
-  main .search-result h2 {
-    font-size: 35px;
-    line-height: 45px;
-  }
+  margin-top: 126px;
+  margin-bottom: 80px;
 }
 
 @media (max-width: 799px) {
   main .search-result h2 {
     font-size: 30px;
     line-height: 38px;
-    margin-bottom: 24px;
-  }
-}
-
-@media (max-width: 768px) {
-  main .search-result h2 {
-    margin-top: 48px;
+    margin-top: 100px;
+    margin-bottom: 60px;
   }
 }
 

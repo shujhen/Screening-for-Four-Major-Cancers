@@ -16,7 +16,7 @@ main {
                 font-size: 40px;
                 font-weight: 800;
                 line-height: 48.41px;
-                letter-spacing: 1px;
+                letter-spacing: 2px;
             }
 
             .grern-title {
@@ -32,6 +32,7 @@ main {
         ul {
             margin-top: 57px;
             justify-content: center;
+
             li {
                 .nav-link {
                     width: 152.38px;
@@ -139,7 +140,8 @@ main {
                             line-height: 19px;
                             margin-bottom: 15px;
                         }
-                        .w750-show{
+
+                        .w750-show {
                             display: none;
                         }
                     }
@@ -216,7 +218,7 @@ main {
             }
         }
 
-        @media (max-width:$grid-md){
+        @media (max-width:$grid-md) {
             .word-container {
                 .container {
                     .tab-content {
@@ -227,13 +229,14 @@ main {
                 }
             }
         }
+
         @media (max-width:750px) {
             padding-top: 37px;
             padding-bottom: 26px;
             background-color: #FFFFFF;
 
             .title-box {
-                width: 260px;
+                width: 266px;
                 height: 18px;
 
                 h1 {
@@ -245,23 +248,26 @@ main {
             ul {
                 margin-top: 50px;
                 padding: 0 100px;
+
                 li {
                     .nav-link {
                         margin-right: 80px;
                         margin-bottom: 75px;
+
                         span {
                             font-size: 20px;
                             bottom: -17px;
                         }
                     }
                 }
+
                 li:nth-child(2) {
                     .nav-link {
                         margin-right: 0;
                     }
                 }
-                
-               
+
+
             }
 
             .word-container {
@@ -280,10 +286,12 @@ main {
                             padding: 19px 28px;
                             background-color: #FFFBE3;
                             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
                             .w750-show {
                                 display: block;
                             }
                         }
+
                         .tab-pane:nth-child(3) {
                             height: 300px;
                         }
@@ -291,28 +299,33 @@ main {
                 }
             }
         }
+
         @media (max-width:$grid-sm) {
             ul {
                 margin-top: 24px;
                 padding: 0 30px;
+
                 li {
                     .nav-link {
                         margin-right: 60px;
                         margin-bottom: 75px;
                     }
                 }
+
                 li:nth-child(2) {
                     .nav-link {
                         margin-right: 0;
                     }
-                } 
+                }
             }
+
             .word-container {
                 .container {
                     .tab-content {
                         .tab-pane {
                             height: 260px;
                         }
+
                         .tab-pane:nth-child(3) {
                             height: 300px;
                         }
@@ -320,10 +333,12 @@ main {
                 }
             }
         }
+
         @media (max-width: 400px) {
-            ul{
+            ul {
                 justify-content: space-between;
                 padding: 0 11.22% 0;
+
                 li {
                     .nav-link {
                         width: 50.6px;
@@ -342,6 +357,7 @@ main {
                         }
                     }
                 }
+
                 li:first-child {
                     .nav-link {
                         background-image: url(../images/step-1-Oral-Cancer-White-mobile-Icon.svg);
@@ -383,13 +399,16 @@ main {
                     }
                 }
             }
+
             .word-container {
                 margin-top: 46px;
+
                 .container {
                     .tab-content {
                         .tab-pane {
                             height: 350px;
                         }
+
                         .tab-pane:nth-child(3) {
                             height: 350px;
                         }
@@ -405,6 +424,7 @@ main {
                         .tab-pane {
                             height: 350px;
                         }
+
                         .tab-pane:nth-child(3) {
                             height: 400px;
                         }
@@ -422,7 +442,7 @@ main {
             font-size: 40px;
             font-weight: 800;
             line-height: 48px;
-            letter-spacing: 1px;
+            letter-spacing: 2px;
 
             .brown-title {
                 color: $brown-500;
@@ -541,6 +561,7 @@ main {
                 }
 
             }
+
             .swiper-slide:nth-child(3) {
                 .swiper-word {
                     .word-box {
@@ -549,6 +570,7 @@ main {
                     }
                 }
             }
+
             .swiper-slide:nth-child(4) {
                 .swiper-word {
                     .word-box {
@@ -557,6 +579,7 @@ main {
                     }
                 }
             }
+
             .swiper-pagination {
                 .swiper-pagination-bullet {
                     width: 19px;
@@ -574,19 +597,24 @@ main {
 
                 .swiper-slide {
                     height: 640px;
+
                     // overflow: visible;
                     .swiper-man {
                         left: calc(50% - 380px);
                     }
+
                     .swiper-oldman {
                         left: calc(50% - 175px)
                     }
+
                     .swiper-women {
                         right: calc(50% - 345px)
                     }
+
                     .swiper-oldwomen {
                         right: calc(50% - 180px)
                     }
+
                     .swiper-word {
                         width: calc(100% + 32px);
                         height: 229px;
@@ -635,7 +663,7 @@ main {
         }
 
         @media (max-width: $grid-md) {
-            
+
 
             .swiper {
                 height: 435px;
@@ -645,6 +673,7 @@ main {
                     width: 78.12%;
                     height: 375px;
                     border: 4px solid $brown-100;
+
                     h2 {
                         font-size: 24px;
                         line-height: 29px;
@@ -656,11 +685,13 @@ main {
                         transform: translateX(-50%);
                         z-index: 2;
                     }
+
                     .swiper-icon {
                         top: 168px;
                         left: calc(50% - 70px);
                         z-index: 2;
                     }
+
                     .mobile-hide {
                         display: none;
                     }
@@ -673,7 +704,7 @@ main {
                         top: 18.98px;
                         left: calc(50% - 143px);
                         width: 87px;
-                        
+
                     }
 
                     .swiper-oldman {
@@ -687,7 +718,7 @@ main {
                         right: calc(50% - 134.69px);
                         width: 80px;
                     }
-                    
+
                     .swiper-oldwomen {
                         top: 31.27px;
                         right: calc(50% - 88.85px);
@@ -698,18 +729,22 @@ main {
                         width: calc(100% + 8px);
                         height: 227px;
                         bottom: -4px;
+
                         .border {
                             width: calc(100% - 55px);
                             top: 103px;
                         }
+
                         .word-box {
                             width: calc(100% - 55px);
                             top: 68px;
+
                             h3 {
                                 font-size: 18px;
                                 font-weight: 700;
                                 line-height: 23px;
                             }
+
                             p {
                                 font-size: 15px;
                                 font-weight: 500;
@@ -717,20 +752,23 @@ main {
                         }
                     }
                 }
+
                 .swiper-slide:nth-child(2) {
                     .swiper-icon {
                         left: calc(50% - 62px);
                     }
                 }
+
                 .swiper-slide:nth-child(4) {
                     .swiper-icon {
                         left: calc(50% - 84px);
                     }
                 }
 
-                
+
             }
         }
+
         @media (max-width: 750px) {
             padding-top: 29px;
 
@@ -739,8 +777,10 @@ main {
                 line-height: 18px;
                 margin-bottom: 15px;
             }
+
             .swiper {
                 height: 420px;
+
                 .swiper-pagination {
                     bottom: 3px;
 
@@ -752,20 +792,28 @@ main {
                 }
             }
         }
-        @media (max-width: $grid-sm){
+
+        @media (max-width: $grid-sm) {
             .swiper {
                 height: 382px;
-                .swiper-slide,.swiper-slide:nth-child(2),.swiper-slide:nth-child(3),.swiper-slide:nth-child(4) {
+
+                .swiper-slide,
+                .swiper-slide:nth-child(2),
+                .swiper-slide:nth-child(3),
+                .swiper-slide:nth-child(4) {
                     height: 349px;
+
                     h2 {
                         top: 139px;
                         left: 62px;
                         transform: none;
                     }
+
                     .swiper-icon {
                         top: 142px;
                         left: 27px;
                     }
+
                     .swiper-man {
                         top: 18.98px;
                         left: calc(50% - 113px);
@@ -789,16 +837,18 @@ main {
                         right: calc(50% - 58.85px);
                         width: auto;
                     }
-                    .swiper-word{
+
+                    .swiper-word {
                         .word-box {
                             text-align: left;
+
                             h3 {
                                 font-size: 15px;
                             }
                         }
                     }
                 }
-                
+
                 .swiper-slide:nth-child(2) {
                     .swiper-word {
                         .word-box {
@@ -809,8 +859,25 @@ main {
                     }
                 }
 
-                
+
             }
         }
     }
+
+    .title4text {
+        margin-bottom: 52px;
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 48px;
+        letter-spacing: 2px;
+        @media (max-width: $grid-xl) {
+                font-size: 36px;
+        }
+        @media (max-width: 750px) {
+                font-size: 18px;
+                line-height: 18px;
+                margin-bottom: 15px;
+        }
+    }
 }
+

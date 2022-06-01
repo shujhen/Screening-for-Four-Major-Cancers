@@ -40,9 +40,20 @@ body {
 
       .nav-item {
         font-weight: 700;
-        font-size: 18px;
+        font-size: 22px;
         line-height: 30px;
 
+        @media (max-width: $grid-lg) {
+          font-size: 20px;
+        }
+        @media (max-width: $grid-md) {
+          font-size: 15px;
+          line-height: 20px;
+
+          background-color: #f1f0e9;
+
+          border-bottom: 1px solid rgba(137, 137, 137, 0.15);
+        }
         &:last-child {
           padding-right: 40px;
 
@@ -53,19 +64,6 @@ body {
             padding-right: 0px;
             border-bottom: none;
           }
-        }
-
-        // 漢堡條開始的斷點
-        @media (max-width: $grid-md) {
-          font-size: 20px;
-
-          background-color: #f1f0e9;
-
-          border-bottom: 1px solid rgba(137, 137, 137, 0.15);
-        }
-        @media (max-width: 400px) {
-          font-size: 18px;
-          line-height: 20px;
         }
       }
     }
@@ -124,27 +122,14 @@ footer {
     font-weight: 300;
     line-height: 24px;
 
-    @media (max-width: 1024px) {
-      &:first-child {
-        font-size: 16px;
-      }
-    }
-    @media (max-width: $grid-sm) {
-      &:first-child {
-        padding: 0px 23px;
-        font-size: 8px;
-        line-height: 20px;
-      }
+    @media (max-width: $grid-md) {
+      padding: 14px 0px;
+      font-size: 8px;
+      line-height: 10px;
       &:last-child {
         margin-top: 5px;
         font-size: 9px;
-        line-height: 20px;
-      }
-    }
-    @media (max-width: 400px) {
-      &.text-center {
-        padding-left: 23px !important;
-        text-align: left !important;
+        line-height: 11px;
       }
     }
   }

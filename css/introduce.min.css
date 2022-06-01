@@ -13779,258 +13779,266 @@ main h2 {
   font-size: 48px;
 }
 
-.quiz-titleSmall {
-  display: none;
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-.quiz-title {
-  font-size: 40px;
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.sec {
+  margin-top: 38px;
+}
+
+.sec hr {
+  margin-bottom: 100px;
+}
+
+.row .change {
+  margin-bottom: 100px;
+}
+
+.row .change .titleArea {
+  text-align: left;
+}
+
+.row .change .titleArea h3 {
+  font-size: 30px;
   font-weight: 700;
-  color: #306B56;
+  color: #275544;
 }
 
-@media (max-width: 1380px) {
-  .quiz-title {
-    font-size: 32px;
-  }
+.row .change .titleArea h5 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #B26D2C;
 }
 
-@media (max-width: 1155px) {
-  .quiz-title {
-    font-size: 24px;
-  }
+.row .change .card {
+  -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+          box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-@media (max-width: 885px) {
-  .quiz-title {
-    font-size: 24px;
-  }
+.row .change .card iframe {
+  height: 375px;
 }
 
-@media (max-width: 710px) {
-  .quiz-title .quiz-titleLarge {
-    display: none;
-  }
-  .quiz-title .quiz-titleSmall {
-    display: block;
-  }
-}
-
-@media (max-width: 320px) {
-  .quiz-title {
-    font-size: 16px;
-  }
-}
-
-.quizContent .quiz-content-bgset {
-  background-color: #FFD000;
-  border: 21px solid #692300;
-  background-image: url(../images/quiz/w-line.svg);
-}
-
-.quizAfter img {
-  width: 100%;
-}
-
-.quiz-caption {
-  font-size: 36px;
-  font-weight: 700;
-  color: #692300;
-}
-
-.quizbtn-game-bgSet {
-  color: #FFFFFF;
-  background-color: #692300;
-  border-radius: 157px;
-  font-size: 32px;
+.row .change .card .card-body {
+  height: 515px;
+  padding: 60px;
+  background: #FFFBE3;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.quizImgs {
-  max-width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.quiz-infoTop-bgSet {
-  background-color: #F9F4E1;
-  color: #319E76;
-  -webkit-box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
-          box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
-}
-
-.quiz-imgLocation {
-  position: absolute;
-  top: 14px;
-  left: 70px;
-}
-
-@media (max-width: 1560px) {
-  .quiz-imgLocation {
-    width: 150px;
-    top: 14px;
-  }
-}
-
-@media (max-width: 1490px) {
-  .quiz-imgLocation {
-    width: 120px;
-    top: 42px;
-  }
-}
-
-@media (max-width: 1365px) {
-  .quiz-imgLocation {
-    top: 41px;
-    left: 60px;
-  }
-}
-
-@media (max-width: 1335px) {
-  .quiz-imgLocation {
-    left: 40px;
-  }
-}
-
-@media (max-width: 1275px) {
-  .quiz-imgLocation {
-    left: 40px;
-  }
-}
-
-@media (max-width: 1245px) {
-  .quiz-imgLocation {
-    width: 100px;
-    left: 50px;
-    top: 48px;
-  }
-}
-
-@media (max-width: 1199px) {
-  .quiz-imgLocation {
-    left: 150px;
-    top: 0px;
-  }
-}
-
-@media (max-width: 1140px) {
-  .quiz-imgLocation {
-    left: 120px;
-  }
-}
-
-@media (max-width: 1085px) {
-  .quiz-imgLocation {
-    left: 100px;
-  }
-}
-
-@media (max-width: 1040px) {
-  .quiz-imgLocation {
-    left: 80px;
-  }
-}
-
-.quizbtn-linkSupport {
-  background-color: #319E76;
-  border-radius: 157px;
-  font-size: 32px;
-  color: #F9F4E1;
-  font-weight: 700;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-@media (max-width: 1560px) {
-  .quizbtn-linkSupport {
-    font-size: 26px;
-  }
-  .quizbtn-linkSupport img {
-    width: 80%;
-  }
-}
-
-@media (max-width: 1490px) {
-  .quizbtn-linkSupport {
-    font-size: 20px;
-  }
-  .quizbtn-linkSupport img {
-    width: 70%;
-  }
-}
-
-@media (max-width: 1245px) {
-  .quizbtn-linkSupport {
-    font-size: 18px;
-  }
-  .quizbtn-linkSupport img {
-    width: 50%;
-  }
-}
-
-.quiz-infoDown-bgset {
-  background-color: #F9F4E1;
-  border: 10px solid #396B51;
-}
-
-.quiz-titleSpace {
-  letter-spacing: 0.08em;
-}
-
-.quizbtn-infoSupport {
-  background-color: #1A6CCD;
-  border-radius: 157px;
-  font-size: 25px;
-  color: #FFFFFF;
-  font-weight: 700;
-  -webkit-box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
-          box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-@media (max-width: 1380px) {
-  .quizbtn-infoSupport {
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 885px) {
-  .quizbtn-infoSupport {
-    font-size: 16px;
-    font-weight: 400;
-  }
-}
-
-.quiz-infoTop-saying {
+.row .change .card .card-body div h5 {
   font-size: 28px;
+  font-weight: 800;
+  color: #595947;
+  margin-bottom: 30px;
+}
+
+.row .change .card .card-body div p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #595947;
+}
+
+.row .change .card .card-body div button {
+  background-color: #723010;
+  color: white;
+  font-size: 25px;
   font-weight: 700;
+  padding: 16px 26px;
+  letter-spacing: 4px;
+  border-radius: 50px;
 }
 
-@media (max-width: 1560px) {
-  .quiz-infoTop-saying {
-    font-size: 26px;
+.row .change .card .card-body div button span img {
+  margin-left: 5px;
+}
+
+@media (max-width: 1366px) {
+  .row .change .titleArea h3 {
+    font-size: 20px;
   }
-}
-
-@media (max-width: 1490px) {
-  .quiz-infoTop-saying {
-    font-size: 22px;
+  .row .change .titleArea h5 {
+    font-size: 16px;
   }
-}
-
-@media (max-width: 1245px) {
-  .quiz-infoTop-saying {
+  .row .change .card iframe {
+    height: 300px;
+  }
+  .row .change .card .card-body {
+    height: 530px;
+  }
+  .row .change .card .card-body div h5 {
+    font-size: 28px;
+  }
+  .row .change .card .card-body div p {
     font-size: 18px;
   }
+  .row .change .card .card-body div button {
+    font-size: 22px;
+    padding: 15px 25px;
+    letter-spacing: 4px;
+    border-radius: 50px;
+  }
+  .row .change .card .card-body div button span img {
+    width: 30px;
+  }
 }
 
-.quizAfter a {
-  display: block;
+@media (max-width: 1280px) {
+  .row .change .titleArea h3 {
+    font-size: 25px;
+  }
+  .row .change .titleArea h5 {
+    font-size: 16px;
+  }
+  .row .change .card iframe {
+    height: 300px;
+  }
+  .row .change .card .card-body div button span img {
+    width: 30px;
+  }
 }
-/*# sourceMappingURL=quiz.css.map */
+
+@media (max-width: 1024px) {
+  .sec h1 {
+    font-size: 35px;
+  }
+  .sec hr {
+    margin-bottom: 60px;
+  }
+  .row .change {
+    margin-bottom: 60px;
+  }
+  .row .change .titleArea {
+    text-align: center;
+  }
+  .row .change .titleArea h5 {
+    font-size: 16px;
+    margin-bottom: 1rem;
+  }
+  .row .change .card iframe {
+    height: 229px;
+  }
+  .row .change .card .card-body {
+    height: 400px;
+    padding: 20px;
+  }
+  .row .change .card .card-body div h5 {
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+  .row .change .card .card-body div p {
+    font-size: 16px;
+  }
+  .row .change .card .card-body div button {
+    margin-bottom: 11px;
+    padding: 13px 18px;
+    font-size: 18px;
+    letter-spacing: 3px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sec {
+    margin-top: 0;
+  }
+  .sec h1 {
+    font-size: 30px;
+  }
+  .row .change .titleArea h3 {
+    font-size: 25px;
+  }
+  .row .change .titleArea h5 {
+    font-size: 18px;
+  }
+  .row .change .card .bodyHight1 {
+    height: unset;
+  }
+  .row .change .card .bodyHight2 {
+    height: unset;
+  }
+  .row .change .card .bodyHight3 {
+    height: unset;
+  }
+  .row .change .card .bodyHight4 {
+    height: unset;
+  }
+  .row .change .card .card-body {
+    padding: 35px;
+  }
+  .row .change .card .card-body div h5 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .row .change .card .card-body div button {
+    margin: 11px;
+    padding: 13px 18px;
+    font-size: 18px;
+    letter-spacing: 3px;
+  }
+}
+
+@media (max-width: 321px) {
+  .sec {
+    margin-top: 0;
+  }
+  .sec h1 {
+    font-size: 24px;
+  }
+  .sec hr {
+    margin-bottom: 30px;
+  }
+  .row .change {
+    padding: 0 20px;
+  }
+  .row .change .titleArea h3 {
+    font-size: 20px;
+  }
+  .row .change .titleArea h5 {
+    font-size: 14px;
+  }
+  .row .change .card iframe {
+    height: unset;
+  }
+  .row .change .card .bodyHight1 {
+    height: unset;
+  }
+  .row .change .card .bodyHight2 {
+    height: unset;
+  }
+  .row .change .card .bodyHight3 {
+    height: unset;
+  }
+  .row .change .card .bodyHight4 {
+    height: unset;
+  }
+  .row .change .card .card-body {
+    padding: 25px;
+  }
+  .row .change .card .card-body div h5 {
+    font-size: 20px;
+  }
+  .row .change .card .card-body div button {
+    padding: 13px 13px;
+    margin: 10px 0;
+  }
+}
+/*# sourceMappingURL=introduce.min.css.map */

@@ -10,28 +10,31 @@ quizReadygo.addEventListener('click',quizGame);
 
 function quizDefault(){
     quizCount.innerHTML = `
-        沒想到突然來個隨堂考吧~ 不要緊張~馬上開始!
+        <span class="textForCalling1">馬上來檢測你了解多少癌篩小知識吧!</span>
+        <span class="textForCalling2">透過問答檢測<br>自己了解多少吧!</span>
     `
     quizQuestion.innerHTML = `
-        <div class="row justify-content-center quizImgs">
+        <div class="justify-content-center quizImgs">
             <img src="./images/quiz/quiz-mouth.svg" alt="">
-            &nbsp&nbsp&nbsp&nbsp&nbsp
+            <div class="spaceBetweenImage"></div>
             <img src="./images/quiz/quiz-breast.svg" alt="">
-            &nbsp&nbsp&nbsp&nbsp&nbsp
+            <div class="spaceBetweenImage"></div>
             <img src="./images/quiz/quiz-biglong.svg" alt="">
-            &nbsp&nbsp&nbsp&nbsp&nbsp
+            <div class="spaceBetweenImage"></div>
             <img src="./images/quiz/quiz-HIV.svg" alt="">
         </div>
     `
     quizAnswer.innerHTML =`
-        <div class="row justify-content-center py-5">
-            <div class="col-3 quizbtn-readyGo quizbtn-game-bgSet justify-content-end align-items-center">
-                <div>我準備好了</div>
-                <div><img src="./images/quiz/linkbtn-play.svg" alt=""></div>
+        <div class="row justify-content-center">
+            <div class="quizbtn-readyGo quizbtn-game-bgSet justify-content-center align-items-center ">
+                <div>開始測驗</div>
             </div>
         </div> 
     `      
 };
+
+//按鈕符號
+// <div><img src="./images/quiz/linkbtn-play.svg" alt=""></div>
 
 function quizGame(){
     quizCount.innerHTML ='';

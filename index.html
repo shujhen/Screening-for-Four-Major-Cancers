@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="description"
@@ -10,9 +11,10 @@
   <!-- Favicon -->
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
   <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <!-- CSS -->
   <link rel="stylesheet" href="./css/front-page.css" />
+  <link rel="stylesheet" href="./css/lastindex.css">
   <style>
     .nav-pills .nav-link.active,
     .nav-pills .show>.nav-link {
@@ -52,8 +54,8 @@
     <section class="step-1">
       <div class="title-box d-flex mx-auto">
         <h1 class="grern-title">Step 1 : 了解</h1>
-        <h1 class="brown-title">四癌與篩檢方式&nbsp;</h1>
-        <h1>!</h1>
+        <h1 class="brown-title">四癌與篩檢方式</h1>
+
       </div>
       <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
         <li class="nav-item" role="presentation">
@@ -106,7 +108,7 @@
       </div>
     </section>
     <section class="step-2 text-center">
-      <h1>Step 2 : 了解篩檢<span class="brown-title">補助範圍</span> !</h1>
+      <h1>Step 2 : 了解篩檢<span class="brown-title">補助範圍</span></h1>
       <div class="swiper mySwiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
@@ -202,7 +204,178 @@
         <div class="swiper-pagination"></div>
       </div>
     </section>
+
+
+    <section class="quizgameStart">
+      <!-- quiz game -->
+      <div class="container">
+        <div class="title4 p-3">
+          <h1 class="title4text">Step 3 : 四癌篩檢小測驗</h1>
+        </div>
+
+        <div class="row pb-5">
+          <div class="col quiz-content-bgset py-5">
+            <div class="justify-content-center quiz-caption">
+              <div class="justify-content-center quizCount">
+                <span class="textForCalling1">馬上來檢測你了解多少癌篩小知識吧!</span>
+                <span class="textForCalling2">透過問答檢測<br>自己了解多少吧!</span>
+              </div>
+              <div class="quizQuestion  justify-content-center py-5">
+                <div class="justify-content-center quizImgs">
+                  <img src="./images/quiz/quiz-mouth.svg" alt="">
+                  <div class="spaceBetweenImage"></div>
+                  <img src="./images/quiz/quiz-breast.svg" alt="">
+                  <div class="spaceBetweenImage"></div>
+                  <img src="./images/quiz/quiz-biglong.svg" alt="">
+                  <div class="spaceBetweenImage"></div>
+                  <img src="./images/quiz/quiz-HIV.svg" alt="">
+                </div>
+              </div>
+
+              <div class="justify-content-center quizAnswer">
+                <div class="row justify-content-center">
+                  <div class="quizbtn-readyGo quizbtn-game-bgSet justify-content-center align-items-center " onclick="not_ready()">
+                    <div>開始測驗</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col quiz-content-bgset py-5">
+            <div class="justify-content-center quiz-caption">
+              <div class="justify-content-center quizCount"></div>
+              <div class="quizQuestion  justify-content-center py-5"></div>
+            
+                <div class="justify-content-center quizAnswer">
+
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+
+    <!-- STEP.4：開始 -->
+    <section class="pb-3">
+      <div class="container">
+        <div class="title4">
+          <h1 class="title4text">Step 4 : 查詢資格與篩檢機構</h1>
+        </div>
+
+
+        <!-- 兩欄外連結：開始 -->
+        <div class="row justify-content-center step4All">
+
+          <!-- 左欄：開始 -->
+          <div class="quiz-infoTop-bgSet px-4 py-2 mx-3">
+            <div class="py-4 index-left-btn">
+              <div class="quiz-imgLocation">
+                <img id="woman" class="doctorImg" src="./images/quiz/Dr.female2.svg" style="z-index:10 ;">
+              </div>
+              <div class="between-block"></div>
+              <div class="quiz-infoTop-saying ">不要錯過補助喔!</div>
+            </div>
+
+            <div class=" justify-content-center">
+              <a href="qualify-check.html">
+
+                <div class="quizbtn-linkSupport justify-content-center align-items-center">
+                  <div>查詢補助資格</div>
+                  <div><img src="./images/quiz/linkbtn-play.svg" alt="" id="btn-flow1"></div>
+                </div>
+              </a>
+            </div>
+
+          </div>
+          <!-- 左欄：結束 -->
+
+          <!-- 右欄：開始 -->
+          <div class="quiz-infoTop-bgSet px-4 py-2 mx-3">
+            <div class="py-4 index-left-btn">
+              <div class="quiz-imgLocation">
+                <img id="man" class="doctorImg" src="./images/quiz/Dr.male2.svg" style="z-index:10 ;">
+              </div>
+              <div class="between-block"></div>
+              <div class="quiz-infoTop-saying ">定期篩檢很重要!</div>
+            </div>
+
+            <div class="justify-content-center">
+              <a href="hospital-list.html">
+
+                <div class="quizbtn-linkSupport justify-content-center align-items-center">
+                  <div>查詢篩檢機構</div>
+                  <div><img src="./images/quiz/linkbtn-play.svg" alt="" id="btn-flow2"></div>
+                </div>
+              </a>
+            </div>
+
+
+          </div>
+          <!-- 右欄：結束 -->
+
+        </div>
+        <!-- 兩欄外連結：結束 -->
+
+      </div>
+    </section>
+
+    <!-- STEP.4：結束 -->
+
+
+    <section class="lastPart pb-5">
+
+      <div class="greenLine_BG">
+        <div class="quiz-title-health justify-content-center quiz-titleSpace">
+          記得隨時掌握最新健康資訊喔!
+        </div>
+
+        <div class="twoFB">
+
+          <div id="firstFB" class="quizbtn-infoSupport">
+            <a href="https://www.facebook.com/mohw.gov.tw">
+              <img id="fbIcon" src="./images/quiz/FB-icon.svg" class="">
+              <span class="fbText">衛生福利部</span>
+            </a>
+          </div>
+
+
+
+          <div class="quizbtn-infoSupport py-xl-2">
+            <a href="https://www.facebook.com/HealthTaichung">
+              <img id="fbIcon2" src="./images/quiz/FB-icon.svg" alt="">
+              <span class="fbText" id="fbText-big">台中市衛生局 - 健康小衛星</span>
+              <span id="fbText-small">台中市衛生局</span>
+            </a>
+          </div>
+
+        </div>
+        <img class="lastPic" src="./images/quiz/werfamily.svg" alt="">
+      </div>
+      </div>
+    </section>
+
+
+
+    <!-- 綠框框結束 -->
+
+
+
   </main>
+  <!-- Modal -->
+  <div class="modal fade" id="alertModal" tabindex="-1">
+    <div class="modal-dialog modal-sm modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header flex-column align-items-center">
+          <img src="./images/alert.svg" alt="">
+          <h5 class="modal-title ">製作中，敬請期待</h5>
+        </div>
+        <div class="modal-footer justify-content-center">
+          <button type="button" class="btn btn-alert" data-dismiss="modal">確定</button>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- 表尾資訊 -->
   <footer>
     <div class="row justify-content-between align-items-center no-gutters">
@@ -223,6 +396,7 @@
   <!-- Swiper JS -->
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="./js/front-page.js"></script>
+  <!-- <script src="./js/quiz.js"></script> -->
 </body>
 
 </html>
