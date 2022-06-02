@@ -2,7 +2,7 @@
   
 # 四癌篩檢補助資訊網(台中版)
 
-針對目前政府補助的四種癌症篩檢項目（口腔癌篩檢、乳癌、大腸癌、子宮頸癌）做的資訊網站。
+針對目前政府補助的四種癌症篩檢項目（口腔癌篩檢、乳癌、大腸癌、子宮頸癌）做的資訊網站。資料查找截止日：2022/05/31。
 
 | 組員 | GitHub 帳號 |          負責項目           |
 | :--: | :---------: | --------------------- |
@@ -27,6 +27,10 @@
 - [Figma][tool-figma]
 - [Visual Studio Code][tool-vscode]
 - [Adobe Illustrator][tool-illustrator]
+
+## 相關資訊來源
+- [臺中市子宮頸癌、乳癌、大腸癌、口腔癌篩檢醫療院所][health]
+
 ## 素材資源
 - [Google Fonts][url-fonts]
 - [Icons8][url-icon8]
@@ -62,3 +66,4 @@
 [url-people]:https://www.freepik.com/premium-vector/business-concept-successful-teamwork-partners-clerks-with-leaders-showing-thumbs-up-looking-camera_6017863.htm
 
 [class-sunyeh]:https://its.taiwanjobs.gov.tw/Course/Detail?ID=146386
+[health]:https://www.health.taichung.gov.tw/26198/26327/26904/26932/1487424/post
