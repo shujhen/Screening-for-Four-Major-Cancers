@@ -1,883 +1,1260 @@
 @import 'all';
 
 body {
-    background-color: $yellow-200;
+  background-color: $yellow-200;
+}
+iframe {
+  width: 100%;
+  height: 100vh;
+  border: 0;
+  vertical-align: middle;
+}
+.grern-title {
+  color: $green-400;
 }
 
+.brown-title {
+  color: $brown-500;
+}
+@mixin quiz-btn-layout {
+  padding: 20px 61px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+
+  font-size: 32px;
+  color: #ffffff;
+  letter-spacing: 5px;
+
+  background-color: $brown-600;
+  border-radius: 157px;
+
+  cursor: pointer;
+
+  @media (max-width: 1400px) {
+    font-size: 26px;
+  }
+  @media (max-width: 850px) {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  @media (max-width: 500px) {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 22px;
+  }
+  @media (max-width: 400px) {
+    padding: 9px 41px;
+  }
+}
 main {
-    .step-1 {
-        padding-top: 95px;
-
-        .title-box {
-            width: 552px;
-            height: 48px;
-
-            h1 {
-                font-size: 40px;
-                font-weight: 800;
-                line-height: 48.41px;
-                letter-spacing: 2px;
-            }
-
-            .grern-title {
-                color: $green-400;
-            }
-
-            .brown-title {
-
-                color: $brown-500;
-            }
-        }
-
-        ul {
-            margin-top: 57px;
-            justify-content: center;
-
-            li {
-                .nav-link {
-                    width: 152.38px;
-                    height: 149px;
-                    margin-right: 61.4px;
-                    background-color: $green-100;
-                    border-radius: 22px;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    position: relative;
-                    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
-
-                    span {
-                        position: absolute;
-                        bottom: -26px;
-                        left: 50%;
-                        transform: translate(-50%, 100%);
-                        font-size: 30px;
-                        font-weight: 700;
-                        line-height: 36.31px;
-                        letter-spacing: 1px;
-                        width: 147px;
-                        height: 37.82px;
-                        color: $green-400;
-                    }
-
-                }
-
-                .active {
-                    span {
-                        color: $brown-100;
-                    }
-                }
-            }
-
-            li:nth-child(1) {
-                .nav-link {
-                    background-image: url(../images/Oral-Cancer-White-Icon.svg);
-
-                }
-
-                .active {
-                    background-image: url(../images/Oral-Cancer-Brown-Icon.svg);
-                }
-            }
-
-            li:nth-child(2) {
-                .nav-link {
-                    background-image: url(../images/Breast-Cancer-White-Icon.svg);
-                    background-position: 30.97px;
-                }
-
-                .active {
-                    background-image: url(../images/Breast-Cancer-Brown-Icon.svg);
-                }
-            }
-
-            li:nth-child(3) {
-                .nav-link {
-                    background-image: url(../images/Colorectal-cancer-White-Icon.svg);
-                }
-
-                .active {
-                    background-image: url(../images/Colorectal-cancer-Brown-Icon.svg);
-                }
-            }
-
-            li:last-child {
-                .nav-link {
-                    margin-right: 0px;
-                    background-image: url(../images/Cervical-Cancer-White-Icon.svg);
-                }
-
-                .active {
-                    background-image: url(../images/Cervical-Cancer-Brown-Icon.svg);
-                }
-            }
-        }
-
-        .word-container {
-            margin-top: 92px;
-            background-color: #FFFBE3;
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-            height: 299px;
-
-            .container {
-                .tab-content {
-                    .tab-pane {
-                        width: 943px;
-                        margin: 0 auto;
-                        padding-top: 48px;
-                        font-size: 24px;
-                        font-weight: 500;
-                        line-height: 163.52%;
-                        color: $brown-200;
-
-                        .brown-word {
-                            color: $brown-300;
-                        }
-
-                        h2 {
-                            color: $brown-300;
-                            font-size: 16px;
-                            font-weight: 800;
-                            line-height: 19px;
-                            margin-bottom: 15px;
-                        }
-
-                        .w750-show {
-                            display: none;
-                        }
-                    }
-
-                }
-
-            }
-        }
-
-        @media (max-width: $grid-xl) {
-            .title-box {
-                width: 500px;
-
-                h1 {
-                    font-size: 36px;
-                }
-            }
-
-            ul {
-                li {
-                    .nav-link {
-                        margin-right: 32.49px;
-
-                        span {
-                            font-size: 24px;
-                        }
-                    }
-                }
-            }
-
-            .word-container {
-                .container {
-                    .tab-content {
-                        .tab-pane {
-                            width: 800px;
-                            font-size: 20px;
-                        }
-                    }
-                }
-            }
-        }
-
-        @media (max-width: $grid-lg) {
-            ul {
-                li {
-                    .nav-link {
-                        margin-right: 32.49px;
-                        width: 131.16px;
-                        height: 128.25px;
-
-                        span {
-                            font-size: 24px;
-                        }
-                    }
-                }
-
-                li:nth-child(2) {
-                    .nav-link {
-                        background-position: 15.135px;
-                    }
-                }
-            }
-
-            .word-container {
-                .container {
-                    .tab-content {
-                        .tab-pane {
-                            width: 700px;
-                            font-size: 20px;
-
-                        }
-                    }
-                }
-            }
-        }
-
-        @media (max-width:$grid-md) {
-            .word-container {
-                .container {
-                    .tab-content {
-                        .tab-pane {
-                            width: 660px;
-                        }
-                    }
-                }
-            }
-        }
-
-        @media (max-width:750px) {
-            padding-top: 37px;
-            padding-bottom: 26px;
-            background-color: #FFFFFF;
-
-            .title-box {
-                width: 266px;
-                height: 18px;
-
-                h1 {
-                    font-size: 18px;
-                    line-height: 18px;
-                }
-            }
-
-            ul {
-                margin-top: 50px;
-                padding: 0 100px;
-
-                li {
-                    .nav-link {
-                        margin-right: 80px;
-                        margin-bottom: 75px;
-
-                        span {
-                            font-size: 20px;
-                            bottom: -17px;
-                        }
-                    }
-                }
-
-                li:nth-child(2) {
-                    .nav-link {
-                        margin-right: 0;
-                    }
-                }
-
-
-            }
-
-            .word-container {
-                margin-top: 0px;
-                background-color: transparent;
-                box-shadow: none;
-                height: auto;
-
-                .container {
-                    .tab-content {
-
-                        .tab-pane {
-                            width: 84.78%;
-                            height: 220px;
-                            font-size: 14px;
-                            padding: 19px 28px;
-                            background-color: #FFFBE3;
-                            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-                            .w750-show {
-                                display: block;
-                            }
-                        }
-
-                        .tab-pane:nth-child(3) {
-                            height: 300px;
-                        }
-                    }
-                }
-            }
-        }
-
-        @media (max-width:$grid-sm) {
-            ul {
-                margin-top: 24px;
-                padding: 0 30px;
-
-                li {
-                    .nav-link {
-                        margin-right: 60px;
-                        margin-bottom: 75px;
-                    }
-                }
-
-                li:nth-child(2) {
-                    .nav-link {
-                        margin-right: 0;
-                    }
-                }
-            }
-
-            .word-container {
-                .container {
-                    .tab-content {
-                        .tab-pane {
-                            height: 260px;
-                        }
-
-                        .tab-pane:nth-child(3) {
-                            height: 300px;
-                        }
-                    }
-                }
-            }
-        }
-
-        @media (max-width: 400px) {
-            ul {
-                justify-content: space-between;
-                padding: 0 11.22% 0;
-
-                li {
-                    .nav-link {
-                        width: 50.6px;
-                        height: 49.48px;
-                        margin-right: 0px;
-                        margin-bottom: 0px;
-                        border-radius: 40px;
-                        box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.3);
-
-                        span {
-                            font-size: 14px;
-                            line-height: 14.52px;
-                            width: 60px;
-                            height: 15.27px;
-                            bottom: -12.25px;
-                        }
-                    }
-                }
-
-                li:first-child {
-                    .nav-link {
-                        background-image: url(../images/step-1-Oral-Cancer-White-mobile-Icon.svg);
-                    }
-
-                    .active {
-                        background-image: url(../images/step-1-Oral-Cancer-Brown-mobile-Icon.svg);
-                    }
-                }
-
-                li:nth-child(2) {
-                    .nav-link {
-                        background-image: url(../images/step-1-Breast-Cancer-White-mobile-Icon.svg);
-                        background-position: 6.98px;
-                    }
-
-                    .active {
-                        background-image: url(../images/step-1-Breast-Cancer-Brown-mobile-Icon.svg);
-                    }
-                }
-
-                li:nth-child(3) {
-                    .nav-link {
-                        background-image: url(../images/step-1-Colorectal-cancer-White-mobile-Icon.svg);
-                    }
-
-                    .active {
-                        background-image: url(../images/step-1-Colorectal-cancer-Brown-mobile-Icon.svg);
-                    }
-                }
-
-                li:last-child {
-                    .nav-link {
-                        background-image: url(../images/step-1-Cervical-Cancer-White-mobile-Icon.svg);
-                    }
-
-                    .active {
-                        background-image: url(../images/step-1-Cervical-Cancer-Brown-mobile-Icon.svg);
-                    }
-                }
-            }
-
-            .word-container {
-                margin-top: 46px;
-
-                .container {
-                    .tab-content {
-                        .tab-pane {
-                            height: 350px;
-                        }
-
-                        .tab-pane:nth-child(3) {
-                            height: 350px;
-                        }
-                    }
-                }
-            }
-        }
-
-        @media (max-width: 350px) {
-            .word-container {
-                .container {
-                    .tab-content {
-                        .tab-pane {
-                            height: 350px;
-                        }
-
-                        .tab-pane:nth-child(3) {
-                            height: 400px;
-                        }
-                    }
-                }
-            }
-        }
+  h2 {
+    text-align: center;
+    margin-bottom: 52px;
+
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 2px;
+
+    @media (max-width: $grid-xl) {
+      font-size: 36px;
+    }
+    @media (max-width: 750px) {
+      font-size: 18px;
+      line-height: 18px;
+      margin-bottom: 15px;
+    }
+  }
+  .step-1 {
+    padding-top: 95px;
+
+    .title-box {
+      width: 552px;
+      height: 48px;
     }
 
-    .step-2 {
-        padding-top: 102px;
+    ul {
+      margin-top: 57px;
+      justify-content: center;
 
-        h1 {
-            margin-bottom: 52px;
-            font-size: 40px;
-            font-weight: 800;
-            line-height: 48px;
-            letter-spacing: 2px;
+      li {
+        .nav-link {
+          width: 152.38px;
+          height: 149px;
+          margin-right: 61.4px;
+          background-color: $green-100;
+          border-radius: 22px;
+          background-repeat: no-repeat;
+          background-position: center;
+          position: relative;
+          box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
 
-            .brown-title {
-                color: $brown-500;
-            }
+          span {
+            position: absolute;
+            bottom: -26px;
+            left: 50%;
+            transform: translate(-50%, 100%);
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 36.31px;
+            letter-spacing: 1px;
+            width: 147px;
+            height: 37.82px;
+            color: $green-400;
+          }
         }
 
-        .swiper {
+        .active {
+          span {
+            color: $brown-100;
+          }
+        }
+      }
+
+      li:nth-child(1) {
+        .nav-link {
+          background-image: url(../images/Oral-Cancer-White-Icon.svg);
+        }
+
+        .active {
+          background-image: url(../images/Oral-Cancer-Brown-Icon.svg);
+        }
+      }
+
+      li:nth-child(2) {
+        .nav-link {
+          background-image: url(../images/Breast-Cancer-White-Icon.svg);
+          background-position: 30.97px;
+        }
+
+        .active {
+          background-image: url(../images/Breast-Cancer-Brown-Icon.svg);
+        }
+      }
+
+      li:nth-child(3) {
+        .nav-link {
+          background-image: url(../images/Colorectal-cancer-White-Icon.svg);
+        }
+
+        .active {
+          background-image: url(../images/Colorectal-cancer-Brown-Icon.svg);
+        }
+      }
+
+      li:last-child {
+        .nav-link {
+          margin-right: 0px;
+          background-image: url(../images/Cervical-Cancer-White-Icon.svg);
+        }
+
+        .active {
+          background-image: url(../images/Cervical-Cancer-Brown-Icon.svg);
+        }
+      }
+    }
+
+    .word-container {
+      margin-top: 92px;
+      background-color: #fffbe3;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      height: 299px;
+
+      .container {
+        .tab-content {
+          .tab-pane {
+            width: 943px;
+            margin: 0 auto;
+            padding-top: 48px;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 163.52%;
+            color: $brown-200;
+
+            .brown-word {
+              color: $brown-300;
+            }
+
+            h2 {
+              color: $brown-300;
+              font-size: 16px;
+              font-weight: 800;
+              line-height: 19px;
+              margin-bottom: 15px;
+            }
+
+            .w750-show {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+
+    @media (max-width: $grid-xl) {
+      .title-box {
+        width: 500px;
+      }
+
+      ul {
+        li {
+          .nav-link {
+            margin-right: 32.49px;
+
+            span {
+              font-size: 24px;
+            }
+          }
+        }
+      }
+
+      .word-container {
+        .container {
+          .tab-content {
+            .tab-pane {
+              width: 800px;
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+
+    @media (max-width: $grid-lg) {
+      ul {
+        li {
+          .nav-link {
+            margin-right: 32.49px;
+            width: 131.16px;
+            height: 128.25px;
+
+            span {
+              font-size: 24px;
+            }
+          }
+        }
+
+        li:nth-child(2) {
+          .nav-link {
+            background-position: 15.135px;
+          }
+        }
+      }
+
+      .word-container {
+        .container {
+          .tab-content {
+            .tab-pane {
+              width: 700px;
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+
+    @media (max-width: $grid-md) {
+      .word-container {
+        .container {
+          .tab-content {
+            .tab-pane {
+              width: 660px;
+            }
+          }
+        }
+      }
+    }
+
+    @media (max-width: 750px) {
+      padding-top: 37px;
+      padding-bottom: 26px;
+      background-color: #ffffff;
+
+      .title-box {
+        width: 266px;
+        height: 18px;
+      }
+
+      ul {
+        margin-top: 50px;
+        padding: 0 100px;
+
+        li {
+          .nav-link {
+            margin-right: 80px;
+            margin-bottom: 75px;
+
+            span {
+              font-size: 20px;
+              bottom: -17px;
+            }
+          }
+        }
+
+        li:nth-child(2) {
+          .nav-link {
+            margin-right: 0;
+          }
+        }
+      }
+
+      .word-container {
+        margin-top: 0px;
+        background-color: transparent;
+        box-shadow: none;
+        height: auto;
+
+        .container {
+          .tab-content {
+            .tab-pane {
+              width: 84.78%;
+              height: 220px;
+              font-size: 14px;
+              padding: 19px 28px;
+              background-color: #fffbe3;
+              box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+              .w750-show {
+                display: block;
+              }
+            }
+
+            .tab-pane:nth-child(3) {
+              height: 300px;
+            }
+          }
+        }
+      }
+    }
+
+    @media (max-width: $grid-sm) {
+      ul {
+        margin-top: 24px;
+        padding: 0 30px;
+
+        li {
+          .nav-link {
+            margin-right: 60px;
+            margin-bottom: 75px;
+          }
+        }
+
+        li:nth-child(2) {
+          .nav-link {
+            margin-right: 0;
+          }
+        }
+      }
+
+      .word-container {
+        .container {
+          .tab-content {
+            .tab-pane {
+              height: 260px;
+            }
+
+            .tab-pane:nth-child(3) {
+              height: 300px;
+            }
+          }
+        }
+      }
+    }
+
+    @media (max-width: 400px) {
+      ul {
+        justify-content: space-between;
+        padding: 0 11.22% 0;
+
+        li {
+          .nav-link {
+            width: 50.6px;
+            height: 49.48px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            border-radius: 40px;
+            box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.3);
+
+            span {
+              font-size: 14px;
+              line-height: 14.52px;
+              width: 60px;
+              height: 15.27px;
+              bottom: -12.25px;
+            }
+          }
+        }
+
+        li:first-child {
+          .nav-link {
+            background-image: url(../images/step-1-Oral-Cancer-White-mobile-Icon.svg);
+          }
+
+          .active {
+            background-image: url(../images/step-1-Oral-Cancer-Brown-mobile-Icon.svg);
+          }
+        }
+
+        li:nth-child(2) {
+          .nav-link {
+            background-image: url(../images/step-1-Breast-Cancer-White-mobile-Icon.svg);
+            background-position: 6.98px;
+          }
+
+          .active {
+            background-image: url(../images/step-1-Breast-Cancer-Brown-mobile-Icon.svg);
+          }
+        }
+
+        li:nth-child(3) {
+          .nav-link {
+            background-image: url(../images/step-1-Colorectal-cancer-White-mobile-Icon.svg);
+          }
+
+          .active {
+            background-image: url(../images/step-1-Colorectal-cancer-Brown-mobile-Icon.svg);
+          }
+        }
+
+        li:last-child {
+          .nav-link {
+            background-image: url(../images/step-1-Cervical-Cancer-White-mobile-Icon.svg);
+          }
+
+          .active {
+            background-image: url(../images/step-1-Cervical-Cancer-Brown-mobile-Icon.svg);
+          }
+        }
+      }
+
+      .word-container {
+        margin-top: 46px;
+
+        .container {
+          .tab-content {
+            .tab-pane {
+              height: 350px;
+            }
+
+            .tab-pane:nth-child(3) {
+              height: 350px;
+            }
+          }
+        }
+      }
+    }
+
+    @media (max-width: 350px) {
+      .word-container {
+        .container {
+          .tab-content {
+            .tab-pane {
+              height: 350px;
+            }
+
+            .tab-pane:nth-child(3) {
+              height: 400px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .step-2 {
+    padding-top: 102px;
+
+    .swiper {
+      width: 100%;
+      height: 553px;
+      margin-bottom: 64px;
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        width: 66%;
+        height: 411px;
+        border: 16px solid $brown-100;
+        overflow: hidden;
+        position: relative;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+
+        h3 {
+          position: absolute;
+          top: 31px;
+          left: 50%;
+          transform: translateX(-50%);
+          height: 74px;
+          font-size: 45px;
+          font-weight: 800;
+          line-height: 163.52%;
+          color: $brown-100;
+        }
+
+        img {
+          position: absolute;
+        }
+
+        .mobile-show {
+          display: none;
+        }
+
+        .swiper-man {
+          top: 87.23px;
+          left: 37.52px;
+        }
+
+        .swiper-oldman {
+          top: 128.92px;
+          left: 246.65px;
+        }
+
+        .swiper-women {
+          top: 82.51px;
+          right: 25.58px;
+        }
+
+        .swiper-oldwomen {
+          top: 127.68px;
+          right: 177.06px;
+        }
+
+        .swiper-word {
+          width: calc(100% - 156px);
+          height: 273px;
+          background-color: $brown-100;
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          position: absolute;
+          bottom: -16px;
+          left: 50%;
+          transform: translateX(-50%);
+          color: #ffffff;
+          text-align: left;
+
+          .border {
+            position: absolute;
             width: 100%;
-            height: 553px;
-            margin-bottom: 64px;
+            top: 108px;
+          }
 
-            .swiper-slide {
-                text-align: center;
-                font-size: 18px;
-                background: #fff;
-                width: 66%;
-                height: 411px;
-                border: 16px solid $brown-100;
-                overflow: hidden;
-                position: relative;
-                /* Center slide text vertically */
-                display: -webkit-box;
-                display: -ms-flexbox;
-                display: -webkit-flex;
-                display: flex;
-                -webkit-box-pack: center;
-                -ms-flex-pack: center;
-                -webkit-justify-content: center;
-                justify-content: center;
-                -webkit-box-align: center;
-                -ms-flex-align: center;
-                -webkit-align-items: center;
-                align-items: center;
+          .word-box {
+            position: absolute;
+            width: 420px;
+            top: 38px;
+            left: 55%;
+            transform: translateX(-50%);
 
-                h2 {
-                    position: absolute;
-                    top: 31px;
-                    left: 50%;
-                    transform: translateX(-50%);
-                    height: 74px;
-                    font-size: 45px;
-                    font-weight: 800;
-                    line-height: 163.52%;
-                    color: $brown-100;
-                }
-
-                img {
-                    position: absolute;
-                }
-
-                .mobile-show {
-                    display: none;
-                }
-
-                .swiper-man {
-
-                    top: 87.23px;
-                    left: 37.52px;
-                }
-
-                .swiper-oldman {
-                    top: 128.92px;
-                    left: 246.65px;
-                }
-
-                .swiper-women {
-                    top: 82.51px;
-                    right: 25.58px;
-                }
-
-                .swiper-oldwomen {
-                    top: 127.68px;
-                    right: 177.06px;
-                }
-
-                .swiper-word {
-                    width: calc(100% - 156px);
-                    height: 273px;
-                    background-color: $brown-100;
-                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-                    position: absolute;
-                    bottom: -16px;
-                    left: 50%;
-                    transform: translateX(-50%);
-                    color: #FFFFFF;
-                    text-align: left;
-
-                    .border {
-                        position: absolute;
-                        width: 100%;
-                        top: 108px;
-                    }
-
-                    .word-box {
-                        position: absolute;
-                        width: 420px;
-                        top: 38px;
-                        left: 55%;
-                        transform: translateX(-50%);
-
-                        h3 {
-                            font-size: 32px;
-                            font-weight: 700;
-                            line-height: 52px;
-                            margin-bottom: 30px;
-                        }
-
-                        p {
-                            font-size: 20px;
-                        }
-                    }
-                }
-
-                .dark {
-                    opacity: 0.4;
-                }
-
+            h4 {
+              font-size: 32px;
+              font-weight: 700;
+              line-height: 52px;
+              margin-bottom: 30px;
             }
 
-            .swiper-slide:nth-child(3) {
-                .swiper-word {
-                    .word-box {
-                        left: 50%;
-                        text-align: center;
-                    }
-                }
+            p {
+              font-size: 20px;
             }
-
-            .swiper-slide:nth-child(4) {
-                .swiper-word {
-                    .word-box {
-                        left: 50%;
-                        text-align: center;
-                    }
-                }
-            }
-
-            .swiper-pagination {
-                .swiper-pagination-bullet {
-                    width: 19px;
-                    height: 19px;
-                    margin: 0 7.6px;
-                    background-color: $brown-100;
-
-                }
-            }
+          }
         }
 
-        @media (max-width: $grid-xxl) {
-            .swiper {
-                height: 764px;
-
-                .swiper-slide {
-                    height: 640px;
-
-                    // overflow: visible;
-                    .swiper-man {
-                        left: calc(50% - 380px);
-                    }
-
-                    .swiper-oldman {
-                        left: calc(50% - 175px)
-                    }
-
-                    .swiper-women {
-                        right: calc(50% - 345px)
-                    }
-
-                    .swiper-oldwomen {
-                        right: calc(50% - 180px)
-                    }
-
-                    .swiper-word {
-                        width: calc(100% + 32px);
-                        height: 229px;
-                        bottom: -16px;
-                        z-index: 1;
-
-                        .border {
-                            width: 500px;
-                            left: 50%;
-                            transform: translateX(-50%);
-                        }
-
-                        .word-box {
-                            width: 500px;
-                            left: 50%;
-                            text-align: center;
-                        }
-                    }
-                }
-            }
+        .dark {
+          opacity: 0.4;
         }
+      }
 
-        @media (max-width: $grid-xl) {
-            h1 {
-                font-size: 36px;
-            }
-
-            .swiper {
-                .swiper-slide {
-                    width: 80%;
-
-                    h2 {
-                        font-size: 40px;
-                    }
-
-                }
-            }
+      .swiper-slide:nth-child(3) {
+        .swiper-word {
+          .word-box {
+            left: 50%;
+            text-align: center;
+          }
         }
+      }
 
-        @media (max-width: $grid-lg) {
-            .swiper {
-                .swiper-slide {
-                    width: 90%;
-                }
-            }
+      .swiper-slide:nth-child(4) {
+        .swiper-word {
+          .word-box {
+            left: 50%;
+            text-align: center;
+          }
         }
+      }
 
-        @media (max-width: $grid-md) {
-
-
-            .swiper {
-                height: 435px;
-                margin-bottom: 15px;
-
-                .swiper-slide {
-                    width: 78.12%;
-                    height: 375px;
-                    border: 4px solid $brown-100;
-
-                    h2 {
-                        font-size: 24px;
-                        line-height: 29px;
-                        font-weight: 700;
-                        color: #FFFFFF;
-                        top: 165px;
-                        // left: 25.4%;
-                        left: 50%;
-                        transform: translateX(-50%);
-                        z-index: 2;
-                    }
-
-                    .swiper-icon {
-                        top: 168px;
-                        left: calc(50% - 70px);
-                        z-index: 2;
-                    }
-
-                    .mobile-hide {
-                        display: none;
-                    }
-
-                    .mobile-show {
-                        display: block;
-                    }
-
-                    .swiper-man {
-                        top: 18.98px;
-                        left: calc(50% - 143px);
-                        width: 87px;
-
-                    }
-
-                    .swiper-oldman {
-                        top: 31.59px;
-                        left: calc(50% - 60.72px);
-                        width: 77px;
-                    }
-
-                    .swiper-women {
-                        top: 17.6px;
-                        right: calc(50% - 134.69px);
-                        width: 80px;
-                    }
-
-                    .swiper-oldwomen {
-                        top: 31.27px;
-                        right: calc(50% - 88.85px);
-                        width: 79px;
-                    }
-
-                    .swiper-word {
-                        width: calc(100% + 8px);
-                        height: 227px;
-                        bottom: -4px;
-
-                        .border {
-                            width: calc(100% - 55px);
-                            top: 103px;
-                        }
-
-                        .word-box {
-                            width: calc(100% - 55px);
-                            top: 68px;
-
-                            h3 {
-                                font-size: 18px;
-                                font-weight: 700;
-                                line-height: 23px;
-                            }
-
-                            p {
-                                font-size: 15px;
-                                font-weight: 500;
-                            }
-                        }
-                    }
-                }
-
-                .swiper-slide:nth-child(2) {
-                    .swiper-icon {
-                        left: calc(50% - 62px);
-                    }
-                }
-
-                .swiper-slide:nth-child(4) {
-                    .swiper-icon {
-                        left: calc(50% - 84px);
-                    }
-                }
-
-
-            }
+      .swiper-pagination {
+        .swiper-pagination-bullet {
+          width: 19px;
+          height: 19px;
+          margin: 0 7.6px;
+          background-color: $brown-100;
         }
-
-        @media (max-width: 750px) {
-            padding-top: 29px;
-
-            h1 {
-                font-size: 18px;
-                line-height: 18px;
-                margin-bottom: 15px;
-            }
-
-            .swiper {
-                height: 420px;
-
-                .swiper-pagination {
-                    bottom: 3px;
-
-                    .swiper-pagination-bullet {
-                        width: 10px;
-                        height: 10px;
-                        margin: 0 4px;
-                    }
-                }
-            }
-        }
-
-        @media (max-width: $grid-sm) {
-            .swiper {
-                height: 382px;
-
-                .swiper-slide,
-                .swiper-slide:nth-child(2),
-                .swiper-slide:nth-child(3),
-                .swiper-slide:nth-child(4) {
-                    height: 349px;
-
-                    h2 {
-                        top: 139px;
-                        left: 62px;
-                        transform: none;
-                    }
-
-                    .swiper-icon {
-                        top: 142px;
-                        left: 27px;
-                    }
-
-                    .swiper-man {
-                        top: 18.98px;
-                        left: calc(50% - 113px);
-                        width: auto;
-                    }
-
-                    .swiper-oldman {
-                        top: 31.59px;
-                        left: calc(50% - 49.72px);
-                        width: auto;
-                    }
-
-                    .swiper-women {
-                        top: 17.6px;
-                        right: calc(50% - 104.69px);
-                        width: auto;
-                    }
-
-                    .swiper-oldwomen {
-                        top: 31.27px;
-                        right: calc(50% - 58.85px);
-                        width: auto;
-                    }
-
-                    .swiper-word {
-                        .word-box {
-                            text-align: left;
-
-                            h3 {
-                                font-size: 15px;
-                            }
-                        }
-                    }
-                }
-
-                .swiper-slide:nth-child(2) {
-                    .swiper-word {
-                        .word-box {
-                            h3 {
-                                font-size: 15px;
-                            }
-                        }
-                    }
-                }
-
-
-            }
-        }
+      }
     }
 
-    .title4text {
-        margin-bottom: 52px;
-        font-size: 40px;
-        font-weight: 800;
-        line-height: 48px;
-        letter-spacing: 2px;
-        @media (max-width: $grid-xl) {
-                font-size: 36px;
+    @media (max-width: $grid-xxl) {
+      .swiper {
+        height: 764px;
+
+        .swiper-slide {
+          height: 640px;
+
+          // overflow: visible;
+          .swiper-man {
+            left: calc(50% - 380px);
+          }
+
+          .swiper-oldman {
+            left: calc(50% - 175px);
+          }
+
+          .swiper-women {
+            right: calc(50% - 345px);
+          }
+
+          .swiper-oldwomen {
+            right: calc(50% - 180px);
+          }
+
+          .swiper-word {
+            width: calc(100% + 32px);
+            height: 229px;
+            bottom: -16px;
+            z-index: 1;
+
+            .border {
+              width: 500px;
+              left: 50%;
+              transform: translateX(-50%);
+            }
+
+            .word-box {
+              width: 500px;
+              left: 50%;
+              text-align: center;
+            }
+          }
         }
-        @media (max-width: 750px) {
-                font-size: 18px;
-                line-height: 18px;
-                margin-bottom: 15px;
-        }
+      }
     }
+
+    @media (max-width: $grid-xl) {
+      .swiper {
+        .swiper-slide {
+          width: 80%;
+
+          h3 {
+            font-size: 40px;
+          }
+        }
+      }
+    }
+
+    @media (max-width: $grid-lg) {
+      .swiper {
+        .swiper-slide {
+          width: 90%;
+        }
+      }
+    }
+
+    @media (max-width: $grid-md) {
+      .swiper {
+        height: 435px;
+        margin-bottom: 15px;
+
+        .swiper-slide {
+          width: 78.12%;
+          height: 375px;
+          border: 4px solid $brown-100;
+
+          h3 {
+            font-size: 24px;
+            line-height: 29px;
+            font-weight: 700;
+            color: #ffffff;
+            top: 165px;
+            // left: 25.4%;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 2;
+          }
+
+          .swiper-icon {
+            top: 168px;
+            left: calc(50% - 70px);
+            z-index: 2;
+          }
+
+          .mobile-hide {
+            display: none;
+          }
+
+          .mobile-show {
+            display: block;
+          }
+
+          .swiper-man {
+            top: 18.98px;
+            left: calc(50% - 143px);
+            width: 87px;
+          }
+
+          .swiper-oldman {
+            top: 31.59px;
+            left: calc(50% - 60.72px);
+            width: 77px;
+          }
+
+          .swiper-women {
+            top: 17.6px;
+            right: calc(50% - 134.69px);
+            width: 80px;
+          }
+
+          .swiper-oldwomen {
+            top: 31.27px;
+            right: calc(50% - 88.85px);
+            width: 79px;
+          }
+
+          .swiper-word {
+            width: calc(100% + 8px);
+            height: 227px;
+            bottom: -4px;
+
+            .border {
+              width: calc(100% - 55px);
+              top: 103px;
+            }
+
+            .word-box {
+              width: calc(100% - 55px);
+              top: 68px;
+
+              h4 {
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 23px;
+              }
+
+              p {
+                font-size: 15px;
+                font-weight: 500;
+              }
+            }
+          }
+        }
+
+        .swiper-slide:nth-child(2) {
+          .swiper-icon {
+            left: calc(50% - 62px);
+          }
+        }
+
+        .swiper-slide:nth-child(4) {
+          .swiper-icon {
+            left: calc(50% - 84px);
+          }
+        }
+      }
+    }
+
+    @media (max-width: 750px) {
+      padding-top: 29px;
+
+      .swiper {
+        height: 420px;
+
+        .swiper-pagination {
+          bottom: 3px;
+
+          .swiper-pagination-bullet {
+            width: 10px;
+            height: 10px;
+            margin: 0 4px;
+          }
+        }
+      }
+    }
+
+    @media (max-width: $grid-sm) {
+      .swiper {
+        height: 382px;
+
+        .swiper-slide,
+        .swiper-slide:nth-child(2),
+        .swiper-slide:nth-child(3),
+        .swiper-slide:nth-child(4) {
+          height: 349px;
+
+          h3 {
+            top: 139px;
+            left: 62px;
+            transform: none;
+          }
+
+          .swiper-icon {
+            top: 142px;
+            left: 27px;
+          }
+
+          .swiper-man {
+            top: 18.98px;
+            left: calc(50% - 113px);
+            width: auto;
+          }
+
+          .swiper-oldman {
+            top: 31.59px;
+            left: calc(50% - 49.72px);
+            width: auto;
+          }
+
+          .swiper-women {
+            top: 17.6px;
+            right: calc(50% - 104.69px);
+            width: auto;
+          }
+
+          .swiper-oldwomen {
+            top: 31.27px;
+            right: calc(50% - 58.85px);
+            width: auto;
+          }
+
+          .swiper-word {
+            .word-box {
+              text-align: left;
+
+              h4 {
+                font-size: 15px;
+              }
+            }
+          }
+        }
+
+        .swiper-slide:nth-child(2) {
+          .swiper-word {
+            .word-box {
+              h4 {
+                font-size: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // 測驗區塊
+  .quiz-section {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #692300;
+
+    @media (max-width: 1100px) {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    @media (max-width: 750px) {
+      margin-top: 50px;
+      margin-bottom: 0px;
+    }
+    @media (max-width: 700px) {
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+    .quiz-content-bgset {
+      background-color: #ffd000;
+      border: 21px solid #692300;
+      background-image: url(../images/quiz/w-line.svg);
+
+      @media (max-width: 1100px) {
+        border: 12px solid rgb(105, 35, 0);
+      }
+      @media (max-width: 400px) {
+        border: 10px solid rgb(105, 35, 0);
+      }
+    }
+    .quiz-page {
+      position: relative;
+      margin-top: 100px;
+      padding: 80px 0px 42px;
+      text-align: center;
+
+      @media (max-width: 650px) {
+        font-size: 28px;
+      }
+      @media (max-width: 500px) {
+        font-size: 26px;
+      }
+      @media (max-width: 400px) {
+        font-size: 22px;
+      }
+      .quiz-title {
+        position: absolute;
+        top: 0;
+        transform: translateY(-55%);
+        max-width: 80%;
+      }
+      p {
+        margin: 0px;
+        padding: 20px 0px;
+        @media (max-width: 850px) {
+          padding: 0px;
+        }
+      }
+    }
+    .img-cancer {
+      margin: 0px 18px;
+
+      @media (max-width: 850px) {
+        width: 80px;
+      }
+      @media (max-width: 650px) {
+        margin: 0px 10px;
+        width: 70px;
+      }
+      @media (max-width: 500px) {
+        width: 55px;
+      }
+      @media (max-width: 400px) {
+        margin: 0px 10px;
+        width: 40px;
+      }
+    }
+    .btn-readyGo,
+    .btn-next-question {
+      @include quiz-btn-layout;
+    }
+    .quiz-game-box {
+      li {
+        padding: 10px 20px;
+        margin: 5px;
+        color: $white;
+        background-color: #392d2d;
+        list-style-type: none;
+      }
+      .quiz-score {
+        color: #3c3636;
+      }
+      .question {
+        padding: 100px 10px;
+        background-color: $yellow-300;
+      }
+      .btn-correct {
+        @include quiz-btn-layout;
+        background-color: #346900;
+      }
+      .btn-wrong {
+        @include quiz-btn-layout;
+        margin-left: 20px;
+        background-color: #9e0900;
+      }
+      .answer-correct {
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 97px;
+
+        text-align: center;
+        letter-spacing: 0.175em;
+
+        color: #346900;
+
+        -webkit-text-stroke: 3px #ffffff;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+      }
+      .answer-wrong {
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 97px;
+
+        text-align: center;
+        letter-spacing: 0.175em;
+
+        color: #9e0900;
+
+        -webkit-text-stroke: 3px #ffffff;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+      }
+      .btn-next-question {
+      }
+    }
+  }
+  // 連結卡片區塊
+  .linkcard-section {
+    background-color: #fffcef;
+    .linkcard {
+      margin: 0px 16px;
+      padding: 32px 24px;
+      width: 46%;
+      color: #319e76;
+      background-color: #f9f4e1;
+      max-height: 300px;
+
+      box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
+
+      @media (max-width: 1300px) {
+        padding: 32px 24px 16px;
+      }
+      @media (max-width: 920px) {
+        width: 42%;
+      }
+      @media (max-width: 865px) {
+        width: 100%;
+        margin: 0px 22px 35px;
+      }
+      @media (max-width: 450px) {
+        width: 85%;
+        max-height: 280px;
+      }
+      @media (max-width: 340px) {
+        max-height: 220px;
+      }
+    }
+    .doctorImg {
+      @media (max-width: 450px) {
+        width: 138px;
+      }
+      @media (max-width: 340px) {
+        width: 108px;
+      }
+    }
+    .doctor-saying {
+      font-size: 28px;
+      font-weight: 700;
+      text-align: left;
+      padding-top: 45px;
+
+      @media (max-width: 1300px) {
+        width: 150px;
+        margin-left: 10px;
+      }
+      @media (max-width: 920px) {
+        font-size: 23px;
+        padding-top: 30px;
+        margin-left: 0px;
+      }
+      @media (max-width: 865px) {
+        font-size: 28px;
+        padding-top: 43px;
+        min-width: 220px;
+      }
+      @media (max-width: 450px) {
+        font-size: 22px;
+        padding-top: 43px;
+        min-width: 175px;
+      }
+      @media (max-width: 340px) {
+        padding-top: 11px;
+        min-width: 120px;
+      }
+    }
+    .btn-link {
+      position: relative;
+      bottom: 32px;
+      transform: translateY(-50%);
+
+      background-color: #319e76;
+      border-radius: 50px;
+
+      font-size: 32px;
+      font-weight: 700;
+      color: #f9f4e1;
+
+      padding: 12px 0px;
+
+      &:hover {
+        background-color: #692300;
+      }
+      @media (max-width: 1300px) {
+        bottom: 16px;
+        font-size: 25px;
+      }
+      @media (max-width: 920px) {
+        font-size: 22px;
+      }
+      @media (max-width: 865px) {
+        bottom: 24px;
+        font-size: 28px;
+        padding: 7px 0px;
+      }
+      @media (max-width: 450px) {
+        font-size: 24px;
+      }
+    }
+    .btn-flow {
+      width: 55px;
+
+      @media (max-width: 920px) {
+        width: 45px;
+      }
+    }
+  }
+  // 最後結尾 FB 連結
+  .lastPart {
+    background-color: #fffcef;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .greenLine_BG {
+    margin-top: 50px;
+    border: 10px solid #396b51;
+    background-color: #f9f4e1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 83%;
+
+    @media (max-width: 750px) {
+      margin-top: 10px;
+    }
+    @media (max-width: 500px) {
+      width: 95%;
+    }
+  }
+  .quiz-title-health {
+    margin-top: 80px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #306b56;
+    text-align: center;
+
+    @media (max-width: 950px) {
+      margin-top: 80px;
+      font-size: 30px;
+      font-weight: 700;
+    }
+    @media (max-width: 750px) {
+      margin-top: 60px;
+      font-size: 25px;
+    }
+    @media (max-width: 650px) {
+      margin-top: 60px;
+      font-size: 25px;
+      width: 219px;
+    }
+  }
+  .quiz-titleSpace {
+    letter-spacing: 0.08em;
+  }
+  .twoFB {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 750px) {
+      margin-top: 30px;
+    }
+  }
+  #firstFB {
+    margin-bottom: 15px;
+  }
+  .quizbtn-infoSupport {
+    background-color: #1a6ccd;
+    height: 60px;
+    border-radius: 157px;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 700;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+
+    width: 440px;
+    margin-bottom: 15px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgb(56, 82, 154);
+    }
+    @media (max-width: 750px) {
+      height: 50px;
+      font-size: 20px;
+      width: 310px;
+    }
+    @media (max-width: 500px) {
+      height: 50px;
+      font-size: 20px;
+      width: 220px;
+    }
+    @media (max-width: 400px) {
+      height: 50px;
+      font-size: 20px;
+      width: 190px;
+    }
+  }
+  #fbIcon,
+  #fbIcon2 {
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+
+    @media (max-width: 750px) {
+      width: 40px;
+      height: 40px;
+      margin-left: 5px;
+    }
+  }
+  #fbText-small {
+    display: none;
+
+    @media (max-width: 500px) {
+      display: inline;
+    }
+  }
+  #fbText-big {
+    @media (max-width: 500px) {
+      display: none;
+    }
+  }
+  .lastPic {
+    margin-top: 25px;
+    width: 85%;
+    @media (max-width: 750px) {
+      margin-top: 40px;
+      width: 105%;
+    }
+  }
+}
+.modal-header {
+  padding: 37px 10px 23px;
+  color: #6b4d30;
 }
 
+.modal-header img {
+  margin-bottom: 15px;
+}
+.btn-alert,
+.btn-alert:hover {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.035em;
+
+  text-align: center;
+
+  color: #ffffff;
+  background: #692300;
+  border-radius: 3px;
+  padding: 10px 60px;
+}

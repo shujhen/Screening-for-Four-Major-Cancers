@@ -15,10 +15,15 @@
 </head>
 
 <body>
-
   <!-- 主要內容 -->
   <main>
-    <section id="front-page-animation">
+    <div class="loading">
+      <div class="loading-box">
+        <div id="loader"></div>
+        <span>Loading...</span>
+      </div>
+    </div>
+    <section id="front-page-animation" class="loading-complete-animation">
       <a class="skip-btn" href="javascript:;" onclick="parent.hideIframe()">SKIP ></a>
       <div class="scroll-btn d-md-none d-block" onclick="scrollDown()"></div>
       <div class="animation-container">

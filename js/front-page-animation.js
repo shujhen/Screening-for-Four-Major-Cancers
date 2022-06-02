@@ -548,3 +548,14 @@ function scrollDown() {
         document.documentElement.scrollTop = document.documentElement.scrollTop + 1000;
     }
 }
+
+
+const loading_page = document.querySelector('.loading');
+const main_page = document.querySelector('.loading-complete-animation');
+
+$(document).ready(function () {
+    setTimeout(function(){
+        main_page.style.display = 'block';
+        loading_page.style.display = 'none';
+    }, 3000);
+});

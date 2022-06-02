@@ -1,526 +1,664 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="description"
-    content="四癌篩檢補助資訊網，介紹台中市轄區內癌症篩檢的補助資訊，總共有四項癌症補助：口腔癌(口腔黏膜檢查)、乳癌(乳房X光攝影檢查)、大腸癌(糞便潛血檢查)、子宮頸癌 (子宮頸抹片檢查)。">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>四癌篩檢補助 | 首頁</title>
-  <!-- Favicon -->
-  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-  <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-  <!-- CSS -->
-  <link rel="stylesheet" href="./css/front-page.css" />
-  <link rel="stylesheet" href="./css/lastindex.css">
-  <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
-  <style>
-    .nav-pills .nav-link.active,
-    .nav-pills .show>.nav-link {
-      background-color: #fdae20;
-    }
-  </style>
-  <style>
-    /* Center the loader */
-    #loader {
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      z-index: 1;
-      width: 80px;
-      height: 80px;
-      margin: -76px 0 0 -76px;
-      /* border: 16px solid #f3f3f3;
-        border-radius: 50%;
-        border-top: 16px solid #3498db; */
-      -webkit-animation: spin 2s linear infinite;
-      animation: spin 2s linear infinite;
-      background-image: url(./images/relogo.svg);
-      background-size: contain;
-    }
-
-
-
-
-    @-webkit-keyframes spin {
-      0% {
-        -webkit-transform: rotate(0deg);
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="四癌篩檢補助資訊網，介紹台中市轄區內癌症篩檢的補助資訊，總共有四項癌症補助：口腔癌(口腔黏膜檢查)、乳癌(乳房X光攝影檢查)、大腸癌(糞便潛血檢查)、子宮頸癌 (子宮頸抹片檢查)。"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>四癌篩檢補助 | 首頁</title>
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/front-page.css" />
+    <!-- preload -->
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700;800&family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap"
+      as="style"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700;800&family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap"
+    />
+    <style>
+      .nav-pills .nav-link.active,
+      .nav-pills .show > .nav-link {
+        background-color: #fdae20;
       }
+    </style>
+  </head>
 
-      100% {
-        -webkit-transform: rotate(360deg);
-      }
-    }
+  <body>
+    <iframe src="./front-page-animation.html" title="首頁動畫"></iframe>
+    <!-- LOGO + 導覽列 -->
+    <div class="header">
+      <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="index.html"
+          ><img src="./images/logo.svg" class="logo" alt="四癌篩檢補助 Logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#dropdownMenu"
+          aria-controls="dropdownMenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <img src="./images/burger.svg" alt="Toggle Menu Button" />
+        </button>
+        <div class="collapse navbar-collapse" id="dropdownMenu">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="introduce.html" class="nav-link">四癌篩檢介紹</a>
+            </li>
+            <li class="nav-item">
+              <a href="qualify-check.html" class="nav-link">補助資格查詢</a>
+            </li>
+            <li class="nav-item">
+              <a href="hospital-list.html" class="nav-link">篩檢機構查詢</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- 主要內容 -->
+    <main>
+      <h1 class="text-hide">四癌篩檢資訊網首頁</h1>
 
-    @keyframes spin {
-      0% {
-        transform: rotate(0deg);
-      }
-
-      100% {
-        transform: rotate(360deg);
-      }
-    }
-
-    /* Add animation to "page content" */
-    .animate-bottom {
-      position: relative;
-      -webkit-animation-name: animatebottom;
-      -webkit-animation-duration: 1s;
-      animation-name: animatebottom;
-      animation-duration: 1s
-    }
-
-    @-webkit-keyframes animatebottom {
-      from {
-        bottom: -100px;
-        opacity: 0
-      }
-
-      to {
-        bottom: 0px;
-        opacity: 1
-      }
-    }
-
-    @keyframes animatebottom {
-      from {
-        bottom: -100px;
-        opacity: 0
-      }
-
-      to {
-        bottom: 0;
-        opacity: 1
-      }
-    }
-
-    #myDiv {
-      display: none;
-      text-align: center;
-    }
-  </style>
-
-</head>
-
-<body >
-  <!-- <div id="bgc" style="background-color:#123E30;width: 100%; height: 100vh;">
-    <div id="loader"></div>
-    <span>loading</span>
-  </div>
-
-  <section class="display:none;" id="myDiv" class="animate-bottom"> <section>-->
-
-  <iframe src="./front-page-animation.html" title="首頁動畫" style="width: 100%; height: 100vh; border: 0;"></iframe>
-
-
-  <!-- LOGO + 導覽列 -->
-  <div class="header">
-    <nav class="navbar navbar-expand-md">
-      <a class="navbar-brand" href="index.html"><img src="./images/logo.svg" class="logo" alt="四癌篩檢補助 Logo" /></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#dropdownMenu"
-        aria-controls="dropdownMenu" aria-expanded="false" aria-label="Toggle navigation">
-        <img src="./images/burger.svg" alt="Toggle Menu Button" />
-      </button>
-      <div class="collapse navbar-collapse" id="dropdownMenu">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a href="introduce.html" class="nav-link">四癌篩檢介紹</a>
+      <section class="step-1">
+        <div class="title-box d-flex mx-auto">
+          <h2 class="grern-title">
+            Step 1 : 了解<span class="brown-title">四癌與篩檢方式</span>
+          </h2>
+        </div>
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <a
+              class="nav-link active"
+              id="pills-home-tab"
+              data-toggle="pill"
+              href="#Oral-Cancer"
+              role="tab"
+            >
+              <span class="text-center">口腔癌</span>
+            </a>
           </li>
-          <li class="nav-item">
-            <a href="qualify-check.html" class="nav-link">補助資格查詢</a>
+          <li class="nav-item" role="presentation">
+            <a
+              class="nav-link"
+              id="pills-profile-tab"
+              data-toggle="pill"
+              href="#Breast-Cancer"
+              role="tab"
+            >
+              <span class="text-center">乳癌</span>
+            </a>
           </li>
-          <li class="nav-item">
-            <a href="hospital-list.html" class="nav-link">篩檢機構查詢</a>
+          <li class="nav-item" role="presentation">
+            <a
+              class="nav-link"
+              id="pills-contact-tab"
+              data-toggle="pill"
+              href="#Colorectal-cancer"
+              role="tab"
+            >
+              <span class="text-center">大腸癌</span>
+            </a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a
+              class="nav-link"
+              id="pills-contact-tab"
+              data-toggle="pill"
+              href="#Cervical-Cancer"
+              role="tab"
+            >
+              <span class="text-center">子宮頸癌</span>
+            </a>
           </li>
         </ul>
-      </div>
-    </nav>
-  </div>
-  <!-- 主要內容 -->
-  <main>
-
-    <section class="step-1">
-      <div class="title-box d-flex mx-auto">
-        <h1 class="grern-title">Step 1 : 了解</h1>
-        <h1 class="brown-title">四癌與篩檢方式</h1>
-
-      </div>
-      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-        <li class="nav-item" role="presentation">
-          <a class="nav-link  active" id="pills-home-tab" data-toggle="pill" href="#Oral-Cancer" role="tab">
-            <span class="text-center">口腔癌</span>
-          </a>
-        </li>
-        <li class="nav-item" role="presentation">
-          <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#Breast-Cancer" role="tab">
-            <span class="text-center">乳癌</span>
-          </a>
-        </li>
-        <li class="nav-item" role="presentation">
-          <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#Colorectal-cancer" role="tab">
-            <span class="text-center">大腸癌</span>
-          </a>
-        </li>
-        <li class="nav-item" role="presentation">
-          <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#Cervical-Cancer" role="tab">
-            <span class="text-center">子宮頸癌</span>
-          </a>
-        </li>
-      </ul>
-      <div class="word-container">
-        <div class="container">
-          <div class="tab-content text-left" id="pills-tabContent">
-            <div class="tab-pane fade show active" id="Oral-Cancer" role="tabpanel">
-              <h2 class="w750-show">口腔癌</h2>
-              口腔癌為我國青壯年（25-44歲）男性最容易發生的癌症，平均死亡年齡為54歲，較其他癌症早10年以上。每年約有5,400名口腔癌個案，2,300人死於口腔癌，嚼檳榔、吸菸是造成口腔癌的主因。罹病後，輕則毀容，重則奪命。篩檢政策
-              國外研究顯示，<span class="brown-word">口腔黏膜檢查</span>可有效降低口腔癌之死亡率。
-            </div>
-            <div class="tab-pane fade" id="Breast-Cancer" role="tabpanel">
-              <h2 class="w750-show">乳癌</h2>
-              乳癌為我國婦女發生率第1位之癌症，發生高峰約在45-69歲之間，約為每十萬名婦女188-194人。依據衛生福利部死因統計及國民健康署癌症登記資料顯示，每年有逾萬位婦女罹患乳癌，逾2,000名婦女死於乳癌，相當於每天約31位婦女被診斷罹患乳癌、6位婦女因乳癌而失去寶貴性命。<span
-                class="brown-word">定期乳房X光攝影</span>篩檢是最重要的防治策略。
-            </div>
-            <div class="tab-pane fade" id="Colorectal-cancer" role="tabpanel">
-              <h2 class="w750-show">大腸癌</h2>
-              大腸癌是可以早期發現早期治療，且治癒率很高的癌症。根據統計，早期的大腸癌如果妥善治療，存活率高達90％以上。大腸癌主要是由大腸內的腺瘤瘜肉癌化所造成，因此如能早期發現腺瘤瘜肉予以切除，可以減少大腸癌的發生。
-              透過實施<span
-                class="brown-word">糞便潛血檢查</span>可以降低大腸癌發生率，如果糞便潛血檢查呈陽性時，應進一步接受大腸鏡檢查，其好處是檢查過程如有發現病兆或瘜肉時，可以直接取樣做切片或是將它切除。
-            </div>
-            <div class="tab-pane fade" id="Cervical-Cancer" role="tabpanel">
-              <h2 class="w750-show">子宮頸癌</h2>
-              子宮頸癌是女性常見且可經由篩檢早期發現早期治療之癌症，子宮頸癌是一個疾病發展相當緩慢的癌症，婦女朋友只要<span
-                class="brown-word">定期抹片檢查</span>即可早期發現，且子宮頸原位癌治癒率可達100％；另外，在面對發生率急遽上升的乳癌，婦女已經不再只是做好自我檢查，而是要透過專科醫師檢查及乳房攝影篩檢，才能早期發現早時治療。
+        <div class="word-container">
+          <div class="container">
+            <div class="tab-content text-left" id="pills-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="Oral-Cancer"
+                role="tabpanel"
+              >
+                <h3 class="w750-show">口腔癌</h3>
+                口腔癌為我國青壯年（25-44歲）男性最容易發生的癌症，平均死亡年齡為54歲，較其他癌症早10年以上。每年約有5,400名口腔癌個案，2,300人死於口腔癌，嚼檳榔、吸菸是造成口腔癌的主因。罹病後，輕則毀容，重則奪命。篩檢政策
+                國外研究顯示，<span class="brown-word">口腔黏膜檢查</span
+                >可有效降低口腔癌之死亡率。
+              </div>
+              <div class="tab-pane fade" id="Breast-Cancer" role="tabpanel">
+                <h3 class="w750-show">乳癌</h3>
+                乳癌為我國婦女發生率第1位之癌症，發生高峰約在45-69歲之間，約為每十萬名婦女188-194人。依據衛生福利部死因統計及國民健康署癌症登記資料顯示，每年有逾萬位婦女罹患乳癌，逾2,000名婦女死於乳癌，相當於每天約31位婦女被診斷罹患乳癌、6位婦女因乳癌而失去寶貴性命。<span
+                  class="brown-word"
+                  >定期乳房X光攝影</span
+                >篩檢是最重要的防治策略。
+              </div>
+              <div class="tab-pane fade" id="Colorectal-cancer" role="tabpanel">
+                <h3 class="w750-show">大腸癌</h3>
+                大腸癌是可以早期發現早期治療，且治癒率很高的癌症。根據統計，早期的大腸癌如果妥善治療，存活率高達90％以上。大腸癌主要是由大腸內的腺瘤瘜肉癌化所造成，因此如能早期發現腺瘤瘜肉予以切除，可以減少大腸癌的發生。
+                透過實施<span class="brown-word">糞便潛血檢查</span
+                >可以降低大腸癌發生率，如果糞便潛血檢查呈陽性時，應進一步接受大腸鏡檢查，其好處是檢查過程如有發現病兆或瘜肉時，可以直接取樣做切片或是將它切除。
+              </div>
+              <div class="tab-pane fade" id="Cervical-Cancer" role="tabpanel">
+                <h3 class="w750-show">子宮頸癌</h3>
+                子宮頸癌是女性常見且可經由篩檢早期發現早期治療之癌症，子宮頸癌是一個疾病發展相當緩慢的癌症，婦女朋友只要<span
+                  class="brown-word"
+                  >定期抹片檢查</span
+                >即可早期發現，且子宮頸原位癌治癒率可達100％；另外，在面對發生率急遽上升的乳癌，婦女已經不再只是做好自我檢查，而是要透過專科醫師檢查及乳房攝影篩檢，才能早期發現早時治療。
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="step-2 text-center">
-      <h1>Step 2 : 了解篩檢<span class="brown-title">補助範圍</span></h1>
-      <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <h2>口腔癌</h2>
-            <img class="swiper-icon mobile-show" src="./images/step-2-icon1.svg" alt="">
-            <div class="swiper-word">
-              <div class="word-box">
-                <h3>口腔黏膜檢查 (每2年1次)</h3>
-                <p>30歲以上有嚼檳榔（含已戒檳榔）或吸菸者。<br>18歲以上有嚼檳榔（含已戒檳榔）原住民。</p>
-              </div>
-              <div class="border"></div>
-            </div>
-            <img class="swiper-man mobile-hide" src="./images/step-2-man.svg" alt="">
-            <img class="swiper-man mobile-show" src="./images/step-2-mobile-man.svg" alt="">
-            <img class="swiper-oldman mobile-hide" src="./images/step-2-oldman.svg" alt="">
-            <img class="swiper-oldman mobile-show" src="./images/step-2-mobile-oldman.svg" alt="">
-            <img class="swiper-women mobile-hide" src="./images/step-2-women.svg" alt="">
-            <img class="swiper-women mobile-show" src="./images/step-2-mobile-women.svg" alt="">
-            <img class="swiper-oldwomen mobile-hide" src="./images/step-2-oldwomen.svg" alt="">
-            <img class="swiper-oldwomen mobile-show" src="./images/step-2-mobile-oldwomen.svg" alt="">
-          </div>
-          <div class="swiper-slide">
-            <h2>乳癌</h2>
-            <img class="swiper-icon mobile-show" src="./images/step-2-icon2.svg" alt="">
-            <div class="swiper-word">
-              <div class="word-box">
-                <h3>乳房X光攝影檢查 (每2年1次)</h3>
-                <p>45歲-未滿70歲婦女。<br>
-                  40歲-未滿45歲，且其二親等以內血親曾患有乳癌之婦女</p>
-              </div>
-              <div class="border"></div>
-            </div>
-            <img class="swiper-man mobile-hide" src="./images/step-2man-dark.svg" alt="">
-            <img class="swiper-man mobile-show" src="./images/step-2-mobile-man-dark.svg" alt="">
-            <img class="swiper-man dark mobile-hide" src="./images/step-2-man.svg" alt="">
-            <img class="swiper-man dark mobile-show" src="./images/step-2-mobile-man.svg" alt="">
-            <img class="swiper-oldman mobile-hide" src="./images/step-2-oldman-dark.svg" alt="">
-            <img class="swiper-oldman mobile-show" src="./images/step-2-mobile-oldman-dark.svg" alt="">
-            <img class="swiper-oldman dark mobile-hide" src="./images/step-2-oldman.svg" alt="">
-            <img class="swiper-oldman dark mobile-show" src="./images/step-2-mobile-oldman.svg" alt="">
-            <img class="swiper-women mobile-hide" src="./images/step-2-women.svg" alt="">
-            <img class="swiper-women mobile-show" src="./images/step-2-mobile-women.svg" alt="">
-            <img class="swiper-oldwomen mobile-hide" src="./images/step-2-oldwomen.svg" alt="">
-            <img class="swiper-oldwomen mobile-show" src="./images/step-2-mobile-oldwomen.svg" alt="">
-          </div>
-          <div class="swiper-slide">
-            <h2>大腸癌</h2>
-            <img class="swiper-icon mobile-show" src="./images/step-2-icon3.svg" alt="">
-            <div class="swiper-word">
-              <div class="word-box">
-                <h3>糞便潛血檢查 (每2年1次)</h3>
-                <p>50至未滿75歲民眾。</p>
-              </div>
-              <div class="border"></div>
-            </div>
-            <img class="swiper-man mobile-hide" src="./images/step-2man-dark.svg" alt="">
-            <img class="swiper-man mobile-show" src="./images/step-2-mobile-man-dark.svg" alt="">
-            <img class="swiper-man dark mobile-hide" src="./images/step-2-man.svg" alt="">
-            <img class="swiper-man dark mobile-show" src="./images/step-2-mobile-man.svg" alt="">
-            <img class="swiper-oldman mobile-hide" src="./images/step-2-oldman.svg" alt="">
-            <img class="swiper-oldman mobile-show" src="./images/step-2-mobile-oldman.svg" alt="">
-            <img class="swiper-women mobile-hide" src="./images/step-2-women-dark.svg" alt="">
-            <img class="swiper-women mobile-show" src="./images/step-2-mobile-women-dark.svg" alt="">
-            <img class="swiper-women dark mobile-hide" src="./images/step-2-women.svg" alt="">
-            <img class="swiper-women dark mobile-show" src="./images/step-2-mobile-women.svg" alt="">
-            <img class="swiper-oldwomen mobile-hide" src="./images/step-2-oldwomen.svg" alt="">
-            <img class="swiper-oldwomen mobile-show" src="./images/step-2-mobile-oldwomen.svg" alt="">
-          </div>
-          <div class="swiper-slide">
-            <h2>子宮頸癌</h2>
-            <img class="swiper-icon mobile-show" src="./images/step-2-icon4.svg" alt="">
-            <div class="swiper-word">
-              <div class="word-box">
-                <h3>子宮頸抹片檢查 (每年1次)</h3>
-                <p>30歲以上婦女，建議至少3年1次。</p>
-              </div>
-              <div class="border"></div>
-            </div>
-            <img class="swiper-man mobile-hide" src="./images/step-2man-dark.svg" alt="">
-            <img class="swiper-man mobile-show" src="./images/step-2-mobile-man-dark.svg" alt="">
-            <img class="swiper-man dark mobile-hide" src="./images/step-2-man.svg" alt="">
-            <img class="swiper-man dark mobile-show" src="./images/step-2-mobile-man.svg" alt="">
-            <img class="swiper-oldman mobile-hide" src="./images/step-2-oldman-dark.svg" alt="">
-            <img class="swiper-oldman mobile-show" src="./images/step-2-mobile-oldman-dark.svg" alt="">
-            <img class="swiper-oldman dark mobile-hide" src="./images/step-2-oldman.svg" alt="">
-            <img class="swiper-oldman dark mobile-show" src="./images/step-2-mobile-oldman.svg" alt="">
-            <img class="swiper-women mobile-hide" src="./images/step-2-women.svg" alt="">
-            <img class="swiper-women mobile-show" src="./images/step-2-mobile-women.svg" alt="">
-            <img class="swiper-oldwomen mobile-hide" src="./images/step-2-oldwomen.svg" alt="">
-            <img class="swiper-oldwomen mobile-show" src="./images/step-2-mobile-oldwomen.svg" alt="">
-          </div>
-        </div>
-        <div class="swiper-pagination"></div>
-      </div>
-    </section>
-
-
-    <section class="quizgameStart">
-      <!-- quiz game -->
-      <div class="container">
-        <div class="title4 p-3">
-          <h1 class="title4text">Step 3 : 四癌篩檢小測驗</h1>
-        </div>
-
-        <div class="row pb-5">
-          <div class="col quiz-content-bgset py-5">
-            <div class="justify-content-center quiz-caption">
-              <div class="justify-content-center quizCount">
-                <span class="textForCalling1">馬上來檢測你了解多少癌篩小知識吧!</span>
-                <span class="textForCalling2">透過問答檢測<br>自己了解多少吧!</span>
-              </div>
-              <div class="quizQuestion  justify-content-center py-5">
-                <div class="justify-content-center quizImgs" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                  data-aos-duration="2000"
-                  >
-                  <img src="./images/quiz/quiz-mouth.svg" alt="">
-                  <div class="spaceBetweenImage"></div>
-                  <img src="./images/quiz/quiz-breast.svg" alt="">
-                  <div class="spaceBetweenImage"></div>
-                  <img src="./images/quiz/quiz-biglong.svg" alt="">
-                  <div class="spaceBetweenImage"></div>
-                  <img src="./images/quiz/quiz-HIV.svg" alt="">
+      </section>
+      <section class="step-2 text-center">
+        <h2>Step 2 : 了解篩檢<span class="brown-title">補助範圍</span></h2>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <h3>口腔癌</h3>
+              <img
+                class="swiper-icon mobile-show"
+                src="./images/step-2-icon1.svg"
+                alt=""
+              />
+              <div class="swiper-word">
+                <div class="word-box">
+                  <h4>口腔黏膜檢查 (每2年1次)</h4>
+                  <p>
+                    30歲以上有嚼檳榔（含已戒檳榔）或吸菸者。<br />18歲以上有嚼檳榔（含已戒檳榔）原住民。
+                  </p>
                 </div>
+                <div class="border"></div>
               </div>
-
-              <div class="justify-content-center quizAnswer">
-                <div class="row justify-content-center">
-                  <div class="quizbtn-readyGo quizbtn-game-bgSet justify-content-center align-items-center "
-                    onclick="not_ready()">
-                    <div>開始測驗</div>
-                  </div>
+              <img
+                class="swiper-man mobile-hide"
+                src="./images/step-2-man.svg"
+                alt=""
+              />
+              <img
+                class="swiper-man mobile-show"
+                src="./images/step-2-mobile-man.svg"
+                alt=""
+              />
+              <img
+                class="swiper-oldman mobile-hide"
+                src="./images/step-2-oldman.svg"
+                alt=""
+              />
+              <img
+                class="swiper-oldman mobile-show"
+                src="./images/step-2-mobile-oldman.svg"
+                alt=""
+              />
+              <img
+                class="swiper-women mobile-hide"
+                src="./images/step-2-women.svg"
+                alt=""
+              />
+              <img
+                class="swiper-women mobile-show"
+                src="./images/step-2-mobile-women.svg"
+                alt=""
+              />
+              <img
+                class="swiper-oldwomen mobile-hide"
+                src="./images/step-2-oldwomen.svg"
+                alt=""
+              />
+              <img
+                class="swiper-oldwomen mobile-show"
+                src="./images/step-2-mobile-oldwomen.svg"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <h3>乳癌</h3>
+              <img
+                class="swiper-icon mobile-show"
+                src="./images/step-2-icon2.svg"
+                alt=""
+              />
+              <div class="swiper-word">
+                <div class="word-box">
+                  <h4>乳房X光攝影檢查 (每2年1次)</h4>
+                  <p>
+                    45歲-未滿70歲婦女。<br />
+                    40歲-未滿45歲，且其二親等以內血親曾患有乳癌之婦女
+                  </p>
                 </div>
+                <div class="border"></div>
               </div>
+              <img
+                class="swiper-man mobile-hide"
+                src="./images/step-2man-dark.svg"
+                alt=""
+              />
+              <img
+                class="swiper-man mobile-show"
+                src="./images/step-2-mobile-man-dark.svg"
+                alt=""
+              />
+              <img
+                class="swiper-man dark mobile-hide"
+                src="./images/step-2-man.svg"
+                alt=""
+              />
+              <img
+                class="swiper-man dark mobile-show"
+                src="./images/step-2-mobile-man.svg"
+                alt=""
+              />
+              <img
+                class="swiper-oldman mobile-hide"
+                src="./images/step-2-oldman-dark.svg"
+                alt=""
+              />
+              <img
+                class="swiper-oldman mobile-show"
+                src="./images/step-2-mobile-oldman-dark.svg"
+                alt=""
+              />
+              <img
+                class="swiper-oldman dark mobile-hide"
+                src="./images/step-2-oldman.svg"
+                alt=""
+              />
+              <img
+                class="swiper-oldman dark mobile-show"
+                src="./images/step-2-mobile-oldman.svg"
+                alt=""
+              />
+              <img
+                class="swiper-women mobile-hide"
+                src="./images/step-2-women.svg"
+                alt=""
+              />
+              <img
+                class="swiper-women mobile-show"
+                src="./images/step-2-mobile-women.svg"
+                alt=""
+              />
+              <img
+                class="swiper-oldwomen mobile-hide"
+                src="./images/step-2-oldwomen.svg"
+                alt=""
+              />
+              <img
+                class="swiper-oldwomen mobile-show"
+                src="./images/step-2-mobile-oldwomen.svg"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <h3>大腸癌</h3>
+              <img
+                class="swiper-icon mobile-show"
+                src="./images/step-2-icon3.svg"
+                alt=""
+              />
+              <div class="swiper-word">
+                <div class="word-box">
+                  <h4>糞便潛血檢查 (每2年1次)</h4>
+                  <p>50至未滿75歲民眾。</p>
+                </div>
+                <div class="border"></div>
+              </div>
+              <img
+                class="swiper-man mobile-hide"
+                src="./images/step-2man-dark.svg"
+                alt=""
+              />
+              <img
+                class="swiper-man mobile-show"
+                src="./images/step-2-mobile-man-dark.svg"
+                alt=""
+              />
+              <img
+                class="swiper-man dark mobile-hide"
+                src="./images/step-2-man.svg"
+                alt=""
+              />
+              <img
+                class="swiper-man dark mobile-show"
+                src="./images/step-2-mobile-man.svg"
+                alt=""
+              />
+              <img
+                class="swiper-oldman mobile-hide"
+                src="./images/step-2-oldman.svg"
+                alt=""
+              />
+              <img
+                class="swiper-oldman mobile-show"
+                src="./images/step-2-mobile-oldman.svg"
+                alt=""
+              />
+              <img
+                class="swiper-women mobile-hide"
+                src="./images/step-2-women-dark.svg"
+                alt=""
+              />
+              <img
+                class="swiper-women mobile-show"
+                src="./images/step-2-mobile-women-dark.svg"
+                alt=""
+              />
+              <img
+                class="swiper-women dark mobile-hide"
+                src="./images/step-2-women.svg"
+                alt=""
+              />
+              <img
+                class="swiper-women dark mobile-show"
+                src="./images/step-2-mobile-women.svg"
+                alt=""
+              />
+              <img
+                class="swiper-oldwomen mobile-hide"
+                src="./images/step-2-oldwomen.svg"
+                alt=""
+              />
+              <img
+                class="swiper-oldwomen mobile-show"
+                src="./images/step-2-mobile-oldwomen.svg"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <h3>子宮頸癌</h3>
+              <img
+                class="swiper-icon mobile-show"
+                src="./images/step-2-icon4.svg"
+                alt=""
+              />
+              <div class="swiper-word">
+                <div class="word-box">
+                  <h4>子宮頸抹片檢查 (每年1次)</h4>
+                  <p>30歲以上婦女，建議至少3年1次。</p>
+                </div>
+                <div class="border"></div>
+              </div>
+              <img
+                class="swiper-man mobile-hide"
+                src="./images/step-2man-dark.svg"
+                alt=""
+              />
+              <img
+                class="swiper-man mobile-show"
+                src="./images/step-2-mobile-man-dark.svg"
+                alt=""
+              />
+              <img
+                class="swiper-man dark mobile-hide"
+                src="./images/step-2-man.svg"
+                alt=""
+              />
+              <img
+                class="swiper-man dark mobile-show"
+                src="./images/step-2-mobile-man.svg"
+                alt=""
+              />
+              <img
+                class="swiper-oldman mobile-hide"
+                src="./images/step-2-oldman-dark.svg"
+                alt=""
+              />
+              <img
+                class="swiper-oldman mobile-show"
+                src="./images/step-2-mobile-oldman-dark.svg"
+                alt=""
+              />
+              <img
+                class="swiper-oldman dark mobile-hide"
+                src="./images/step-2-oldman.svg"
+                alt=""
+              />
+              <img
+                class="swiper-oldman dark mobile-show"
+                src="./images/step-2-mobile-oldman.svg"
+                alt=""
+              />
+              <img
+                class="swiper-women mobile-hide"
+                src="./images/step-2-women.svg"
+                alt=""
+              />
+              <img
+                class="swiper-women mobile-show"
+                src="./images/step-2-mobile-women.svg"
+                alt=""
+              />
+              <img
+                class="swiper-oldwomen mobile-hide"
+                src="./images/step-2-oldwomen.svg"
+                alt=""
+              />
+              <img
+                class="swiper-oldwomen mobile-show"
+                src="./images/step-2-mobile-oldwomen.svg"
+                alt=""
+              />
             </div>
           </div>
-          <!-- <div class="col quiz-content-bgset py-5">
-            <div class="justify-content-center quiz-caption">
-              <div class="justify-content-center quizCount"></div>
-              <div class="quizQuestion  justify-content-center py-5"></div>
-            
-                <div class="justify-content-center quizAnswer">
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
 
-              </div>
+      <!-- Step.3 測驗區 -->
+      <section class="quiz-section container pb-3">
+        <h2>Step 3 : 四癌篩檢小測驗</h2>
+        <!-- 起始頁面 -->
+        <div
+          class="quiz-page quiz-content-bgset row flex-column justify-content-center align-items-center no-gutters aos-init aos-animate"
+          
+        >
+          <img class="quiz-title" src="./images/quiz/quiz-title.svg" alt="" />
+          <div class="quiz-start-box">
+            <p class="d-none d-md-block">馬上來檢測你了解多少癌篩小知識吧!</p>
+            <p class="d-block d-md-none">透過問答檢測<br />自己了解多少吧!</p>
+            <div class="row justify-content-center py-5" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom">
+              <img
+                class="img-cancer"
+                src="./images/quiz/quiz-mouth.svg"
+                alt=""
+              />
+              <img
+                class="img-cancer"
+                src="./images/quiz/quiz-breast.svg"
+                alt=""
+              />
+              <img
+                class="img-cancer"
+                src="./images/quiz/quiz-biglong.svg"
+                alt=""
+              />
+              <img
+                class="img-cancer"
+                src="./images/quiz/quiz-cervical.svg"
+                alt=""
+              />
+            </div>
+            <div class="btn-readyGo" onclick="not_ready()">開始測驗</div>
+          </div>
+          <!-- <div class="quiz-game-box">
+            <div class="row align-items-center no-gutters">
+              <ul class="row no-gutters">
+                <li data-quiz="0">01</li>
+                <li data-quiz="1">02</li>
+                <li data-quiz="2">03</li>
+                <li data-quiz="3">04</li>
+                <li data-quiz="4">05</li>
+                <li data-quiz="5">06</li>
+                <li data-quiz="6">07</li>
+                <li data-quiz="7">08</li>
+                <li data-quiz="8">09</li>
+                <li data-quiz="9">10</li>
+              </ul>
+              <div class="quiz-score">答對：<span class="correct-num">0</span>題</div>
+            </div>
+            <div class="question"></div>
+            <div class="quiz-footer row justify-content-center align-items-center">
+              <div class="btn-correct">O 正確</div>
+              <div class="btn-wrong">X 錯誤</div>
+              <div class="answer-correct">恭喜答對!</div>
+              <div class="answer-wrong">答錯了喔!</div>
+              <div class="btn-next-question">下一題</div>
             </div>
           </div> -->
         </div>
-      </div>
-    </section>
-
-
-    <!-- STEP.4：開始 -->
-    <section class="pb-3">
-      <div class="container">
-        <div class="title4">
-          <h1 class="title4text">Step 4 : 查詢資格與篩檢機構</h1>
-        </div>
-
-
-        <!-- 兩欄外連結：開始 -->
-        <div class="row justify-content-center step4All">
-
-          <!-- 左欄：開始 -->
-          <div class="quiz-infoTop-bgSet px-4 py-2 mx-3">
-            <div class="py-4 index-left-btn">
-              <div class="quiz-imgLocation">
-                <img id="woman" class="doctorImg" src="./images/quiz/Dr.female2.svg" style="z-index:10 ;"
-                  data-aos="fade-right" >
+        <!-- 測驗畫面 -->
+      </section>
+      <!-- STEP.4：開始 -->
+      <section class="linkcard-section pt-5 pb-3">
+        <div class="container">
+          <h2>Step 4 : 查詢資格與篩檢機構</h2>
+          <!-- 兩欄外連結：開始 -->
+          <div
+            class="row justify-content-center step4All aos-init aos-animate"
+           
+          >
+            <!-- 左欄：開始 -->
+            <div class="linkcard">
+              <div class="row justify-content-center flex-nowrap no-gutters">
+                <img class="doctorImg" src="./images/quiz/Dr.female2.svg" />
+                <div class="doctor-saying"  data-aos="zoom-in"
+                data-aos-duration="1000">不要錯過補助喔!</div>
               </div>
-              <div class="between-block"></div>
-              <div class="quiz-infoTop-saying " data-aos="fade-right" data-aos-anchor-placement="top-bottom"
-                data-aos-duration="1200">不要錯過補助喔!</div>
-            </div>
-
-            <div class=" justify-content-center">
-              <a href="qualify-check.html">
-
-                <div class="quizbtn-linkSupport justify-content-center align-items-center">
-                  <div>查詢補助資格</div>
-                  <div><img src="./images/quiz/linkbtn-play.svg" alt="" id="btn-flow1"></div>
-                </div>
+              <a
+                href="qualify-check.html"
+                class="btn-link row justify-content-center align-items-center no-gutters"
+              >
+                查詢補助資格
+                <img
+                  class="btn-flow"
+                  src="./images/quiz/linkbtn-play.svg"
+                  alt=""
+                />
               </a>
             </div>
-
-          </div>
-          <!-- 左欄：結束 -->
-
-          <!-- 右欄：開始 -->
-          <div class="quiz-infoTop-bgSet px-4 py-2 mx-3">
-            <div class="py-4 index-left-btn">
-              <div class="quiz-imgLocation">
-                <img id="man" class="doctorImg" src="./images/quiz/Dr.male2.svg" style="z-index:10 ;"
-                  data-aos="fade-left" >
+            <!-- 左欄：結束 -->
+            <!-- 右欄：開始 -->
+            <div class="linkcard">
+              <div class="row justify-content-center flex-nowrap no-gutters">
+                <img class="doctorImg" src="./images/quiz/Dr.male2.svg" />
+                <div class="doctor-saying"  data-aos="zoom-in"
+                data-aos-duration="1000">定期篩檢很重要!</div>
               </div>
-              <div class="between-block"></div>
-              <div class="quiz-infoTop-saying " data-aos="fade-left" data-aos-anchor-placement="top-bottom"
-                data-aos-duration="1200">定期篩檢很重要!</div>
-            </div>
-
-            <div class="justify-content-center">
-              <a href="hospital-list.html">
-
-                <div class="quizbtn-linkSupport justify-content-center align-items-center">
-                  <div>查詢篩檢機構</div>
-                  <div><img src="./images/quiz/linkbtn-play.svg" alt="" id="btn-flow2"></div>
-                </div>
+              <a
+                href="hospital-list.html"
+                class="btn-link row justify-content-center align-items-center no-gutters"
+              >
+                查詢篩檢機構
+                <img
+                  class="btn-flow"
+                  src="./images/quiz/linkbtn-play.svg"
+                  alt=""
+                />
               </a>
             </div>
-
-
+            <!-- 右欄：結束 -->
           </div>
-          <!-- 右欄：結束 -->
-
+          <!-- 兩欄外連結：結束 -->
         </div>
-        <!-- 兩欄外連結：結束 -->
+      </section>
 
-      </div>
-    </section>
-  
-    <!-- STEP.4：結束 -->
+      <!-- STEP.4：結束 -->
 
-
-    <section class="lastPart pb-5">
-
-      <div class="greenLine_BG">
-        <div class="quiz-title-health justify-content-center quiz-titleSpace">
-          記得隨時掌握最新健康資訊喔!
-        </div>
-
-        <div class="twoFB">
-
-          <div id="firstFB" class="quizbtn-infoSupport" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-            data-aos-duration="1500">
-            <a href="https://www.facebook.com/mohw.gov.tw">
-              <img id="fbIcon" src="./images/quiz/FB-icon.svg" class="">
-              <span class="fbText">衛生福利部</span>
-            </a>
+      <section
+        class="lastPart pb-5 aos-init aos-animate"
+        
+      >
+        <div class="greenLine_BG">
+          <div class="quiz-title-health justify-content-center quiz-titleSpace">
+            記得隨時掌握最新健康資訊喔!
           </div>
-
-
-
-          <div class="quizbtn-infoSupport py-xl-2" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-            data-aos-duration="1500">
-            <a href="https://www.facebook.com/HealthTaichung">
-              <img id="fbIcon2" src="./images/quiz/FB-icon.svg" alt="">
-              <span class="fbText" id="fbText-big">台中市衛生局 - 健康小衛星</span>
-              <span id="fbText-small">台中市衛生局</span>
-            </a>
+          <div class="twoFB" data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-duration="1500">
+            <div id="firstFB" class="quizbtn-infoSupport">
+              <a href="https://www.facebook.com/mohw.gov.tw">
+                <img id="fbIcon" src="./images/quiz/FB-icon.svg" class="" />
+                <span class="fbText">衛生福利部</span>
+              </a>
+            </div>
+            <div class="quizbtn-infoSupport py-xl-2">
+              <a href="https://www.facebook.com/HealthTaichung">
+                <img id="fbIcon2" src="./images/quiz/FB-icon.svg" alt="" />
+                <span class="fbText" id="fbText-big"
+                  >台中市衛生局 - 健康小衛星</span
+                >
+                <span id="fbText-small">台中市衛生局</span>
+              </a>
+            </div>
           </div>
-
+          <img class="lastPic" src="./images/quiz/werfamily.svg" data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-duration="2000" alt="" />
         </div>
-        <img class="lastPic" src="./images/quiz/werfamily.svg" alt="" data-aos="fade-up"
-          data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
-      </div>
-      </div>
-    </section>
-
-
-
-    <!-- 綠框框結束 -->
-
-
-
-  </main>
-  <!-- Modal -->
-  <div class="modal fade" id="alertModal" tabindex="-1">
-    <div class="modal-dialog modal-sm modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header flex-column align-items-center">
-          <img src="./images/alert.svg" alt="">
-          <h5 class="modal-title ">製作中，敬請期待</h5>
-        </div>
-        <div class="modal-footer justify-content-center">
-          <button type="button" class="btn btn-alert" data-dismiss="modal">確定</button>
+      </section>
+      <!-- 綠框框結束 -->
+    </main>
+    <!-- Modal -->
+    <div class="modal fade" id="alertModal" tabindex="-1">
+      <div class="modal-dialog modal-sm modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header flex-column align-items-center">
+            <img src="./images/alert.svg" alt="" />
+            <h5 class="modal-title">製作中，敬請期待</h5>
+          </div>
+          <div class="modal-footer justify-content-center">
+            <button type="button" class="btn btn-alert" data-dismiss="modal">
+              確定
+            </button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-
-
-  <!-- 表尾資訊 -->
-  <footer>
-    <div class="row justify-content-between align-items-center no-gutters">
-      <p class="col-lg-6 col-md-12 p-0 text-center text-lg-left">
-        <span class="text-nowrap">Copyright © 2022 Screening for Four Major Cancers </span> <span class="text-nowrap">|
-          Taichung Version</span>
-      </p>
-      <p class="col-lg-6 col-md-12 p-0 text-center text-lg-right">
-        資料來源 :
-        <a href="https://www.mohw.gov.tw/" target="_blank">衛生福利部</a>、<a href="https://www.health.taichung.gov.tw/"
-          target="_blank">臺中市衛生局</a>&nbsp;<span class="d-inline d-lg-none">(截至2022.05.31)</span>
-      </p>
-    </div>
-  </footer>
-
-
-  <!-- Javascript -->
-  <script src="./js/jquery.slim.min.js"></script>
-  <script src="./js/bootstrap.bundle.min.js"></script>
-  <!-- Swiper JS -->
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script src="./js/front-page.js"></script>
-  <!-- <script src="./js/quiz.js"></script> -->
-  
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-
-  <script>
-    var myVar;
-
-    function myFunction() {
-      myVar = setTimeout(showPage, 3000);
-    }
-
-    function showPage() {
-      document.getElementById("loader").style.display = "none";
-      document.getElementById("bgc").style.display = "none";
-      document.getElementById("myDiv").style.display = "block";
-    }
-  </script>
-</body>
-
+    <!-- 表尾資訊 -->
+    <footer>
+      <div class="row justify-content-between align-items-center no-gutters">
+        <p class="col-lg-6 col-md-12 p-0 text-center text-lg-left">
+          <span class="text-nowrap"
+            >Copyright © 2022 Screening for Four Major Cancers
+          </span>
+          <span class="text-nowrap">| Taichung Version</span>
+        </p>
+        <p class="col-lg-6 col-md-12 p-0 text-center text-lg-right">
+          資料來源 :
+          <a href="https://www.mohw.gov.tw/" target="_blank">衛生福利部</a>、<a
+            href="https://www.health.taichung.gov.tw/"
+            target="_blank"
+            >臺中市衛生局</a
+          >&nbsp;<span class="d-inline d-lg-none">(截至2022.05.31)</span>
+        </p>
+      </div>
+    </footer>
+    <!-- Javascript -->
+    <script src="./js/jquery.slim.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./js/front-page.js"></script>
+    <script>
+        AOS.init();
+    </script>
+  </body>
 </html>

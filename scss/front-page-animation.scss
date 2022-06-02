@@ -19,7 +19,62 @@ body {
 	overflow: auto;
 }
 main {
+    .loading {
+        width: 100%;
+        height: 100vh;
+        background-color: $green-700;
+        color: $white;
+
+        .loading-box {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+
+            text-align: center;
+        }
+        #loader {
+            margin-bottom: 10px;
+            width: 80px;
+            height: 80px;
+
+            animation: spin 2s linear infinite;
+            background-image: url('../images/relogo.svg');
+            background-size: contain;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .loading-complete {
+            position: relative;
+            -webkit-animation-name: complete;
+            -webkit-animation-duration: 1s;
+            animation-name: complete;
+            animation-duration: 1s
+        }
+
+        @keyframes complete {
+            from {
+                bottom: -100px;
+                opacity: 0
+            }
+
+            to {
+                bottom: 0;
+                opacity: 1
+            }
+        }
+    }
     #front-page-animation {
+        display: none;
         .skip-btn {
             position: fixed;
             width: 103px;

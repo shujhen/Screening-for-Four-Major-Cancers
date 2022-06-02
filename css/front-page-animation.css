@@ -13650,23 +13650,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 .header .navbar .navbar-nav .nav-item {
   font-weight: 700;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 30px;
-}
-
-@media (max-width: 991px) {
-  .header .navbar .navbar-nav .nav-item {
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 799px) {
-  .header .navbar .navbar-nav .nav-item {
-    font-size: 15px;
-    line-height: 20px;
-    background-color: #f1f0e9;
-    border-bottom: 1px solid rgba(137, 137, 137, 0.15);
-  }
 }
 
 .header .navbar .navbar-nav .nav-item:last-child {
@@ -13683,6 +13668,21 @@ a.text-dark:hover, a.text-dark:focus {
   .header .navbar .navbar-nav .nav-item:last-child {
     padding-right: 0px;
     border-bottom: none;
+  }
+}
+
+@media (max-width: 799px) {
+  .header .navbar .navbar-nav .nav-item {
+    font-size: 20px;
+    background-color: #f1f0e9;
+    border-bottom: 1px solid rgba(137, 137, 137, 0.15);
+  }
+}
+
+@media (max-width: 400px) {
+  .header .navbar .navbar-nav .nav-item {
+    font-size: 18px;
+    line-height: 20px;
   }
 }
 
@@ -13751,16 +13751,29 @@ footer p {
   line-height: 24px;
 }
 
-@media (max-width: 799px) {
-  footer p {
-    padding: 14px 0px;
+@media (max-width: 1024px) {
+  footer p:first-child {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 575px) {
+  footer p:first-child {
+    padding: 0px 23px;
     font-size: 8px;
-    line-height: 10px;
+    line-height: 20px;
   }
   footer p:last-child {
     margin-top: 5px;
     font-size: 9px;
-    line-height: 11px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  footer p.text-center {
+    padding-left: 23px !important;
+    text-align: left !important;
   }
 }
 
@@ -13798,6 +13811,88 @@ body {
   height: 100%;
   width: calc(100vw + 18px);
   overflow: auto;
+}
+
+main .loading {
+  width: 100%;
+  height: 100vh;
+  background-color: #123e30;
+  color: #fff;
+}
+
+main .loading .loading-box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+main .loading #loader {
+  margin-bottom: 10px;
+  width: 80px;
+  height: 80px;
+  -webkit-animation: spin 2s linear infinite;
+          animation: spin 2s linear infinite;
+  background-image: url("../images/relogo.svg");
+  background-size: contain;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+main .loading .loading-complete {
+  position: relative;
+  -webkit-animation-name: complete;
+  -webkit-animation-duration: 1s;
+  animation-name: complete;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes complete {
+  from {
+    bottom: -100px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes complete {
+  from {
+    bottom: -100px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+main #front-page-animation {
+  display: none;
 }
 
 main #front-page-animation .skip-btn {
