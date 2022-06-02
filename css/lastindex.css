@@ -14287,7 +14287,13 @@ width: 83%;
   margin-top: 40px;
   margin-bottom: 50px;
   letter-spacing: 5px;
+  border: rgb(105, 35, 0) 5px solid;
   }
+
+  .quizbtn-readyGo:hover{
+   border: white 5px solid;
+  }
+
 
 @media (max-width: 1400px){
 .quizbtn-readyGo{
