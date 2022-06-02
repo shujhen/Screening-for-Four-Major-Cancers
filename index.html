@@ -15,17 +15,107 @@
   <!-- CSS -->
   <link rel="stylesheet" href="./css/front-page.css" />
   <link rel="stylesheet" href="./css/lastindex.css">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
   <style>
     .nav-pills .nav-link.active,
     .nav-pills .show>.nav-link {
       background-color: #fdae20;
     }
   </style>
+  <style>
+    /* Center the loader */
+    #loader {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      z-index: 1;
+      width: 80px;
+      height: 80px;
+      margin: -76px 0 0 -76px;
+      /* border: 16px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 16px solid #3498db; */
+      -webkit-animation: spin 2s linear infinite;
+      animation: spin 2s linear infinite;
+      background-image: url(./images/relogo.svg);
+      background-size: contain;
+    }
+
+
+
+
+    @-webkit-keyframes spin {
+      0% {
+        -webkit-transform: rotate(0deg);
+      }
+
+      100% {
+        -webkit-transform: rotate(360deg);
+      }
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    /* Add animation to "page content" */
+    .animate-bottom {
+      position: relative;
+      -webkit-animation-name: animatebottom;
+      -webkit-animation-duration: 1s;
+      animation-name: animatebottom;
+      animation-duration: 1s
+    }
+
+    @-webkit-keyframes animatebottom {
+      from {
+        bottom: -100px;
+        opacity: 0
+      }
+
+      to {
+        bottom: 0px;
+        opacity: 1
+      }
+    }
+
+    @keyframes animatebottom {
+      from {
+        bottom: -100px;
+        opacity: 0
+      }
+
+      to {
+        bottom: 0;
+        opacity: 1
+      }
+    }
+
+    #myDiv {
+      display: none;
+      text-align: center;
+    }
+  </style>
+
 </head>
 
-<body>
+<body >
+  <!-- <div id="bgc" style="background-color:#123E30;width: 100%; height: 100vh;">
+    <div id="loader"></div>
+    <span>loading</span>
+  </div>
+
+  <section class="display:none;" id="myDiv" class="animate-bottom"> <section>-->
+
   <iframe src="./front-page-animation.html" title="首頁動畫" style="width: 100%; height: 100vh; border: 0;"></iframe>
+
+
   <!-- LOGO + 導覽列 -->
   <div class="header">
     <nav class="navbar navbar-expand-md">
@@ -116,8 +206,8 @@
             <h2>口腔癌</h2>
             <img class="swiper-icon mobile-show" src="./images/step-2-icon1.svg" alt="">
             <div class="swiper-word">
-              <div class="word-box" data-aos="fade-down">
-                <h3 >口腔黏膜檢查 (每2年1次)</h3>
+              <div class="word-box">
+                <h3>口腔黏膜檢查 (每2年1次)</h3>
                 <p>30歲以上有嚼檳榔（含已戒檳榔）或吸菸者。<br>18歲以上有嚼檳榔（含已戒檳榔）原住民。</p>
               </div>
               <div class="border"></div>
@@ -209,7 +299,7 @@
 
     <section class="quizgameStart">
       <!-- quiz game -->
-      <div class="container" >
+      <div class="container">
         <div class="title4 p-3">
           <h1 class="title4text">Step 3 : 四癌篩檢小測驗</h1>
         </div>
@@ -222,8 +312,9 @@
                 <span class="textForCalling2">透過問答檢測<br>自己了解多少吧!</span>
               </div>
               <div class="quizQuestion  justify-content-center py-5">
-                <div class="justify-content-center quizImgs" data-aos="fade-up"
-                data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
+                <div class="justify-content-center quizImgs" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                  data-aos-duration="2000"
+                  >
                   <img src="./images/quiz/quiz-mouth.svg" alt="">
                   <div class="spaceBetweenImage"></div>
                   <img src="./images/quiz/quiz-breast.svg" alt="">
@@ -236,7 +327,8 @@
 
               <div class="justify-content-center quizAnswer">
                 <div class="row justify-content-center">
-                  <div class="quizbtn-readyGo quizbtn-game-bgSet justify-content-center align-items-center " onclick="not_ready()">
+                  <div class="quizbtn-readyGo quizbtn-game-bgSet justify-content-center align-items-center "
+                    onclick="not_ready()">
                     <div>開始測驗</div>
                   </div>
                 </div>
@@ -267,21 +359,18 @@
 
 
         <!-- 兩欄外連結：開始 -->
-        <div class="row justify-content-center step4All" >
+        <div class="row justify-content-center step4All">
 
           <!-- 左欄：開始 -->
           <div class="quiz-infoTop-bgSet px-4 py-2 mx-3">
             <div class="py-4 index-left-btn">
               <div class="quiz-imgLocation">
-                <img id="woman" class="doctorImg" src="./images/quiz/Dr.female2.svg" style="z-index:10 ;" data-aos="fade-right"
-                data-aos-anchor-placement="top-bottom"
-                data-aos-duration="1200">
+                <img id="woman" class="doctorImg" src="./images/quiz/Dr.female2.svg" style="z-index:10 ;"
+                  data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-duration="1200">
               </div>
               <div class="between-block"></div>
-              <div class="quiz-infoTop-saying " data-aos="fade-right"
-               data-aos-anchor-placement="top-bottom" 
-               data-aos-duration="1200"
-               >不要錯過補助喔!</div>
+              <div class="quiz-infoTop-saying " data-aos="fade-right" data-aos-anchor-placement="top-bottom"
+                data-aos-duration="1200">不要錯過補助喔!</div>
             </div>
 
             <div class=" justify-content-center">
@@ -301,14 +390,12 @@
           <div class="quiz-infoTop-bgSet px-4 py-2 mx-3">
             <div class="py-4 index-left-btn">
               <div class="quiz-imgLocation">
-                <img id="man" class="doctorImg" src="./images/quiz/Dr.male2.svg" style="z-index:10 ;" data-aos="fade-left"
-                data-aos-anchor-placement="top-bottom"
-                data-aos-duration="1200">
+                <img id="man" class="doctorImg" src="./images/quiz/Dr.male2.svg" style="z-index:10 ;"
+                  data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-duration="1200">
               </div>
               <div class="between-block"></div>
-              <div class="quiz-infoTop-saying " data-aos="fade-left"
-              data-aos-anchor-placement="top-bottom"
-              data-aos-duration="1200">定期篩檢很重要!</div>
+              <div class="quiz-infoTop-saying " data-aos="fade-left" data-aos-anchor-placement="top-bottom"
+                data-aos-duration="1200">定期篩檢很重要!</div>
             </div>
 
             <div class="justify-content-center">
@@ -330,22 +417,21 @@
 
       </div>
     </section>
-
+  
     <!-- STEP.4：結束 -->
 
 
     <section class="lastPart pb-5">
 
-      <div class="greenLine_BG" >
+      <div class="greenLine_BG">
         <div class="quiz-title-health justify-content-center quiz-titleSpace">
           記得隨時掌握最新健康資訊喔!
         </div>
 
         <div class="twoFB">
 
-          <div id="firstFB" class="quizbtn-infoSupport" data-aos="fade-up"
-          data-aos-anchor-placement="top-bottom"
-          data-aos-duration="1500">
+          <div id="firstFB" class="quizbtn-infoSupport" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+            data-aos-duration="1500">
             <a href="https://www.facebook.com/mohw.gov.tw">
               <img id="fbIcon" src="./images/quiz/FB-icon.svg" class="">
               <span class="fbText">衛生福利部</span>
@@ -354,9 +440,8 @@
 
 
 
-          <div class="quizbtn-infoSupport py-xl-2" data-aos="fade-up"
-          data-aos-anchor-placement="top-bottom"
-          data-aos-duration="1500">
+          <div class="quizbtn-infoSupport py-xl-2" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+            data-aos-duration="1500">
             <a href="https://www.facebook.com/HealthTaichung">
               <img id="fbIcon2" src="./images/quiz/FB-icon.svg" alt="">
               <span class="fbText" id="fbText-big">台中市衛生局 - 健康小衛星</span>
@@ -366,8 +451,7 @@
 
         </div>
         <img class="lastPic" src="./images/quiz/werfamily.svg" alt="" data-aos="fade-up"
-        data-aos-anchor-placement="top-bottom"
-        data-aos-duration="2000">
+          data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
       </div>
       </div>
     </section>
@@ -393,6 +477,8 @@
       </div>
     </div>
   </div>
+
+
   <!-- 表尾資訊 -->
   <footer>
     <div class="row justify-content-between align-items-center no-gutters">
@@ -407,6 +493,8 @@
       </p>
     </div>
   </footer>
+
+
   <!-- Javascript -->
   <script src="./js/jquery.slim.min.js"></script>
   <script src="./js/bootstrap.bundle.min.js"></script>
@@ -414,10 +502,25 @@
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="./js/front-page.js"></script>
   <!-- <script src="./js/quiz.js"></script> -->
+  
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+  <script>
+    AOS.init();
+  </script>
+
+  <script>
+    var myVar;
+
+    function myFunction() {
+      myVar = setTimeout(showPage, 3000);
+    }
+
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("bgc").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+  </script>
 </body>
 
 </html>
